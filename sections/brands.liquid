@@ -14,10 +14,10 @@
 <p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="button-group">{% if  %}    <div li-if="">
+</div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
-{% endif %}{% if  %}    <div li-if="">
+{% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}</div></div></div></div><div class="brands_component"><div data-hover-pause="" class="logos_component"><div class="logos_row"><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">

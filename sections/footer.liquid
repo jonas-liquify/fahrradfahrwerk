@@ -4,10 +4,10 @@
 <p>
 {{ section.settings.text_cta_text }}
 </p>
-</div></div><div class="button-group">{% if  %}    <div li-if="">
+</div></div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
-{% endif %}{% if  %}    <div li-if="">
+{% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}</div><img src="{{ section.settings.image_ | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_.alt }}" class="footer_cta-bg-image">
