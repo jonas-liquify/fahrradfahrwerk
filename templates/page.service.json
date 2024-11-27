@@ -1,0 +1,36 @@
+{
+    "sections": {
+        "hero_sub": {
+            "type": "hero_sub"
+        },
+        "split_1": {
+            "type": "split_1"
+        },
+        "split_2": {
+            "type": "split_2"
+        },
+        "unternehmen_warum": {
+            "type": "unternehmen_warum"
+        },
+        "home_about": {
+            "type": "home_about"
+        },
+        "how": {
+            "type": "how"
+        },
+        "blog_teaser": {
+            "type": "blog_teaser"
+        }
+    },
+    "layout": "page.service",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero_sub",
+        "split_1",
+        "split_2",
+        "unternehmen_warum",
+        "home_about",
+        "how",
+        "blog_teaser"
+    ]
+}

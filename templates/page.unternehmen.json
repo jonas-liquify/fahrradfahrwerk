@@ -1,0 +1,32 @@
+{
+    "sections": {
+        "unternehmen_hero": {
+            "type": "unternehmen_hero"
+        },
+        "unternehmen_uber": {
+            "type": "unternehmen_uber"
+        },
+        "unternehmen_warum": {
+            "type": "unternehmen_warum"
+        },
+        "unternehmen_team": {
+            "type": "unternehmen_team"
+        },
+        "showcase": {
+            "type": "showcase"
+        },
+        "testimonial": {
+            "type": "testimonial"
+        }
+    },
+    "layout": "page.unternehmen",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "unternehmen_hero",
+        "unternehmen_uber",
+        "unternehmen_warum",
+        "unternehmen_team",
+        "showcase",
+        "testimonial"
+    ]
+}

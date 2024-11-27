@@ -1,0 +1,48 @@
+{
+    "sections": {
+        "home_hero": {
+            "type": "home_hero"
+        },
+        "home_select": {
+            "type": "home_select"
+        },
+        "home_about": {
+            "type": "home_about"
+        },
+        "service": {
+            "type": "service"
+        },
+        "how": {
+            "type": "how"
+        },
+        "brands": {
+            "type": "brands"
+        },
+        "category": {
+            "type": "category"
+        },
+        "showcase": {
+            "type": "showcase"
+        },
+        "location": {
+            "type": "location"
+        },
+        "blog_teaser": {
+            "type": "blog_teaser"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "home_hero",
+        "home_select",
+        "home_about",
+        "service",
+        "how",
+        "brands",
+        "category",
+        "showcase",
+        "location",
+        "blog_teaser"
+    ]
+}
