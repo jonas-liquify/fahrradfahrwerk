@@ -1,48 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "home_hero": {
-            "type": "home_hero"
-        },
-        "home_select": {
-            "type": "home_select"
-        },
-        "home_about": {
-            "type": "home_about"
-        },
-        "service": {
-            "type": "service"
-        },
-        "how": {
-            "type": "how"
-        },
-        "brands": {
-            "type": "brands"
-        },
-        "category": {
-            "type": "category"
-        },
-        "showcase": {
-            "type": "showcase"
-        },
-        "location": {
-            "type": "location"
-        },
-        "blog_teaser": {
-            "type": "blog_teaser"
-        }
+  "sections": {
+    "home_hero": {
+      "type": "home_hero",
+      "settings": {}
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "home_hero",
-        "home_select",
-        "home_about",
-        "service",
-        "how",
-        "brands",
-        "category",
-        "showcase",
-        "location",
-        "blog_teaser"
-    ]
+    "home_select": {
+      "type": "home_select",
+      "settings": {}
+    },
+    "home_about": {
+      "type": "home_about",
+      "settings": {}
+    },
+    "service": {
+      "type": "service",
+      "settings": {}
+    },
+    "how": {
+      "type": "how",
+      "settings": {}
+    },
+    "brands": {
+      "type": "brands",
+      "settings": {}
+    },
+    "category": {
+      "type": "category",
+      "settings": {}
+    },
+    "showcase": {
+      "type": "showcase",
+      "settings": {}
+    },
+    "location": {
+      "type": "location",
+      "settings": {}
+    },
+    "blog_teaser": {
+      "type": "blog_teaser",
+      "settings": {}
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "home_hero",
+    "home_select",
+    "home_about",
+    "service",
+    "how",
+    "brands",
+    "category",
+    "showcase",
+    "location",
+    "blog_teaser"
+  ]
 }
