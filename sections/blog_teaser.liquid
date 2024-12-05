@@ -1,1 +1,11 @@
-<div class="padding-global padding-section-medium"><div class="container-large"><div class="faq_component"></div></div></div> {% schema %} {"tag":"section","name":"Blog Teaser","class":"section_faq","presets":[{"name":"Blog Teaser","category":"Liquify","blocks":[]}]} {% endschema %}
+<div class="padding-global padding-section-medium"><div class="container-large"><div class="select_top"><h2 class="heading-style-h3 text-style-no-caps text-weight-semibold">
+{{ section.settings.text_heading }}
+</h2>
+<select id="sort-by" li-for:inside="option in collection.sort_options" class="sort_select filter_checkbox">
+        {% for option in collection.sort_options %}                            <option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% elsif option.value == collection.default_sort_by %}selected{% endif %}>{{ option.name }}</option>
+                    {% endfor %}    </select>
+</div><div class="select_component">{% render 'product_item', product: product %}
+{% render 'product_item', product: product %}
+{% render 'product_item', product: product %}
+{% render 'product_item', product: product %}
+</div></div></div> {% schema %} {"tag":"section","name":"Blog Teaser","class":"section_select","settings":[{"id":"text_heading","type":"text","label":"Heading","default":"Heading"}],"presets":[{"name":"Blog Teaser","category":"Liquify","blocks":[]}]} {% endschema %}

@@ -7,9 +7,9 @@
                                     <img loading="lazy" li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" src="{{ image.src | product_img_url: 'master' }}" alt="{{ image.alt }}" class="product_thumbnail-image">
 
                         </div>
-{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_7048b639-be81-c25f-3e39-a62262971160-2048043e" class="product-header_product-details"><div li-object="product.vendor" class="text-size-regular">{{ product.vendor }}</div><h1 li-object:text="product.title" class="heading-style-h2">
+{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_7048b639-be81-c25f-3e39-a62262971160-2048043e" class="product-header_product-details"><div class="product-header_breadcrumbs"><div class="text-size-tiny">Alle Produkte</div><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.47148 11.2998L10.2761 7.4951L6.47148 3.69043L5.52881 4.6331L8.39081 7.4951L5.52881 10.3571L6.47148 11.2998Z" fill="currentColor"></path></svg></div><div class="text-size-tiny">Kategorie</div><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.47148 11.2998L10.2761 7.4951L6.47148 3.69043L5.52881 4.6331L8.39081 7.4951L5.52881 10.3571L6.47148 11.2998Z" fill="currentColor"></path></svg></div><div class="text-size-tiny text-color-red">Produktname</div></div><div class="product-header_product-content"><div li-object="product.vendor" class="product-header_vendor">{{ product.vendor }}</div><h1 li-object:text="product.title" class="heading-style-h2">
 {{ product.title }}
-</h1><div class="product-header_price-wrapper"><div li-js-price="price" class="text-size-large text-weight-bold" x-text="LiquifyHelper.moneyFormat(price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
+</h1><div class="product-header_price-wrapper"><div li-js-price="price" class="heading-style-h4 text-weight-semibold" x-text="LiquifyHelper.moneyFormat(price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
             <div li-js-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
         <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-align-right text-style-muted">{{ product.compare_at_price | money }}</div>        </div>
     </template>
@@ -34,24 +34,46 @@
         not available        </span>
     </template>
 </div></div></div><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state' %}
-{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_option-list">
+<div class="product-header_select"><div id="w-node-dab79169-5abf-f3c7-b0a7-b8b167f94509-2048043e"><div class="text-weight-semibold text-size-small text-style-allcaps">FEDERWEG</div><select id="field" name="field" data-name="Field" class="select-field w-node-ad625985-ba47-106c-2ba0-8f46fa6855f1-2048043e w-select"><option value="">Select one...</option><option value="First">First choice</option><option value="Second">Second choice</option><option value="Third">Third choice</option></select></div><div id="w-node-e260caac-75fd-a185-a6ff-b94943ebfcaf-2048043e"><div class="text-weight-semibold text-size-small text-style-allcaps">BAUJAHR</div><select id="field-2" name="field-2" data-name="Field 2" class="select-field w-node-e260caac-75fd-a185-a6ff-b94943ebfcb2-2048043e w-select"><option value="">Select one...</option><option value="First">First choice</option><option value="Second">Second choice</option><option value="Third">Third choice</option></select></div></div><div class="product-header_availability-wrapper"><template x-if="selected_or_first_available_variant.available == true">
+            <div li-js-if="selected_or_first_available_variant.available == true" class="product-header_availability">
+        <div class="product-header_dot"></div><div>Aktuelle Bearbeitungszeit: 2-3 Arbeitstage</div>        </div>
+    </template>
+<template x-if="selected_or_first_available_variant.available == false">
+            <div li-js-if="selected_or_first_available_variant.available == false" class="product-header_availability is-red">
+        <div class="product-header_dot is-red"></div><div>Aktuell nicht verfügbar</div>        </div>
+    </template>
+</div>{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_option-list">
     <template x-for="(option, optionKey) in product.options" :key="optionKey">
     <div li-element="product-options-loop" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" x-text="option">Variant</div><div class="product-header_radio-list"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
     <label li-element="product-option-loop" class="product-header_radio w-radio"><div class="w-form-formradioinput w-form-formradioinput--inputType-custom product-header_radio-button w-radio-input"></div><input type="radio" li-element="product-option-input" style="opacity:0;position:absolute;z-index:-1" x-on:click="setVariant" :name="option" :data-name="option" :value="variantName" :id="variantName.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-')" :checked="selected_or_first_available_variant?.options.includes(variantName)" data-selectorType="radio" :class="firstOptionHasAvailableChildren[variantName] ? '' : 'data-disabled'">
 <span li-element="product-option-name" class="text-size-regular text-weight-semibold w-form-label" for="radio" x-text="variantName" :for="variantName">XS</span></label></template>
 </div></div></template>
     </div>
-{% endif %}<div class="product-header_add-to-cart-wrapper"><template x-if="selected_or_first_available_variant.available">
+{% endif %}<div class="product-header_add-to-cart-wrapper"><div><div class="text-weight-semibold text-size-small text-style-allcaps">STÜCKZAHL</div><template x-if="selected_or_first_available_variant.available">
             <div li-js-if="selected_or_first_available_variant.available" class="product-header_buy-wrappper">
         <input class="form_input is-quantity w-input" maxlength="256" name="quantity" li-element="add-to-cart-quantity" data-name="quantity" placeholder="1" type="number" id="quantity" required="" x-model="quantity">
 <a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(true)" :disabled="!addToCartButton">Add to cart</a>        </div>
     </template>
-<template x-if="!selected_or_first_available_variant.available">
+</div><template x-if="!selected_or_first_available_variant.available">
             <div li-js-if="!selected_or_first_available_variant.available" class="product-header_out-of-stock">
         <a href="#" class="button is-secondary max-width-full pointer-events-off w-button">Not in Stock</a>        </div>
     </template>
 </div>{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="product-header_description"><h2 class="heading-style-h3">
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="product-header_grid">{% for block in section.blocks %}
+    {% if block.type == "info-item" %}
+                    <div li-block="Info Item" id="w-node-_4b684eec-dde4-71fb-f0aa-4899c05788e9-2048043e" class="product-header_grid-item">
+                                    <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="product-header_grid-icon">
+
+                                    <div>
+{{ block.settings.text_text }}
+</div>
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div data-w-id="8ce9f9f1-7c5f-a304-e8b6-cad2cb6c835e" class="product-header_open"><div class="faq_question"><h3 class="heading-style-h5">
 {{ section.settings.text_headline }}
-</h2>
-<div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"Product-Hero","class":"section_product-header","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Description"}],"presets":[{"name":"Product-Hero","category":"Liquify","blocks":[]}]} {% endschema %}
+</h3>
+<div style="border-color:rgb(29,26,26)" class="faq_icon"><div style="background-color:rgb(29,26,26)" class="faq_icon-line"></div><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform-style:preserve-3d" class="faq_icon-line is-vertical"></div></div></div><div style="height:0px" class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
+</div><div class="product-header_add-on"><img src="{{ 'placeholder.60f9b1840c.svg' | asset_url }}" loading="lazy" alt="" class="product-header_add-on-img">
+<div class="product-header_add-on-content"><div><div class="text-weight-semibold text-size-small text-style-allcaps">AWK • FOX 36 (AB 2018)</div><div class="text-size-small text-style-allcaps">54,90 EUR</div></div><a href="#" class="button is-secondary w-button">Hinzufügen</a></div></div></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"Product-Hero","class":"section_product-header","blocks":[{"name":"Info Item","type":"info-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"mehr als 500 Rapire pro Jahr"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Frage"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"}],"presets":[{"name":"Product-Hero","category":"Liquify","blocks":[{"type":"info-item"}]}]} {% endschema %}
