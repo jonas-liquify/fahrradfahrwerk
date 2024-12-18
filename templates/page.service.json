@@ -9,14 +9,99 @@
  */
 {
   "sections": {
-    "default": {
-      "type": "default",
-      "settings": {}
+    "hero_sub_P3gn8j": {
+      "type": "hero_sub",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_headline": "Unsere LeidenschaftFür ihr Fahrererlebnis"
+      }
+    },
+    "content_PTTWwr": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "content_allign": "left"
+      }
+    },
+    "unternehmen_warum_T4jjTh": {
+      "type": "unternehmen_warum",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "text_grid_text_1": "Kompetenz, auf die du dich verlassen kannst",
+        "text_grid_text_2": "Von Bikern für Biker",
+        "text_grid_text_3": "Kundenzentrierter Ansatz"
+      }
+    },
+    "home_about_gNNNN9": {
+      "type": "home_about",
+      "blocks": {
+        "numbers_block_7bGD6P": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "500+",
+            "text_text": "Erfolgreiche Reparaturen"
+          }
+        }
+      },
+      "block_order": [
+        "numbers_block_7bGD6P"
+      ],
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "text_left_text_bottom": "// Unsere Macht in Zahlen"
+      }
+    },
+    "how_NAFwiz": {
+      "type": "how",
+      "blocks": {
+        "service_block_iKdVGV": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "<span>Step 1</span>",
+            "text_heading": "Servicebuchung für MTB &amp; Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        }
+      },
+      "block_order": [
+        "service_block_iKdVGV"
+      ],
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen"
+      }
     }
   },
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default"
+    "hero_sub_P3gn8j",
+    "content_PTTWwr",
+    "unternehmen_warum_T4jjTh",
+    "home_about_gNNNN9",
+    "how_NAFwiz"
   ]
 }
