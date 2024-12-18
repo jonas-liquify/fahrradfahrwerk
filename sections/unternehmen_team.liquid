@@ -4,10 +4,10 @@
 <h2 class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div></div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
@@ -15,7 +15,7 @@
     </div>
 {% endif %}</div></div><div class="company_team_component">{% for block in section.blocks %}
     {% if block.type == "unternehmen-item" %}
-                    <div li-block="Unternehmen Item" id="w-node-_1206f0c9-52eb-4aeb-08cf-648f323102e8-be99e86b" class="company_team_item">
+                    <div li-block="Unternehmen Item" id="w-node-_9bd1fdf2-c6cf-7b07-1ce4-112398c175da-98c175d5" class="company_team_item">
                                     <img src="{{ block.settings.image_grid_image | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_grid_image.alt }}" class="company_why_img">
 
                                     <div class="company_team_gradient-wrapper"><img src="{{ 'shape.png' | asset_url }}" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 37vw, 22vw" srcset="{{ '67458b4e1ebde1fc5123a1d0_shape-p-500.png' | asset_url }} 500w, {{ 'shape.png' | asset_url }} 679w" alt="" class="company_team_gradient-img">

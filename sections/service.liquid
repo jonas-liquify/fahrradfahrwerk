@@ -4,10 +4,10 @@
 <h2 class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div></div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
@@ -24,10 +24,10 @@
 <h2 class="heading-style-h2">
 {{ block.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ block.settings.text_text }}
 </p>
-<div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div><div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
     </div>
 {% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
