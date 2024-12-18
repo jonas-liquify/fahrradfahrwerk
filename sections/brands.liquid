@@ -11,28 +11,22 @@
 <h2 class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div></div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}</div></div></div></div><div class="brands_component"><div data-hover-pause="" class="logos_component"><div class="logos_row"><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div></div><div class="logos_row"><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div><div class="logos_item"><img loading="lazy" src="{{ 'die-zeit-1.svg' | asset_url }}" alt="" class="logos_logo">
-</div></div></div></div><img loading="lazy" alt="{{ section.settings.image_bild.alt }}" src="{{ section.settings.image_bild | img_url: 'master' }}" class="home_about_bg-image">
- {% schema %} {"tag":"section","name":"Brands","class":"section_brands","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen Produkte"},{"id":"text_text","type":"text","label":"Text","default":"Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Brands","category":"Liquify","blocks":[]}]} {% endschema %}
+{% endif %}</div></div></div></div><div class="brands_component"><div data-hover-pause="" class="logos_component"><div class="logos_row">{% for block in section.blocks %}
+    {% if block.type == "logo" %}
+                    <div li-block="Logo" class="logos_item">
+                                    <img loading="lazy" alt="{{ block.settings.image_logo.alt }}" src="{{ block.settings.image_logo | img_url: 'master' }}" class="logos_logo">
+
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div><img loading="lazy" alt="{{ section.settings.image_bild.alt }}" src="{{ section.settings.image_bild | img_url: 'master' }}" class="home_about_bg-image">
+ {% schema %} {"tag":"section","name":"Brands","class":"section_brands","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo","type":"image_picker","label":"Logo"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen Produkte"},{"id":"text_text","type":"text","label":"Text","default":"Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Brands","category":"Liquify","blocks":[{"type":"logo"}]}]} {% endschema %}

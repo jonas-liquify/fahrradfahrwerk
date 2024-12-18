@@ -4,22 +4,22 @@
 <h2 class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div></div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}</div></div><div class="product_swiper-wrapper"><div class="swiper is-product-swiper"><div class="swiper-wrapper"><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div><div class="swiper-slide is-product-slide">{% render 'product_item', product: product %}
-</div></div></div><div class="product_swiper-bottom"><div class="product_swiper-pagination"><div class="swiper-pagination-bullet"></div><div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div></div><div class="swiper-pagination"><div class="swiper-prev product_swiper-prev"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.9265 19.626L0.296875 9.99633L9.9265 0.366699L11.6358 2.07596L3.71539 9.99633L11.6358 17.9167L9.9265 19.626Z" fill="currentColor"></path></svg></div></div><div class="swiper-next product_swiper-next"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.00612 0.36623L11.6357 9.99586L2.00612 19.6255L0.296858 17.9162L8.21722 9.99586L0.296858 2.07549L2.00612 0.36623Z" fill="currentColor"></path></svg></div></div></div></div></div><div class="hide w-embed w-script"><script>const swiperProduct = new Swiper('.is-product-swiper', {
+{% endif %}</div></div><div class="product_swiper-wrapper"><div class="swiper is-product-swiper"><div class="swiper-wrapper">{% for product in section.settings.collection_products.products limit: section.settings.collection_products_limit %}
+<div class="swiper-slide is-product-slide">
+    {% render 'product_item', product: product %}
+
+</div>
+{% endfor %}
+</div></div><div class="product_swiper-bottom"><div class="product_swiper-pagination"><div class="swiper-pagination-bullet"></div><div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div></div><div class="swiper-pagination"><div class="swiper-prev product_swiper-prev"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.9265 19.626L0.296875 9.99633L9.9265 0.366699L11.6358 2.07596L3.71539 9.99633L11.6358 17.9167L9.9265 19.626Z" fill="currentColor"></path></svg></div></div><div class="swiper-next product_swiper-next"><div class="swiper-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.00612 0.36623L11.6357 9.99586L2.00612 19.6255L0.296858 17.9162L8.21722 9.99586L0.296858 2.07549L2.00612 0.36623Z" fill="currentColor"></path></svg></div></div></div></div></div><div class="hide w-embed w-script"><script>const swiperProduct = new Swiper('.is-product-swiper', {
       slidesPerView: 4,
       spaceBetween: 30,
       navigation: {
@@ -51,4 +51,4 @@
     }
   },*/
     })
-</script></div></div></div></div> {% schema %} {"tag":"section","name":"Category","class":"section_product","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen Produkte"},{"id":"text_text","type":"text","label":"Text","default":"Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"}],"presets":[{"name":"Category","category":"Liquify","blocks":[]}]} {% endschema %}
+</script></div></div></div></div> {% schema %} {"tag":"section","name":"Category","class":"section_product","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen Produkte"},{"id":"text_text","type":"text","label":"Text","default":"Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"collection_products","type":"collection","label":"Products"},{"type":"range","id":"collection_products_limit","min":1,"max":99,"step":1,"label":"Limit: Products","default":6}],"presets":[{"name":"Category","category":"Liquify","blocks":[]}]} {% endschema %}

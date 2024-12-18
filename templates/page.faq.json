@@ -1,0 +1,12 @@
+{
+    "sections": {
+        "blog_teaser": {
+            "type": "blog_teaser"
+        }
+    },
+    "layout": "page.faq",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "blog_teaser"
+    ]
+}

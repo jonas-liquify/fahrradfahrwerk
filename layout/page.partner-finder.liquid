@@ -83,7 +83,13 @@
 <body>
 
 <div class="page-wrapper">{% render 'global_styles' %}
-<div class="section_disclaimer"><div class="nav_container is-disclaimer"><div class="dislaimer_component"><p>Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage</p><div class="disclaimer_right"><a href="#" class="text-style-allcaps">FAQ</a><a href="#" class="text-style-allcaps">Kontakt</a><div class="disclaimer_line"></div><div class="disclaimer_lng"><img src="{{ 'usaflagicon.png.svg' | asset_url }}" loading="lazy" alt="" class="disclaimer_lng-img">
+<div class="section_disclaimer"><div class="nav_container is-disclaimer"><div class="dislaimer_component"><p>
+{{ section.settings.text_text }}
+</p>
+<div class="disclaimer_right"><div li-for:inside="link in linklists['main-menu-2'].links" id="w-node-_5a0f4bc5-542b-2292-faa2-36b4291a435f-1d8671f3" class="nav_legal-links">
+        {% for link in linklists['main-menu-2'].links %}                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-style-allcaps">{{ link.title }}</a>
+                    {% endfor %}    </div>
+<div class="disclaimer_line"></div><div class="disclaimer_lng"><img src="{{ 'usaflagicon.png.svg' | asset_url }}" loading="lazy" alt="" class="disclaimer_lng-img">
 <div class="text-style-allcaps">de</div></div></div></div></div></div>{% section 'header' %}
  {{ content_for_layout }} {% section 'footer' %}
 </div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6732e3a25d39d28b20480353" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="{{ 'fahrrad-fahrwerk.js' | asset_url }}" type="text/javascript"></script><script src="https://unpkg.com/popper.js@1"></script><script src="https://unpkg.com/tippy.js@5"></script><script>tippy('[data-tippy-content]', {        

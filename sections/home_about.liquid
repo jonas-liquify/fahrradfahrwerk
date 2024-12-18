@@ -4,10 +4,10 @@
 <h2 class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<p>
+<div><p>
 {{ section.settings.text_text }}
 </p>
-</div><div class="home_about_cta-wrapper"><img src="{{ section.settings.image_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_badge.alt }}" class="badge">
+</div></div><div class="home_about_cta-wrapper"><img src="{{ section.settings.image_badge | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_badge.alt }}" class="badge">
 <div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
@@ -19,8 +19,8 @@
 </div>
 </div><div class="home_about_numbers">{% for block in section.blocks %}
     {% if block.type == "numbers-block" %}
-                    <div li-block="Numbers Block" id="w-node-_76ed5503-d601-7c3f-d896-9adc31e6ba50-3901e3ec" class="home_about_number-wrapper">
-                                    <div id="w-node-_76ed5503-d601-7c3f-d896-9adc31e6ba51-3901e3ec" class="home_about_number"><div id="w-node-_76ed5503-d601-7c3f-d896-9adc31e6ba52-3901e3ec" class="heading-style-h3">
+                    <div li-block="Numbers Block" id="w-node-_88fee7a9-fd25-c37f-0c4c-8300fbdf717f-fbdf7172" class="home_about_number-wrapper">
+                                    <div id="w-node-_88fee7a9-fd25-c37f-0c4c-8300fbdf7180-fbdf7172" class="home_about_number"><div id="w-node-_88fee7a9-fd25-c37f-0c4c-8300fbdf7181-fbdf7172" class="heading-style-h3">
 {{ block.settings.text_number }}
 </div>
 </div>
