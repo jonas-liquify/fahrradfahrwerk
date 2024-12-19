@@ -1,0 +1,8 @@
+<div class="padding-global"><div class="container-large"><div class="sub_hero_component"><div class="subheading text-color-white">
+{{ section.settings.text_subheading }}
+</div>
+<h1 class="hero-heading text-color-white">
+{{ section.settings.text_headline }}
+</h1>
+</div></div></div><div><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="sub_hero_image">
+</div> {% schema %} {"tag":"section","name":"Hero 2","class":"section_sub_hero","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_headline","type":"text","label":"Headline","default":"Unsere Leidenschaft<span class=\"gradient-bar\">F\u00fcr ihr Fahrererlebnis<\/span>"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Hero 2","category":"Liquify","blocks":[]}]} {% endschema %}
