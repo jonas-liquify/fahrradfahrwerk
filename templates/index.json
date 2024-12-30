@@ -110,9 +110,9 @@
         "service_block_jpzXzw": {
           "type": "service-block",
           "settings": {
-            "text_step": "Step 1",
-            "text_heading": "Servicebuchung für MTB & Moto",
-            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+            "text_step": "Step 3",
+            "text_heading": "Bearbeitung & Rückversand",
+            "text_text": "Unser Service-Team sorgt für eine fachgerechte Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
           }
         }
       },
