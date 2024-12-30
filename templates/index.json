@@ -24,7 +24,7 @@
           "type": "select-block",
           "settings": {
             "text_headline": "MTB",
-            "text_text": "Lorem ipsum dolor sit amet."
+            "text_text": "Fahrzeug auswählen"
           }
         },
         "select_block_QAemQe": {
