@@ -170,12 +170,6 @@
             "image_logo": "shopify://shop_images/ext.webp"
           }
         },
-        "logo_jHBxmd": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
-          }
-        },
         "logo_Qy6e8n": {
           "type": "logo",
           "settings": {
@@ -200,6 +194,12 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/fastsuspension_logo.jpg"
+          }
+        },
+        "logo_jHBxmd": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
           }
         },
         "logo_7PnQbn": {
@@ -240,12 +240,12 @@
         "logo_MkqhzW",
         "logo_nFtrJX",
         "logo_qATA8w",
-        "logo_jHBxmd",
         "logo_Qy6e8n",
         "logo_nKAp6T",
         "logo_9PmNP3",
         "logo_Eg9G78",
         "logo_4KfQGr",
+        "logo_jHBxmd",
         "logo_7PnQbn",
         "logo_9dR9Tr",
         "logo_nE8Md8",
