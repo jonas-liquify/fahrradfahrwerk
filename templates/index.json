@@ -20,24 +20,24 @@
     "select_type": {
       "type": "select_type",
       "blocks": {
-        "select_block_QAemQe": {
+        "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
             "text_headline": "MTB",
             "text_text": "Lorem ipsum dolor sit amet."
           }
         },
-        "select_block_DbANXi": {
+        "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
-            "text_headline": "MTB",
-            "text_text": "Lorem ipsum dolor sit amet."
+            "text_headline": "MOTO",
+            "text_text": "Fahrzeug auswählen"
           }
         }
       },
       "block_order": [
-        "select_block_QAemQe",
-        "select_block_DbANXi"
+        "select_block_Je8qLz",
+        "select_block_QAemQe"
       ],
       "settings": {}
     },
