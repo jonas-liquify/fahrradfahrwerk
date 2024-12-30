@@ -90,10 +90,41 @@
     },
     "prozess": {
       "type": "prozess",
+      "blocks": {
+        "service_block_4gn6fP": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "SERVICE BUCHEN",
+            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service und das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
+          }
+        },
+        "service_block_tkjjF3": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        },
+        "service_block_jpzXzw": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        }
+      },
+      "block_order": [
+        "service_block_4gn6fP",
+        "service_block_tkjjF3",
+        "service_block_jpzXzw"
+      ],
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
