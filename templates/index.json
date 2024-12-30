@@ -134,15 +134,123 @@
     "marken": {
       "type": "marken",
       "blocks": {
+        "logo_dQtDxb": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/rockshox_logo.png"
+          }
+        },
+        "logo_MnXREJ": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/fox_logo.jpg"
+          }
+        },
+        "logo_FC6yjg": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/dvo_logo.webp"
+          }
+        },
         "logo_MkqhzW": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/bos_logo.jpg"
           }
+        },
+        "logo_nFtrJX": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/canecreek_logo.jpg"
+          }
+        },
+        "logo_qATA8w": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/ext.webp"
+          }
+        },
+        "logo_jHBxmd": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
+          }
+        },
+        "logo_Qy6e8n": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/push_industries_logo.jpg"
+          }
+        },
+        "logo_nKAp6T": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo_9PmNP3": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo_Eg9G78": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/marzocchi_logo.jpg"
+          }
+        },
+        "logo_4KfQGr": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/fastsuspension_logo.jpg"
+          }
+        },
+        "logo_7PnQbn": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/formula_logo.png"
+          }
+        },
+        "logo_9dR9Tr": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/manitou_logo.png"
+          }
+        },
+        "logo_nE8Md8": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/nd_tuned_logo.jpg"
+          }
+        },
+        "logo_cHfTxA": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/xfusion_logo.png"
+          }
+        },
+        "logo_nFihqL": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/magura_logo.jpg"
+          }
         }
       },
       "block_order": [
-        "logo_MkqhzW"
+        "logo_dQtDxb",
+        "logo_MnXREJ",
+        "logo_FC6yjg",
+        "logo_MkqhzW",
+        "logo_nFtrJX",
+        "logo_qATA8w",
+        "logo_jHBxmd",
+        "logo_Qy6e8n",
+        "logo_nKAp6T",
+        "logo_9PmNP3",
+        "logo_Eg9G78",
+        "logo_4KfQGr",
+        "logo_7PnQbn",
+        "logo_9dR9Tr",
+        "logo_nE8Md8",
+        "logo_cHfTxA",
+        "logo_nFihqL"
       ],
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
@@ -159,7 +267,7 @@
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
