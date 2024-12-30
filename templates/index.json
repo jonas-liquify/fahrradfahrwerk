@@ -134,10 +134,34 @@
     "marken": {
       "type": "marken",
       "blocks": {
+        "logo_jHBxmd": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
+          }
+        },
+        "logo_MkqhzW": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/bos_logo.jpg"
+          }
+        },
         "logo_4PUkUq": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/showa_logo.png"
+          }
+        },
+        "logo_MnXREJ": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/fox_logo.jpg"
+          }
+        },
+        "logo_dQtDxb": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/rockshox_logo.png"
           }
         },
         "logo_AamwGt": {
@@ -152,16 +176,10 @@
             "image_logo": "shopify://shop_images/kyb_logo.png"
           }
         },
-        "logo_dQtDxb": {
+        "logo_nFtrJX": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/rockshox_logo.png"
-          }
-        },
-        "logo_MnXREJ": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fox_logo.jpg"
+            "image_logo": "shopify://shop_images/canecreek_logo.jpg"
           }
         },
         "logo_FC6yjg": {
@@ -170,28 +188,10 @@
             "image_logo": "shopify://shop_images/dvo_logo.webp"
           }
         },
-        "logo_MkqhzW": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/bos_logo.jpg"
-          }
-        },
-        "logo_nFtrJX": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/canecreek_logo.jpg"
-          }
-        },
         "logo_qATA8w": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/ext.webp"
-          }
-        },
-        "logo_Qy6e8n": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/push_industries_logo.jpg"
           }
         },
         "logo_nKAp6T": {
@@ -206,6 +206,12 @@
             "image_logo": "shopify://shop_images/ohlins_moto_logo.jpg"
           }
         },
+        "logo_Qy6e8n": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/push_industries_logo.jpg"
+          }
+        },
         "logo_Eg9G78": {
           "type": "logo",
           "settings": {
@@ -216,12 +222,6 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/fastsuspension_logo.jpg"
-          }
-        },
-        "logo_jHBxmd": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
           }
         },
         "logo_7PnQbn": {
@@ -256,21 +256,21 @@
         }
       },
       "block_order": [
+        "logo_jHBxmd",
+        "logo_MkqhzW",
         "logo_4PUkUq",
+        "logo_MnXREJ",
+        "logo_dQtDxb",
         "logo_AamwGt",
         "logo_dkqqHG",
-        "logo_dQtDxb",
-        "logo_MnXREJ",
-        "logo_FC6yjg",
-        "logo_MkqhzW",
         "logo_nFtrJX",
+        "logo_FC6yjg",
         "logo_qATA8w",
-        "logo_Qy6e8n",
         "logo_nKAp6T",
         "logo_9PmNP3",
+        "logo_Qy6e8n",
         "logo_Eg9G78",
         "logo_4KfQGr",
-        "logo_jHBxmd",
         "logo_7PnQbn",
         "logo_9dR9Tr",
         "logo_nE8Md8",
@@ -290,13 +290,13 @@
     "products": {
       "type": "products",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_subheading": "// Topseller",
+        "text_heading": "Produkte für dein Mountainbike & Motorrad",
+        "text_text": "Entdecke unsere Auswahl an hochwertigen Produkten für dein Mountainbike und Motorrad. Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.",
         "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "text_button_text": "Mehr ansehen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen",
+        "text_button_text_2": "",
         "collection_products": "",
         "collection_products_limit": 6
       }
@@ -304,13 +304,13 @@
     "showcase": {
       "type": "showcase",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_subheading": "// Bildergalerie",
+        "text_heading": "Dein Fahrwerk ist unsere Leidenschaft",
+        "text_text": "Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau worauf es bei deinem Fahrwerk ankommt.",
         "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "text_button_text": "Über uns",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen"
+        "text_button_text_2": ""
       }
     },
     "location": {
