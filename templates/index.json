@@ -13,11 +13,32 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_headline": "Optimale Leistung für dein Fahrwerk"
+        "text_headline": "Optimale Leistung für dein Fahrwerk",
+        "image_bild": "shopify://shop_images/TristanHobson--6038.jpg"
       }
     },
     "select_type": {
       "type": "select_type",
+      "blocks": {
+        "select_block_QAemQe": {
+          "type": "select-block",
+          "settings": {
+            "text_headline": "MTB",
+            "text_text": "Lorem ipsum dolor sit amet."
+          }
+        },
+        "select_block_DbANXi": {
+          "type": "select-block",
+          "settings": {
+            "text_headline": "MTB",
+            "text_text": "Lorem ipsum dolor sit amet."
+          }
+        }
+      },
+      "block_order": [
+        "select_block_QAemQe",
+        "select_block_DbANXi"
+      ],
       "settings": {}
     },
     "about_1": {
