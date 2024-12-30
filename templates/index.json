@@ -23,6 +23,7 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
+            "image_bild": "shopify://shop_images/mtb_6f4ccef4-c876-44cf-83ea-0179117b9ab4.png",
             "text_headline": "MTB",
             "text_text": "Fahrzeug auswählen"
           }
@@ -30,6 +31,7 @@
         "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
+            "image_bild": "shopify://shop_images/moto.png",
             "text_headline": "MOTO",
             "text_text": "Fahrzeug auswählen"
           }
