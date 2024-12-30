@@ -170,6 +170,10 @@
             "image_logo": "shopify://shop_images/ext.webp"
           }
         },
+        "logo_pdDBd3": {
+          "type": "logo",
+          "settings": {}
+        },
         "logo_Qy6e8n": {
           "type": "logo",
           "settings": {
@@ -178,7 +182,9 @@
         },
         "logo_nKAp6T": {
           "type": "logo",
-          "settings": {}
+          "settings": {
+            "image_logo": "shopify://shop_images/ohlins_moto_logo.jpg"
+          }
         },
         "logo_9PmNP3": {
           "type": "logo",
@@ -240,6 +246,7 @@
         "logo_MkqhzW",
         "logo_nFtrJX",
         "logo_qATA8w",
+        "logo_pdDBd3",
         "logo_Qy6e8n",
         "logo_nKAp6T",
         "logo_9PmNP3",
