@@ -40,7 +40,7 @@
         "choose_art_Y7Ppga": {
           "type": "choose-art",
           "settings": {
-            "text_choose_headline": "Mountain bike",
+            "text_choose_headline": "MOTO",
             "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
