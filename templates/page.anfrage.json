@@ -28,6 +28,159 @@
     "choose_main": {
       "type": "choose_main",
       "blocks": {
+        "logo_genkQT": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/ohlins_mtb_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_4Jbrp8": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/rockshox_logo.png",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_rfWjxb": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/magura_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_xyYirK": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/nd_tuned_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_RLWbtw": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/xfusion_logo.png",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_jNVV6G": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/srsuntor_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_fNbjaF": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/push_industries_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_YJ97L3": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/marzocchi_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_ncNDGd": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/fox_logo.jpg",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_hbaVU9": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_NNBc8a": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_RjCAzL": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_DXWQc8": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_VKTF38": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_X3iqmH": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_Jq4TfH": {
+          "type": "logo",
+          "settings": {
+            "text_logo_heading": "<span class=\"gradient-bar-h3\">Heading</span>",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
         "choose_art_W6t9XF": {
           "type": "choose-art",
           "settings": {
@@ -49,6 +202,22 @@
         }
       },
       "block_order": [
+        "logo_genkQT",
+        "logo_4Jbrp8",
+        "logo_rfWjxb",
+        "logo_xyYirK",
+        "logo_RLWbtw",
+        "logo_jNVV6G",
+        "logo_fNbjaF",
+        "logo_YJ97L3",
+        "logo_ncNDGd",
+        "logo_hbaVU9",
+        "logo_NNBc8a",
+        "logo_RjCAzL",
+        "logo_DXWQc8",
+        "logo_VKTF38",
+        "logo_X3iqmH",
+        "logo_Jq4TfH",
         "choose_art_W6t9XF",
         "choose_art_Y7Ppga"
       ],
