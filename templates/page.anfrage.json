@@ -220,6 +220,7 @@
           "settings": {
             "text_choose_headline": "MTB",
             "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
+            "image_choose_img": "shopify://shop_images/mtb_black.png",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
@@ -229,7 +230,7 @@
           "settings": {
             "text_choose_headline": "MOTO",
             "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
-            "image_choose_img": "shopify://shop_images/moto.png",
+            "image_choose_img": "shopify://shop_images/moto_black.png",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
