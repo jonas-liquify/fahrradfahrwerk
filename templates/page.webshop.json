@@ -1,20 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "hero_2": {
-            "type": "hero_2"
-        },
-        "shop_category": {
-            "type": "shop_category"
-        },
-        "blog_teaser": {
-            "type": "blog_teaser"
-        }
+  "sections": {
+    "hero_2": {
+      "type": "hero_2",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_headline": "Unsere LeidenschaftFür ihr Fahrererlebnis"
+      }
     },
-    "layout": "page.webshop",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero_2",
-        "shop_category",
-        "blog_teaser"
-    ]
+    "shop_category": {
+      "type": "shop_category",
+      "blocks": {
+        "category_PwwFxQ": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        },
+        "category_6F3kLf": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        },
+        "category_VGaWmQ": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        },
+        "category_FCgWeE": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        },
+        "category_fFAPqJ": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        },
+        "category_LRYfCh": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "text_name": "Kategorie 1"
+          }
+        }
+      },
+      "block_order": [
+        "category_PwwFxQ",
+        "category_6F3kLf",
+        "category_VGaWmQ",
+        "category_FCgWeE",
+        "category_fFAPqJ",
+        "category_LRYfCh"
+      ],
+      "settings": {
+        "text_heading": "Heading"
+      }
+    },
+    "blog_teaser": {
+      "type": "blog_teaser",
+      "settings": {
+        "text_heading": "Heading"
+      }
+    }
+  },
+  "layout": "page.webshop",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero_2",
+    "shop_category",
+    "blog_teaser"
+  ]
 }

@@ -8,5 +8,56 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "announcement_bar": {
+        "type": "announcement_bar",
+        "settings": {
+          "text_text": "Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "search_suggestion_PHiMiJ": {
+            "type": "search-suggestion",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
+          }
+        },
+        "block_order": [
+          "search_suggestion_PHiMiJ"
+        ],
+        "settings": {
+          "collection_search_bestseller": "",
+          "collection_search_bestseller_limit": 6,
+          "url_button_link": "",
+          "text_button_text": "Service anfragen"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "text_cta_heading": "<span class=\"gradient-bar-h3\">Lassen Sie Ihr Fahrrad<br></span>Noch heute",
+          "text_cta_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+          "url_button_link": "",
+          "text_button_text": "Service anfragen",
+          "url_button_link_2": "",
+          "text_button_text_2": "Service anfragen",
+          "url_phone_link": "",
+          "text_phone_text": "07073 - 917 43 43",
+          "url_email_link": "",
+          "text_email_text": "tellme@fahrrad-fahrwerk.de",
+          "url_location_link": "",
+          "text_location_text": "FAHRRAD FAHRWERK Jesinger <br>Hauptstr. 124 72070 Tübingen",
+          "text_newsletter_headline": "Newsletter",
+          "text_newsletter_text": "Abonnieren Sie unseren Newsletter, um über Funktionen und Veröffentlichungen auf dem Laufenden zu bleiben.",
+          "text_checkbox": "By subscribing you agree to with our <a href=\"#\"><span class=\"text-color-white text-style-link\">Privacy Policy</span></a> and provide consent to receive updates from our company."
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }
