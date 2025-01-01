@@ -206,6 +206,15 @@
             "text_button_text": "Marke auswählen"
           }
         },
+        "choose_bauteil_DrwiUK": {
+          "type": "choose-bauteil",
+          "settings": {
+            "text_choose_headline": "VARIO-STÜTZE",
+            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        },
         "choose_art_W6t9XF": {
           "type": "choose-art",
           "settings": {
@@ -251,6 +260,7 @@
         "logo_Jq4TfH",
         "choose_bauteil_Mnm37b",
         "choose_bauteil_nUKAPc",
+        "choose_bauteil_DrwiUK",
         "choose_art_W6t9XF",
         "choose_art_Y7Ppga",
         "info_item_FzRyck"
