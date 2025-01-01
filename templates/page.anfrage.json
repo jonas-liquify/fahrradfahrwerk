@@ -1,20 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "hero_anfrage": {
-            "type": "hero_anfrage"
-        },
-        "choose_nav": {
-            "type": "choose_nav"
-        },
-        "choose_main": {
-            "type": "choose_main"
-        }
+  "sections": {
+    "hero_anfrage": {
+      "type": "hero_anfrage",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_headline": "<span class=\"gradient-bar\">Service & Tuning anfrage </span>"
+      }
     },
-    "layout": "page.anfrage",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero_anfrage",
-        "choose_nav",
-        "choose_main"
-    ]
+    "choose_nav": {
+      "type": "choose_nav",
+      "settings": {
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Auswahl Marke",
+        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_4": "4. kasse"
+      }
+    },
+    "choose_main": {
+      "type": "choose_main",
+      "blocks": {
+        "choose_art_W6t9XF": {
+          "type": "choose-art",
+          "settings": {
+            "text_choose_headline": "MTB",
+            "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        },
+        "choose_art_Y7Ppga": {
+          "type": "choose-art",
+          "settings": {
+            "text_choose_headline": "Mountain bike",
+            "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        }
+      },
+      "block_order": [
+        "choose_art_W6t9XF",
+        "choose_art_Y7Ppga"
+      ],
+      "settings": {
+        "text_headline": "Wofür benötigen sie den Service?",
+        "text_headline_2": "Welche Marke benötigen sie?",
+        "text_headline_3": "Welche Marke benötigen sie?",
+        "text_headline_4": "Welchen Service benötigen sie?",
+        "text_opener_text": "Mehr Informationen",
+        "kategorie": "Alle FAQs",
+        "text_more_headline": "Heading",
+        "text_more_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    }
+  },
+  "layout": "page.anfrage",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero_anfrage",
+    "choose_nav",
+    "choose_main"
+  ]
 }
