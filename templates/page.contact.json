@@ -1,16 +1,35 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "contact_form": {
-            "type": "contact_form"
-        },
-        "map_single": {
-            "type": "map_single"
-        }
+  "sections": {
+    "contact_form": {
+      "type": "contact_form",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Top Service für Federgabel und noch viel mehr",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "text_location_text": "SWIFT Suspension, Lange Gasse 43, 72119 Ammerbuch",
+        "text_offnungszeiten": "Montag-Freitag 9-17 Uhr.",
+        "richtext_kontakt_infos": "<p>Team SWIFT Suspension</p>",
+        "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company."
+      }
     },
-    "layout": "page.contact",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "contact_form",
-        "map_single"
-    ]
+    "map_single": {
+      "type": "map_single",
+      "settings": {}
+    }
+  },
+  "layout": "page.contact",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "contact_form",
+    "map_single"
+  ]
 }
