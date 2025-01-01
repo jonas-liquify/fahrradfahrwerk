@@ -31,7 +31,7 @@
         "logo_genkQT": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/ohlins_mtb_logo.jpg",
+            "image_logo_img": "shopify://shop_images/bos_logo_512x512_d79b6e1a-deab-445d-ab96-bfecbf73d598.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -41,7 +41,6 @@
         "logo_4Jbrp8": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/rockshox_logo.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -51,7 +50,6 @@
         "logo_rfWjxb": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/magura_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -61,7 +59,6 @@
         "logo_xyYirK": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/nd_tuned_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -71,7 +68,6 @@
         "logo_RLWbtw": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/xfusion_logo.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -81,7 +77,6 @@
         "logo_jNVV6G": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/srsuntor_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -91,7 +86,6 @@
         "logo_fNbjaF": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/push_industries_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -101,7 +95,6 @@
         "logo_YJ97L3": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/marzocchi_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -111,7 +104,6 @@
         "logo_ncNDGd": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/fox_logo.jpg",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
