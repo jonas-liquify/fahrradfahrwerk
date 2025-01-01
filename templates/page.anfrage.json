@@ -88,26 +88,6 @@
             "text_button_text_2": "Bauteil auswählen"
           }
         },
-        "logo_fNbjaF": {
-          "type": "logo",
-          "settings": {
-            "image_logo_img": "shopify://shop_images/marzocchi_logo_512x512_a8ce24e6-0812-42df-a878-d5a1cde52356.png",
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_YJ97L3": {
-          "type": "logo",
-          "settings": {
-            "image_logo_img": "shopify://shop_images/manitou_logo_512x512_a428cd32-bdd4-47c2-904e-3370aa69dc17.png",
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
         "logo_ncNDGd": {
           "type": "logo",
           "settings": {
@@ -122,6 +102,26 @@
           "type": "logo",
           "settings": {
             "image_logo_img": "shopify://shop_images/magura_logo_512x512_92a6ea7f-66d8-4861-8e26-13296356e856.png",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_fNbjaF": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/marzocchi_logo_512x512_a8ce24e6-0812-42df-a878-d5a1cde52356.png",
+            "text_logo_heading": "Heading",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_YJ97L3": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/manitou_logo_512x512_a428cd32-bdd4-47c2-904e-3370aa69dc17.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -239,10 +239,10 @@
         "logo_xyYirK",
         "logo_RLWbtw",
         "logo_jNVV6G",
-        "logo_fNbjaF",
-        "logo_YJ97L3",
         "logo_ncNDGd",
         "logo_hbaVU9",
+        "logo_fNbjaF",
+        "logo_YJ97L3",
         "logo_NNBc8a",
         "logo_RjCAzL",
         "logo_DXWQc8",

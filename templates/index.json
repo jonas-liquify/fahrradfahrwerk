@@ -23,7 +23,6 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
-            "image_bild": "shopify://shop_images/mtb_6f4ccef4-c876-44cf-83ea-0179117b9ab4.png",
             "text_headline": "MTB",
             "text_text": "Fahrzeug auswählen"
           }
@@ -157,133 +156,95 @@
     "marken": {
       "type": "marken",
       "blocks": {
-        "logo_jHBxmd": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/srsuntor_logo.jpg"
-          }
-        },
         "logo_MkqhzW": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/bos_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_4PUkUq": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/showa_logo.png"
-          }
+          "settings": {}
         },
         "logo_MnXREJ": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fox_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_dQtDxb": {
           "type": "logo",
+          "settings": {}
+        },
+        "logo_jHBxmd": {
+          "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/rockshox_logo.png"
+            "image_logo": "shopify://shop_images/wp_logo_512x512_9ed083ba-934a-4f1e-92ec-e344fffd54ea.png"
           }
         },
         "logo_AamwGt": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/wp_suspension_logo.png"
-          }
+          "settings": {}
         },
         "logo_dkqqHG": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/kyb_logo.png"
-          }
+          "settings": {}
         },
         "logo_nFtrJX": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/canecreek_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_FC6yjg": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/dvo_logo.webp"
-          }
+          "settings": {}
         },
         "logo_qATA8w": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ext.webp"
-          }
+          "settings": {}
         },
         "logo_nKAp6T": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ohlins_mtb_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_9PmNP3": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ohlins_moto_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_Qy6e8n": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/push_industries_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_Eg9G78": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/marzocchi_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_4KfQGr": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fastsuspension_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_7PnQbn": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/formula_logo.png"
-          }
+          "settings": {}
         },
         "logo_9dR9Tr": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/manitou_logo.png"
-          }
+          "settings": {}
         },
         "logo_nE8Md8": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/nd_tuned_logo.jpg"
-          }
+          "settings": {}
         },
         "logo_cHfTxA": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/xfusion_logo.png"
-          }
+          "settings": {}
         },
         "logo_nFihqL": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/magura_logo.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
-        "logo_jHBxmd",
         "logo_MkqhzW",
         "logo_4PUkUq",
         "logo_MnXREJ",
         "logo_dQtDxb",
+        "logo_jHBxmd",
         "logo_AamwGt",
         "logo_dkqqHG",
         "logo_nFtrJX",
