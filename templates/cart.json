@@ -1,16 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "cart": {
-            "type": "cart"
-        },
-        "form": {
-            "type": "form"
-        }
+  "sections": {
+    "cart": {
+      "type": "cart",
+      "settings": {
+        "text_heading": "Warenkorb",
+        "text_cart_empty": "Enthält keine Produkte"
+      }
     },
-    "layout": "cart",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "cart",
-        "form"
-    ]
+    "form": {
+      "type": "form",
+      "settings": {}
+    }
+  },
+  "layout": "cart",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "cart",
+    "form"
+  ]
 }
