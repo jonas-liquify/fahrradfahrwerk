@@ -12,8 +12,8 @@
     "hero_anfrage": {
       "type": "hero_anfrage",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_headline": "<span class=\"gradient-bar\">Service & Tuning anfrage </span>"
+        "text_subheading": "// Service online buchen",
+        "text_headline": "Service & Tuning anfrage"
       }
     },
     "choose_nav": {
@@ -56,15 +56,6 @@
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
             "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "choose_bauteil_Mnm37b": {
-          "type": "choose-bauteil",
-          "settings": {
-            "text_choose_headline": "Federgabel",
-            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
-            "url_button_link": "",
-            "text_button_text": "Marke auswählen"
           }
         },
         "logo_xyYirK": {
@@ -197,6 +188,24 @@
             "text_button_text_2": "Bauteil auswählen"
           }
         },
+        "choose_bauteil_Mnm37b": {
+          "type": "choose-bauteil",
+          "settings": {
+            "text_choose_headline": "Federgabel",
+            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        },
+        "choose_bauteil_nUKAPc": {
+          "type": "choose-bauteil",
+          "settings": {
+            "text_choose_headline": "Dämpfer",
+            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        },
         "choose_art_W6t9XF": {
           "type": "choose-art",
           "settings": {
@@ -215,13 +224,18 @@
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
+        },
+        "info_item_FzRyck": {
+          "type": "info-item",
+          "settings": {
+            "text_text": "mehr als 500 Rapire pro Jahr"
+          }
         }
       },
       "block_order": [
         "logo_genkQT",
         "logo_4Jbrp8",
         "logo_rfWjxb",
-        "choose_bauteil_Mnm37b",
         "logo_xyYirK",
         "logo_RLWbtw",
         "logo_jNVV6G",
@@ -235,8 +249,11 @@
         "logo_VKTF38",
         "logo_X3iqmH",
         "logo_Jq4TfH",
+        "choose_bauteil_Mnm37b",
+        "choose_bauteil_nUKAPc",
         "choose_art_W6t9XF",
-        "choose_art_Y7Ppga"
+        "choose_art_Y7Ppga",
+        "info_item_FzRyck"
       ],
       "settings": {
         "text_headline": "Wofür benötigen sie den Service?",
@@ -245,7 +262,7 @@
         "text_headline_4": "Welchen Service benötigen sie?",
         "text_opener_text": "Mehr Informationen",
         "kategorie": "Alle FAQs",
-        "text_more_headline": "Heading",
+        "text_more_headline": "Zubehör",
         "text_more_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     }
