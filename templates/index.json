@@ -23,6 +23,7 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
+            "image_bild": "shopify://shop_images/mtb_white.png",
             "text_headline": "MTB",
             "text_text": "Fahrzeug auswählen"
           }
