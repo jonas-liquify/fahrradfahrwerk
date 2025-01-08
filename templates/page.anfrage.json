@@ -188,6 +188,36 @@
             "text_button_text_2": "Bauteil auswählen"
           }
         },
+        "logo_AMrYWf": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/wp_logo_512x512_9ed083ba-934a-4f1e-92ec-e344fffd54ea.png",
+            "text_logo_heading": "WP Suspension",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_Jffxhf": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/showa_logo_512x512_f7bcecaf-7be3-49f7-b255-3e7327eb4b9c.png",
+            "text_logo_heading": "SHOWA",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
+        "logo_pXXx4D": {
+          "type": "logo",
+          "settings": {
+            "image_logo_img": "shopify://shop_images/kyb_logo_512x512_e8cef7f3-97fa-452e-95e4-d22b6f2a620b.png",
+            "text_logo_heading": "KYB",
+            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "url_button_link_2": "",
+            "text_button_text_2": "Bauteil auswählen"
+          }
+        },
         "choose_bauteil_Mnm37b": {
           "type": "choose-bauteil",
           "settings": {
@@ -259,6 +289,9 @@
         "logo_VKTF38",
         "logo_X3iqmH",
         "logo_Jq4TfH",
+        "logo_AMrYWf",
+        "logo_Jffxhf",
+        "logo_pXXx4D",
         "choose_bauteil_Mnm37b",
         "choose_bauteil_nUKAPc",
         "choose_bauteil_DrwiUK",
