@@ -16,17 +16,43 @@
         "text_headline": "Unsere LeidenschaftFür ihr Fahrererlebnis"
       }
     },
-    "content": {
+    "content_ByXPHA": {
       "type": "content",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
+        "text_subheading": "// SERVICE",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "content_allign": "right"
+      }
+    },
+    "content_6m9bEf": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// REPARATUR",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
         "text_button_text_2": "Service anfragen",
         "content_allign": "left"
+      }
+    },
+    "content": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// TUNING",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "content_allign": "right"
       }
     },
     "content_2": {
@@ -44,6 +70,10 @@
         "text_grid_text_2": "Von Bikern für Biker",
         "text_grid_text_3": "Kundenzentrierter Ansatz"
       }
+    },
+    "article_TB4URJ": {
+      "type": "article",
+      "settings": {}
     },
     "about_1": {
       "type": "about_1",
@@ -171,8 +201,11 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_2",
+    "content_ByXPHA",
+    "content_6m9bEf",
     "content",
     "content_2",
+    "article_TB4URJ",
     "about_1",
     "prozess",
     "blog_teaser",
