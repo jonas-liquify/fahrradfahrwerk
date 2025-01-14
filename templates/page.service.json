@@ -16,12 +16,25 @@
         "text_headline": "Unsere LeidenschaftFür ihr Fahrererlebnis"
       }
     },
+    "content_i4wyK3": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// SERVICE",
+        "text_heading": "Bei uns steht die Qualität im Vordergrund",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "",
+        "content_allign": "right"
+      }
+    },
     "content": {
       "type": "content",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_subheading": "// REPARATUR",
+        "text_heading": "Volle Funktion, durch Präzision",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
@@ -29,12 +42,25 @@
         "content_allign": "left"
       }
     },
+    "content_HmYQmb": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// TUNING",
+        "text_heading": "",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "content_allign": "right"
+      }
+    },
     "content_2": {
       "type": "content_2",
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
@@ -62,7 +88,7 @@
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
@@ -110,7 +136,9 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_2",
+    "content_i4wyK3",
     "content",
+    "content_HmYQmb",
     "content_2",
     "about_1",
     "prozess",
