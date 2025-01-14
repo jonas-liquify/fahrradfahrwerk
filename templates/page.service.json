@@ -57,6 +57,7 @@
     },
     "content_2": {
       "type": "content_2",
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -69,6 +70,10 @@
         "text_grid_text_2": "Von Bikern für Biker",
         "text_grid_text_3": "Kundenzentrierter Ansatz"
       }
+    },
+    "article_N8Jjjb": {
+      "type": "article",
+      "settings": {}
     },
     "about_1": {
       "type": "about_1",
@@ -85,6 +90,37 @@
     },
     "prozess": {
       "type": "prozess",
+      "blocks": {
+        "service_block_3zKV7x": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "<span>Step 1</span>",
+            "text_heading": "Servicebuchung für MTB &amp; Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        },
+        "service_block_6LJrYt": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        },
+        "service_block_kk7dMR": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        }
+      },
+      "block_order": [
+        "service_block_3zKV7x",
+        "service_block_6LJrYt",
+        "service_block_kk7dMR"
+      ],
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -97,6 +133,7 @@
     },
     "blog_teaser": {
       "type": "blog_teaser",
+      "disabled": true,
       "settings": {
         "text_heading": "Heading"
       }
@@ -140,10 +177,6 @@
         "url_cta_button_link": "",
         "text_cta_button_text": "Kontaktiere uns"
       }
-    },
-    "article_N8Jjjb": {
-      "type": "article",
-      "settings": {}
     }
   },
   "layout": "page.service",
@@ -154,10 +187,10 @@
     "content",
     "content_HmYQmb",
     "content_2",
+    "article_N8Jjjb",
     "about_1",
     "prozess",
     "blog_teaser",
-    "faq",
-    "article_N8Jjjb"
+    "faq"
   ]
 }
