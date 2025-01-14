@@ -20,7 +20,7 @@
       "type": "content",
       "settings": {
         "text_subheading": "// SERVICE",
-        "text_heading": "Bei uns steht die Qualität im Vordergrund",
+        "text_heading": "Qualität auf die du dich verlassen kannst",
         "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "",
@@ -46,7 +46,7 @@
       "type": "content",
       "settings": {
         "text_subheading": "// TUNING",
-        "text_heading": "Wir wissen worauf es bei deinem Fahrwerk ankommt",
+        "text_heading": "Mehr Leistung, mehr Persöhnlichkeit",
         "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "",
@@ -94,8 +94,8 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
-            "text_step": "<span>Step 1</span>",
-            "text_heading": "Servicebuchung für MTB &amp; Moto",
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
             "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
           }
         },
