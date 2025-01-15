@@ -81,18 +81,34 @@
         "numbers_block_CCptTR": {
           "type": "numbers-block",
           "settings": {
-            "text_number": "500+",
-            "text_text": "Erfolgreiche Reparaturen"
+            "text_number": "4.000+",
+            "text_text": "Service pro Jahr"
+          }
+        },
+        "numbers_block_4GnaAV": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "21.000+",
+            "text_text": "Zufriedene Kunden"
+          }
+        },
+        "numbers_block_YGDwdA": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "15+",
+            "text_text": "Jahre Erfahrung"
           }
         }
       },
       "block_order": [
-        "numbers_block_CCptTR"
+        "numbers_block_CCptTR",
+        "numbers_block_4GnaAV",
+        "numbers_block_YGDwdA"
       ],
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
