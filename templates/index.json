@@ -45,6 +45,34 @@
     },
     "about_1": {
       "type": "about_1",
+      "blocks": {
+        "numbers_block_TAnCXC": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "4.000+",
+            "text_text": "Service pro Jahr"
+          }
+        },
+        "numbers_block_UXYq3q": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "21.000+",
+            "text_text": "Zufriedene Kunden"
+          }
+        },
+        "numbers_block_WkYW6X": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "15",
+            "text_text": "Jahre Erfahrung"
+          }
+        }
+      },
+      "block_order": [
+        "numbers_block_TAnCXC",
+        "numbers_block_UXYq3q",
+        "numbers_block_WkYW6X"
+      ],
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
         "text_heading": "SUSPENSION SERVICE FÜR MOUNTAINBIKE & MOTORRAD",

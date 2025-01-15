@@ -77,6 +77,18 @@
     },
     "about_1": {
       "type": "about_1",
+      "blocks": {
+        "numbers_block_CCptTR": {
+          "type": "numbers-block",
+          "settings": {
+            "text_number": "500+",
+            "text_text": "Erfolgreiche Reparaturen"
+          }
+        }
+      },
+      "block_order": [
+        "numbers_block_CCptTR"
+      ],
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
