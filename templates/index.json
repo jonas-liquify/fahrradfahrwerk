@@ -354,6 +354,24 @@
     },
     "showcase": {
       "type": "showcase",
+      "blocks": {
+        "showcase_slide_xibxrg": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/Reschenpass_julian.webp"
+          }
+        },
+        "showcase_slide_qjHGDM": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
+          }
+        }
+      },
+      "block_order": [
+        "showcase_slide_xibxrg",
+        "showcase_slide_qjHGDM"
+      ],
       "settings": {
         "text_subheading": "// Bildergalerie",
         "text_heading": "Dein Fahrwerk ist unsere Leidenschaft",
