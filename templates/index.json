@@ -13,7 +13,8 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_headline": "<span class=\"gradient-bar\">Bei Uns ist Dein Fahrwerk<br></span>in den besten Händen"
+        "text_headline": "Bei Uns ist Dein Fahrwerk in den besten Händen",
+        "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
     },
     "select_type": {
