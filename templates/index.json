@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_headline": "Optimale Leistung für dein Fahrwerk",
+        "text_headline": "Optimale Leistung für <br><span class=\"gradient-bar\">dein Fahrwerk</span>",
         "image_bild": "shopify://shop_images/TristanHobson--6038.jpg"
       }
     },
