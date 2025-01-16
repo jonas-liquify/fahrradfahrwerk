@@ -13,7 +13,8 @@
       "type": "hero_anfrage",
       "settings": {
         "text_subheading": "// Service online buchen",
-        "text_headline": "Service & Tuning anfrage"
+        "text_headline": "Service & Tuning Anfrage",
+        "text_text": "In unserer Service & Tuning Anfrage kannst du unsere Service-Leistung mit verschiedenen Produkten individuell kombinieren. Wähle dein Fahrzeug, deine Marke & deine Bauteile aus und wir zeigen dir, was wir zur Auswahl haben."
       }
     },
     "choose_nav": {
