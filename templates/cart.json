@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "cart": {
-      "type": "cart",
-      "settings": {
-        "text_heading": "Warenkorb",
-        "text_cart_empty": "Enthält keine Produkte"
-      }
-    },
     "form": {
       "type": "form",
       "settings": {}
@@ -24,7 +17,6 @@
   "layout": "cart",
   "wrapper": "main.main-wrapper",
   "order": [
-    "cart",
     "form"
   ]
 }
