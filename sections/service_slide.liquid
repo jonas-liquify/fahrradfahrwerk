@@ -27,10 +27,10 @@
 <div><p>
 {{ block.settings.text_text }}
 </p>
-</div><div><div class="button-group">{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+</div><div><div class="button-group">{% if block.settings.text_button_text %}    <div li-if="block.settings.text_button_text">
     <a href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
+{% endif %}{% if block.settings.text_button_text_2 %}    <div li-if="block.settings.text_button_text_2">
     <a href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}</div></div></div>
