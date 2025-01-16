@@ -14,7 +14,7 @@
       "settings": {
         "text_subheading": "// Service online buchen",
         "text_headline": "Service & Tuning Anfrage",
-        "text_text": "In unserer Service & Tuning Anfrage kannst du unsere Service-Leistung mit verschiedenen Produkten individuell kombinieren. Wähle dein Fahrzeug, deine Marke & deine Bauteile aus und wir zeigen dir, was wir zur Auswahl haben."
+        "text_text": "In unserer Service- & Tuning-Anfrage kannst du unsere Leistungen individuell mit verschiedenen Produkten kombinieren. Wähle dein Fahrzeug, die passende Marke und das benötigte Bauteile aus - wir zeigen dir, die perfekte Lösung für deine Anforderungen."
       }
     },
     "choose_nav": {
@@ -32,7 +32,6 @@
         "logo_genkQT": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/bos_logo_512x512_d79b6e1a-deab-445d-ab96-bfecbf73d598.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -42,7 +41,6 @@
         "logo_4Jbrp8": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/canecreek_logo_512x512_5e466fda-91cc-4066-a99b-463b392ca7b3.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -52,7 +50,6 @@
         "logo_rfWjxb": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/dvo_logo_512x512_d9b444d8-1bd8-43cf-8512-b371cbc31b71.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -62,7 +59,6 @@
         "logo_xyYirK": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/ext_logo_512x512_e125aaa0-5ee0-45d8-ace4-9e97859fbb81.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -72,7 +68,6 @@
         "logo_RLWbtw": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/fast_suspension_logo_512x512_11c392d4-7034-4298-b4be-ad4bde233a10.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -82,7 +77,6 @@
         "logo_jNVV6G": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/formula_logo_512x512_b8465733-bf91-4ed3-bb39-7475b5deda0f.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -92,7 +86,6 @@
         "logo_ncNDGd": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/fox_logo_512x512_06323123-ace3-47d2-a7f7-aa9ecf888e4b.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -102,7 +95,6 @@
         "logo_hbaVU9": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/magura_logo_512x512_92a6ea7f-66d8-4861-8e26-13296356e856.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -112,7 +104,6 @@
         "logo_fNbjaF": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/marzocchi_logo_512x512_a8ce24e6-0812-42df-a878-d5a1cde52356.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -122,7 +113,6 @@
         "logo_YJ97L3": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/manitou_logo_512x512_a428cd32-bdd4-47c2-904e-3370aa69dc17.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -132,7 +122,6 @@
         "logo_NNBc8a": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/ndtuned_logo_512x512_c88bada5-6043-4625-a35b-dd4829a14c09.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -142,7 +131,6 @@
         "logo_RjCAzL": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/ohlins_logo_512x512_1171688b-a828-4743-af9c-0a243dbcb2e6.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -152,7 +140,6 @@
         "logo_DXWQc8": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/push_logo_512x512_1042ded3-a815-4353-bf37-68275ff723bd.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -162,7 +149,6 @@
         "logo_VKTF38": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/srsuntour_logo_512x512_e4ae767a-b2e7-43ae-a9b1-5ff912a6a234.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -172,7 +158,6 @@
         "logo_X3iqmH": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/rockshock_logo_512x512_907dfc54-9161-46a7-8d6d-df4320a225be.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -182,7 +167,6 @@
         "logo_Jq4TfH": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/xfusion_logo_512x512_9922cdef-2f02-4bbc-b1ba-063fb9b5d49e.png",
             "text_logo_heading": "Heading",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -192,7 +176,6 @@
         "logo_AMrYWf": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/wp_logo_512x512_9ed083ba-934a-4f1e-92ec-e344fffd54ea.png",
             "text_logo_heading": "WP Suspension",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -202,7 +185,6 @@
         "logo_Jffxhf": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/showa_logo_512x512_f7bcecaf-7be3-49f7-b255-3e7327eb4b9c.png",
             "text_logo_heading": "SHOWA",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
@@ -212,7 +194,6 @@
         "logo_pXXx4D": {
           "type": "logo",
           "settings": {
-            "image_logo_img": "shopify://shop_images/kyb_logo_512x512_e8cef7f3-97fa-452e-95e4-d22b6f2a620b.png",
             "text_logo_heading": "KYB",
             "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "url_button_link_2": "",
