@@ -151,13 +151,13 @@
         "service_block_GTTeRA"
       ],
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_subheading": "// wie es funktioniert",
+        "text_heading": "Service-Abwicklung",
+        "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen"
+        "text_button_text_2": ""
       }
     },
     "blog_teaser": {
