@@ -82,22 +82,22 @@
         "numbers_block_94N89h": {
           "type": "numbers-block",
           "settings": {
-            "text_number": "500+",
-            "text_text": "Erfolgreiche Reparaturen"
+            "text_number": "4.000+",
+            "text_text": "Service pro Jahr"
           }
         },
         "numbers_block_eErhiz": {
           "type": "numbers-block",
           "settings": {
-            "text_number": "500+",
-            "text_text": "Erfolgreiche Reparaturen"
+            "text_number": "21.000+",
+            "text_text": "Zufriedene Kunden"
           }
         },
         "numbers_block_74kEe3": {
           "type": "numbers-block",
           "settings": {
-            "text_number": "500+",
-            "text_text": "Erfolgreiche Reparaturen"
+            "text_number": "15+",
+            "text_text": "Jahre Erfahrung"
           }
         }
       },
