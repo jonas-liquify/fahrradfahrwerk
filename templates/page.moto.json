@@ -123,8 +123,8 @@
           "type": "service-block",
           "settings": {
             "text_step": "Step 1",
-            "text_heading": "Servicebuchung für MTB & Moto",
-            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+            "text_heading": "SERVICE BUCHEN",
+            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service und das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
           }
         },
         "service_block_r4T9TR": {
