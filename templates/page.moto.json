@@ -178,10 +178,30 @@
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
+        },
+        "faq_JDRN4G": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_88Ar9F": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
         }
       },
       "block_order": [
-        "faq_YFNkDe"
+        "faq_YFNkDe",
+        "faq_JDRN4G",
+        "faq_88Ar9F"
       ],
       "settings": {
         "text_subheading": "// FAQ",
