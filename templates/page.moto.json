@@ -34,12 +34,12 @@
       "type": "content",
       "settings": {
         "text_subheading": "// REPARATUR",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_heading": "Volle Funktion, durch Präzision",
+        "text_text": "Intensive Nutzung und äußere Einflüsse hinterlassen Spuren an deinem Fahrwerk und können zu Beschädigungen führen, die die Funktionalität beeinträchtigen und deine Sicherheit gefährden. Um dies zu verhindern, überprüfen und vermessen wir sämtliche Bauteile mit größter Sorgfalt, um die maximale Zuverlässigkeit und Langlebigkeit deiner Federelemente sicherzustellen. Von der Fehleranalyse bis zur Reparatur setzen wir auf Präzision und hochwertige Ersatzteile, für eine nachhaltige Lösung auf die du dich verlassen kannst. Mit unserer Expertise bringen wir Federgabel, Dämpfer und Variostütze auf Höchstleitung zurück.",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen",
+        "text_button_text_2": "",
         "content_allign": "left"
       }
     },
