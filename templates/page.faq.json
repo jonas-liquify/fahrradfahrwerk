@@ -21,10 +21,19 @@
             "kategorie": "Alle FAQs"
           }
         },
+        "faq_DPC6K7": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Was passiert bei einem Defekt?",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
         "faq_LpK7cg": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Wie lange ist die Garantiezeit eines Service?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -33,7 +42,7 @@
         "faq_mrhqV9": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Bleibt die Herstellergarantie erhalten?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -42,7 +51,7 @@
         "faq_Ceh67a": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Wie oft sollte ein Service durchgeführt werden?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -51,7 +60,7 @@
         "faq_7AQ3Hj": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Wie funktioniert die Service-Anfrage?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -60,7 +69,7 @@
         "faq_Et9Ly6": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Welche Zahlungsmöglichkeiten gibt es?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -69,7 +78,7 @@
         "faq_DJDiAm": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
+            "text_headline": "Wie funktioniert der Vesand?",
             "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
@@ -87,6 +96,7 @@
       },
       "block_order": [
         "faq_bjpBGg",
+        "faq_DPC6K7",
         "faq_LpK7cg",
         "faq_mrhqV9",
         "faq_Ceh67a",
