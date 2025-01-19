@@ -16,7 +16,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Wie funktioniert die Service-Anfrage?",
-            "richtext_antwort": "<p>Unseren Service kannst du einfach und schnell online buchen. Zu unserer Dienstleistung kannst du Zubehör und individuelle Tuningoptionen flexibel hinzufügen. Unser Team steht dir jederzeit mit fachkundiger Hilfestellung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
+            "richtext_antwort": "<p>Unseren Service kannst du einfach und schnell online buchen. Zu unserer Dienstleistung kannst du Zubehör und individuelle Tuningoptionen beliebig hinzufügen. Dabei steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
