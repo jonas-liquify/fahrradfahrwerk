@@ -106,9 +106,9 @@
         "numbers_block_YGDwdA"
       ],
       "settings": {
-        "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "SUSPENSION SERVICE FÜR MOUNTAINBIKE & MOTORRAD",
-        "text_text": "Willkommen bei SWIFT Suspension,  deinen Experten für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben und sicherzustellen, dass unsere Kunden das Maximum aus ihrem Fahrzeug herausholen können.",
+        "text_subheading": "// MTB SUSPENSION-SERVICE",
+        "text_heading": "Wir wissen, wie wichtig dein Fahrwerk für dich ist!",
+        "text_text": "Schnelle Bearbeitung, herausragende Qualität und langjährige Erfahrung im Bereich Fahrwerkstechnik, machen uns zum perfekten Servicepartner für dein Mounainbike-Fahrwerk.",
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "url_button_link_2": "",
@@ -168,60 +168,6 @@
     },
     "faq": {
       "type": "faq",
-      "blocks": {
-        "faq_YFNkDe": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_DgDQLm": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_wkc3ta": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_gFKJgc": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_cHrrLY": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        }
-      },
-      "block_order": [
-        "faq_YFNkDe",
-        "faq_DgDQLm",
-        "faq_wkc3ta",
-        "faq_gFKJgc",
-        "faq_cHrrLY"
-      ],
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
