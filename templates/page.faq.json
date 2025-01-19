@@ -116,8 +116,8 @@
           "type": "faq",
           "disabled": true,
           "settings": {
-            "text_headline": "Was muss ich vor dem Service beachten?",
-            "richtext_antwort": "",
+            "text_headline": "Was sollte ich vor dem Service beachten?",
+            "richtext_antwort": "<p>Deine Federelemente sollten vor dem Versand mindestens grob gereinigt werden. Zubehör wie Steckachse, Gabelbrücken und Dämpferbuchsen können für eine Begutachtung auf Verschleiß oder Defekte mitgesendet werden. Gabel-Schnellentlüfter, Schmutzfänger/Gabelschützer, Geschwindigkeitssensoren usw. sollten vor dem Service demontiert werden.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
