@@ -96,7 +96,7 @@
         "faq_G6x3mG": {
           "type": "faq",
           "settings": {
-            "text_headline": "Reklamation",
+            "text_headline": "Wie gehe ich bei einer Reklamation vor?",
             "richtext_antwort": "<p>Jeder Service wird von uns mit höchster Sorgfalt und Fachkompetenz durchgeführt. Unser Serviceteam steht persönlich dafür ein, dass deine Bauteile in bestem Zustand zu dir zurück kommen. Dennoch können auch uns – trotz unserer Erfahrung – Fehler passieren. Solltest du einmal Grund zur Beanstandung haben oder mit dem Ergebnis nicht zufrieden sein, kontaktiere uns bitte umgehend. Schildere uns dein Anliegen und sende uns dein Federelement erneut zu. Wir prüfen den Sachverhalt gründlich, finden die Ursache und kümmern uns um eine schnelle und professionelle Nachbesserung. Unser Ziel ist es, jedes Problem zu deiner vollsten Zufriedenheit zu lösen, denn dein Vertrauen ist uns wichtig!</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
