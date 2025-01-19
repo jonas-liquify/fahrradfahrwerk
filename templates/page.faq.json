@@ -79,7 +79,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Wann muss ich einen Service bezahlen?",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "richtext_antwort": "<p>Die Bezahlung für einen Service erfolgt erst nach dessen Fertigstellung und dem Versand deiner Bauteile. Da die endgültigen Kosten während des Services variieren können – etwa durch Reparaturen oder den Einsatz zusätzlicher Bauteile – können wir dir den genauen Preis erst nach Abschluss mitteilen. Nach dem Versand senden wir dir eine transparente Rechnung mit einer detaillierten Aufstellung aller durchgeführten Arbeiten und Kosten per E-Mail zu. Dies sorgt für eine schnelle Abwicklung, damit du deine Bauteile zügig zurückerhältst und den Prozess mühelos abschließen kannst.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
