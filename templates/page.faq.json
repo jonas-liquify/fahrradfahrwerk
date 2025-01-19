@@ -21,6 +21,15 @@
             "kategorie": "Alle FAQs"
           }
         },
+        "faq_bz3Hyy": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Was gibt es vor dem Service zu beachten?",
+            "richtext_antwort": "<p>Deine Federelemente sollten vor dem Versand mindestens grob gereinigt werden, um einen reibungslosen Service zu ermöglichen. Zubehörteile wie Steckachse, Gabelbrücken und Dämpferbuchsen können gerne mitgesendet werden, damit wir diese auf Verschleiß oder Defekte überprüfen können. Gabel-Schnellentlüfter, Gabelschützer, Schmutzfänger, Geschwindigkeitssensoren usw. sollten vor dem Service entfernt werden.<br/>Die Einstellungen deiner Bauteile kannst du unverändert lassen – wir dokumentieren jedes Detail sorgfältig und stellen dir nach Abschluss des Service eine ausführliche Dokumentation zur Verfügung.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
         "faq_bjpBGg": {
           "type": "faq",
           "settings": {
@@ -93,15 +102,6 @@
             "kategorie": "Alle FAQs"
           }
         },
-        "faq_bz3Hyy": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Was gibt es vor dem Service zu beachten?",
-            "richtext_antwort": "<p>Deine Federelemente sollten vor dem Versand mindestens grob gereinigt werden, um einen reibungslosen Service zu ermöglichen. Zubehörteile wie Steckachse, Gabelbrücken und Dämpferbuchsen können gerne mitgesendet werden, damit wir diese auf Verschleiß oder Defekte überprüfen können. Gabel-Schnellentlüfter, Gabelschützer, Schmutzfänger, Geschwindigkeitssensoren usw. sollten vor dem Service entfernt werden.<br/>Die Einstellungen deiner Bauteile kannst du unverändert lassen – wir dokumentieren jedes Detail sorgfältig und stellen dir nach Abschluss des Service eine ausführliche Dokumentation zur Verfügung.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
         "faq_G6x3mG": {
           "type": "faq",
           "settings": {
@@ -124,6 +124,7 @@
       },
       "block_order": [
         "faq_7AQ3Hj",
+        "faq_bz3Hyy",
         "faq_bjpBGg",
         "faq_UbFFHm",
         "faq_DPC6K7",
@@ -132,7 +133,6 @@
         "faq_Et9Ly6",
         "faq_r4HXG6",
         "faq_DJDiAm",
-        "faq_bz3Hyy",
         "faq_G6x3mG",
         "faq_Ceh67a"
       ],
