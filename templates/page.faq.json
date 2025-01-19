@@ -97,7 +97,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Reklamation",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "richtext_antwort": "<p>Jeder Service wird von uns mit höchster Sorgfalt und Fachkompetenz durchgeführt. Unser Serviceteam steht persönlich dafür ein, dass dein Bauteile in bestem Zustand zu dir zurück kommen. Dennoch können auch uns – trotz unserer Erfahrung – gelegentlich Fehler passieren. Solltest du einmal Grund zur Beanstandung haben oder mit dem Ergebnis nicht zufrieden sein, kontaktiere uns bitte umgehend. Schilder uns dein Anliegen und sende uns dein Federelement erneut zu. Wir prüfen den Sachverhalt gründlich, finden die Ursache und kümmern uns um eine schnelle und professionelle Nachbesserung. Unser Ziel ist es, jedes Problem zu deiner vollsten Zufriedenheit zu lösen – und das haben wir bisher immer geschafft! Dein Vertrauen ist uns wichtig, und wir stehen dir jederzeit zur Seite.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
