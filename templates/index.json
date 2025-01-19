@@ -12,7 +12,7 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "text_subheading": "// wir sind SWIFT Suspension",
+        "text_subheading": "// SWIFT Suspension",
         "text_headline": "Bei uns ist dein Fahrwerk in den besten Händen",
         "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
