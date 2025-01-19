@@ -204,7 +204,7 @@
           "type": "choose-bauteil",
           "settings": {
             "text_choose_headline": "Federgabel",
-            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
@@ -213,7 +213,7 @@
           "type": "choose-bauteil",
           "settings": {
             "text_choose_headline": "Dämpfer",
-            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
@@ -222,7 +222,7 @@
           "type": "choose-bauteil",
           "settings": {
             "text_choose_headline": "VARIO-STÜTZE",
-            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
@@ -283,8 +283,8 @@
       ],
       "settings": {
         "text_headline": "Wofür benötigst du einen Service?",
-        "text_headline_2": "Welche Marke benötigst du?",
-        "text_headline_3": "Welche Bauteile benötigst du?",
+        "text_headline_2": "Welche Marke hast du?",
+        "text_headline_3": "Welche Bauteile hast du?",
         "text_headline_4": "Welchen Service benötigst du?",
         "text_opener_text": "Mehr Informationen",
         "kategorie": "Alle FAQs",
