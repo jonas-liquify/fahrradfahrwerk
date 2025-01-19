@@ -34,7 +34,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Wann dauert es länger?",
-            "richtext_antwort": "<p>Bei erhöhtem Arbeitsaufkommen, defekten Bauteilen, der Beschaffung von Tuning- und Ersatzteilen, zeitintensiven Vermessungsarbeiten (wie z. B. Dynotests) oder Beschichtungsprozessen kann es zu einer Verlängerung der Bearbeitungszeit kommen. Selbstverständlich informieren wir dich rechtzeitig und halten dich während des gesamten Prozesses stets auf dem Laufenden.</p>",
+            "richtext_antwort": "<p>Bei erhöhtem Arbeitsaufkommen, defekten Bauteilen, der Beschaffung von Tuning- und Ersatzteilen, zeitintensiven Vermessungsarbeiten (wie z.B. Dynotests) oder Beschichtungsprozessen kann es zu einer Verlängerung der Bearbeitungszeit kommen. Selbstverständlich informieren wir dich rechtzeitig und halten dich während des gesamten Prozesses stets auf dem Laufenden.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
