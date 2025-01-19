@@ -12,8 +12,8 @@
     "hero_2": {
       "type": "hero_2",
       "settings": {
-        "text_subheading": "// MOTO SUSPENSION SERVICE",
-        "text_headline": "Dein Fahrwerk<br>ist unsere Leidenschaft",
+        "text_subheading": "// MOTO SUSPENSION-SERVICE",
+        "text_headline": "Dein Fahrwerkist unsere Leidenschaft",
         "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
     },
@@ -107,7 +107,7 @@
         "numbers_block_74kEe3"
       ],
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
+        "text_subheading": "// MOTO Suspension-Service",
         "text_heading": "Unsere hochwertigen Produkte",
         "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
         "url_button_link": "",
@@ -169,40 +169,6 @@
     },
     "faq": {
       "type": "faq",
-      "blocks": {
-        "faq_YFNkDe": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_JDRN4G": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        },
-        "faq_88Ar9F": {
-          "type": "faq",
-          "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
-            "text_kategorie": "This is some text inside of a div block.",
-            "kategorie": "Alle FAQs"
-          }
-        }
-      },
-      "block_order": [
-        "faq_YFNkDe",
-        "faq_JDRN4G",
-        "faq_88Ar9F"
-      ],
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
