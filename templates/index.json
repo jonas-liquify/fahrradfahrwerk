@@ -386,9 +386,9 @@
     "location": {
       "type": "location",
       "settings": {
-        "text_subheading": "// Standort",
-        "text_heading": "Rundum Sorglospaket auch in deiner Nähe",
-        "text_text": "Finde einen Händler in deiner Nähe...",
+        "text_subheading": "// Service-Partner",
+        "text_heading": "Rundum Sorglospaket, auch in deiner Nähe",
+        "text_text": "Finde einen unserer Service-Partner und überlasse....",
         "url_button_link": "",
         "text_button_text": "Partner finden",
         "url_button_link_2": "",
