@@ -43,7 +43,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Was passiert bei einem Defekt?",
-            "richtext_antwort": "",
+            "richtext_antwort": "<p>Wenn bei deinem Bauteil ein Defekt festgestellt wird, informieren wir dich umgehend. Unser Team erstellt eine detaillierte Fehleranalyse und bietet dir eine transparente Übersicht über die notwendigen Reparaturmaßnahmen. Dabei erklären wir dir genau, welche Bauteile betroffen sind, welche Arbeiten durchgeführt werden müssen und welche Kosten entstehen. Erst nach deiner Freigabe starten wir mit der Reparatur, wobei wir ausschließlich hochwertige Ersatzteile verwenden und die Arbeiten mit größter Präzision durchführen.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
