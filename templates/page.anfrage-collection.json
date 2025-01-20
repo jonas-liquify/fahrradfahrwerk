@@ -28,6 +28,30 @@
     },
     "funnel_produkte": {
       "type": "funnel_produkte",
+      "blocks": {
+        "choose_bauteil_QXVhft": {
+          "type": "choose-bauteil",
+          "settings": {
+            "text_choose_headline": "Cane Creek",
+            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        },
+        "choose_bauteil_wMRmYg": {
+          "type": "choose-bauteil",
+          "settings": {
+            "text_choose_headline": "Cane Creek",
+            "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+            "url_button_link": "",
+            "text_button_text": "Marke auswählen"
+          }
+        }
+      },
+      "block_order": [
+        "choose_bauteil_QXVhft",
+        "choose_bauteil_wMRmYg"
+      ],
       "settings": {
         "text_headline": "Welche Marke hast du?"
       }
