@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "hero_anfrage": {
+            "type": "hero_anfrage"
+        },
+        "choose_nav": {
+            "type": "choose_nav"
+        },
+        "funnel_produkte": {
+            "type": "funnel_produkte"
+        }
+    },
+    "layout": "page.anfrage-collection",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero_anfrage",
+        "choose_nav",
+        "funnel_produkte"
+    ]
+}
