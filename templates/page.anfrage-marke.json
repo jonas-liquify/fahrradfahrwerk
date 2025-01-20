@@ -32,7 +32,21 @@
         "text_headline": "Welche Marke hast du?",
         "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
         "collection_list": [
-          "bos-suspension"
+          "bos-suspension",
+          "new-cane-creek",
+          "dvo",
+          "ext-racing-shox-1",
+          "fast-suspension",
+          "formula",
+          "fox-racing-shox",
+          "magura",
+          "manitou-1",
+          "marzocchi",
+          "nd-tuned",
+          "push-industries-1",
+          "rock-shox-1",
+          "sr-suntour",
+          "x-fusion"
         ]
       }
     }
