@@ -11,15 +11,28 @@
   "sections": {
     "hero_anfrage": {
       "type": "hero_anfrage",
-      "settings": {}
+      "settings": {
+        "text_subheading": "// Service online buchen",
+        "text_headline": "Service & Tuning Anfrage",
+        "text_text": "In unserer Service- & Tuning-Anfrage kannst du unsere Leistungen flexibel mit verschiedenen Produkten kombinieren. Wähle dein Fahrzeug, die passende Marke und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen."
+      }
     },
     "choose_nav": {
       "type": "choose_nav",
-      "settings": {}
+      "settings": {
+        "text_text_1": "1. Fahrzeug",
+        "text_text_2": "2. Marke",
+        "text_text_3": "3. Bauteil",
+        "text_text_4": "4. Service"
+      }
     },
     "funnel_marken": {
       "type": "funnel_marken",
-      "settings": {}
+      "settings": {
+        "text_headline": "Welche Marke benötigen sie?",
+        "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+        "collection_list": []
+      }
     }
   },
   "layout": "page.anfrage-marke",
