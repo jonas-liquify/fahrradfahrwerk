@@ -1,20 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "hero_anfrage": {
-            "type": "hero_anfrage"
-        },
-        "choose_nav": {
-            "type": "choose_nav"
-        },
-        "funnel_produkte": {
-            "type": "funnel_produkte"
-        }
+  "sections": {
+    "hero_anfrage": {
+      "type": "hero_anfrage",
+      "settings": {}
     },
-    "layout": "page.anfrage-collection",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero_anfrage",
-        "choose_nav",
-        "funnel_produkte"
-    ]
+    "choose_nav": {
+      "type": "choose_nav",
+      "settings": {}
+    },
+    "funnel_produkte": {
+      "type": "funnel_produkte",
+      "settings": {}
+    }
+  },
+  "layout": "page.anfrage-collection",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero_anfrage",
+    "choose_nav",
+    "funnel_produkte"
+  ]
 }
