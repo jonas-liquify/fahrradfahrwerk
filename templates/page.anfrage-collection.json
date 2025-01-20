@@ -41,7 +41,7 @@
         "choose_bauteil_QXVhft": {
           "type": "choose-bauteil",
           "settings": {
-            "text_choose_headline": "Cane Creek",
+            "text_choose_headline": "Dämpfer",
             "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
