@@ -1,0 +1,23 @@
+<div class="padding-global padding-section-small"><div class="container-large"><div class="choose_main_slide"><div class="choose_main_top-wrapper"><a href="#" class="choose_main_back w-inline-block"><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52901 11.7998L5.72435 7.9951L9.52901 4.19043L10.4717 5.1331L7.60968 7.9951L10.4717 10.8571L9.52901 11.7998Z" fill="currentColor"></path></svg></div><div class="text-weight-medium text-size-small">Zurück</div></a><h2 class="heading-style-h3">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="choose_main_component">{% for block in section.blocks %}
+    {% if block.type == "choose-bauteil" %}
+                    <div li-block="Choose Bauteil" id="w-node-_7ee0516e-8889-5f68-42eb-f6443a122799-9b07688f" class="choose_main_item is-secondary">
+                                    <div class="choose_main_content"><div><h3 class="choose_main_name">
+{{ block.settings.text_choose_headline }}
+</h3>
+<h3 class="choose_main_name-secondary">
+{{ block.settings.text_choose_headline }}
+</h3>
+</div><p>
+{{ block.settings.text_choose_text }}
+</p>
+</div>
+                                    <div class="choose_main_img-wrapper-secondary"><img src="{{ block.settings.image_choose_img | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_choose_img.alt }}" class="choose_main_img is-secondary">
+<div id="w-node-_7ee0516e-8889-5f68-42eb-f6443a1227a1-9b07688f" class="choose_main_button-wrapper"><a href="{{ block.settings.url_button_link }}" class="button is-secondary-white w-button"> {{ block.settings.text_button_text }} </a>
+</div></div>
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"Funnel - Produkte","class":"section_choose_main","blocks":[{"name":"Choose Bauteil","type":"choose-bauteil","settings":[{"id":"text_choose_headline","type":"text","label":"Choose Headline","default":"Cane Creek"},{"id":"text_choose_text","type":"text","label":"Choose Text","default":"W\u00e4hle im n\u00e4chsten Schritt dein Service aus."},{"id":"image_choose_img","type":"image_picker","label":"Choose Img"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Marke ausw\u00e4hlen"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welche Marke ben\u00f6tigen sie?"}],"presets":[{"name":"Funnel - Produkte","category":"Liquify","blocks":[{"type":"choose-bauteil"}]}]} {% endschema %}
