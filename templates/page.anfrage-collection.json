@@ -29,16 +29,16 @@
     "funnel_produkte": {
       "type": "funnel_produkte",
       "blocks": {
-        "choose_bauteil_QXVhft": {
+        "choose_bauteil_QaAtXR": {
           "type": "choose-bauteil",
           "settings": {
-            "text_choose_headline": "Cane Creek",
+            "text_choose_headline": "Federgabel",
             "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
         },
-        "choose_bauteil_wMRmYg": {
+        "choose_bauteil_QXVhft": {
           "type": "choose-bauteil",
           "settings": {
             "text_choose_headline": "Cane Creek",
@@ -49,8 +49,8 @@
         }
       },
       "block_order": [
-        "choose_bauteil_QXVhft",
-        "choose_bauteil_wMRmYg"
+        "choose_bauteil_QaAtXR",
+        "choose_bauteil_QXVhft"
       ],
       "settings": {
         "text_headline": "Welche Bauteile hast du?"
