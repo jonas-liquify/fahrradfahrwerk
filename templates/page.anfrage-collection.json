@@ -29,7 +29,7 @@
     "funnel_produkte": {
       "type": "funnel_produkte",
       "settings": {
-        "text_headline": "Welche Marke benötigen sie?"
+        "text_headline": "Welche Marke hast du?"
       }
     }
   },
