@@ -94,7 +94,7 @@
             "text_heading": "Volle Funktion & Leistung",
             "text_text": "Unser Suspension Service sorgt für eine optimale Performance deiner Fahrwerkskomponenten. Regelmäßige Wartung ist entscheidend, um Langlebigkeit und Sicherheit zu gewährleisten. Durch unsere fachgerechte Arbeit und schnelle Durchführung ist dein Fahrwerk im Handumdrehen wieder einsatzbereit – für maximalen Fahrspaß und volle Kontrolle auf jedem Terrain.",
             "url_button_link": "",
-            "text_button_text": "Service anfragen",
+            "text_button_text": "Service-Anfrage",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -107,7 +107,7 @@
             "text_heading": "Reparieren statt ersetzen",
             "text_text": "Ein optimal funktionierendes Fahrwerk ist entscheidend für die Leistung und Sicherheit deines Bikes. Beschädigungen oder Verschleiß können nicht nur die Funktion beeinträchtigen, sondern auch deine Sicherheit gefährden. Unser Reparaturservice kombiniert jahrelange Erfahrung und den Einsatz modernster Messwerkzeuge, um dein Fahrwerk wieder in Topform zu bringen.",
             "url_button_link": "",
-            "text_button_text": "Service anfragen",
+            "text_button_text": "Reparatur-Anfrage",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -119,7 +119,7 @@
             "text_heading": "Perfekt auf dich abgestimmt",
             "text_text": "Jedes Fahrwerk ist einzigartig – wir passen deine Federgabel und deinen Dämpfer exakt an deine Bedürfnisse an, um maximale Leistung, Komfort und Sicherheit zu gewährleisten. Mit professionellem Equipment und innovativen Methoden garantieren wir höchste Präzision und Qualität. Vertraue auf unsere Erfahrung und lass dein Mountainbike- & Motorrad-Fahrwerk individuell optimieren!",
             "url_button_link": "",
-            "text_button_text": "Service anfragen",
+            "text_button_text": "Tuning-Anfrage",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -367,11 +367,16 @@
           "settings": {
             "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
           }
+        },
+        "showcase_slide_EAc7VD": {
+          "type": "showcase-slide",
+          "settings": {}
         }
       },
       "block_order": [
         "showcase_slide_xibxrg",
-        "showcase_slide_qjHGDM"
+        "showcase_slide_qjHGDM",
+        "showcase_slide_EAc7VD"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
