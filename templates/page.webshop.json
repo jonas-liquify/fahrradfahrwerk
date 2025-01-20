@@ -12,7 +12,7 @@
     "hero_2": {
       "type": "hero_2",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
+        "text_subheading": "// Produkte",
         "text_headline": "Unsere LeidenschaftFür ihr Fahrererlebnis"
       }
     },
@@ -71,13 +71,13 @@
         "category_LRYfCh"
       ],
       "settings": {
-        "text_heading": "Heading"
+        "text_heading": "Kategorie"
       }
     },
     "blog_teaser": {
       "type": "blog_teaser",
       "settings": {
-        "text_heading": "Heading"
+        "text_heading": "TOPSELLER"
       }
     }
   },
