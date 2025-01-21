@@ -13,7 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// MOTO SUSPENSION-SERVICE",
-        "text_headline": "Dein Fahrwerk<br>ist unsere Leidenschaft",
+        "text_headline": "Dein Fahrwerk <br><span class=\"gradient-bar\">ist unsere Leidenschaft</span>",
         "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
     },
@@ -169,6 +169,20 @@
     },
     "faq": {
       "type": "faq",
+      "blocks": {
+        "faq_rANTrk": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        }
+      },
+      "block_order": [
+        "faq_rANTrk"
+      ],
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
