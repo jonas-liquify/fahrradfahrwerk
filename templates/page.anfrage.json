@@ -21,8 +21,8 @@
       "type": "funnel_nav",
       "settings": {
         "text_text_1": "1. Fahrzeug",
-        "text_text_2": "2. Marke",
-        "text_text_3": "3. Bauteil",
+        "text_text_2": "2. Bauteil",
+        "text_text_3": "3. Marke",
         "text_text_4": "4. Service",
         "steps": "first"
       }
@@ -34,10 +34,10 @@
           "type": "art",
           "settings": {
             "text_choose_headline": "MTB",
-            "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
+            "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "image_choose_img": "shopify://shop_images/mtb_white.png",
             "url_button_link": "",
-            "text_button_text": "Marke auswählen"
+            "text_button_text": "Bauteil auswählen"
           }
         },
         "art_UAGBpV": {
