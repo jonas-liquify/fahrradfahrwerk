@@ -71,9 +71,88 @@
         "text_grid_text_3": "Kundenzentrierter Ansatz"
       }
     },
-    "article_N8Jjjb": {
-      "type": "article",
-      "settings": {}
+    "tabelle_GN3Y47": {
+      "type": "tabelle",
+      "blocks": {
+        "spalte_9WeRcD": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "MOTOCROSS",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_B8LEqj": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "HARD ENDURO",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_ChLdJ3": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "ENDURO (TOUR)",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_jnaAiK": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "CROSS COUNTRY",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_Tcenmg": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "SUPERMOTO",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_6LQcHx": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "RENNSTRECK",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_hcd4GW": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "STRASSE",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        }
+      },
+      "block_order": [
+        "spalte_9WeRcD",
+        "spalte_B8LEqj",
+        "spalte_ChLdJ3",
+        "spalte_jnaAiK",
+        "spalte_Tcenmg",
+        "spalte_6LQcHx",
+        "spalte_hcd4GW"
+      ],
+      "settings": {
+        "text_subheading": "// Wartungsintervalle",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "text_head_1": "Einsatzgebiet",
+        "text_head_2": "Federgabel-Service",
+        "text_head_3": "Dämpfer-Service",
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
+      }
     },
     "about_1": {
       "type": "about_1",
@@ -191,7 +270,7 @@
     "content",
     "content_HmYQmb",
     "content_2",
-    "article_N8Jjjb",
+    "tabelle_GN3Y47",
     "about_1",
     "prozess",
     "blog_teaser",
