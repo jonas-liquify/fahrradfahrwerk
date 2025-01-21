@@ -161,7 +161,7 @@
         "info_MYBxth": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Prüfen von Funktion & Zustand</span>",
+            "text_headline": "<span class=\"gradient-bar-h3\">Eingangsprüfung</span>",
             "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
           }
         },
@@ -214,9 +214,9 @@
         "text_heading": "Service mit Herzblut",
         "text_text": "Unser Suspension-Service beinhaltet alles was dein Fahrwerk benötigt, um in Topform zu bleiben!",
         "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "text_button_text": "Service buchen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen"
+        "text_button_text_2": ""
       }
     },
     "about_1": {
