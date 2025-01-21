@@ -1,0 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_anfrage_qVbV6D": {
+      "type": "hero_anfrage",
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_headline": "Service & Tuning anfrage",
+        "text_text": "Wir bieten dir Service, Tuning & Zubehör für Federgabeln und Dämpfer der Marke CANE CREEK SUSPENSION. In unserer Service & Tuning Anfrage kannst du unsere Service-Leistung mit verschiedenen Produkten individuell kombinieren. Wähle Marke & Modell und wir zeigen dir, was wir zur Auswahl haben."
+      }
+    },
+    "funnel_nav_rgPBQb": {
+      "type": "funnel_nav",
+      "settings": {
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Bauteil",
+        "text_text_3": "3. Marke",
+        "text_text_4": "4. Service",
+        "steps": "third"
+      }
+    },
+    "funnel_produkte_kmx4Xk": {
+      "type": "funnel_produkte",
+      "settings": {
+        "text_headline": "Welche Marke benötigen sie?",
+        "text_choose_text": "Wähle im nächsten Schritt dein Service aus."
+      }
+    }
+  },
+  "layout": "collection",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero_anfrage_qVbV6D",
+    "funnel_nav_rgPBQb",
+    "funnel_produkte_kmx4Xk"
+  ]
+}
