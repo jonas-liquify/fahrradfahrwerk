@@ -192,6 +192,13 @@
             "text_headline": "<span class=\"gradient-bar-h3\">Verschleissteile ersetzen</span>",
             "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
           }
+        },
+        "info_6a7KMC": {
+          "type": "info",
+          "settings": {
+            "text_headline": "<span class=\"gradient-bar-h3\">Funktionsprüfung</span>",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
         }
       },
       "block_order": [
@@ -199,7 +206,8 @@
         "info_TrNqgV",
         "info_4xjxyq",
         "info_G9AcWY",
-        "info_H8VqV8"
+        "info_H8VqV8",
+        "info_6a7KMC"
       ],
       "settings": {
         "text_subheading": "// Leistung",
