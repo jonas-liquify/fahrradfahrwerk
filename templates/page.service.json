@@ -151,7 +151,7 @@
         "info_GfUJkw": {
           "type": "info",
           "settings": {
-            "text_headline": "Eingangsprüfung",
+            "text_headline": "<span class=\"gradient-bar-h3\">Eingangsprüfung</span>",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
         },
