@@ -33,7 +33,7 @@
         "art_EzczLf": {
           "type": "art",
           "settings": {
-            "text_choose_headline": "MTB",
+            "text_choose_headline": "FAHRRAD",
             "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "image_choose_img": "shopify://shop_images/mtb_white.png",
             "url_button_link": "",
@@ -43,7 +43,7 @@
         "art_UAGBpV": {
           "type": "art",
           "settings": {
-            "text_choose_headline": "MOTO",
+            "text_choose_headline": "MOTORRAD",
             "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "image_choose_img": "shopify://shop_images/moto_white.png",
             "url_button_link": "",
