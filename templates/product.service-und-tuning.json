@@ -9,11 +9,25 @@
  */
 {
   "sections": {
-    "product_hero": {
-      "type": "product_hero",
+    "funnel_product_hero_mqCGaq": {
+      "type": "funnel_product_hero",
+      "blocks": {
+        "info_item_VWWXfE": {
+          "type": "info-item",
+          "settings": {
+            "text_text": "mehr als 500 Rapire pro Jahr"
+          }
+        }
+      },
+      "block_order": [
+        "info_item_VWWXfE"
+      ],
       "settings": {
-        "text_headline": "Zubehör",
-        "kategorie": "Alle FAQs"
+        "text_headline": "Welchen Service benötigen sie?",
+        "text_opener_text": "Mehr Informationen",
+        "kategorie": "Alle FAQs",
+        "text_more_headline": "Heading",
+        "text_more_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
       }
     },
     "content": {
@@ -61,7 +75,7 @@
   "layout": "product",
   "wrapper": "main.main-wrapper",
   "order": [
-    "product_hero",
+    "funnel_product_hero_mqCGaq",
     "content",
     "faq",
     "product_recommended"
