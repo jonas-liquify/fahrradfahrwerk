@@ -155,6 +155,62 @@
         "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
       }
     },
+    "infos_GA8JXb": {
+      "type": "infos",
+      "blocks": {
+        "info_MYBxth": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Prüfen von Funktion und Zustand",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_TrNqgV": {
+          "type": "info",
+          "settings": {
+            "text_headline": "<span class=\"gradient-bar-h3\">Demontage in alle Einzelteile</span>",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_4xjxyq": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_G9AcWY": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_H8VqV8": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "info_MYBxth",
+        "info_TrNqgV",
+        "info_4xjxyq",
+        "info_G9AcWY",
+        "info_H8VqV8"
+      ],
+      "settings": {
+        "text_subheading": "// Leistung",
+        "text_heading": "Service mit Herzblut",
+        "text_text": "Unser Suspension-Service beinhaltet alles was dein Fahrwerk benötigt, um in Topform zu bleiben!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen"
+      }
+    },
     "about_1": {
       "type": "about_1",
       "blocks": {
@@ -286,6 +342,7 @@
     "content",
     "content_2",
     "tabelle_J3TaUA",
+    "infos_GA8JXb",
     "about_1",
     "prozess",
     "blog_teaser",
