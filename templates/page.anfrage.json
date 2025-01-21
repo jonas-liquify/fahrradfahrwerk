@@ -26,270 +26,36 @@
         "text_text_4": "4. Service"
       }
     },
-    "choose_main": {
-      "type": "choose_main",
+    "funnel_art_B69yqk": {
+      "type": "funnel_art",
       "blocks": {
-        "logo_genkQT": {
-          "type": "logo",
+        "art_EzczLf": {
+          "type": "art",
           "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_4Jbrp8": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_rfWjxb": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_xyYirK": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_RLWbtw": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_jNVV6G": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_ncNDGd": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_hbaVU9": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_fNbjaF": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_YJ97L3": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_NNBc8a": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_RjCAzL": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_DXWQc8": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_VKTF38": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_X3iqmH": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_Jq4TfH": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "Heading",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_AMrYWf": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "WP Suspension",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_Jffxhf": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "SHOWA",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "logo_pXXx4D": {
-          "type": "logo",
-          "settings": {
-            "text_logo_heading": "KYB",
-            "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
-            "url_button_link_2": "",
-            "text_button_text_2": "Bauteil auswählen"
-          }
-        },
-        "choose_bauteil_Mnm37b": {
-          "type": "choose-bauteil",
-          "settings": {
-            "text_choose_headline": "Federgabel",
-            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
-            "url_button_link": "",
-            "text_button_text": "Marke auswählen"
-          }
-        },
-        "choose_bauteil_nUKAPc": {
-          "type": "choose-bauteil",
-          "settings": {
-            "text_choose_headline": "Dämpfer",
-            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
-            "url_button_link": "",
-            "text_button_text": "Marke auswählen"
-          }
-        },
-        "choose_bauteil_DrwiUK": {
-          "type": "choose-bauteil",
-          "settings": {
-            "text_choose_headline": "VARIO-STÜTZE",
-            "text_choose_text": "Wähle im nächsten Schritt deinen Service aus.",
-            "url_button_link": "",
-            "text_button_text": "Marke auswählen"
-          }
-        },
-        "choose_art_W6t9XF": {
-          "type": "choose-art",
-          "settings": {
-            "text_choose_headline": "MTB",
+            "text_choose_headline": "Mountain bike",
             "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
-            "image_choose_img": "shopify://shop_images/mtb_black.png",
+            "image_choose_img": "shopify://shop_images/mtb_white.png",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
           }
         },
-        "choose_art_Y7Ppga": {
-          "type": "choose-art",
+        "art_UAGBpV": {
+          "type": "art",
           "settings": {
-            "text_choose_headline": "MOTO",
+            "text_choose_headline": "Mountain bike",
             "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
-            "image_choose_img": "shopify://shop_images/moto_black.png",
+            "image_choose_img": "shopify://shop_images/moto_white.png",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
-          }
-        },
-        "info_item_FzRyck": {
-          "type": "info-item",
-          "settings": {
-            "text_text": "mehr als 500 Rapire pro Jahr"
           }
         }
       },
       "block_order": [
-        "logo_genkQT",
-        "logo_4Jbrp8",
-        "logo_rfWjxb",
-        "logo_xyYirK",
-        "logo_RLWbtw",
-        "logo_jNVV6G",
-        "logo_ncNDGd",
-        "logo_hbaVU9",
-        "logo_fNbjaF",
-        "logo_YJ97L3",
-        "logo_NNBc8a",
-        "logo_RjCAzL",
-        "logo_DXWQc8",
-        "logo_VKTF38",
-        "logo_X3iqmH",
-        "logo_Jq4TfH",
-        "logo_AMrYWf",
-        "logo_Jffxhf",
-        "logo_pXXx4D",
-        "choose_bauteil_Mnm37b",
-        "choose_bauteil_nUKAPc",
-        "choose_bauteil_DrwiUK",
-        "choose_art_W6t9XF",
-        "choose_art_Y7Ppga",
-        "info_item_FzRyck"
+        "art_EzczLf",
+        "art_UAGBpV"
       ],
       "settings": {
-        "text_headline": "Wofür benötigst du einen Service?",
-        "text_headline_2": "Welche Marke hast du?",
-        "text_headline_3": "Welche Bauteile hast du?",
-        "text_headline_4": "Was brauchen deine Bauteile?",
-        "text_opener_text": "Mehr Informationen",
-        "kategorie": "Alle FAQs",
-        "text_more_headline": "Zubehör",
-        "text_more_text": "Hier findest du eine Auswahl an zusätzlichen Serviceoptionen."
+        "text_headline": "Wofür benötigen sie den Service?"
       }
     }
   },
@@ -298,6 +64,6 @@
   "order": [
     "hero_anfrage",
     "choose_nav",
-    "choose_main"
+    "funnel_art_B69yqk"
   ]
 }
