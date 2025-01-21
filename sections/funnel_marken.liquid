@@ -2,7 +2,7 @@
 {{ section.settings.text_headline }}
 </h2>
 </div><div class="choose_main_logos">{% for collection in section.settings.collection_list %}    <div li-for="collection in section.settings.collection_list" id="w-node-_04eb8b1e-16f5-1b2b-ab38-95ea9eab5d16-7ebbd47e" class="choose_main_logo">
-                                    <img src="{{ collection.metafields.custom.marken_logo }}" loading="lazy" li-object:src="collection.metafields.custom.marken_logo" alt="" class="choose_main_logo-img">
+                                    <img src="{{ collection.metafields.custom.marken_logo | img_url: master }}" loading="lazy" li-object:src="collection.metafields.custom.marken_logo" alt="" class="choose_main_logo-img">
 
                             <div class="choose_main_logo-overlay"><div class="choose_main_logo-top"><h3 li-object="collection.title" class="heading-style-h4">{{ collection.title }}</h3><p>
 {{ section.settings.text_logo_text }}
