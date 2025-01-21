@@ -77,7 +77,7 @@
         "spalte_9WeRcD": {
           "type": "spalte",
           "settings": {
-            "text_spalte_1": "MOTOCROSS",
+            "text_spalte_1": "DOWNHILL",
             "text_spalte_2": "40 Betriebsstunden",
             "text_spalte_3": "30-40 Betriebsstunden"
           }
@@ -85,7 +85,7 @@
         "spalte_B8LEqj": {
           "type": "spalte",
           "settings": {
-            "text_spalte_1": "HARD ENDURO",
+            "text_spalte_1": "ENDURO",
             "text_spalte_2": "+",
             "text_spalte_3": "+"
           }
@@ -93,7 +93,7 @@
         "spalte_ChLdJ3": {
           "type": "spalte",
           "settings": {
-            "text_spalte_1": "ENDURO (TOUR)",
+            "text_spalte_1": "ALL MOUNTAIN",
             "text_spalte_2": "+",
             "text_spalte_3": "+"
           }
@@ -102,14 +102,6 @@
           "type": "spalte",
           "settings": {
             "text_spalte_1": "CROSS COUNTRY",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
-          }
-        },
-        "spalte_Tcenmg": {
-          "type": "spalte",
-          "settings": {
-            "text_spalte_1": "SUPERMOTO",
             "text_spalte_2": "+",
             "text_spalte_3": "+"
           }
@@ -125,7 +117,7 @@
         "spalte_hcd4GW": {
           "type": "spalte",
           "settings": {
-            "text_spalte_1": "STRASSE",
+            "text_spalte_1": "ALLTAG",
             "text_spalte_2": "+",
             "text_spalte_3": "+"
           }
@@ -136,18 +128,17 @@
         "spalte_B8LEqj",
         "spalte_ChLdJ3",
         "spalte_jnaAiK",
-        "spalte_Tcenmg",
         "spalte_6LQcHx",
         "spalte_hcd4GW"
       ],
       "settings": {
         "text_subheading": "// Wartungsintervalle",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "text_heading": "WANN SOLLTE EIN SERVICE DURCHGEFÜHRT WERDEN?",
+        "text_text": "Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.",
         "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "text_button_text": "Service buchen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen",
+        "text_button_text_2": "",
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Federgabel-Service",
         "text_head_3": "Dämpfer-Service",
