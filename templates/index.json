@@ -186,6 +186,12 @@
     "marken": {
       "type": "marken",
       "blocks": {
+        "logo_KmkkhH": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/rst_logo_512x512_cecf1c1e-3913-477a-baaa-33e1f3407f53.png"
+          }
+        },
         "logo_MkqhzW": {
           "type": "logo",
           "settings": {
@@ -216,34 +222,22 @@
             "image_logo": "shopify://shop_images/wp_logo_512x512_d7e4396e-0d7b-4f60-89ae-aff8d7b34f38.webp"
           }
         },
-        "logo_AamwGt": {
+        "logo_9PmNP3": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/srsuntour_logo_512x512_e5c38db0-7604-4bcc-aa2a-c71ace385e3c.webp"
-          }
-        },
-        "logo_dkqqHG": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ohlins_mtb_logo_512x512_b908df1e-1f22-4f1b-a81c-61e48ecaf56d.webp"
+            "image_logo": "shopify://shop_images/fox_logo_512x512_fd47df87-36cd-4fd9-bcd6-1c6dc55089ef.webp"
           }
         },
         "logo_nFtrJX": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/ohlins_moto_logo_512x512_da9e8dcb-d3b5-48a0-8982-7dfd4662b511.webp"
+            "image_logo": "shopify://shop_images/ohlins_logo_512x512_67582558-b10a-4615-a2ea-f364d882c0f4.webp"
           }
         },
         "logo_dQtDxb": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/kyb_logo_512x512_037cf4e2-4108-4886-96a4-673b55f7768c.webp"
-          }
-        },
-        "logo_9PmNP3": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fox_logo_512x512_fd47df87-36cd-4fd9-bcd6-1c6dc55089ef.webp"
           }
         },
         "logo_cHfTxA": {
@@ -264,22 +258,16 @@
             "image_logo": "shopify://shop_images/canecreek_logo_512x512_fa14378d-df1b-46a1-a0ea-95cb973fb01f.webp"
           }
         },
-        "logo_qATA8w": {
+        "logo_BnAkdk": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/magura_logo_512x512_21d97f6b-347e-4044-8eaa-e9ca485c34e9.webp"
+            "image_logo": "shopify://shop_images/showa_logo_512x512_f7d6d4f6-5467-406c-a6bc-744c22972524.webp"
           }
         },
         "logo_nKAp6T": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/push_logo_512x512_e11ce339-62d7-4143-8b98-4023d7bb6e32.webp"
-          }
-        },
-        "logo_BnAkdk": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/showa_logo_512x512_f7d6d4f6-5467-406c-a6bc-744c22972524.webp"
           }
         },
         "logo_Qy6e8n": {
@@ -305,29 +293,41 @@
           "settings": {
             "image_logo": "shopify://shop_images/fast_suspension_logo_512x512_0da1291a-e783-4720-9195-2b1173eb10c3.webp"
           }
+        },
+        "logo_AamwGt": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/srsuntour_logo_512x512_e5c38db0-7604-4bcc-aa2a-c71ace385e3c.webp"
+          }
+        },
+        "logo_qATA8w": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/magura_logo_512x512_21d97f6b-347e-4044-8eaa-e9ca485c34e9.webp"
+          }
         }
       },
       "block_order": [
+        "logo_KmkkhH",
         "logo_MkqhzW",
         "logo_4PUkUq",
         "logo_nE8Md8",
         "logo_jHBxmd",
         "logo_MnXREJ",
-        "logo_AamwGt",
-        "logo_dkqqHG",
+        "logo_9PmNP3",
         "logo_nFtrJX",
         "logo_dQtDxb",
-        "logo_9PmNP3",
         "logo_cHfTxA",
         "logo_zcH4xz",
         "logo_FC6yjg",
-        "logo_qATA8w",
-        "logo_nKAp6T",
         "logo_BnAkdk",
+        "logo_nKAp6T",
         "logo_Qy6e8n",
         "logo_4KfQGr",
         "logo_7PnQbn",
-        "logo_9dR9Tr"
+        "logo_9dR9Tr",
+        "logo_AamwGt",
+        "logo_qATA8w"
       ],
       "settings": {
         "text_subheading": "// MARKEN",
