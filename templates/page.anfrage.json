@@ -44,7 +44,7 @@
           "type": "art",
           "settings": {
             "text_choose_headline": "MOTO",
-            "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
+            "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
             "image_choose_img": "shopify://shop_images/moto_white.png",
             "url_button_link": "",
             "text_button_text": "Marke auswählen"
