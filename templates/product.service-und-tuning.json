@@ -16,7 +16,7 @@
         "text_text_2": "2. Auswahl Marke",
         "text_text_3": "3. Auswahl Bauteil",
         "text_text_4": "4. kasse",
-        "steps": "third"
+        "steps": "fourth"
       }
     },
     "funnel_product_hero_mqCGaq": {
@@ -33,7 +33,7 @@
         "info_item_VWWXfE"
       ],
       "settings": {
-        "text_headline": "Welchen Service benötigen sie?",
+        "text_headline": "Was benötigt dein Bauteil?",
         "text_opener_text": "Mehr Informationen",
         "kategorie": "Alle FAQs",
         "text_more_headline": "Heading",
