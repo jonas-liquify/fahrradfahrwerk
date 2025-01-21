@@ -16,7 +16,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Wie funktioniert die Service-Anfrage?",
-            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Serviceanfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Zu unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
+            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Serviceanfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Mit unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
