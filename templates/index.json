@@ -270,6 +270,12 @@
             "image_logo": "shopify://shop_images/fast_suspension_logo_512x512_0da1291a-e783-4720-9195-2b1173eb10c3.webp"
           }
         },
+        "logo_Q3PR8j": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/sachs_logo_512x512_b6dd798d-ecb7-4a51-a497-17530249a777.webp"
+          }
+        },
         "logo_KmkkhH": {
           "type": "logo",
           "settings": {
@@ -322,6 +328,7 @@
         "logo_Qy6e8n",
         "logo_4KfQGr",
         "logo_9dR9Tr",
+        "logo_Q3PR8j",
         "logo_KmkkhH",
         "logo_7PnQbn",
         "logo_4PUkUq",
@@ -349,7 +356,7 @@
         "text_button_text": "Alle Produkte",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "collection_products": "dvo",
+        "collection_products": "",
         "collection_products_limit": 6
       }
     },
