@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
-        "text_headline": "Dein Fahrwerkin Bestform",
+        "text_headline": "Dein Fahrwerk<br><span class=\"gradient-bar\">in Bestform</span>",
         "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
     },
@@ -91,7 +91,7 @@
           "type": "service-item",
           "settings": {
             "text_subheading": "// Service",
-            "text_heading": "<span class=\"Gradient-bar\">Volle Funktion & Leistung</span>",
+            "text_heading": "<span class=\"gradient-bar\">Volle Funktion & Leistung</span>",
             "text_text": "Unser Suspension Service sorgt für eine optimale Performance deiner Fahrwerkskomponenten. Regelmäßige Wartung ist entscheidend, um Langlebigkeit und Sicherheit zu gewährleisten. Durch unsere fachgerechte Arbeit und schnelle Durchführung ist dein Fahrwerk im Handumdrehen wieder einsatzbereit – für maximalen Fahrspaß und volle Kontrolle auf jedem Terrain.",
             "url_button_link": "",
             "text_button_text": "Service-Anfrage",
