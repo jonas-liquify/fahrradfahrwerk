@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
-        "text_headline": "Dein Fahrwerk<br>in Bestform",
+        "text_headline": "Dein Fahrwerk<br><span class=\"gradient-bar\">in Bestform</span>",
         "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
       }
     },
