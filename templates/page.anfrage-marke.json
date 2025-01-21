@@ -21,8 +21,8 @@
       "type": "funnel_nav",
       "settings": {
         "text_text_1": "1. Art Wählen",
-        "text_text_2": "2. Auswahl Marke",
-        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_2": "2. Bauteil",
+        "text_text_3": "3. Marke",
         "text_text_4": "4. kasse",
         "steps": "second"
       }
