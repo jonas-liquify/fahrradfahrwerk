@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product_hero": {
+      "type": "product_hero",
+      "settings": {
+        "text_headline": "Zubehör",
+        "kategorie": "Alle FAQs"
+      }
+    },
+    "content": {
+      "type": "content",
+      "settings": {
+        "text_subheading": "// SERVICE",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "",
+        "content_allign": "right"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "settings": {
+        "text_subheading": "// FAQ",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "text_cta_headline": "Heading",
+        "text_cta_infos": "Max Mustermann (Gründer)",
+        "url_cta_button_link": "",
+        "text_cta_button_text": "Kontaktiere uns"
+      }
+    },
+    "product_recommended": {
+      "type": "product_recommended",
+      "settings": {
+        "text_subheading": "// Topseller",
+        "text_heading": "Produkte für dein Fahrrad & Motorrad",
+        "text_text": "Entdecke unsere Auswahl an hochwertigen Produkten für dein Mountainbike und Motorrad. Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.",
+        "url_button_link": "",
+        "text_button_text": "Alle Produkte",
+        "url_button_link_2": "",
+        "text_button_text_2": ""
+      }
+    }
+  },
+  "layout": "product",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "product_hero",
+    "content",
+    "faq",
+    "product_recommended"
+  ]
+}
