@@ -168,43 +168,50 @@
         "info_TrNqgV": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Demontage</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Demontage",
+            "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
         },
         "info_4xjxyq": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Reinigung</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Reinigung",
+            "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
         },
         "info_G9AcWY": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Verschleissteile</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Verschleissteile",
+            "textarea_text": "Dichtungen, Abstreifer und verschiedene Kleinteile werden sorgfältig durch Materialien von höchster Qualität ersetzt."
           }
         },
         "info_H8VqV8": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Schmierstoffe</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Schmierstoffe",
+            "textarea_text": "Für maximale Performance verwenden wir ausschließlich hochwertige Öle und Hochleistungsschmierstoffe führender Hersteller."
           }
         },
         "info_pyzY6E": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Montage</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Montage",
+            "textarea_text": "Bei der Montage legen wir großen Wert auf eine fachgerechte Durchführung, um die maximale Leistung und Sicherheit deiner Bauteile zu gewährleisten."
           }
         },
         "info_6a7KMC": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Funktionsprüfung</span>",
-            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+            "text_headline": "Funktionstest",
+            "textarea_text": "Wir stellen dein Fahrwerk exakt auf dich ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
+          }
+        },
+        "info_aCwUwL": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Entsorgung",
+            "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile, werden fachgerecht und umweltschonend entsorgt."
           }
         }
       },
@@ -215,7 +222,8 @@
         "info_G9AcWY",
         "info_H8VqV8",
         "info_pyzY6E",
-        "info_6a7KMC"
+        "info_6a7KMC",
+        "info_aCwUwL"
       ],
       "settings": {
         "text_subheading": "// Leistung",
