@@ -145,6 +145,62 @@
         "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
       }
     },
+    "infos_bPMqJ3": {
+      "type": "infos",
+      "blocks": {
+        "info_GfUJkw": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_ChxxiB": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_qq8KhX": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_YXm3XD": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
+        "info_KTGUQX": {
+          "type": "info",
+          "settings": {
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        }
+      },
+      "block_order": [
+        "info_GfUJkw",
+        "info_ChxxiB",
+        "info_qq8KhX",
+        "info_YXm3XD",
+        "info_KTGUQX"
+      ],
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Unsere hochwertigen Produkte",
+        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen"
+      }
+    },
     "about_1": {
       "type": "about_1",
       "blocks": {
@@ -262,6 +318,7 @@
     "content_HmYQmb",
     "content_2",
     "tabelle_GN3Y47",
+    "infos_bPMqJ3",
     "about_1",
     "prozess",
     "blog_teaser",
