@@ -30,10 +30,12 @@
     "funnel_marken": {
       "type": "funnel_marken",
       "settings": {
-        "text_headline": "Welche Marke hast du?",
+        "text_headline": "Welches Bauteil hast du?",
         "text_logo_text": "Wähle im nächsten Schritt dein Bauteil aus.",
         "collection_list": [
-          "federgabel-service-fahrrad"
+          "federgabel-service-fahrrad",
+          "dampfer-service-fahrrad",
+          "vario-service-fahrrad"
         ]
       }
     }
