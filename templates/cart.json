@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+    "funnel_nav_qAw4mh": {
+      "type": "funnel_nav",
+      "settings": {
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Auswahl Marke",
+        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_4": "4. kasse",
+        "steps": "fourth"
+      }
+    },
     "form": {
       "type": "form",
       "settings": {}
@@ -17,6 +27,7 @@
   "layout": "cart",
   "wrapper": "main.main-wrapper",
   "order": [
+    "funnel_nav_qAw4mh",
     "form"
   ]
 }
