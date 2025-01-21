@@ -20,10 +20,10 @@
     "funnel_nav_TJNbhK": {
       "type": "funnel_nav",
       "settings": {
-        "text_text_1": "1. Art Wählen",
-        "text_text_2": "2. Auswahl Marke",
-        "text_text_3": "3. Auswahl Bauteil",
-        "text_text_4": "4. kasse",
+        "text_text_1": "1. Fahrzeug",
+        "text_text_2": "2. Marke",
+        "text_text_3": "3. Bauteil",
+        "text_text_4": "4. Service",
         "steps": "first"
       }
     },
