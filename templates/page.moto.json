@@ -72,9 +72,88 @@
         "text_grid_text_3": "Kundenzentrierter Ansatz"
       }
     },
-    "article_TB4URJ": {
-      "type": "article",
-      "settings": {}
+    "tabelle_J3TaUA": {
+      "type": "tabelle",
+      "blocks": {
+        "spalte_gAptaq": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "MOTOCROSS",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_WwGJUD": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "HARD ENDURO",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_Wbpa3A": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "ENDURO (TOUR)",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_XyWeMx": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "CROSS COUNTRY",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_jWTha9": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "RENNSTRECKE",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_eEiBFL": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "SUPERMOTO",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        },
+        "spalte_iYabBE": {
+          "type": "spalte",
+          "settings": {
+            "text_spalte_1": "STRASSE",
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
+          }
+        }
+      },
+      "block_order": [
+        "spalte_gAptaq",
+        "spalte_WwGJUD",
+        "spalte_Wbpa3A",
+        "spalte_XyWeMx",
+        "spalte_jWTha9",
+        "spalte_eEiBFL",
+        "spalte_iYabBE"
+      ],
+      "settings": {
+        "text_subheading": "// Wartungsintervall",
+        "text_heading": "WANN SOLLTE EIN SERVICE DURCHGEFÜHRT WERDEN",
+        "text_text": "Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.",
+        "url_button_link": "",
+        "text_button_text": "Service buchen",
+        "url_button_link_2": "",
+        "text_button_text_2": "",
+        "text_head_1": "Einsatzgebiet",
+        "text_head_2": "Federgabel",
+        "text_head_3": "Dämpfer",
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
+      }
     },
     "about_1": {
       "type": "about_1",
@@ -206,7 +285,7 @@
     "content_6m9bEf",
     "content",
     "content_2",
-    "article_TB4URJ",
+    "tabelle_J3TaUA",
     "about_1",
     "prozess",
     "blog_teaser",
