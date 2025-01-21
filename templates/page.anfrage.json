@@ -17,13 +17,14 @@
         "text_text": "In unserer Service- & Tuning-Anfrage kannst du unsere Leistungen flexibel mit verschiedenen Produkten kombinieren. Wähle dein Fahrzeug, die passende Marke und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen."
       }
     },
-    "choose_nav": {
-      "type": "choose_nav",
+    "funnel_nav_TJNbhK": {
+      "type": "funnel_nav",
       "settings": {
-        "text_text_1": "1. Fahrzeug",
-        "text_text_2": "2. Marke",
-        "text_text_3": "3. Bauteil",
-        "text_text_4": "4. Service"
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Auswahl Marke",
+        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_4": "4. kasse",
+        "steps": "first"
       }
     },
     "funnel_art_B69yqk": {
@@ -63,7 +64,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_anfrage",
-    "choose_nav",
+    "funnel_nav_TJNbhK",
     "funnel_art_B69yqk"
   ]
 }
