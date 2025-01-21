@@ -13,7 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// MTB SUSPENSION-SERVICE",
-        "text_headline": "Dein Fahrwerk<br>ist unsere Leidenschaft"
+        "text_headline": "Dein Fahrwerk ist <span class=\"gradient-bar\">unsere Leidenschaft</span>"
       }
     },
     "content_i4wyK3": {
@@ -78,8 +78,8 @@
           "type": "spalte",
           "settings": {
             "text_spalte_1": "DOWNHILL",
-            "text_spalte_2": "40 Betriebsstunden",
-            "text_spalte_3": "30-40 Betriebsstunden"
+            "text_spalte_2": "+",
+            "text_spalte_3": "+"
           }
         },
         "spalte_B8LEqj": {
