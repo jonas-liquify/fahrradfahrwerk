@@ -146,6 +146,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/A7406518-2.webp",
             "text_step": "Step 1",
             "text_heading": "Service buchen",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
