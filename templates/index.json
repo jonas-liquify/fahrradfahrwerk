@@ -78,10 +78,10 @@
         "text_heading": "SUSPENSION SERVICE FÜR FAHRRAD & MOTORRAD",
         "text_text": "Willkommen bei SWIFT Suspension,  deinem Experten-Team für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportlerinnen und Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben und sicherzustellen, dass unsere Kundschaft das Maximum aus ihrem Fahrzeug herausholen können.",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "ÜBER UNS",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "text_left_text_bottom": "<b>Unsere Macht<br>in Zahlen</b>",
+        "text_left_text_bottom": "Unsere Machtin Zahlen",
         "image_bild": "shopify://shop_images/maxi_whip_offs_winterberg.jpg"
       }
     },
@@ -92,10 +92,10 @@
           "type": "service-item",
           "settings": {
             "text_subheading": "// Service",
-            "text_heading": "Volle Funktion <span class=\"gradient-bar-h3\">& Leistung</span>",
+            "text_heading": "Volle Funktion & Leistung",
             "text_text": "Unser Suspension Service sorgt für eine optimale Performance deiner Fahrwerkskomponenten. Regelmäßige Wartung ist entscheidend, um Langlebigkeit und Sicherheit zu gewährleisten. Durch unsere fachgerechte Arbeit und schnelle Durchführung ist dein Fahrwerk im Handumdrehen wieder einsatzbereit – für maximalen Fahrspaß und volle Kontrolle auf jedem Terrain.",
             "url_button_link": "",
-            "text_button_text": "Service-Anfrage",
+            "text_button_text": "SERVICE-ANFRAGE",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -105,10 +105,10 @@
           "settings": {
             "image_bild": "shopify://shop_images/push_ACS3_01.jpg",
             "text_subheading": "// Reparatur",
-            "text_heading": "Reparieren <br><span class=\"gradient-bar-h3\">statt ersetzen</span>",
+            "text_heading": "Reparieren statt ersetzen",
             "text_text": "Ein optimal funktionierendes Fahrwerk ist entscheidend für die Leistung und Sicherheit deines Bikes. Beschädigungen oder Verschleiß können nicht nur die Funktion beeinträchtigen, sondern auch deine Sicherheit gefährden. Unser Reparaturservice kombiniert jahrelange Erfahrung und den Einsatz modernster Messwerkzeuge, um dein Fahrwerk wieder in Topform zu bringen.",
             "url_button_link": "",
-            "text_button_text": "Reparatur-Anfrage",
+            "text_button_text": "REPARATUR-ANFRAGE",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -117,10 +117,10 @@
           "type": "service-item",
           "settings": {
             "text_subheading": "// Tuning",
-            "text_heading": "Perfekt auf<br><span class=\"gradient-bar-h3\">dich abgestimmt</span>",
+            "text_heading": "Perfekt aufdich abgestimmt",
             "text_text": "Jedes Fahrwerk ist einzigartig – wir passen deine Federgabel und deinen Dämpfer exakt an deine Bedürfnisse an, um maximale Leistung, Komfort und Sicherheit zu gewährleisten. Mit professionellem Equipment und innovativen Methoden garantieren wir höchste Präzision und Qualität. Vertraue auf unsere Erfahrung und lass dein Mountainbike- & Motorrad-Fahrwerk individuell optimieren!",
             "url_button_link": "",
-            "text_button_text": "Tuning-Anfrage",
+            "text_button_text": "TUNING-ANFRAGE",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -182,7 +182,7 @@
         "text_heading": "Service-Abwicklung",
         "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE BUCHEN",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -345,7 +345,7 @@
         "text_heading": "Suspension Marken  für MTB & MOTO",
         "text_text": "Wir bieten hochwertigen Suspension-Service für alle führenden Marken. Von Fahrrad bis Motorrad, wir kennen deine Federelemente bis ins Detail.",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE-BUCHEN",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -357,7 +357,7 @@
         "text_heading": "Produkte für dein Fahrrad & Motorrad",
         "text_text": "Entdecke unsere Auswahl an hochwertigen Produkten für dein Mountainbike und Motorrad. Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.",
         "url_button_link": "",
-        "text_button_text": "Alle Produkte",
+        "text_button_text": "ALLE PRODUKTE",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "collection_products": "",
@@ -391,10 +391,10 @@
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
-        "text_heading": "Dein Fahrwerk ist<br><span class=\"gradient-bar-h3\">unsere Leidenschaft</span>",
+        "text_heading": "Dein Fahrwerk istunsere Leidenschaft",
         "text_text": "Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlerinnen und Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau worauf es bei deinem Fahrwerk ankommt.",
         "url_button_link": "",
-        "text_button_text": "",
+        "text_button_text": "ÜBER UNS",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -406,9 +406,9 @@
         "text_heading": "Rundum-Sorglos-Paket, auch in deiner Nähe",
         "text_text": "Du möchtest dein Fahrwerk bei SWIFT Suspension warten lassen, doch der Ausbau deiner Bauteile ist dir zu kompliziert oder aufwendig? Dann gib dein Bike einfach bei einem unserer Partner ab. Von der fachgerechten De- und Montage bis hin zum sicheren Versand, unsere Service-Partner übernehmen das für dich.",
         "url_button_link": "",
-        "text_button_text": "Partner finden",
+        "text_button_text": "PARTNER FINDEN",
         "url_button_link_2": "",
-        "text_button_text_2": "Partner werden"
+        "text_button_text_2": "PARTNER WERDEN"
       }
     },
     "blog_teaser": {
