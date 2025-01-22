@@ -91,7 +91,7 @@
           "type": "service-item",
           "settings": {
             "text_subheading": "// Service",
-            "text_heading": "Volle Funktion <span class=\"gradient-bar-h3\">& Leistung</span>",
+            "text_heading": "Volle Funktion & Leistung",
             "text_text": "Unser Suspension Service sorgt für eine optimale Performance deiner Fahrwerkskomponenten. Regelmäßige Wartung ist entscheidend, um Langlebigkeit und Sicherheit zu gewährleisten. Durch unsere fachgerechte Arbeit und schnelle Durchführung ist dein Fahrwerk im Handumdrehen wieder einsatzbereit – für maximalen Fahrspaß und volle Kontrolle auf jedem Terrain.",
             "url_button_link": "",
             "text_button_text": "Service-Anfrage",
@@ -146,7 +146,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1.webp",
+            "image_bild": "shopify://shop_images/step_1.webp",
             "text_step": "Step 1",
             "text_heading": "Service buchen",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -155,6 +155,7 @@
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 2",
             "text_heading": "Versand der Bauteile",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
