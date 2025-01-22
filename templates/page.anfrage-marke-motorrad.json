@@ -24,14 +24,14 @@
         "text_text_2": "2. Bauteil",
         "text_text_3": "3. Einsatz",
         "text_text_4": "4. Service",
-        "steps": "third"
+        "steps": "second"
       }
     },
     "funnel_marken": {
       "type": "funnel_marken",
       "settings": {
         "text_headline": "Wo bist du unterwegs?",
-        "text_logo_text": "Wähle im nächsten Schritt dein Service aus.",
+        "text_logo_text": "Wähle im nächsten Schritt dein Eisatzgebiet aus.",
         "collection_list": [
           "federgabel-service-motorrad",
           "dampfer-service-motorrad"
