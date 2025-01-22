@@ -199,6 +199,7 @@
         "info_KTGUQX": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/delete_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Entsorgung",
             "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile, werden fachgerecht und umweltschonend entsorgt."
           }
