@@ -143,28 +143,31 @@
         "info_GfUJkw": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Eingangsprüfung</span>",
+            "image_icon": "shopify://shop_images/search_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
+            "text_headline": "Eingangsprüfung",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
         },
         "info_ChxxiB": {
           "type": "info",
           "settings": {
-            "text_headline": "<span class=\"gradient-bar-h3\">Demontage</span>",
+            "image_icon": "shopify://shop_images/construction_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
+            "text_headline": "Demontage",
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
         },
         "info_xrzDcj": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/hotel_class.svg",
-            "text_headline": "<span class=\"gradient-bar-h3\">Reinigung</span>",
+            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
+            "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
         },
         "info_wRTHhh": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/published_with_changes_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Verschleissteile",
             "textarea_text": "Dichtungen, Abstreifer und verschiedene Kleinteile werden sorgfältig durch Materialien von höchster Qualität ersetzt."
           }
@@ -172,6 +175,7 @@
         "info_QEYBNW": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/humidity_low_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Schmierstoffe",
             "textarea_text": "Für maximale Performance verwenden wir ausschließlich hochwertige Öle und Hochleistungsschmierstoffe führender Hersteller."
           }
@@ -179,6 +183,7 @@
         "info_qq8KhX": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/construction_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Montage",
             "textarea_text": "Bei der Montage legen wir großen Wert auf eine fachgerechte Durchführung, um die maximale Leistung und Sicherheit deiner Bauteile zu gewährleisten."
           }
@@ -186,6 +191,7 @@
         "info_YXm3XD": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/check_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Funktionstest",
             "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
