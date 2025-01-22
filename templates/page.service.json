@@ -150,7 +150,7 @@
         "info_ChxxiB": {
           "type": "info",
           "settings": {
-            "text_headline": "Demontage",
+            "text_headline": "<span class=\"gradient-bar-h3\">Demontage</span>",
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
         },
