@@ -265,6 +265,7 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 1",
             "text_heading": "SERVICE BUCHEN",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -273,6 +274,7 @@
         "service_block_6LJrYt": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 2",
             "text_heading": "Versand der Bauteile",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
@@ -281,8 +283,9 @@
         "service_block_kk7dMR": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 3",
-            "text_heading": "Bearbeitung & Rückversand",
+            "text_heading": "Zurücklehnen",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
           }
         }
