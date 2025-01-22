@@ -321,50 +321,6 @@
         "text_button_text_2": ""
       }
     },
-    "prozess": {
-      "type": "prozess",
-      "blocks": {
-        "service_block_K9EU4n": {
-          "type": "service-block",
-          "settings": {
-            "image_bild": "shopify://shop_images/step-1.webp",
-            "text_step": "Step 1",
-            "text_heading": "SERVICE BUCHEN",
-            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
-          }
-        },
-        "service_block_r4T9TR": {
-          "type": "service-block",
-          "settings": {
-            "text_step": "Step 2",
-            "text_heading": "Versand der Bauteile",
-            "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
-          }
-        },
-        "service_block_GTTeRA": {
-          "type": "service-block",
-          "settings": {
-            "text_step": "Step 3",
-            "text_heading": "Bearbeitung & Rückversand",
-            "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
-          }
-        }
-      },
-      "block_order": [
-        "service_block_K9EU4n",
-        "service_block_r4T9TR",
-        "service_block_GTTeRA"
-      ],
-      "settings": {
-        "text_subheading": "// wie es funktioniert",
-        "text_heading": "Service-Abwicklung",
-        "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
-        "url_button_link": "",
-        "text_button_text": "Service buchen",
-        "url_button_link_2": "",
-        "text_button_text_2": ""
-      }
-    },
     "blog_teaser": {
       "type": "blog_teaser",
       "disabled": true,
@@ -415,7 +371,6 @@
     "infos_GA8JXb",
     "about_1",
     "prozess_QPAca8",
-    "prozess",
     "blog_teaser",
     "faq"
   ]
