@@ -157,7 +157,8 @@
         "info_xrzDcj": {
           "type": "info",
           "settings": {
-            "text_headline": "Reinigung",
+            "image_icon": "shopify://shop_images/hotel_class.svg",
+            "text_headline": "<span class=\"gradient-bar-h3\">Reinigung</span>",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
         },
