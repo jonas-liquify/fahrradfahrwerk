@@ -44,10 +44,10 @@
           "type": "art",
           "settings": {
             "text_choose_headline": "MOTORRAD",
-            "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
             "image_choose_img": "shopify://shop_images/moto_white.png",
             "url_button_link": "",
-            "text_button_text": "Marke auswählen"
+            "text_button_text": "Bauteile auswählen"
           }
         }
       },
