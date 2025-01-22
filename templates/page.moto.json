@@ -101,6 +101,7 @@
         },
         "spalte_XyWeMx": {
           "type": "spalte",
+          "disabled": true,
           "settings": {
             "text_spalte_1": "CROSS COUNTRY",
             "text_spalte_2": "+",

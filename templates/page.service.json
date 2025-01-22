@@ -90,14 +90,6 @@
             "text_spalte_3": "+"
           }
         },
-        "spalte_ChLdJ3": {
-          "type": "spalte",
-          "settings": {
-            "text_spalte_1": "ALL MOUNTAIN",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
-          }
-        },
         "spalte_jnaAiK": {
           "type": "spalte",
           "settings": {
@@ -108,6 +100,7 @@
         },
         "spalte_6LQcHx": {
           "type": "spalte",
+          "disabled": true,
           "settings": {
             "text_spalte_1": "TOUR",
             "text_spalte_2": "+",
@@ -117,7 +110,7 @@
         "spalte_hcd4GW": {
           "type": "spalte",
           "settings": {
-            "text_spalte_1": "ALLTAG",
+            "text_spalte_1": "ALLTAG / TOUR",
             "text_spalte_2": "+",
             "text_spalte_3": "+"
           }
@@ -126,7 +119,6 @@
       "block_order": [
         "spalte_9WeRcD",
         "spalte_B8LEqj",
-        "spalte_ChLdJ3",
         "spalte_jnaAiK",
         "spalte_6LQcHx",
         "spalte_hcd4GW"
