@@ -357,6 +357,50 @@
         "url_cta_button_link": "",
         "text_cta_button_text": "Kontaktiere uns"
       }
+    },
+    "prozess_QPAca8": {
+      "type": "prozess",
+      "blocks": {
+        "service_block_MkacEK": {
+          "type": "service-block",
+          "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
+            "text_step": "Step 1",
+            "text_heading": "Service buchen",
+            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
+          }
+        },
+        "service_block_9qcnaU": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 2",
+            "text_heading": "Versand der Bauteile",
+            "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
+          }
+        },
+        "service_block_CUrGKr": {
+          "type": "service-block",
+          "settings": {
+            "text_step": "Step 1",
+            "text_heading": "Servicebuchung für MTB & Moto",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt"
+          }
+        }
+      },
+      "block_order": [
+        "service_block_MkacEK",
+        "service_block_9qcnaU",
+        "service_block_CUrGKr"
+      ],
+      "settings": {
+        "text_subheading": "// wie es funktioniert",
+        "text_heading": "Service-Abwicklung",
+        "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
+        "url_button_link": "",
+        "text_button_text": "Service buchen",
+        "url_button_link_2": "",
+        "text_button_text_2": ""
+      }
     }
   },
   "layout": "page.service",
@@ -372,6 +416,7 @@
     "about_1",
     "prozess",
     "blog_teaser",
-    "faq"
+    "faq",
+    "prozess_QPAca8"
   ]
 }
