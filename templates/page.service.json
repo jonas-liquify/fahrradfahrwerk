@@ -134,7 +134,7 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Federgabel-Service",
         "text_head_3": "Dämpfer-Service",
-        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h oder mind. jährlich durchzuführen.</p>"
       }
     },
     "infos_bPMqJ3": {
@@ -186,7 +186,7 @@
           "type": "info",
           "settings": {
             "text_headline": "Funktionstest",
-            "textarea_text": "Wir stellen dein Fahrwerk exakt auf dich ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
+            "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
         },
         "info_KTGUQX": {
