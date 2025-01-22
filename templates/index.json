@@ -81,7 +81,8 @@
         "text_button_text": "Service buchen",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "text_left_text_bottom": "// Unsere Macht in Zahlen"
+        "text_left_text_bottom": "// Unsere Macht in Zahlen",
+        "image_bild": "shopify://shop_images/Bildschirmfoto_2024-07-08_um_15.57.15.png"
       }
     },
     "service_slide": {
@@ -181,9 +182,9 @@
         "text_heading": "Service-Abwicklung",
         "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
         "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "text_button_text": "Service buchen",
         "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen"
+        "text_button_text_2": ""
       }
     },
     "marken": {
