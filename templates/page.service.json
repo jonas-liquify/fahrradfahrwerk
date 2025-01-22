@@ -143,7 +143,7 @@
         "info_GfUJkw": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/search_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
+            "image_icon": "shopify://shop_images/search_check_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Eingangsprüfung",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
@@ -191,7 +191,7 @@
         "info_YXm3XD": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/check_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
+            "image_icon": "shopify://shop_images/check_1000dp_000000_FILL0_wght700_GRAD200_opsz48.svg",
             "text_headline": "Funktionstest",
             "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
