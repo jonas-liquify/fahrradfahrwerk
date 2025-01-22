@@ -24,7 +24,7 @@
           "type": "select-block",
           "settings": {
             "image_bild": "shopify://shop_images/mtb_white.png",
-            "text_headline": "MTB",
+            "text_headline": "FAHRRAD",
             "text_text": "Fahrzeug auswählen"
           }
         },
@@ -32,7 +32,7 @@
           "type": "select-block",
           "settings": {
             "image_bild": "shopify://shop_images/moto_white.png",
-            "text_headline": "MOTO",
+            "text_headline": "MOTORRAD",
             "text_text": "Fahrzeug auswählen"
           }
         }
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "SUSPENSION SERVICE FÜR MOUNTAINBIKE & MOTORRAD",
+        "text_heading": "SUSPENSION SERVICE FÜR FAHRRAD & MOTORRAD",
         "text_text": "Willkommen bei SWIFT Suspension,  deinem Experten-Team für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportlerinnen und Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben und sicherzustellen, dass unsere Kundschaft das Maximum aus ihrem Fahrzeug herausholen können.",
         "url_button_link": "",
         "text_button_text": "Service buchen",
@@ -339,7 +339,7 @@
       "settings": {
         "text_subheading": "// MARKEN",
         "text_heading": "Suspension Marken  für MTB & MOTO",
-        "text_text": "Wir bieten hochwertigen Suspension Service für alle führenden Marken. Von MTB bis MOTO, wir kennen deine Federelemente bis ins Detail.",
+        "text_text": "Wir bieten hochwertigen Suspension Service für alle führenden Marken. Von Fahrrad bis Motorrad, wir kennen deine Federelemente bis ins Detail.",
         "url_button_link": "",
         "text_button_text": "Service buchen",
         "url_button_link_2": "",
