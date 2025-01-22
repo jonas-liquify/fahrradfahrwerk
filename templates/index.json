@@ -146,7 +146,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step_1.webp",
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 1",
             "text_heading": "Service buchen",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -164,6 +164,7 @@
         "service_block_hPdt7G": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 3",
             "text_heading": "Zurücklehnen",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
