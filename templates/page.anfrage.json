@@ -34,7 +34,7 @@
           "type": "art",
           "settings": {
             "text_choose_headline": "FAHRRAD",
-            "text_choose_text": "Wähle im nächsten Schritt dein Bauteil aus.",
+            "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
             "image_choose_img": "shopify://shop_images/mtb_white.png",
             "url_button_link": "",
             "text_button_text": "Bauteil auswählen"
