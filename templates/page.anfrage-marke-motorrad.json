@@ -30,7 +30,7 @@
     "funnel_marken": {
       "type": "funnel_marken",
       "settings": {
-        "text_headline": "Welches Bauteil braucht einen Service?",
+        "text_headline": "Welches Bauteil hast du?",
         "text_logo_text": "Wähle im nächsten Schritt dein Einsatzgebiet aus.",
         "collection_list": [
           "federgabel-service-motorrad",
