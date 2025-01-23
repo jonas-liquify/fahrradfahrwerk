@@ -13,8 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// MOTO SUSPENSION-SERVICE",
-        "text_headline": "Dein Fahrwerk <br><span class=\"gradient-bar\">ist unsere Leidenschaft</span>",
-        "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
+        "text_headline": "Dein Fahrwerk <br><spann class=\"gradient-bar\">ist unsere Leidenschaft</spann>"
       }
     },
     "content_ByXPHA": {
