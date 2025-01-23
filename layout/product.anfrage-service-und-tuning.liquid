@@ -1,9 +1,9 @@
 <!doctype html>
-<html data-wf-domain="fahrrad-fahrwerk.webflow.io" data-wf-page="674a959ee33071a9bee728e2" data-wf-site="6732e3a25d39d28b20480353" lang="{{ request.locale.iso_code }}" data-wf-locale="en"><head><meta charset="utf-8">
-<title>{{ page_title }}</title><meta content="{{ page_description }}" name="description">
-<meta content="{{ page_title }}" property="og:title">
+<html data-wf-domain="fahrrad-fahrwerk.webflow.io" data-wf-page="678e7722bdc337578d331af2" data-wf-site="6732e3a25d39d28b20480353" lang="{{ request.locale.iso_code }}" data-wf-locale="en"><head><meta charset="utf-8">
+<title>Anfrage Product</title><meta content="{{ page_description }}" name="description">
+<meta content="Anfrage Product" property="og:title">
 <meta content="{{ page_description }}" property="og:description">
-<meta content="{{ page_title }}" property="twitter:title">
+<meta content="Anfrage Product" property="twitter:title">
 <meta content="{{ page_description }}" property="twitter:description">
 <meta property="og:type" content="website">
 <meta content="summary_large_image" name="twitter:card">
@@ -78,8 +78,75 @@
 
 </style><meta name="theme-color" content="#000" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#fff" media="(prefers-color-scheme: dark)">
-<script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
-<body>
+<script type="application/ld+json">{
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "{{ product.title }}",
+       "image": "https:{{ product.featured_image.src | img_url: '1500x1500' }}",
+        "description": "{{ product.description | strip_html }}",
+        "brand": "{{ product.vendor }}",
+        "sku": "{{ product.selected_or_first_available_variant.sku }}",
+        "offers": [
+        {% for variant in product.variants %}{
+          "@type": "Offer",
+          "url": "{{ variant.url }}",
+          "priceCurrency": "EUR",
+          "price": "{{ variant.price | money }}",
+      "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | uri_encode | replace:'+','%20' }}",
+          "availability": "{% if variant.available %}https://schema.org/InStock{% else variant.available == false %}https://schema.org/SoldOut{% endif %}",
+          "itemCondition": "https://schema.org/NewCondition"
+        }{% if forloop.last == false %},{% endif %}{% endfor %}
+        ]
+        }
+    </script><script type="application/ld+json">{
+         "@context": "https://schema.org",
+         "@type": "BreadcrumbList",
+         "itemListElement":
+         [
+          {
+           "@type": "ListItem",
+           "position": 1,
+           "item":
+           {
+            "@id": "{{ shop.url }}",
+            "name": "Home"
+            }
+          },
+        {
+           "@type": "ListItem",
+           "position": 2,
+           "item":
+           {
+            "@id": "{% if collection.url %}{{ collection.url }}{% else %}{{ product.vendor }}{% endif %}",
+            "name": "{% if collection.url %}{{collection.title }}{% else %}{{ product.vendor }}{% endif %}"
+            }
+          },
+          {
+           "@type": "ListItem",
+          "position": 3,
+          "item":
+           {
+             "@id": "{{ product.url }}",
+             "name": "{{ product.title }}"
+           }
+          }
+         ]
+        }
+    </script><script type="application/ld+json">{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
+            "@type": "Question",
+            "name": "{{ fa_qs.frage }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{ fa_qs.antwort | metafield_tag | strip_html }}"
+            }
+          }{% if forloop.last == false %},{% endif %}{% endfor %}
+          ]
+        }
+    </script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
+<body li-page="product.anfrage-service-und-tuning">
 
 <div class="page-wrapper">{% render 'global_styles' %}
 {% section 'announcement_bar' %}
@@ -161,25 +228,24 @@
     });
   }); 
 
-</script><script>// Select all elements with the class 'choose_main_item'
-const chooseMainItems = document.querySelectorAll('.choose_main_item');
+</script><script>document.addEventListener('DOMContentLoaded', function() {
+    const productRecommendationsSection = document.querySelector('.product-recommendations');
+    const url = productRecommendationsSection.dataset.url;
 
-chooseMainItems.forEach(item => {
-  item.addEventListener('mouseenter', () => {
-    const child = item.querySelector('.choose_main_name');
-    if (child) {
-      child.classList.add('gradient-bar-choose');
-    }
+    fetch(url)
+      .then(response => response.text())
+      .then(text => {
+      const html = document.createElement('div');
+      html.innerHTML = text;
+      const recommendations = html.querySelector('.product-recommendations');
+      if (recommendations && recommendations.innerHTML.trim().length) {
+        productRecommendationsSection.innerHTML = recommendations.innerHTML;
+      }
+    })
+      .catch(e => {
+      console.error(e);
+    });
   });
-
-  item.addEventListener('mouseleave', () => {
-    const child = item.querySelector('.choose_main_name');
-    if (child) {
-      child.classList.remove('gradient-bar-choose');
-    }
-  });
-});
-
 </script>
 </body>
 </html>
