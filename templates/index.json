@@ -181,7 +181,7 @@
         "text_heading": "Service-Abwicklung",
         "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE BUCHEN",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -344,7 +344,7 @@
         "text_heading": "Suspension Marken  für MTB & MOTO",
         "text_text": "Wir bieten hochwertigen Suspension-Service für alle führenden Marken. Von Fahrrad bis Motorrad, wir kennen deine Federelemente bis ins Detail.",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE BUCHEN",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -356,7 +356,7 @@
         "text_heading": "Produkte für dein Fahrrad & Motorrad",
         "text_text": "Entdecke unsere Auswahl an hochwertigen Produkten für dein Mountainbike und Motorrad. Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.",
         "url_button_link": "",
-        "text_button_text": "Alle Produkte",
+        "text_button_text": "ALLE PRODUKTE",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "collection_products": "",
@@ -390,10 +390,10 @@
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
-        "text_heading": "Dein Fahrwerk ist<br><span class=\"gradient-bar-h3\">unsere Leidenschaft</span>",
+        "text_heading": "Dein Fahrwerk istunsere Leidenschaft",
         "text_text": "Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlerinnen und Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau worauf es bei deinem Fahrwerk ankommt.",
         "url_button_link": "",
-        "text_button_text": "",
+        "text_button_text": "ÜBER UNS",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
@@ -405,9 +405,9 @@
         "text_heading": "Rundum-Sorglos-Paket, auch in deiner Nähe",
         "text_text": "Du möchtest dein Fahrwerk bei SWIFT Suspension warten lassen, doch der Ausbau deiner Bauteile ist dir zu kompliziert oder aufwendig? Dann gib dein Bike einfach bei einem unserer Partner ab. Von der fachgerechten De- und Montage bis hin zum sicheren Versand, unsere Service-Partner übernehmen das für dich.",
         "url_button_link": "",
-        "text_button_text": "Partner finden",
+        "text_button_text": "PARTNER FINDEN",
         "url_button_link_2": "",
-        "text_button_text_2": "Partner werden"
+        "text_button_text_2": "PARTNER WERDEN"
       }
     },
     "blog_teaser": {
