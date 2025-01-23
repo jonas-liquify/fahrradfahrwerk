@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "hero_2": {
-      "type": "hero_2",
-      "settings": {
-        "text_subheading": "// PRODUKT-KATEGORIE",
-        "text_headline": "<spann class=\"gradient-bar\">PRODUKTE FÜR DEIN<br>MOUNTAINBIKE & MOTORRAD</spann>"
-      }
-    },
     "collection_products": {
       "type": "collection_products",
       "settings": {}
@@ -24,7 +17,6 @@
   "layout": "collection",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_2",
     "collection_products"
   ]
 }
