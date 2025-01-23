@@ -42,10 +42,10 @@
         "settings": {
           "text_cta_heading": "SUSPENSION SERVICE<br><span class=\"gradient-bar-h3\">JETZT ONLINE BUCHEN</span>",
           "text_cta_text": "Bei SWIFT Suspension ist dein Fahrwerk in den besten Händen. Von Mountainbike bis Motorrad, wir bieten professionellen Service, individuelle Anpassungen und höchste Qualität für optimale Performance und maximalen Fahrspaß.",
-          "url_button_link": "",
-          "text_button_text": "SERVICE BUCHEN",
           "url_button_link_2": "",
           "text_button_text_2": "",
+          "url_button_link": "",
+          "text_button_text": "SERVICE BUCHEN",
           "url_phone_link": "",
           "text_phone_text": "07073 - 917 43 43",
           "url_email_link": "",

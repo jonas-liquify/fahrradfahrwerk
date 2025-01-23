@@ -21,6 +21,83 @@
     },
     "form": {
       "type": "form",
+      "blocks": {
+        "headline_qkJPWn": {
+          "type": "headline",
+          "settings": {
+            "text_headline": "Fahrer"
+          }
+        },
+        "input_text_NmeBV9": {
+          "type": "input-text",
+          "settings": {
+            "text_input_lable": "Fahrerergewicht*",
+            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
+          }
+        },
+        "input_text_bdAkkH": {
+          "type": "input-text",
+          "settings": {
+            "text_input_lable": "Fahrerergewicht*",
+            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
+          }
+        },
+        "input_radio_LbhyjQ": {
+          "type": "input-radio",
+          "settings": {
+            "text_titel": "Ich fahre Rennen",
+            "text_lable_1": "Ja",
+            "text_lable_2": "Nein",
+            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
+          }
+        },
+        "input_medium_text_nqLJkK": {
+          "type": "input-medium-text",
+          "settings": {
+            "text_input_lable": "Sonstige Einsatzgebiete*"
+          }
+        },
+        "input_big_text_9xdiq7": {
+          "type": "input-big-text",
+          "settings": {
+            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche"
+          }
+        },
+        "spacer_4VLdrd": {
+          "type": "spacer",
+          "settings": {}
+        },
+        "headline_trRX7N": {
+          "type": "headline",
+          "settings": {
+            "text_headline": "Fahrer"
+          }
+        },
+        "input_checkbox_xMWPwi": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Alltag"
+          }
+        },
+        "input_checkbox_VRKXWJ": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Alltag"
+          }
+        }
+      },
+      "block_order": [
+        "headline_qkJPWn",
+        "input_text_NmeBV9",
+        "input_text_bdAkkH",
+        "input_radio_LbhyjQ",
+        "input_medium_text_nqLJkK",
+        "input_big_text_9xdiq7",
+        "spacer_4VLdrd",
+        "headline_trRX7N",
+        "input_checkbox_xMWPwi",
+        "input_checkbox_VRKXWJ"
+      ],
       "settings": {}
     }
   },
