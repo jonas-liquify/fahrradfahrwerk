@@ -340,8 +340,8 @@
         "faq_TJwyGQ": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_headline": "Wann dauert es länger?",
+            "richtext_antwort": "<p>Bei erhöhtem Arbeitsaufkommen, defekten Bauteilen, der Beschaffung von Tuning- und Ersatzteilen, zeitintensiven Vermessungsarbeiten (wie z.B. Dynotests) oder Beschichtungsprozessen kann es zu einer Verlängerung der regulären Bearbeitungszeit kommen. Selbstverständlich informieren wir dich rechtzeitig und halten dich während des gesamten Prozesses stets auf dem Laufenden.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
