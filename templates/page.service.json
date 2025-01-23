@@ -78,41 +78,32 @@
           "type": "spalte",
           "settings": {
             "text_spalte_1": "DOWNHILL",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "100h",
+            "text_spalte_3": "2500km"
           }
         },
         "spalte_B8LEqj": {
           "type": "spalte",
           "settings": {
             "text_spalte_1": "ENDURO",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "150h",
+            "text_spalte_3": "3000km"
           }
         },
         "spalte_jnaAiK": {
           "type": "spalte",
           "settings": {
             "text_spalte_1": "CROSS COUNTRY",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
-          }
-        },
-        "spalte_6LQcHx": {
-          "type": "spalte",
-          "disabled": true,
-          "settings": {
-            "text_spalte_1": "TOUR",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "200h",
+            "text_spalte_3": "5000km"
           }
         },
         "spalte_hcd4GW": {
           "type": "spalte",
           "settings": {
             "text_spalte_1": "ALLTAG / TOUR",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "300h",
+            "text_spalte_3": "6000km"
           }
         }
       },
@@ -120,7 +111,6 @@
         "spalte_9WeRcD",
         "spalte_B8LEqj",
         "spalte_jnaAiK",
-        "spalte_6LQcHx",
         "spalte_hcd4GW"
       ],
       "settings": {
@@ -132,8 +122,8 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "text_head_1": "Einsatzgebiet",
-        "text_head_2": "Federgabel-Service",
-        "text_head_3": "Dämpfer-Service",
+        "text_head_2": "in Stunden",
+        "text_head_3": "in Kilometern",
         "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h oder mind. jährlich durchzuführen.</p>"
       }
     },
