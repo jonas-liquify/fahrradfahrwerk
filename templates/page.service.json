@@ -349,8 +349,8 @@
         "faq_nVnFX3": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_headline": "Was passiert bei einem Defekt?",
+            "richtext_antwort": "<p>Wird bei deinem Bauteil ein Defekt festgestellt, informieren wir dich umgehend. Unser Team erstellt eine detaillierte Fehleranalyse und bietet dir eine transparente Übersicht über die notwendigen und möglichen Reparaturmaßnahmen. Dabei erklären wir dir genau, welche Bauteile betroffen sind, welche Arbeiten durchgeführt werden müssen und welche Kosten entstehen. Erst nach deiner Freigabe starten wir mit der Reparatur.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
