@@ -331,8 +331,8 @@
         "faq_R9CHGm": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_headline": "Wie lange dauert ein Service?",
+            "richtext_antwort": "<p>Die Durchlaufzeit hängt von der Werkstattauslastung ab und kann variieren. Die aktuelle Bearbeitungszeit findest du immer auf der Startseite oder in deinem Service-Produkt. Hinzu kommt dann noch die Versandzeit, die außerhalb unseres Einflussbereichs liegt, in der Regel aber bei 1-3 Tage liegt. Expressversand ist kostenpflichtig möglich. Für besonders dringende Fälle bieten wir außerdem eine Express-Bearbeitung innerhalb von 24h gegen Aufpreis an.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
