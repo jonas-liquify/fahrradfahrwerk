@@ -309,10 +309,64 @@
     },
     "faq": {
       "type": "faq",
+      "blocks": {
+        "faq_UdjFaW": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Wie funktioniert die Service-Anfrage?",
+            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Serviceanfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Mit unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_X8A7MM": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_R9CHGm": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_TJwyGQ": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_nVnFX3": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        }
+      },
+      "block_order": [
+        "faq_UdjFaW",
+        "faq_X8A7MM",
+        "faq_R9CHGm",
+        "faq_TJwyGQ",
+        "faq_nVnFX3"
+      ],
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
