@@ -116,10 +116,10 @@
           "type": "service-item",
           "settings": {
             "text_subheading": "// Tuning",
-            "text_heading": "Perfekt auf<br><span class=\"gradient-bar-h3\">dich abgestimmt</span>",
+            "text_heading": "Perfekt aufdich abgestimmt",
             "text_text": "Jedes Fahrwerk ist einzigartig – wir passen deine Federgabel und deinen Dämpfer exakt an deine Bedürfnisse an, um maximale Leistung, Komfort und Sicherheit zu gewährleisten. Mit professionellem Equipment und innovativen Methoden garantieren wir höchste Präzision und Qualität. Vertraue auf unsere Erfahrung und lass dein Mountainbike- & Motorrad-Fahrwerk individuell optimieren!",
             "url_button_link": "",
-            "text_button_text": "Tuning-Anfrage",
+            "text_button_text": "TUNING-ANFRAGE",
             "url_button_link_2": "",
             "text_button_text_2": ""
           }
@@ -181,7 +181,7 @@
         "text_heading": "Service-Abwicklung",
         "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
         "url_button_link": "",
-        "text_button_text": "SERVICE BUCHEN",
+        "text_button_text": "FAQ",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
