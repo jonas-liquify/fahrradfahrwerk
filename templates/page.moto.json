@@ -342,8 +342,8 @@
         "faq_UV6rT7": {
           "type": "faq",
           "settings": {
-            "text_headline": "Frage",
-            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_headline": "Wie funktioniert die Service-Anfrage?",
+            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Service-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Mit unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
