@@ -162,6 +162,7 @@
         "info_MYBxth": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/search_check_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Eingangsprüfung",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
@@ -169,6 +170,7 @@
         "info_TrNqgV": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/construction_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Demontage",
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
@@ -176,6 +178,7 @@
         "info_4xjxyq": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
@@ -183,6 +186,7 @@
         "info_G9AcWY": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/published_with_changes_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Verschleissteile",
             "textarea_text": "Dichtungen, Abstreifer und verschiedene Kleinteile werden sorgfältig durch Materialien von höchster Qualität ersetzt."
           }
@@ -190,6 +194,7 @@
         "info_H8VqV8": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/humidity_low_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Schmierstoffe",
             "textarea_text": "Für maximale Performance verwenden wir ausschließlich hochwertige Öle und Hochleistungsschmierstoffe führender Hersteller."
           }
@@ -197,6 +202,7 @@
         "info_pyzY6E": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/construction_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Montage",
             "textarea_text": "Bei der Montage legen wir großen Wert auf eine fachgerechte Durchführung, um die maximale Leistung und Sicherheit deiner Bauteile zu gewährleisten."
           }
@@ -204,6 +210,7 @@
         "info_6a7KMC": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/check_1000dp_000000_FILL0_wght700_GRAD200_opsz48.svg",
             "text_headline": "Funktionstest",
             "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
@@ -211,6 +218,7 @@
         "info_aCwUwL": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/delete_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Entsorgung",
             "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile, werden fachgerecht und umweltschonend entsorgt."
           }
@@ -231,7 +239,7 @@
         "text_heading": "Service mit Herzblut",
         "text_text": "Unser Suspension-Service beinhaltet alles was dein Fahrwerk braucht, um in Bestform zu bleiben!",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE BUCHEN",
         "url_button_link_2": "",
         "text_button_text_2": ""
       }
