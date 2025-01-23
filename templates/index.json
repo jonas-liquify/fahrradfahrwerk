@@ -146,7 +146,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1.webp",
+            "image_bild": "shopify://shop_images/step-1_mtb.webp",
             "text_step": "Step 1",
             "text_heading": "Service buchen",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -155,7 +155,7 @@
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step_1.webp",
+            "image_bild": "shopify://shop_images/step-1_moto.webp",
             "text_step": "Step 2",
             "text_heading": "Versand der Bauteile",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
@@ -179,7 +179,7 @@
       "settings": {
         "text_subheading": "// wie es funktioniert",
         "text_heading": "Service-Abwicklung",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
