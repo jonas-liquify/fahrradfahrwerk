@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_2": {
+      "type": "hero_2",
+      "settings": {
+        "text_subheading": "// PRODUKT-KATEGORIE",
+        "text_headline": "<spann class=\"gradient-bar\">PRODUKTE FÜR DEIN<br>MOUNTAINBIKE & MOTORRAD</spann>"
+      }
+    },
+    "collection_products": {
+      "type": "collection_products",
+      "settings": {}
+    }
+  },
+  "layout": "collection",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero_2",
+    "collection_products"
+  ]
+}
