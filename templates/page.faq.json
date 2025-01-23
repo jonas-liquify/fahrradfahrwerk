@@ -16,7 +16,7 @@
           "type": "faq",
           "settings": {
             "text_headline": "Wie funktioniert die Service-Anfrage?",
-            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Serviceanfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Mit unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
+            "richtext_antwort": "<p>Schnell, einfach und trotzdem individuell. Unsere Service-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Mit unserer Dienstleistung kannst du passendes Zubehör und individuelle Tuningoptionen flexibel kombinieren. Bei Fragen steht dir unser Team jederzeit mit fachkundiger Hilfestellung und persönlicher Beratung zur Seite - erlebe maximale Preistransparenz und einfache Abwicklung.</p>",
             "text_kategorie": "This is some text inside of a div block.",
             "kategorie": "Alle FAQs"
           }
@@ -139,11 +139,11 @@
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
-        "text_text": "Hier findest du alles Wissenswerte rund um unseren Service, schnell und übersichtlich erklärt.",
-        "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service buchen",
         "text_cta_headline": "Du hast noch weitere Fragen?",
         "text_cta_infos": "Kundenservice:Telefon: 07073 - 917 43 43E-Mail: service@swift-suspension.de",
         "url_cta_button_link": "",
