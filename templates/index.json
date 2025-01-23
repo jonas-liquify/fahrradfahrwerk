@@ -164,7 +164,6 @@
         "service_block_hPdt7G": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1.webp",
             "text_step": "Step 3",
             "text_heading": "Zurücklehnen",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
@@ -342,7 +341,7 @@
       "settings": {
         "text_subheading": "// MARKEN",
         "text_heading": "Suspension Marken",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
