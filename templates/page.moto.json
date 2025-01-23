@@ -22,11 +22,11 @@
       "settings": {
         "text_subheading": "// SERVICE",
         "text_heading": "Qualität, auf die du dich verlassen kannst",
-        "text_text": "Federgabeln und Dämpfer sind extremen Belastungen ausgesetzt – Unebenheiten, Sprünge und Verschmutzungen setzen den Bauteilen erheblich zu. Verschleiß lässt sich dabei nicht vermeiden: Poröse Dichtungen, verschmutztes Öl mit nachlassender Schmierfähigkeit und undichte Luftkammern sind häufige Probleme. Diese Beeinträchtigungen wirken sich nicht nur auf die Funktion aus, sondern gefährden auch deine Sicherheit und die Fahrdynamik deines Bikes. Bleiben diese Probleme unerkannt und unbehoben, können teure Folgeschäden entstehen, die die Lebensdauer deiner Komponenten erheblich verkürzen. Ein regelmäßiger Service sorgt dafür, dass dein Fahrwerk in Top-Zustand bleibt.",
-        "url_button_link": "",
-        "text_button_text": "Service-Anfrage",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service-Anfrage",
         "content_allign": "right"
       }
     },
@@ -35,11 +35,11 @@
       "settings": {
         "text_subheading": "// REPARATUR",
         "text_heading": "Volle Funktion, durch Präzision",
-        "text_text": "Intensive Nutzung und äußere Einflüsse hinterlassen Spuren an deinem Fahrwerk und können zu Beschädigungen führen, die die Funktionalität beeinträchtigen und deine Sicherheit gefährden. Um dies zu verhindern, überprüfen und vermessen wir sämtliche Bauteile mit größter Sorgfalt, um die maximale Zuverlässigkeit und Langlebigkeit deiner Federelemente sicherzustellen. Von der Fehleranalyse bis zur Reparatur setzen wir auf Präzision und hochwertige Ersatzteile - für eine nachhaltige Lösung, auf die du dich verlassen kannst. Mit unserer Expertise bringen wir Federgabel, Dämpfer und Variostütze auf Höchstleitung zurück.",
-        "url_button_link": "",
-        "text_button_text": "Reparatur-Anfrage",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Reparatur-Anfrage",
         "content_allign": "left"
       }
     },
@@ -48,11 +48,11 @@
       "settings": {
         "text_subheading": "// TUNING",
         "text_heading": "Mehr Leistung, mehr Persönlichkeit",
-        "text_text": "Ein perfekt abgestimmtes Fahrwerk macht den entscheidenden Unterschied, egal ob du auf der Rennstrecke, dem Trail oder im Alltag unterwegs bist. Wir bieten dir maßgeschneiderte Lösungen, die genau auf deinen Fahrstil, dein Gewicht und deine Einsatzbereiche abgestimmt sind. Dank modernster Mess- & Prüftechnologie sowie unserer langjährigen Erfahrung modifizieren wir dein Fahrwerk so, dass es dir maximale Leistung, volle Kontrolle und höchste Sicherheit bietet. Eine individuelle Abstimmung der Dämpfungskennlinie, Montage von Tuningteilen wie z.B. Cartridgesystemen oder DLC-/TiN-Beschichtung der Innenrohre, sowie Polieren, Eloxieren, Pulverbeschichtungen und Cerakote-Lackierungen ermöglichen es, die Performance, Optik und Langlebigkeit deines Fahrwerks zu optimieren.",
-        "url_button_link": "",
-        "text_button_text": "Tuning-Anfrage",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Tuning-Anfrage",
         "content_allign": "right"
       }
     },
@@ -62,11 +62,11 @@
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
         "text_grid_text_1": "Kompetenz, auf die du dich verlassen kannst",
         "text_grid_text_2": "Von Bikern für Biker",
         "text_grid_text_3": "Kundenzentrierter Ansatz"
@@ -145,11 +145,11 @@
       "settings": {
         "text_subheading": "// Wartungsintervall",
         "text_heading": "WANN SOLLTE EIN SERVICE DURCHGEFÜHRT WERDEN",
-        "text_text": "Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.",
-        "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service buchen",
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Federgabel",
         "text_head_3": "Dämpfer",
@@ -237,11 +237,11 @@
       "settings": {
         "text_subheading": "// Leistung",
         "text_heading": "Service mit Herzblut",
-        "text_text": "Unser Suspension-Service beinhaltet alles was dein Fahrwerk braucht, um in Bestform zu bleiben!",
-        "url_button_link": "",
-        "text_button_text": "SERVICE BUCHEN",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
-        "text_button_text_2": ""
+        "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "SERVICE BUCHEN"
       }
     },
     "about_1": {
@@ -277,11 +277,11 @@
       "settings": {
         "text_subheading": "// MOTO Suspension-Service",
         "text_heading": "Wir wissen, wie wichtig dein Fahrwerk für dich ist!",
-        "text_text": "Schnelle Bearbeitung, herausragende Qualität und langjährige Erfahrung im Bereich Fahrwerkstechnik, machen uns zum perfekten Servicepartner für dein Motorrad-Fahrwerk.",
-        "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service buchen",
         "text_left_text_bottom": "// Unsere Macht in Zahlen"
       }
     },
@@ -291,7 +291,7 @@
         "service_block_MkacEK": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1.webp",
+            "image_bild": "shopify://shop_images/step-1_moto.webp",
             "text_step": "Step 1",
             "text_heading": "Service buchen",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -322,11 +322,11 @@
       "settings": {
         "text_subheading": "// wie es funktioniert",
         "text_heading": "Service-Abwicklung",
-        "text_text": "Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.",
-        "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
-        "text_button_text_2": ""
+        "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service buchen"
       }
     },
     "blog_teaser": {
@@ -355,11 +355,11 @@
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
-        "text_text": "Hier findest du alles Wissenswerte rund um unseren Service, schnell und übersichtlich erklärt.",
-        "url_button_link": "",
-        "text_button_text": "Mehr FAQ´s",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Mehr FAQ´s",
         "text_cta_headline": "SWIFT Suspension",
         "text_cta_infos": "Kundenservice",
         "url_cta_button_link": "",
