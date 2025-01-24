@@ -389,8 +389,8 @@
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
-        "text_heading": "Dein Fahrwerk istunsere Leidenschaft",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "text_heading": "Dein Fahrwerk <br><span class=\"gradient-bar-h3\">ist unsere Leidenschaft</span>",
+        "richtext_text": "<p>Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlerinnen und Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau worauf es bei deinem Fahrwerk ankommt.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
