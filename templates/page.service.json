@@ -116,11 +116,11 @@
       "settings": {
         "text_subheading": "// Wartungsintervalle",
         "text_heading": "WANN SOLLTE EIN SERVICE DURCHGEFÜHRT WERDEN?",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "richtext_text": "<p>Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
+        "text_button_text": "SERVICE BUCHEN",
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "in Stunden",
         "text_head_3": "in Kilometern",
@@ -248,7 +248,7 @@
       "settings": {
         "text_subheading": "// MTB SUSPENSION-SERVICE",
         "text_heading": "Wir wissen, wie wichtig dein Fahrwerk für dich ist!",
-        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
