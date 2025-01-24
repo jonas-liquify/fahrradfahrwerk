@@ -32,14 +32,7 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Fahrerergewicht*",
-            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
-          }
-        },
-        "input_text_bdAkkH": {
-          "type": "input-text",
-          "settings": {
-            "text_input_lable": "Fahrerergewicht*",
-            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
+            "text_beschreibung": "*inkl. Ausrüstung (kg)"
           }
         },
         "input_radio_LbhyjQ": {
@@ -48,7 +41,78 @@
             "text_titel": "Ich fahre Rennen",
             "text_lable_1": "Ja",
             "text_lable_2": "Nein",
-            "text_beschreibung": "*Fahrergewicht inkl. Ausrüstung (kg)"
+            "text_beschreibung": ""
+          }
+        },
+        "spacer_pyez4P": {
+          "type": "spacer",
+          "settings": {}
+        },
+        "headline_7yUwdn": {
+          "type": "headline",
+          "settings": {
+            "text_headline": "Fahrer"
+          }
+        },
+        "input_text_7dK4wC": {
+          "type": "input-text",
+          "settings": {
+            "text_input_lable": "Modell*",
+            "text_beschreibung": ""
+          }
+        },
+        "input_text_cjAby9": {
+          "type": "input-text",
+          "settings": {
+            "text_input_lable": "Modell*",
+            "text_beschreibung": ""
+          }
+        },
+        "input_text_qzPQy9": {
+          "type": "input-text",
+          "settings": {
+            "text_input_lable": "Baujahr*",
+            "text_beschreibung": ""
+          }
+        },
+        "spacer_4VLdrd": {
+          "type": "spacer",
+          "settings": {}
+        },
+        "headline_JzJECT": {
+          "type": "headline",
+          "settings": {
+            "text_headline": "Einsatzgebiet"
+          }
+        },
+        "input_checkbox_hpEKiP": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Downhill"
+          }
+        },
+        "input_checkbox_7C6Uen": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Tour"
+          }
+        },
+        "input_checkbox_BtaCk3": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Enduro"
+          }
+        },
+        "input_checkbox_xMWPwi": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Alltag"
+          }
+        },
+        "input_checkbox_VRKXWJ": {
+          "type": "input-checkbox",
+          "settings": {
+            "text_checkbox_lable": "Cross Country"
           }
         },
         "input_medium_text_nqLJkK": {
@@ -62,41 +126,26 @@
           "settings": {
             "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche"
           }
-        },
-        "spacer_4VLdrd": {
-          "type": "spacer",
-          "settings": {}
-        },
-        "headline_trRX7N": {
-          "type": "headline",
-          "settings": {
-            "text_headline": "Fahrer"
-          }
-        },
-        "input_checkbox_xMWPwi": {
-          "type": "input-checkbox",
-          "settings": {
-            "text_checkbox_lable": "Alltag"
-          }
-        },
-        "input_checkbox_VRKXWJ": {
-          "type": "input-checkbox",
-          "settings": {
-            "text_checkbox_lable": "Alltag"
-          }
         }
       },
       "block_order": [
         "headline_qkJPWn",
         "input_text_NmeBV9",
-        "input_text_bdAkkH",
         "input_radio_LbhyjQ",
-        "input_medium_text_nqLJkK",
-        "input_big_text_9xdiq7",
+        "spacer_pyez4P",
+        "headline_7yUwdn",
+        "input_text_7dK4wC",
+        "input_text_cjAby9",
+        "input_text_qzPQy9",
         "spacer_4VLdrd",
-        "headline_trRX7N",
+        "headline_JzJECT",
+        "input_checkbox_hpEKiP",
+        "input_checkbox_7C6Uen",
+        "input_checkbox_BtaCk3",
         "input_checkbox_xMWPwi",
-        "input_checkbox_VRKXWJ"
+        "input_checkbox_VRKXWJ",
+        "input_medium_text_nqLJkK",
+        "input_big_text_9xdiq7"
       ],
       "settings": {}
     }
