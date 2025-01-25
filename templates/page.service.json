@@ -38,7 +38,7 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Reparatur-Anfrage",
+        "text_button_text": "REPARATUR-ANFRAGE",
         "content_allign": "left"
       }
     },
@@ -51,7 +51,7 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Tuning-Anfrage",
+        "text_button_text": "TUNING-ANFRAGE",
         "content_allign": "right"
       }
     },
@@ -252,8 +252,8 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Service buchen",
-        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
+        "text_button_text": "SERVICE BUCHEN",
+        "text_left_text_bottom": "Unsere Macht in Zahlen"
       }
     },
     "prozess": {
@@ -262,6 +262,7 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1_mtb.webp",
             "text_step": "Step 1",
             "text_heading": "SERVICE BUCHEN",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
@@ -270,6 +271,7 @@
         "service_block_6LJrYt": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-2_mtb.webp",
             "text_step": "Step 2",
             "text_heading": "Versand der Bauteile",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
@@ -296,7 +298,7 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Service buchen"
+        "text_button_text": "SERVICE BUCHEN"
       }
     },
     "blog_teaser": {
@@ -369,7 +371,7 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "Mehr FAQ´s",
+        "text_button_text": "MEHR FAQ´s",
         "text_cta_headline": "SWIFT Suspension",
         "text_cta_infos": "Kundenservice",
         "url_cta_button_link": "",
