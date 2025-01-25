@@ -14,7 +14,7 @@
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_headline": "Service & Tuning anfrage",
-        "text_text": "Wir bieten dir Service, Tuning & Zubehör für Federgabeln und Dämpfer der Marke CANE CREEK SUSPENSION. In unserer Service & Tuning Anfrage kannst du unsere Service-Leistung mit verschiedenen Produkten individuell kombinieren. Wähle Marke & Modell und wir zeigen dir, was wir zur Auswahl haben."
+        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen."
       }
     },
     "funnel_nav_6TdT9X": {
@@ -53,11 +53,11 @@
       "settings": {
         "text_subheading": "// SERVICE",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
         "content_allign": "right"
       }
     },
@@ -66,11 +66,11 @@
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Unsere hochwertigen Produkte",
-        "text_text": "Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
         "text_cta_headline": "Heading",
         "text_cta_infos": "Max Mustermann (Gründer)",
         "url_cta_button_link": "",
@@ -82,11 +82,11 @@
       "settings": {
         "text_subheading": "// Topseller",
         "text_heading": "Produkte für dein Fahrrad & Motorrad",
-        "text_text": "Entdecke unsere Auswahl an hochwertigen Produkten für dein Mountainbike und Motorrad. Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.",
-        "url_button_link": "",
-        "text_button_text": "Alle Produkte",
+        "richtext_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
-        "text_button_text_2": ""
+        "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "Alle Produkte"
       }
     }
   },
