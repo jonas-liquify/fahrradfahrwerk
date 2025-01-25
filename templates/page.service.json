@@ -236,7 +236,7 @@
           "type": "numbers-block",
           "settings": {
             "text_number": "15+",
-            "text_text": "Jahre Erfahrung"
+            "text_text": "Jahre <br>Erfahrung"
           }
         }
       },
@@ -253,7 +253,7 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "Service buchen",
-        "text_left_text_bottom": "Unsere Macht in Zahlen"
+        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
       }
     },
     "prozess": {
