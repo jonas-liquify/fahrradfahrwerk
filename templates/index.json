@@ -163,6 +163,7 @@
         "service_block_hPdt7G": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-2_moto.webp",
             "text_step": "Step 3",
             "text_heading": "Zurücklehnen",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
