@@ -102,7 +102,6 @@
         "service_item_AtXQ94": {
           "type": "service-item",
           "settings": {
-            "image_bild": "shopify://shop_images/push_ACS3_01.jpg",
             "text_subheading": "",
             "text_heading": "Reparatur",
             "richtext_text": "<p>Ein optimal funktionierendes Fahrwerk ist entscheidend für die Leistung und Sicherheit deines Bikes. Beschädigungen oder Verschleiß können nicht nur die Funktion beeinträchtigen, sondern auch deine Sicherheit gefährden. Unser Reparaturservice kombiniert jahrelange Erfahrung und den Einsatz modernster Messwerkzeuge, um dein Fahrwerk wieder in Top-Form zu bringen.</p>",
@@ -155,7 +154,7 @@
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1_moto.webp",
+            "image_bild": "shopify://shop_images/step-2_moto.webp",
             "text_step": "Step 2",
             "text_heading": "Versand der Bauteile",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
@@ -164,6 +163,7 @@
         "service_block_hPdt7G": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-1_moto_final.webp",
             "text_step": "Step 3",
             "text_heading": "Zurücklehnen",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
@@ -353,7 +353,7 @@
       "settings": {
         "text_subheading": "// Topseller",
         "text_heading": "Produkte für dein Fahrrad & Motorrad",
-        "richtext_text": "<p>Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrsnaß brauchst.</p>",
+        "richtext_text": "<p>Ob für Wartung, Reparatur oder Tuning, bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
@@ -389,7 +389,7 @@
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
-        "text_heading": "Dein Fahrwerk <br><span class=\"gradient-bar-h3\">ist unsere Leidenschaft</span>",
+        "text_heading": "Dein Fahrwerk ist unsere Leidenschaft",
         "richtext_text": "<p>Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlerinnen und Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau worauf es bei deinem Fahrwerk ankommt.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
