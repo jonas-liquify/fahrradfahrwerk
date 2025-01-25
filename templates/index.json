@@ -114,6 +114,7 @@
         "service_item_LUJzPt": {
           "type": "service-item",
           "settings": {
+            "image_bild": "shopify://shop_images/A7406685.jpg",
             "text_subheading": "",
             "text_heading": "Tuning",
             "richtext_text": "<p>Jedes Fahrwerk ist einzigartig - wir passen deine Federgabel und deinen Dämpfer exakt an deine Bedürfnisse an, um maximale Leistung, Komfort und Sicherheit zu gewährleisten. Mit professionellem Equipment und innovativen Methoden garantieren wir höchste Präzision und Qualität. Vertraue auf unsere Erfahrung und lass dein Mountainbike- & Motorrad-Fahrwerk individuell optimieren!</p>",
