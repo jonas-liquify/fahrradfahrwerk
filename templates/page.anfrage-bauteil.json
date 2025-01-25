@@ -31,7 +31,7 @@
       "type": "funnel_marken",
       "settings": {
         "text_headline": "Welches Bauteil hast du?",
-        "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+        "text_choose_text": "Wähle im nächsten Schritt deine Marke aus.",
         "collection_list": [
           "federgabel-fahrrad",
           "dampfer-fahrrad",
