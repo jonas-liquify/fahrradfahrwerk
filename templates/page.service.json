@@ -222,7 +222,7 @@
           "type": "numbers-block",
           "settings": {
             "text_number": "4.000+",
-            "text_text": "Services pro Jahr"
+            "text_text": "Services <br>pro Jahr"
           }
         },
         "numbers_block_4GnaAV": {
@@ -253,7 +253,7 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "Service buchen",
-        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
+        "text_left_text_bottom": "Unsere Macht in Zahlen"
       }
     },
     "prozess": {
