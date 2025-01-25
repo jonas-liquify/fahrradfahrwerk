@@ -247,13 +247,13 @@
       ],
       "settings": {
         "text_subheading": "// MTB SUSPENSION-SERVICE",
-        "text_heading": "Wir wissen, wie wichtig dein Fahrwerk für dich ist!",
+        "text_heading": "Bei uns ist dein Fahrwerk in den besten Händen",
         "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Egal ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "Service buchen",
-        "text_left_text_bottom": "// Unsere Macht in Zahlen"
+        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
       }
     },
     "prozess": {
@@ -262,7 +262,6 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1_mtb_final.webp",
             "text_step": "Step 1",
             "text_heading": "SERVICE BUCHEN",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
