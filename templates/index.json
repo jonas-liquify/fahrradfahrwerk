@@ -64,7 +64,7 @@
           "type": "numbers-block",
           "settings": {
             "text_number": "15+",
-            "text_text": "Jahre Erfahrung"
+            "text_text": "Jahre <br>Erfahrung"
           }
         }
       },
