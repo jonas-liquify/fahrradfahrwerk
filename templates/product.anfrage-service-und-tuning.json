@@ -50,6 +50,7 @@
     },
     "content": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "text_subheading": "// SERVICE",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -63,6 +64,7 @@
     },
     "faq": {
       "type": "faq",
+      "disabled": true,
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -79,6 +81,7 @@
     },
     "product_recommended": {
       "type": "product_recommended",
+      "disabled": true,
       "settings": {
         "text_subheading": "// Topseller",
         "text_heading": "Produkte für dein Fahrrad & Motorrad",
