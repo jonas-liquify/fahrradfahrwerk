@@ -78,16 +78,16 @@
           "type": "spalte",
           "settings": {
             "text_spalte_1": "MOTOCROSS",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "20-25h",
+            "text_spalte_3": "15-20h"
           }
         },
         "spalte_WwGJUD": {
           "type": "spalte",
           "settings": {
             "text_spalte_1": "HARD ENDURO",
-            "text_spalte_2": "+",
-            "text_spalte_3": "+"
+            "text_spalte_2": "40-50h",
+            "text_spalte_3": "30-40h"
           }
         },
         "spalte_Wbpa3A": {
