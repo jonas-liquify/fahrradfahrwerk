@@ -1,14 +1,12 @@
 <div class="padding-global"><div class="container-large"><div class="intro-in-section"><div class="heading-block"><div class="subheading text-color-red">
 {{ section.settings.text_subheading }}
 </div>
-<h2 class="heading-style-h2">
-{{ section.settings.text_heading }}
-</h2>
-<div><div> {{ section.settings.richtext_text }} </div>
-</div></div><div class="button-group">{% if section.settings.text_button_text_2 %}    <div li-if="section.settings.text_button_text_2">
+<h2 li-object="section.settings.text_headline" class="heading-style-h2">{{ section.settings.text_headline }}</h2><div><div> {{ section.settings.richtext_text }} </div>
+</div><div class="li-custom w-embed"></div>
+</div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text %}    <div li-if="section.settings.text_button_text">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="service_component">{% for block in section.blocks %}
@@ -19,18 +17,16 @@
                                     <div class="heading-block"><div class="subheading text-color-red">
 {{ block.settings.text_subheading }}
 </div>
-<h2 class="heading-style-h2">
-{{ block.settings.text_heading }}
-</h2>
-<div><div> {{ block.settings.richtext_text }} </div>
-</div><div><div class="button-group">{% if block.settings.text_button_text_2 %}    <div li-if="block.settings.text_button_text_2">
+<h2 li-object="block.settings.text_headline" class="heading-style-h2">{{ block.settings.text_headline }}</h2><div><div> {{ block.settings.richtext_text }} </div>
+</div><div><div class="button-group">{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank">
     <a href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if block.settings.text_button_text %}    <div li-if="block.settings.text_button_text">
+{% endif %}{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank">
     <a href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
     </div>
-{% endif %}</div></div></div>
+{% endif %}</div></div><div class="li-custom w-embed"></div>
+</div>
                             </div>
             {% endif %}
 {% endfor %}
-</div></div></div> {% schema %} {"tag":"section","name":"Service Slide","class":"section_service","blocks":[{"name":"Service Item","type":"service-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen <span>Produkte<\/span>"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!<\/p>"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_heading","type":"text","label":"Heading","default":"Unsere hochwertigen <span>Produkte<\/span>"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!<\/p>"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"}],"presets":[{"name":"Service Slide","category":"Liquify","blocks":[{"type":"service-item"}]}]} {% endschema %}
+</div></div></div> {% schema %} {"tag":"section","name":"Service Slide","class":"section_service","blocks":[{"name":"Service Item","type":"service-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!<\/p>"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"},{"type":"html","id":"text_headline","label":"Headline","default":"Optimale Leistung f\u00fcr deine Federgabela"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"richtext_text","type":"richtext","label":"Text","default":"<p>Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!<\/p>"},{"type":"html","id":"text_headline","label":"Headline","default":"Optimale Leistung f\u00fcr deine Federgabela"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"}],"presets":[{"name":"Service Slide","category":"Liquify","blocks":[{"type":"service-item"}]}]} {% endschema %}

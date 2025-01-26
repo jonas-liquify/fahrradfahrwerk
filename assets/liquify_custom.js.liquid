@@ -171,7 +171,6 @@ document.addEventListener('alpine:init', () => {
         },
 
         getExistingOptions(variants) {
-            console.log('variants', variants)
             let uniqueOptions = {
                 option1: [...new Set(variants?.map(item => item.option1))],
                 option2: [...new Set(variants?.map(item => item.option2))],
@@ -607,7 +606,9 @@ document.addEventListener('alpine:init', () => {
          * Add a single product to cart.
          */
         async addToCart(e, toggleMiniCart = true, productId = undefined, quantity = undefined) {
-            e = e || window.event;
+            if(!(e instanceof Event)){
+                e = window.event
+            }
             e.preventDefault();
             console.log('Liquify - Add to cart called, selected_or_first_available_variant.id:', this.product.selected_or_first_available_variant?.id);
 
