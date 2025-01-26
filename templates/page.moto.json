@@ -151,7 +151,7 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Dämpfer",
         "text_head_3": "Federgabel",
-        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</p>"
+        "richtext_tabelle_infotext": "<ol><li>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</li></ol>"
       }
     },
     "infos_GA8JXb": {
@@ -280,7 +280,7 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "SERVICE BUCHEN",
-        "text_left_text_bottom": "Unsere Macht in Zahlen"
+        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
       }
     },
     "prozess_QPAca8": {
