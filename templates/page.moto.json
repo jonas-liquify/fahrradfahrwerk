@@ -142,7 +142,7 @@
       ],
       "settings": {
         "text_subheading": "// Wartungsintervall",
-        "text_heading": "WANN SOLLTE EIN SERVICE DURCHGEFÜHRT WERDEN",
+        "text_heading": "Wann sollte ein Service durchgeführt werden?",
         "richtext_text": "<p>Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
@@ -151,7 +151,7 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Dämpfer",
         "text_head_3": "Federgabel",
-        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden.</p>"
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</p>"
       }
     },
     "infos_GA8JXb": {
