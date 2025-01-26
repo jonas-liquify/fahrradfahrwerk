@@ -51,7 +51,7 @@
     </template>
 <div class="product-header_add-to-cart-wrapper"><div><template x-if="selected_or_first_available_variant.available">
             <div li-js-if="selected_or_first_available_variant.available" class="product-header_buy-wrappper">
-        <a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(true)" :disabled="!addToCartButton">Zur Anfrage hinzufügen</a>        </div>
+        <a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart(event, true)" :disabled="!addToCartButton">Zur Anfrage hinzufügen</a>        </div>
     </template>
 </div><template x-if="!selected_or_first_available_variant.available">
             <div li-js-if="!selected_or_first_available_variant.available" class="product-header_out-of-stock">
