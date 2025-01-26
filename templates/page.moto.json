@@ -47,7 +47,7 @@
       "settings": {
         "text_subheading": "// TUNING",
         "text_heading": "Mehr Leistung, mehr Persönlichkeit",
-        "richtext_text": "<p>Ein perfekt abgestimmtes Fahrwerk macht den entscheidenden Unterschied, egal ob du auf der Rennstrecke, dem Trail oder im Alltag unterwegs bist. Wir bieten dir maßgeschneiderte Lösungen, die genau auf deinen Fahrstil, dein Gewicht und deine Einsatzbereiche abgestimmt sind. Dank modernster Mess- & Prüftechnologie sowie unserer langjährigen Erfahrung modifizieren wir dein Fahrwerk so, dass es dir maximale Leistung, volle Kontrolle und höchste Sicherheit bietet. Eine individuelle Abstimmung der Dämpfungskennlinie, Montage von Tuningteilen wie z.B. Cartridgesystemen oder DLC-/TiN-Beschichtung der Innenrohre, sowie polieren, eloxieren, Pulverbeschichtungen und Cerakote-Lackierungen ermöglichen es, die Performance, Optik und Langlebigkeit deines Fahrwerks zu optimieren.</p>",
+        "richtext_text": "<p>Ein perfekt abgestimmtes Fahrwerk macht den entscheidenden Unterschied, egal ob du auf der Rennstrecke, dem Trail oder im Alltag unterwegs bist. Wir bieten dir maßgeschneiderte Lösungen, die genau auf deinen Fahrstil, dein Gewicht und deinen Einsatzbereich abgestimmt sind. Dank modernster Mess- & Prüftechnologie sowie unserer langjährigen Erfahrung modifizieren wir dein Fahrwerk so, dass es dir maximale Leistung, volle Kontrolle und höchste Sicherheit bietet. Eine individuelle Abstimmung der Dämpfungskennlinie, Montage von Tuningteilen wie z.B. Cartridgesystemen oder DLC-/TiN-Beschichtung der Innenrohre, sowie Polieren, Eloxieren, Pulverbeschichtungen und Cerakote-Lackierungen ermöglichen es, die Performance, Optik und Langlebigkeit deines Fahrwerks zu optimieren.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
@@ -218,7 +218,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/delete_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Entsorgung",
-            "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile, werden fachgerecht und umweltschonend entsorgt."
+            "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile werden fachgerecht und umweltschonend entsorgt."
           }
         }
       },

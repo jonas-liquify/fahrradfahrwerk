@@ -124,7 +124,7 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "in Stunden",
         "text_head_3": "in Kilometern",
-        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte der Wartungsintervall von Federgabel und Dämpfer individuell angepasst (verkürzt) werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h oder mind. jährlich durchzuführen.</p>"
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h und mindestens  jährlich durchzuführen.</p>"
       }
     },
     "infos_bPMqJ3": {
@@ -191,7 +191,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/delete_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Entsorgung",
-            "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile, werden fachgerecht und umweltschonend entsorgt."
+            "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile werden fachgerecht und umweltschonend entsorgt."
           }
         }
       },
