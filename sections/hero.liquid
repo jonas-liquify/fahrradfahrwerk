@@ -2,7 +2,8 @@
 {{ section.settings.text_subheading }}
 </div>
 <h1 class="hero-heading text-color-white">
-{{ section.settings.text_headline }}
+{{ section.settings.text_sectionsettingstext_headline }}
 </h1>
 </div></div></div><img loading="lazy" alt="{{ section.settings.image_bild.alt }}" src="{{ section.settings.image_bild | img_url: 'master' }}" class="home_hero_bg-img">
- {% schema %} {"tag":"section","name":"Hero","class":"section_home_hero","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_headline","type":"html","label":"Headline","default":"Optimale Leistung <span class=\"gradient-bar\">f\u00fcr deine Federgabela<\/span>"},{"id":"image_bild","type":"image_picker","label":"Bild"}],"presets":[{"name":"Hero","category":"Liquify","blocks":[]}]} {% endschema %}
+<div class="li-custom w-embed"></div>
+ {% schema %} {"tag":"section","name":"Hero","class":"section_home_hero","settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"id":"text_sectionsettingstext_headline","type":"text","label":"section.settings.text_headline","default":"Optimale Leistung <span class=\"gradient-bar\">f\u00fcr deine Federgabela<\/span>"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"type":"html","id":"text_headline","label":"Headline","default":"Optimale Leistung f\u00fcr deine Federgabela"}],"presets":[{"name":"Hero","category":"Liquify","blocks":[]}]} {% endschema %}
