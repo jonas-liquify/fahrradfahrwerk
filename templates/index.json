@@ -50,7 +50,7 @@
           "type": "numbers-block",
           "settings": {
             "text_number": "4.000+",
-            "text_text": "Services<br>pro Jahr"
+            "text_text": "Servicespro Jahr"
           }
         },
         "numbers_block_UXYq3q": {
@@ -149,7 +149,7 @@
             "image_bild": "shopify://shop_images/Prozess_step-1_moto.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
-            "text_headline": "Optimale Leistung für deine Federgabela"
+            "text_headline": "Service buchen"
           }
         },
         "service_block_UtpqEd": {
@@ -158,7 +158,7 @@
             "image_bild": "shopify://shop_images/Prozess_step-2_moto.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
-            "text_headline": "Optimale Leistung für deine Federgabela"
+            "text_headline": "Versand der Bauteile"
           }
         },
         "service_block_hPdt7G": {
