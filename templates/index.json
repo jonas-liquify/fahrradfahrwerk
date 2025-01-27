@@ -213,13 +213,17 @@
             "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
           }
         },
+        "logo_4YUACx": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/rst_logo_512x512_a021faf0-2034-47da-a63c-bdf9b18d1837.webp"
+          }
+        },
         "logo_nFtrJX": {
           "type": "logo",
-          "settings": {}
-        },
-        "logo_9PmNP3": {
-          "type": "logo",
-          "settings": {}
+          "settings": {
+            "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
+          }
         },
         "logo_cHfTxA": {
           "type": "logo",
@@ -317,8 +321,8 @@
         "logo_nE8Md8",
         "logo_jHBxmd",
         "logo_MnXREJ",
+        "logo_4YUACx",
         "logo_nFtrJX",
-        "logo_9PmNP3",
         "logo_cHfTxA",
         "logo_dQtDxb",
         "logo_FC6yjg",

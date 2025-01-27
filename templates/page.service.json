@@ -79,7 +79,9 @@
           "settings": {
             "text_spalte_1": "DOWNHILL",
             "text_spalte_2": "100h",
-            "text_spalte_3": "2500km"
+            "text_spalte_3": "2500km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_B8LEqj": {
@@ -87,7 +89,9 @@
           "settings": {
             "text_spalte_1": "ENDURO",
             "text_spalte_2": "150h",
-            "text_spalte_3": "3000km"
+            "text_spalte_3": "3000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_jnaAiK": {
@@ -95,7 +99,9 @@
           "settings": {
             "text_spalte_1": "CROSS COUNTRY",
             "text_spalte_2": "200h",
-            "text_spalte_3": "5000km"
+            "text_spalte_3": "5000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_hcd4GW": {
@@ -103,7 +109,9 @@
           "settings": {
             "text_spalte_1": "ALLTAG / TOUR",
             "text_spalte_2": "300h",
-            "text_spalte_3": "6000km"
+            "text_spalte_3": "6000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         }
       },
@@ -124,6 +132,8 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "in Stunden",
         "text_head_3": "in Kilometern",
+        "text_head_4": "STANDARD EDITION",
+        "text_head_5": "STANDARD EDITION",
         "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h und mindestens  jährlich durchzuführen.</p>"
       }
     },
@@ -133,6 +143,7 @@
         "info_GfUJkw": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_search_check.svg",
             "text_headline": "Eingangsprüfung",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
@@ -140,6 +151,7 @@
         "info_ChxxiB": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_construction.svg",
             "text_headline": "Demontage",
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
@@ -147,6 +159,7 @@
         "info_xrzDcj": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
@@ -154,6 +167,7 @@
         "info_wRTHhh": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_published_with_changes.svg",
             "text_headline": "Verschleissteile",
             "textarea_text": "Dichtungen, Abstreifer und verschiedene Kleinteile werden sorgfältig durch Materialien von höchster Qualität ersetzt."
           }
@@ -161,6 +175,7 @@
         "info_QEYBNW": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_humidity_low.svg",
             "text_headline": "Schmierstoffe",
             "textarea_text": "Für maximale Performance verwenden wir ausschließlich hochwertige Öle und Hochleistungsschmierstoffe führender Hersteller."
           }
@@ -168,6 +183,7 @@
         "info_qq8KhX": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_construction.svg",
             "text_headline": "Montage",
             "textarea_text": "Bei der Montage legen wir großen Wert auf eine fachgerechte Durchführung, um die maximale Leistung und Sicherheit deiner Bauteile zu gewährleisten."
           }
@@ -175,6 +191,7 @@
         "info_YXm3XD": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_check.svg",
             "text_headline": "Funktionstest",
             "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
@@ -182,6 +199,7 @@
         "info_KTGUQX": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_delete.svg",
             "text_headline": "Entsorgung",
             "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile werden fachgerecht und umweltschonend entsorgt."
           }
@@ -257,7 +275,7 @@
             "image_bild": "shopify://shop_images/Prozess_step-1_mtb.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
-            "text_headline": "Optimale Leistung für deine Federgabela"
+            "text_headline": "Service buchen"
           }
         },
         "service_block_6LJrYt": {
@@ -266,15 +284,16 @@
             "image_bild": "shopify://shop_images/Prozess_step-2_mtb.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
-            "text_headline": "Optimale Leistung für deine Federgabela"
+            "text_headline": "Versand der Bauteil"
           }
         },
         "service_block_kk7dMR": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/step-3_mtb.webp",
             "text_step": "Step 3",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse.",
-            "text_headline": "Optimale Leistung für deine Federgabela"
+            "text_headline": "Bearbeitung"
           }
         }
       },
@@ -297,7 +316,18 @@
       "type": "blog_teaser",
       "disabled": true,
       "settings": {
-        "text_heading": "Heading"
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Heading",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "blog_blog": "",
+        "post_limit_blog": 3,
+        "text_step": "<span class=\"gradient-bar-step\" li-settings:text=\"Category\">Step 1</span>",
+        "text_category": "Step 1",
+        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
     },
     "faq": {
