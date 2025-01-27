@@ -13,6 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
+        "image_bild": "shopify://shop_images/Action_Dirt_flavor_Julian.webp",
         "text_heading": "Optimale Leistung für deine Federgabela"
       }
     },
@@ -22,6 +23,7 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
+            "image_bild": "shopify://shop_images/mtb_white.webp",
             "text_headline": "FAHRRAD",
             "text_text": "Fahrzeug auswählen"
           }
@@ -29,6 +31,7 @@
         "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
+            "image_bild": "shopify://shop_images/moto_white.webp",
             "text_headline": "MOTORRAD",
             "text_text": "Fahrzeug auswählen"
           }
