@@ -13,8 +13,8 @@
       "type": "hero_anfrage",
       "settings": {
         "text_subheading": "// Fahrrad",
-        "text_headline": "Service & Tuning Anfrage",
-        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen."
+        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
+        "text_heading": "Optimale Leistung für deine Federgabela"
       }
     },
     "funnel_nav_rgPBQb": {
@@ -31,7 +31,10 @@
       "type": "funnel_produkte",
       "settings": {
         "text_headline": "Welche Marke hast du?",
-        "text_logo_text": "Wähle im nächsten Schritt dein Service aus."
+        "text_logo_text": "Wähle im nächsten Schritt dein Service aus.",
+        "collection_list": [
+          "bos-suspension"
+        ]
       }
     }
   },
