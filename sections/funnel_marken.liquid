@@ -6,7 +6,8 @@
 {{ section.settings.text_choose_text }}
 </p>
 </div><div class="choose_main_img-wrapper-secondary"><img li-object:src="collection.featured_image | img_url: 'master'" li-object:alt="collection.featured_image.alt" alt="{{ collection.featured_image.alt }}" src="{{ collection.featured_image | img_url: 'master' }}" loading="lazy" class="choose_main_img is-secondary">
-<div id="w-node-_1cb78370-a6ea-94ad-d0fa-1880154d6b00-7ebbd47e" class="choose_main_button-wrapper"><a li-object:href="collection.url" href="{{ collection.url }}" class="button is-secondary-white w-button">Marke auswählen</a></div></div></div>
+<div id="w-node-_1cb78370-a6ea-94ad-d0fa-1880154d6b00-7ebbd47e" class="choose_main_button-wrapper"><a li-object:href="collection.url" href="{{ collection.url }}" class="button is-secondary-white w-button">{{ section.settings.button_text }}</a></div></div></div>
                     {% endfor %}    </div>
 </div></div></div><div class="li-custom w-embed"></div>
- {% schema %} {"tag":"section","name":"Funnel - Marken","class":"section_choose_main","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welche Marke ben\u00f6tigen sie?"},{"id":"text_choose_text","type":"text","label":"Choose Text","default":"W\u00e4hle im n\u00e4chsten Schritt dein Service aus."},{"type":"collection_list","id":"collection_list","label":"Marken"}],"presets":[{"name":"Funnel - Marken","category":"Liquify","blocks":[]}]} {% endschema %}
+<div class="li-custom w-embed"></div>
+ {% schema %} {"tag":"section","name":"Funnel - Marken","class":"section_choose_main","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welche Marke ben\u00f6tigen sie?"},{"id":"text_choose_text","type":"text","label":"Choose Text","default":"W\u00e4hle im n\u00e4chsten Schritt dein Service aus."},{"type":"collection_list","id":"collection_list","label":"Marken"},{"type":"text","id":"button_text","label":"Button Text","default":"Bauteil ausw\u00e4hlen"}],"presets":[{"name":"Funnel - Marken","category":"Liquify","blocks":[]}]} {% endschema %}
