@@ -13,7 +13,6 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
-        "image_bild": "shopify://shop_images/Innsbruck_julian.webp",
         "text_heading": "Optimale Leistung für deine Federgabela"
       }
     },
@@ -23,7 +22,6 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
-            "image_bild": "shopify://shop_images/mtb_white.png",
             "text_headline": "FAHRRAD",
             "text_text": "Fahrzeug auswählen"
           }
@@ -31,7 +29,6 @@
         "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
-            "image_bild": "shopify://shop_images/moto_white.png",
             "text_headline": "MOTORRAD",
             "text_text": "Fahrzeug auswählen"
           }
@@ -75,13 +72,13 @@
       ],
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "Suspension Service für Fahrrad & Motorrad",
+        "text_heading": "Suspension Service für Fahrrad &amp; Motorrad",
         "textarea_text": "<p>Willkommen bei SWIFT Suspension, deinem Experten-Team für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportlerinnen und Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben, um sicherzustellen, dass unsere Kundschaft das Maximum aus ihrem Fahrzeug herausholen kann.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "ÜBER UNS",
-        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>"
+        "text_left_text_bottom": "Unsere Macht in Zahlen"
       }
     },
     "service_slide": {
@@ -95,7 +92,8 @@
             "text_button_text_2": "",
             "url_button_link": "",
             "text_button_text": "SERVICE-ANFRAGE",
-            "text_heading": "Service"
+            "text_heading": "Service",
+            "textarea_text": "<p>Unser Suspension Service sorgt für eine optimale Performance deiner Fahrwerkskomponenten. Die regelmäßige Wartung ist entscheidend, um Langlebigkeit und Sicherheit zu gewährleisten. Durch unsere fachgerechte Arbeit und schnelle Durchführung ist dein Fahrwerk im Handumdrehen wieder einsatzbereit - für maximalen Fahrspaß und volle Kontrolle auf jedem Terrain.</p>"
           }
         },
         "service_item_AtXQ94": {
@@ -106,19 +104,20 @@
             "text_button_text_2": "",
             "url_button_link": "",
             "text_button_text": "REPARATUR-ANFRAGE",
-            "text_heading": "Reparatur"
+            "text_heading": "Reparatur",
+            "textarea_text": "<p>Ein optimal funktionierendes Fahrwerk ist entscheidend für die Leistung und Sicherheit deines Bikes. Beschädigungen oder Verschleiß können nicht nur die Funktion beeinträchtigen, sondern auch deine Sicherheit gefährden. Unser Reparaturservice kombiniert jahrelange Erfahrung und den Einsatz modernster Messwerkzeuge, um dein Fahrwerk wieder in Top-Form zu bringen.</p>"
           }
         },
         "service_item_LUJzPt": {
           "type": "service-item",
           "settings": {
-            "image_bild": "shopify://shop_images/Individuelle_Abstimmung.webp",
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
             "url_button_link": "",
             "text_button_text": "TUNING-ANFRAGE",
-            "text_heading": "Tuning"
+            "text_heading": "Tuning",
+            "textarea_text": "<p>Jedes Fahrwerk ist einzigartig - wir passen deine Federgabel und deinen Dämpfer exakt an deine Bedürfnisse an, um maximale Leistung, Komfort und Sicherheit zu gewährleisten. Mit professionellem Equipment und innovativen Methoden garantieren wir höchste Präzision und Qualität. Vertraue auf unsere Erfahrung und lass dein Mountainbike- & Motorrad-Fahrwerk individuell optimieren!</p>"
           }
         }
       },
@@ -130,6 +129,7 @@
       "settings": {
         "text_subheading": "// Unsere Dienstleistungen",
         "text_heading": "Alles aus einer Hand",
+        "textarea_text": "<p>Schnelle Bearbeitung, herausragende Qualität und langjährige Erfahrung im Bereich Fahrwerkstechnik machen uns zum perfekten Servicepartner für dein Fahrrad- und Motorrad-Fahrwerk.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "FAHRRAD",
         "url_button_link": "",
@@ -142,25 +142,25 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1_mtb.webp",
             "text_step": "Step 1",
-            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung."
+            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
+            "text_headline": "Optimale Leistung für deine Federgabela"
           }
         },
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-2_mtb.webp",
             "text_step": "Step 2",
-            "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung."
+            "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
+            "text_headline": "Optimale Leistung für deine Federgabela"
           }
         },
         "service_block_hPdt7G": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-2_moto.webp",
             "text_step": "Step 3",
-            "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse."
+            "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse.",
+            "text_headline": "Optimale Leistung für deine Federgabela"
           }
         }
       },
@@ -172,6 +172,7 @@
       "settings": {
         "text_subheading": "// wie es funktioniert",
         "text_heading": "Service-Abwicklung",
+        "textarea_text": "<p>Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
@@ -207,15 +208,11 @@
         },
         "logo_nFtrJX": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/sachs_logo_512x512_2d36459a-93cf-466c-acdb-d74075e935fd.webp"
-          }
+          "settings": {}
         },
         "logo_9PmNP3": {
           "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/rst_logo_512x512_6768e23c-e3be-434b-9e64-2aacd6f8a0b8.webp"
-          }
+          "settings": {}
         },
         "logo_cHfTxA": {
           "type": "logo",
@@ -334,23 +331,24 @@
       "settings": {
         "text_subheading": "// MARKEN",
         "text_heading": "Suspension Marken",
+        "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "SERVICE BUCHEN",
-        "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
+        "text_button_text": "SERVICE BUCHEN"
       }
     },
     "products": {
       "type": "products",
       "settings": {
         "text_subheading": "// Topseller",
-        "text_heading": "Produkte für dein Fahrrad & Motorrad",
+        "text_heading": "Produkte für dein Fahrrad &amp; Motorrad",
+        "textarea_text": "<p>Ob für Wartung, Reparatur oder Tuning - bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "ALLE PRODUKTE",
-        "collection_products": "",
+        "collection_products": "bos-suspension",
         "collection_products_limit": 6
       }
     },
@@ -359,15 +357,11 @@
       "blocks": {
         "showcase_slide_xibxrg": {
           "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/Reschenpass_julian.webp"
-          }
+          "settings": {}
         },
         "showcase_slide_qjHGDM": {
           "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/Innsbruck_julian.webp"
-          }
+          "settings": {}
         },
         "showcase_slide_EAc7VD": {
           "type": "showcase-slide",
@@ -382,6 +376,7 @@
       "settings": {
         "text_subheading": "// Bildergalerie",
         "text_heading": "Dein Fahrwerk ist unsere Leidenschaft",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
@@ -393,6 +388,7 @@
       "settings": {
         "text_subheading": "// Service-Partner",
         "text_heading": "Rundum-Sorglos-Paket, auch in deiner Nähe",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "PARTNER WERDEN",
         "url_button_link": "",
