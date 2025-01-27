@@ -364,7 +364,9 @@
       "blocks": {
         "showcase_slide_xibxrg": {
           "type": "showcase-slide",
-          "settings": {}
+          "settings": {
+            "image_bild": "shopify://shop_images/Action_Reschenpass_julian.webp"
+          }
         },
         "showcase_slide_qjHGDM": {
           "type": "showcase-slide",
