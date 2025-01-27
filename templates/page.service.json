@@ -254,6 +254,7 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/Prozess_step-1_mtb.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
             "text_headline": "Optimale Leistung für deine Federgabela"
@@ -262,6 +263,7 @@
         "service_block_6LJrYt": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/Prozess_step-2_mtb.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
             "text_headline": "Optimale Leistung für deine Federgabela"
