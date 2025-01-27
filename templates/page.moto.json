@@ -79,7 +79,9 @@
           "settings": {
             "text_spalte_1": "MOTOCROSS",
             "text_spalte_2": "15-20h",
-            "text_spalte_3": "20-25h"
+            "text_spalte_3": "20-25h",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_WwGJUD": {
@@ -87,7 +89,9 @@
           "settings": {
             "text_spalte_1": "HARD ENDURO",
             "text_spalte_2": "30-40h / 1.500-2.500km",
-            "text_spalte_3": "40-50h / 2.000-3.000km"
+            "text_spalte_3": "40-50h / 2.000-3.000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_Wbpa3A": {
@@ -95,7 +99,9 @@
           "settings": {
             "text_spalte_1": "SOFT ENDURO",
             "text_spalte_2": "60-100h / 3.000-5.000km",
-            "text_spalte_3": "60-100h / 3.000-5.000km"
+            "text_spalte_3": "60-100h / 3.000-5.000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_jWTha9": {
@@ -103,7 +109,9 @@
           "settings": {
             "text_spalte_1": "RENNSTRECKE",
             "text_spalte_2": "15-20h / 2.500-3.000km",
-            "text_spalte_3": "20-25h / 3000-3.500km"
+            "text_spalte_3": "20-25h / 3000-3.500km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_eEiBFL": {
@@ -111,7 +119,9 @@
           "settings": {
             "text_spalte_1": "SUPERMOTO",
             "text_spalte_2": "40-60h / 3.000-5.000km",
-            "text_spalte_3": "40-60h / 3.000-5.000km"
+            "text_spalte_3": "40-60h / 3.000-5.000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_iYabBE": {
@@ -119,7 +129,9 @@
           "settings": {
             "text_spalte_1": "STRASSE",
             "text_spalte_2": "10.000-15.000km",
-            "text_spalte_3": "10.000-15.000km"
+            "text_spalte_3": "10.000-15.000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         },
         "spalte_c4UpPr": {
@@ -127,7 +139,9 @@
           "settings": {
             "text_spalte_1": "TOUR",
             "text_spalte_2": "20.000-30.000km",
-            "text_spalte_3": "20.000-30.000km"
+            "text_spalte_3": "20.000-30.000km",
+            "text_spalte_4": "+",
+            "text_spalte_5": "+"
           }
         }
       },
@@ -151,6 +165,8 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Dämpfer",
         "text_head_3": "Federgabel",
+        "text_head_4": "STANDARD EDITION",
+        "text_head_5": "STANDARD EDITION",
         "richtext_tabelle_infotext": "<ol><li>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</li></ol>"
       }
     },
@@ -160,6 +176,7 @@
         "info_MYBxth": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_search_check.svg",
             "text_headline": "Eingangsprüfung",
             "textarea_text": "Sobald dein Paket bei uns eintrifft, überprüfen wir deine Federelemente sorgfältig auf Funktionalität und Zustand."
           }
@@ -167,6 +184,7 @@
         "info_TrNqgV": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_construction.svg",
             "text_headline": "Demontage",
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
@@ -174,6 +192,7 @@
         "info_4xjxyq": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
@@ -181,6 +200,7 @@
         "info_G9AcWY": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_published_with_changes.svg",
             "text_headline": "Verschleissteile",
             "textarea_text": "Dichtungen, Abstreifer und verschiedene Kleinteile werden sorgfältig durch Materialien von höchster Qualität ersetzt."
           }
@@ -188,6 +208,7 @@
         "info_H8VqV8": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_humidity_low.svg",
             "text_headline": "Schmierstoffe",
             "textarea_text": "Für maximale Performance verwenden wir ausschließlich hochwertige Öle und Hochleistungsschmierstoffe führender Hersteller."
           }
@@ -195,6 +216,7 @@
         "info_pyzY6E": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_construction.svg",
             "text_headline": "Montage",
             "textarea_text": "Bei der Montage legen wir großen Wert auf eine fachgerechte Durchführung, um die maximale Leistung und Sicherheit deiner Bauteile zu gewährleisten."
           }
@@ -202,6 +224,7 @@
         "info_6a7KMC": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_check.svg",
             "text_headline": "Funktionstest",
             "textarea_text": "Wir stellen dein Fahrwerk exakt ein und überprüfen es gründlich, um die optimale Funktion sicherzustellen."
           }
@@ -209,6 +232,7 @@
         "info_aCwUwL": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_delete.svg",
             "text_headline": "Entsorgung",
             "textarea_text": "Alle Abfälle wie Altöl, Fett, Dichtungen und Metallbauteile werden fachgerecht und umweltschonend entsorgt."
           }
@@ -322,7 +346,18 @@
       "type": "blog_teaser",
       "disabled": true,
       "settings": {
-        "text_heading": "Heading"
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Heading",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "blog_blog": "",
+        "post_limit_blog": 3,
+        "text_step": "<span class=\"gradient-bar-step\" li-settings:text=\"Category\">Step 1</span>",
+        "text_category": "Step 1",
+        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
     },
     "faq": {
