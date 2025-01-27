@@ -80,8 +80,8 @@
             "text_spalte_1": "MOTOCROSS",
             "text_spalte_2": "15-20h",
             "text_spalte_3": "20-25h",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "Sehr hohe Belastungen durch Sprünge, Schläge und extreme Bedingungen (Schlamm, Staub).",
+            "text_spalte_5": ""
           }
         },
         "spalte_WwGJUD": {
@@ -90,8 +90,8 @@
             "text_spalte_1": "HARD ENDURO",
             "text_spalte_2": "30-40h / 1.500-2.500km",
             "text_spalte_3": "40-50h / 2.000-3.000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_Wbpa3A": {
@@ -100,8 +100,8 @@
             "text_spalte_1": "SOFT ENDURO",
             "text_spalte_2": "60-100h / 3.000-5.000km",
             "text_spalte_3": "60-100h / 3.000-5.000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_jWTha9": {
@@ -110,8 +110,8 @@
             "text_spalte_1": "RENNSTRECKE",
             "text_spalte_2": "15-20h / 2.500-3.000km",
             "text_spalte_3": "20-25h / 3000-3.500km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_eEiBFL": {
@@ -120,8 +120,8 @@
             "text_spalte_1": "SUPERMOTO",
             "text_spalte_2": "40-60h / 3.000-5.000km",
             "text_spalte_3": "40-60h / 3.000-5.000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_iYabBE": {
@@ -130,8 +130,8 @@
             "text_spalte_1": "STRASSE",
             "text_spalte_2": "10.000-15.000km",
             "text_spalte_3": "10.000-15.000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_c4UpPr": {
@@ -140,8 +140,8 @@
             "text_spalte_1": "TOUR",
             "text_spalte_2": "20.000-30.000km",
             "text_spalte_3": "20.000-30.000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         }
       },
@@ -165,9 +165,9 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Dämpfer",
         "text_head_3": "Federgabel",
-        "text_head_4": "STANDARD EDITION",
-        "text_head_5": "STANDARD EDITION",
-        "richtext_tabelle_infotext": "<ol><li>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</li></ol>"
+        "text_head_4": "",
+        "text_head_5": "",
+        "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden.</p>"
       }
     },
     "infos_GA8JXb": {
