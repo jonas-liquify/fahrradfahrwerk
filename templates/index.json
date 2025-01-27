@@ -64,7 +64,7 @@
           "type": "numbers-block",
           "settings": {
             "text_number": "15+",
-            "text_text": "Jahre <br>Erfahrung"
+            "text_text": "Jahre Erfahrung"
           }
         }
       },
@@ -114,6 +114,7 @@
         "service_item_LUJzPt": {
           "type": "service-item",
           "settings": {
+            "image_bild": "shopify://shop_images/Service_Individuelle_Abstimmung.webp",
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
@@ -145,6 +146,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/Prozess_step-1_moto.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
             "text_headline": "Optimale Leistung für deine Federgabela"
@@ -153,6 +155,7 @@
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
+            "image_bild": "shopify://shop_images/Prozess_step-2_moto.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
             "text_headline": "Optimale Leistung für deine Federgabela"
@@ -338,7 +341,8 @@
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
-        "text_button_text": "SERVICE BUCHEN"
+        "text_button_text": "SERVICE BUCHEN",
+        "image_bild": "shopify://shop_images/Action_Innsbruck_julian.webp"
       }
     },
     "products": {
