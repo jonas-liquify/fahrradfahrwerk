@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
-        "image_bild": "shopify://shop_images/Action_Dirt_flavor_Julian.webp",
+        "image_bild": "shopify://shop_images/Dirt_flavor_Julian.webp",
         "text_heading": "Dein Fahrwerk <span class=\"gradient-bar\">in Bestform</span>"
       }
     },
@@ -407,7 +407,18 @@
     "blog_teaser": {
       "type": "blog_teaser",
       "settings": {
-        "text_heading": "BLOG"
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "BLOG",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "blog_blog": "",
+        "post_limit_blog": 3,
+        "text_step": "<span class=\"gradient-bar-step\" li-settings:text=\"Category\">Step 1</span>",
+        "text_category": "Step 1",
+        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
     }
   },
