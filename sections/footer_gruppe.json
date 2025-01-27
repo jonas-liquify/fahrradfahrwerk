@@ -13,7 +13,23 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "settings": {}
+      "settings": {
+        "text_cta_text": "Bei SWIFT Suspension ist dein Fahrwerk in den besten Händen. Von Mountainbike bis Motorrad, wir bieten professionellen Service, individuelle Anpassungen und höchste Qualität für optimale Performance und maximalen Fahrspaß.",
+        "url_button_link_2": "",
+        "text_button_text_2": "",
+        "url_button_link": "",
+        "text_button_text": "SERVICE BUCHEN",
+        "text_heading": "Suspension Service <span class=\"gradient-bar-h3\">jetzt online buchen</span>",
+        "url_phone_link": "",
+        "text_phone_text": "07073 - 917 43 43",
+        "url_email_link": "",
+        "text_email_text": "tellme@fahrrad-fahrwerk.de",
+        "url_location_link": "",
+        "text_location_text": "FAHRRAD FAHRWERK, Jesinger Hauptstr. 124, 72070 Tübingen",
+        "text_newsletter_headline": "Newsletter",
+        "text_newsletter_text": "Abonnieren Sie unseren Newsletter, um über Funktionen und Veröffentlichungen auf dem Laufenden zu bleiben.",
+        "text_checkbox": "Mit der Anmeldung zum Newsletter erklärst du dich mit der Verarbeitung deiner Daten gemäß unserer <u>Datenschutzerklärung</u> einverstanden; deine Daten werden ausschließlich für den Versand des Newsletters verwendet."
+      }
     }
   },
   "order": [

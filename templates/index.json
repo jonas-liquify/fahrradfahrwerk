@@ -97,19 +97,20 @@
             "url_button_link": "",
             "text_button_text": "SERVICE-ANFRAGE",
             "text_heading": "Suspension Service",
-            "textarea_text": "<p><br/></p><ul><li>In den Bereichen Fahrrad und Motorrad</li><li>Für Federgabeln, Dämpfer und Vario-Stützen</li><li>Einfache Abwicklung per Online-Anfrage</li><li>Jetzt buchen - sofort losschicken</li><li>Schnelle und fachgerechte Bearbeitung<br/><br/><br/></li></ul>"
+            "textarea_text": "<p><br/></p><ul><li>In den Bereichen Fahrrad und Motorrad</li><li>Für Federgabeln, Dämpfer und Vario-Stützen</li><li>Einfache Abwicklung per Online-Anfrage</li><li>Jetzt buchen - sofort losschicken</li><li>Schnelle und zuverlässige Bearbeitung<br/><br/><br/></li></ul>"
           }
         },
         "service_item_AtXQ94": {
           "type": "service-item",
           "settings": {
+            "image_bild": "shopify://shop_images/Service_Individuelle_Abstimmung.webp",
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
             "url_button_link": "",
             "text_button_text": "REPARATUR-ANFRAGE",
             "text_heading": "Reparatur",
-            "textarea_text": "<p>Ein optimal funktionierendes Fahrwerk ist entscheidend für die Leistung und Sicherheit deines Bikes. Beschädigungen oder Verschleiß können nicht nur die Funktion beeinträchtigen, sondern auch deine Sicherheit gefährden. Unser Reparaturservice kombiniert jahrelange Erfahrung und den Einsatz modernster Messwerkzeuge, um dein Fahrwerk wieder in Top-Form zu bringen.</p>"
+            "textarea_text": "<p><br/></p><ul><li>aed</li><li>awdaw</li><li>awdaw</li><li>awdaw</li><li>awdawd<br/><br/><br/></li></ul>"
           }
         },
         "service_item_LUJzPt": {
