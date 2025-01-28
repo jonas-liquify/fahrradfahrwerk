@@ -13,8 +13,8 @@
       "type": "hero_anfrage",
       "settings": {
         "text_subheading": "// Fahrrad & Motorrad",
-        "text_headline": "Service & Tuning Anfrage",
-        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen."
+        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
+        "text_heading": "Optimale Leistung für deine Federgabela"
       }
     },
     "funnel_nav_TJNbhK": {
@@ -35,7 +35,7 @@
           "settings": {
             "text_choose_headline": "FAHRRAD",
             "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
-            "image_choose_img": "shopify://shop_images/mtb_white.png",
+            "image_choose_img": "shopify://shop_images/mtb_black.webp",
             "url_button_link": "",
             "text_button_text": "Bauteil auswählen"
           }
@@ -45,7 +45,7 @@
           "settings": {
             "text_choose_headline": "MOTORRAD",
             "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
-            "image_choose_img": "shopify://shop_images/moto_white.png",
+            "image_choose_img": "shopify://shop_images/moto_black.webp",
             "url_button_link": "",
             "text_button_text": "Bauteile auswählen"
           }
