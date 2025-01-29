@@ -350,7 +350,7 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "SERVICE BUCHEN",
-        "image_bild": "shopify://shop_images/Action_nohander_julian.webp"
+        "image_bild": "shopify://shop_images/Action_Innsbruck_julian.webp"
       }
     },
     "products": {
@@ -373,16 +373,20 @@
         "showcase_slide_xibxrg": {
           "type": "showcase-slide",
           "settings": {
-            "image_bild": "shopify://shop_images/Action_Reschenpass_julian.webp"
+            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
           }
         },
         "showcase_slide_qjHGDM": {
           "type": "showcase-slide",
-          "settings": {}
+          "settings": {
+            "image_bild": "shopify://shop_images/IMG_8354_2.jpg"
+          }
         },
         "showcase_slide_EAc7VD": {
           "type": "showcase-slide",
-          "settings": {}
+          "settings": {
+            "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
+          }
         }
       },
       "block_order": [
