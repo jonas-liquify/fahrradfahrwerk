@@ -370,10 +370,10 @@
     "showcase": {
       "type": "showcase",
       "blocks": {
-        "showcase_slide_xibxrg": {
+        "showcase_slide_qjHGDM": {
           "type": "showcase-slide",
           "settings": {
-            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
+            "image_bild": "shopify://shop_images/IMG_8354_2.jpg"
           }
         },
         "showcase_slide_EAc7VD": {
@@ -388,18 +388,18 @@
             "image_bild": "shopify://shop_images/IMG_8351.jpg"
           }
         },
-        "showcase_slide_qjHGDM": {
+        "showcase_slide_xibxrg": {
           "type": "showcase-slide",
           "settings": {
-            "image_bild": "shopify://shop_images/IMG_8354_2.jpg"
+            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
           }
         }
       },
       "block_order": [
-        "showcase_slide_xibxrg",
+        "showcase_slide_qjHGDM",
         "showcase_slide_EAc7VD",
         "showcase_slide_xxdXYU",
-        "showcase_slide_qjHGDM"
+        "showcase_slide_xibxrg"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
