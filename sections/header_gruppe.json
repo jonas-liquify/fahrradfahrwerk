@@ -19,7 +19,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "collection_search_bestseller": "",
         "collection_search_bestseller_limit": 6,
