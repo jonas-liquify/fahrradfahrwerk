@@ -192,7 +192,6 @@
         "info_4xjxyq": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
@@ -305,7 +304,7 @@
         "service_block_MkacEK": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/Prozess_step-1_moto.webp",
+            "image_bild": "shopify://shop_images/step-1_moto.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
             "text_headline": "Service buchen"
@@ -314,7 +313,7 @@
         "service_block_9qcnaU": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/Prozess_step-2_moto.webp",
+            "image_bild": "shopify://shop_images/step-2_moto.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
             "text_headline": "Versand der Bauteile"
@@ -323,7 +322,7 @@
         "service_block_CUrGKr": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-3_moto.webp",
+            "image_bild": "shopify://shop_images/step-3_moto-2.webp",
             "text_step": "Step 3",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse.",
             "text_headline": "Bearbeitung"
