@@ -158,7 +158,7 @@
         "service_block_UtpqEd": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/Prozess_step-2_moto.webp",
+            "image_bild": "shopify://shop_images/step-2_moto.webp",
             "text_step": "Step 2",
             "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
             "text_headline": "Versand der Bauteile"
