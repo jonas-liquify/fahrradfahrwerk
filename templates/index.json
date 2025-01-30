@@ -382,24 +382,29 @@
             "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
           }
         },
+        "showcase_slide_xibxrg": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
+          }
+        },
         "showcase_slide_xxdXYU": {
           "type": "showcase-slide",
           "settings": {
             "image_bild": "shopify://shop_images/IMG_8351.jpg"
           }
         },
-        "showcase_slide_xibxrg": {
+        "showcase_slide_4tTe4r": {
           "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "showcase_slide_qjHGDM",
         "showcase_slide_EAc7VD",
+        "showcase_slide_xibxrg",
         "showcase_slide_xxdXYU",
-        "showcase_slide_xibxrg"
+        "showcase_slide_4tTe4r"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
