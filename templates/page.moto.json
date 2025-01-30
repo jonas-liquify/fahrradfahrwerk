@@ -192,6 +192,7 @@
         "info_4xjxyq": {
           "type": "info",
           "settings": {
+            "image_icon": "shopify://shop_images/icon_shower.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
