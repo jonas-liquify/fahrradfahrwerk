@@ -159,7 +159,6 @@
         "info_xrzDcj": {
           "type": "info",
           "settings": {
-            "image_icon": "shopify://shop_images/shower_1000dp_000000_FILL0_wght500_GRAD200_opsz48.svg",
             "text_headline": "Reinigung",
             "textarea_text": "Alle Bauteile werden gründlich und schonend gereinigt, um Schmutz und Ablagerungen zu entfernen."
           }
@@ -272,10 +271,19 @@
         "service_block_3zKV7x": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/Prozess_step-1_mtb.webp",
+            "image_bild": "shopify://shop_images/step-1_mtb.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
             "text_headline": "Service buchen"
+          }
+        },
+        "service_block_iUFiT8": {
+          "type": "service-block",
+          "settings": {
+            "image_bild": "shopify://shop_images/step-2_mtb.webp",
+            "text_step": "Step 1",
+            "text_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt",
+            "text_headline": "Optimale Leistung für deine Federgabela"
           }
         },
         "service_block_6LJrYt": {
@@ -290,7 +298,6 @@
         "service_block_kk7dMR": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-3_mtb.webp",
             "text_step": "Step 3",
             "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse.",
             "text_headline": "Bearbeitung"
@@ -299,6 +306,7 @@
       },
       "block_order": [
         "service_block_3zKV7x",
+        "service_block_iUFiT8",
         "service_block_6LJrYt",
         "service_block_kk7dMR"
       ],
