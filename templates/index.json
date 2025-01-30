@@ -91,7 +91,7 @@
         "service_item_77DyPw": {
           "type": "service-item",
           "settings": {
-            "image_bild": "shopify://shop_images/service_moto_sealhead.webp",
+            "image_bild": "shopify://shop_images/service_sealhead.webp",
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
@@ -104,7 +104,7 @@
         "service_item_AtXQ94": {
           "type": "service-item",
           "settings": {
-            "image_bild": "shopify://shop_images/reparatur_lupe.webp",
+            "image_bild": "shopify://shop_images/service_reparatur_lupe.webp",
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
@@ -350,7 +350,7 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "SERVICE BUCHEN",
-        "image_bild": "shopify://shop_images/Action_Innsbruck_julian.webp"
+        "image_bild": "shopify://shop_images/action_Innsbruck_julian.webp"
       }
     },
     "products": {
