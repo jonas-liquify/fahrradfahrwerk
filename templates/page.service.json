@@ -156,6 +156,14 @@
             "textarea_text": "Während der Demontage prüfen wir jedes Bauteil sorgfältig auf Verschleiß und mögliche Beschädigungen."
           }
         },
+        "info_bFrJRQ": {
+          "type": "info",
+          "settings": {
+            "image_icon": "shopify://shop_images/icon_shower.svg",
+            "text_headline": "Heading",
+            "textarea_text": "This is some text inside of This is some text inside of a div block. a div block. This is some text inside of a div block."
+          }
+        },
         "info_xrzDcj": {
           "type": "info",
           "settings": {
@@ -207,6 +215,7 @@
       "block_order": [
         "info_GfUJkw",
         "info_ChxxiB",
+        "info_bFrJRQ",
         "info_xrzDcj",
         "info_wRTHhh",
         "info_QEYBNW",
