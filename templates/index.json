@@ -210,22 +210,10 @@
             "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
           }
         },
-        "logo_nKAp6T": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
-          }
-        },
         "logo_cHfTxA": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
-          }
-        },
-        "logo_dQtDxb": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
           }
         },
         "logo_FC6yjg": {
@@ -246,6 +234,12 @@
             "image_logo": "shopify://shop_images/canecreek_logo_512x512-2.webp"
           }
         },
+        "logo_nKAp6T": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
+          }
+        },
         "logo_Q3PR8j": {
           "type": "logo",
           "settings": {
@@ -258,22 +252,28 @@
             "image_logo": "shopify://shop_images/kyb_logo_512x512-2.webp"
           }
         },
-        "logo_Qy6e8n": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
-          }
-        },
         "logo_qATA8w": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/dvo_logo_512x512-2.webp"
           }
         },
+        "logo_zcH4xz": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/bos_logo_512x512-2.webp"
+          }
+        },
         "logo_jHBxmd": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
+          }
+        },
+        "logo_dQtDxb": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
           }
         },
         "logo_KmkkhH": {
@@ -286,6 +286,18 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
+          }
+        },
+        "logo_Qy6e8n": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
+          }
+        },
+        "logo_MkqhzW": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/fast_suspension_logo_512x512-2.webp"
           }
         },
         "logo_4KfQGr": {
@@ -305,42 +317,30 @@
           "settings": {
             "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
           }
-        },
-        "logo_MkqhzW": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fast_suspension_logo_512x512-2.webp"
-          }
-        },
-        "logo_zcH4xz": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/bos_logo_512x512-2.webp"
-          }
         }
       },
       "block_order": [
         "logo_nE8Md8",
         "logo_4YUACx",
         "logo_MnXREJ",
-        "logo_nKAp6T",
         "logo_cHfTxA",
-        "logo_dQtDxb",
         "logo_FC6yjg",
         "logo_BnAkdk",
         "logo_7PnQbn",
+        "logo_nKAp6T",
         "logo_Q3PR8j",
         "logo_9dR9Tr",
-        "logo_Qy6e8n",
         "logo_qATA8w",
+        "logo_zcH4xz",
         "logo_jHBxmd",
+        "logo_dQtDxb",
         "logo_KmkkhH",
         "logo_nFtrJX",
+        "logo_Qy6e8n",
+        "logo_MkqhzW",
         "logo_4KfQGr",
         "logo_4PUkUq",
-        "logo_AamwGt",
-        "logo_MkqhzW",
-        "logo_zcH4xz"
+        "logo_AamwGt"
       ],
       "settings": {
         "text_subheading": "// MARKEN",
