@@ -80,8 +80,8 @@
             "text_spalte_1": "DOWNHILL",
             "text_spalte_2": "100h",
             "text_spalte_3": "2500km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_B8LEqj": {
@@ -90,8 +90,8 @@
             "text_spalte_1": "ENDURO",
             "text_spalte_2": "150h",
             "text_spalte_3": "3000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_jnaAiK": {
@@ -100,8 +100,8 @@
             "text_spalte_1": "CROSS COUNTRY",
             "text_spalte_2": "200h",
             "text_spalte_3": "5000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         },
         "spalte_hcd4GW": {
@@ -110,8 +110,8 @@
             "text_spalte_1": "ALLTAG / TOUR",
             "text_spalte_2": "300h",
             "text_spalte_3": "6000km",
-            "text_spalte_4": "+",
-            "text_spalte_5": "+"
+            "text_spalte_4": "",
+            "text_spalte_5": ""
           }
         }
       },
@@ -132,8 +132,8 @@
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "in Stunden",
         "text_head_3": "in Kilometern",
-        "text_head_4": "STANDARD EDITION",
-        "text_head_5": "STANDARD EDITION",
+        "text_head_4": "",
+        "text_head_5": "",
         "richtext_tabelle_infotext": "<p>Diese Angaben dienen als Richtwert, da die Abstände eines Service stark von der Fahrweise, dem Einsatzgebiet und den entstehenden Umwelteinflüssen (z.B. Verschmutzung, Wasser, Temperatur, Sonnenlicht) abhängig sind. Bei intensiver Nutzung und im Renneinsatz, sollte das Wartungsintervall von Federgabel und Dämpfer individuell angepasst oder verkürzt werden. Die Hersteller FOX und ROCK SHOX empfehlen einen Service zwischen 125-200h und mindestens  jährlich durchzuführen.</p>"
       }
     },
