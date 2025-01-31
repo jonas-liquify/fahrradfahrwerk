@@ -49,6 +49,7 @@
         "unternehmen_item_FfaQQa": {
           "type": "unternehmen-item",
           "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
             "text_team_name": "Max Mustermann",
             "text_competence": "Spezialist für: Tuning"
           }
@@ -56,6 +57,7 @@
         "unternehmen_item_gEpwAq": {
           "type": "unternehmen-item",
           "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
             "text_team_name": "Max Mustermann",
             "text_competence": "Spezialist für: Tuning"
           }
@@ -63,6 +65,7 @@
         "unternehmen_item_wGkHx6": {
           "type": "unternehmen-item",
           "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
             "text_team_name": "Max Mustermann",
             "text_competence": "Spezialist für: Tuning"
           }
@@ -70,6 +73,15 @@
         "unternehmen_item_pVNVzQ": {
           "type": "unternehmen-item",
           "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
+            "text_team_name": "Max Mustermann",
+            "text_competence": "Spezialist für: Tuning"
+          }
+        },
+        "unternehmen_item_fUpeUw": {
+          "type": "unternehmen-item",
+          "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
             "text_team_name": "Max Mustermann",
             "text_competence": "Spezialist für: Tuning"
           }
@@ -77,13 +89,7 @@
         "unternehmen_item_xUMQQU": {
           "type": "unternehmen-item",
           "settings": {
-            "text_team_name": "Max Mustermann",
-            "text_competence": "Spezialist für: Tuning"
-          }
-        },
-        "unternehmen_item_tfcXc8": {
-          "type": "unternehmen-item",
-          "settings": {
+            "image_grid_image": "shopify://shop_images/action_rider.webp",
             "text_team_name": "Max Mustermann",
             "text_competence": "Spezialist für: Tuning"
           }
@@ -94,8 +100,8 @@
         "unternehmen_item_gEpwAq",
         "unternehmen_item_wGkHx6",
         "unternehmen_item_pVNVzQ",
-        "unternehmen_item_xUMQQU",
-        "unternehmen_item_tfcXc8"
+        "unternehmen_item_fUpeUw",
+        "unternehmen_item_xUMQQU"
       ],
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
@@ -110,12 +116,22 @@
     "showcase": {
       "type": "showcase",
       "blocks": {
+        "showcase_slide_3D8KzE": {
+          "type": "showcase-slide",
+          "settings": {}
+        },
+        "showcase_slide_9QPP8B": {
+          "type": "showcase-slide",
+          "settings": {}
+        },
         "showcase_slide_i43nna": {
           "type": "showcase-slide",
           "settings": {}
         }
       },
       "block_order": [
+        "showcase_slide_3D8KzE",
+        "showcase_slide_9QPP8B",
         "showcase_slide_i43nna"
       ],
       "settings": {
@@ -130,6 +146,20 @@
     },
     "testimonial": {
       "type": "testimonial",
+      "blocks": {
+        "testimonial_rNHyzb": {
+          "type": "testimonial",
+          "settings": {
+            "text_heading": "“Hervorragender Service: Schnell, Professionell und Freundlich!”",
+            "text_text": "Ich habe eine Gabel und einen Dämpfer eingeschickt, und der Service ist wirklich erstklassig. Sogar als bei meiner Gabel etwas nicht stimmte, erhielt ich einen Anruf und wurde darauf hingewiesen, dass es etwas teurer werden könnte, da ein Ersatzteil eingebaut werden muss. Das war natürlich in Ordnung. Sehr nett, kompetent und schnell.",
+            "text_name": "Max Mustermann",
+            "text_job_title": "Client job title"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_rNHyzb"
+      ],
       "settings": {}
     }
   },
