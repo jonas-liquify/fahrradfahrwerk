@@ -80,6 +80,123 @@
       "settings": {
         "text_heading": "Heading"
       }
+    },
+    "service_slide_8d64g4": {
+      "type": "service_slide",
+      "blocks": {
+        "service_item_NpEYcT": {
+          "type": "service-item",
+          "settings": {
+            "text_subheading": "// wir sind Rebound racing",
+            "url_button_link_2": "",
+            "text_button_text_2": "Service anfragen",
+            "url_button_link": "",
+            "text_button_text": "Service anfragen",
+            "text_heading": "Optimale Leistung für deine Federgabela",
+            "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_NpEYcT"
+      ],
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Optimale Leistung für deine Federgabela",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen"
+      }
+    },
+    "testimonial_Qmnmjk": {
+      "type": "testimonial",
+      "blocks": {
+        "testimonial_XeHtjj": {
+          "type": "testimonial",
+          "settings": {
+            "text_heading": "“Hervorragender Service: Schnell, Professionell und Freundlich!”",
+            "text_text": "Ich habe eine Gabel und einen Dämpfer eingeschickt, und der Service ist wirklich erstklassig. Sogar als bei meiner Gabel etwas nicht stimmte, erhielt ich einen Anruf und wurde darauf hingewiesen, dass es etwas teurer werden könnte, da ein Ersatzteil eingebaut werden muss. Das war natürlich in Ordnung. Sehr nett, kompetent und schnell.",
+            "text_name": "Max Mustermann",
+            "text_job_title": "Client job title"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_XeHtjj"
+      ],
+      "settings": {}
+    },
+    "faq_fay4i8": {
+      "type": "faq",
+      "blocks": {
+        "faq_7VVMfY": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_ydJkb9": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_wTnWMc": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_CaFUrD": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        },
+        "faq_wmpDX9": {
+          "type": "faq",
+          "settings": {
+            "text_headline": "Frage",
+            "richtext_antwort": "<p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>",
+            "text_kategorie": "This is some text inside of a div block.",
+            "kategorie": "Alle FAQs"
+          }
+        }
+      },
+      "block_order": [
+        "faq_7VVMfY",
+        "faq_ydJkb9",
+        "faq_wTnWMc",
+        "faq_CaFUrD",
+        "faq_wmpDX9"
+      ],
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "text_heading": "Optimale Leistung für deine Federgabela",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "url_button_link_2": "",
+        "text_button_text_2": "Service anfragen",
+        "url_button_link": "",
+        "text_button_text": "Service anfragen",
+        "text_cta_headline": "Heading",
+        "text_cta_infos": "Max Mustermann (Gründer)",
+        "url_cta_button_link": "",
+        "text_cta_button_text": "Kontaktiere uns"
+      }
     }
   },
   "layout": "page.webshop",
@@ -87,6 +204,9 @@
   "order": [
     "hero_anfrage_qPXCVN",
     "shop_category",
-    "porduct_list_Gyj9Lt"
+    "porduct_list_Gyj9Lt",
+    "service_slide_8d64g4",
+    "testimonial_Qmnmjk",
+    "faq_fay4i8"
   ]
 }
