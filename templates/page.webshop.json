@@ -74,21 +74,10 @@
         "text_heading": "KATEGORIEN"
       }
     },
-    "blog_teaser": {
-      "type": "blog_teaser",
+    "porduct_list_Gyj9Lt": {
+      "type": "porduct_list",
       "settings": {
-        "text_subheading": "// wir sind Rebound racing",
-        "text_heading": "TOPSELLER",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
-        "blog_blog": "news",
-        "post_limit_blog": 3,
-        "text_step": "Step 1",
-        "text_category": "Step 1",
-        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "text_heading": "Heading"
       }
     }
   },
@@ -97,6 +86,6 @@
   "order": [
     "hero_2",
     "shop_category",
-    "blog_teaser"
+    "porduct_list_Gyj9Lt"
   ]
 }
