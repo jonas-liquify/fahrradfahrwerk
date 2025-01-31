@@ -16,6 +16,14 @@
         "text_heading": "Produkte für dein <span class=\"gradient-bar\">Fahrrad &amp; Motorrad</span>"
       }
     },
+    "hero_anfrage_qPXCVN": {
+      "type": "hero_anfrage",
+      "settings": {
+        "text_subheading": "// Onlineshop",
+        "text_text": "",
+        "text_heading": "Produkte für dein <span class=\"gradient-bar\">Fahrrad &amp; Motorrad</span>"
+      }
+    },
     "shop_category": {
       "type": "shop_category",
       "blocks": {
@@ -85,6 +93,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_2",
+    "hero_anfrage_qPXCVN",
     "shop_category",
     "porduct_list_Gyj9Lt"
   ]
