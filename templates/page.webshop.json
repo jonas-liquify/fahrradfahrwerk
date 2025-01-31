@@ -13,7 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// Produkte",
-        "text_heading": "Produkte für dein Fahrrad &amp; Motorrad"
+        "text_heading": "Produkte für dein <span class=\"gradient-bar\">Fahrrad &amp; Motorrad</span>"
       }
     },
     "shop_category": {
