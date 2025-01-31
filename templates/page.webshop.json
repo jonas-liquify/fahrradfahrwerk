@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "hero_2": {
-      "type": "hero_2",
-      "settings": {
-        "text_subheading": "// Produkte",
-        "text_heading": "Produkte für dein <span class=\"gradient-bar\">Fahrrad &amp; Motorrad</span>"
-      }
-    },
     "hero_anfrage_qPXCVN": {
       "type": "hero_anfrage",
       "settings": {
@@ -92,7 +85,6 @@
   "layout": "page.webshop",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_2",
     "hero_anfrage_qPXCVN",
     "shop_category",
     "porduct_list_Gyj9Lt"
