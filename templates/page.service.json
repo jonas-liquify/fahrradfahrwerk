@@ -13,7 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// MTB SUSPENSION-SERVICE",
-        "text_heading": "Dein Fahrwerkunsere Leidenschaft"
+        "text_heading": "Dein Fahrwerk <span class=\"gradient-bar\">ist unsere Leidenschaft</span>"
       }
     },
     "content_i4wyK3": {
@@ -264,7 +264,7 @@
         "numbers_block_YGDwdA"
       ],
       "settings": {
-        "text_subheading": "// MTB SUSPENSION-SERVICE",
+        "text_subheading": "// SUSPENSION-SERVICE",
         "text_heading": "Bei uns ist dein Fahrwerk in den besten Händen",
         "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Egal ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
         "url_button_link_2": "",
