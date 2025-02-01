@@ -264,6 +264,12 @@
             "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
           }
         },
+        "logo_dQtDxb": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
+          }
+        },
         "logo_MnXREJ": {
           "type": "logo",
           "settings": {
@@ -276,22 +282,16 @@
             "image_logo": "shopify://shop_images/xfusion_logo_512x512-2.webp"
           }
         },
-        "logo_dQtDxb": {
+        "logo_4KfQGr": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/magura_logo_512x512-2.webp"
           }
         },
         "logo_MkqhzW": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/fast_suspension_logo_512x512-2.webp"
-          }
-        },
-        "logo_4KfQGr": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/magura_logo_512x512-2.webp"
           }
         },
         "logo_Qy6e8n": {
@@ -332,11 +332,11 @@
         "logo_KmkkhH",
         "logo_nKAp6T",
         "logo_jHBxmd",
+        "logo_dQtDxb",
         "logo_MnXREJ",
         "logo_nE8Md8",
-        "logo_dQtDxb",
-        "logo_MkqhzW",
         "logo_4KfQGr",
+        "logo_MkqhzW",
         "logo_Qy6e8n",
         "logo_nFtrJX",
         "logo_4PUkUq",
