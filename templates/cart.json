@@ -32,7 +32,9 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Fahrerergewicht*",
-            "text_beschreibung": "*inkl. Ausrüstung (kg)"
+            "text_beschreibung": "inkl. Ausrüstung (kg)",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_radio_LbhyjQ": {
@@ -41,12 +43,15 @@
             "text_titel": "Ich fahre Rennen",
             "text_lable_1": "Ja",
             "text_lable_2": "Nein",
+            "name": "attributes[Fahrergewicht]",
             "text_beschreibung": ""
           }
         },
         "spacer_pyez4P": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_7yUwdn": {
           "type": "headline",
@@ -58,26 +63,34 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Modell*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_text_cjAby9": {
           "type": "input-text",
           "settings": {
             "text_input_lable": "Modell*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_text_qzPQy9": {
           "type": "input-text",
           "settings": {
             "text_input_lable": "Baujahr*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_4VLdrd": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_JzJECT": {
           "type": "headline",
@@ -88,42 +101,51 @@
         "input_checkbox_hpEKiP": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Downhill"
+            "text_checkbox_lable": "Downhill",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_7C6Uen": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Tour"
+            "text_checkbox_lable": "Tour",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_BtaCk3": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Enduro"
+            "text_checkbox_lable": "Enduro",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_xMWPwi": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Alltag"
+            "text_checkbox_lable": "Alltag",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_VRKXWJ": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Cross Country"
+            "text_checkbox_lable": "Cross Country",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_medium_text_nqLJkK": {
           "type": "input-medium-text",
           "settings": {
-            "text_input_lable": "Sonstige Einsatzgebiete*"
+            "text_input_lable": "Sonstige Einsatzgebiete",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_qFHXWg": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_8fnrJy": {
           "type": "headline",
@@ -134,7 +156,9 @@
         "input_big_text_9xdiq7": {
           "type": "input-big-text",
           "settings": {
-            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche"
+            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         }
       },
@@ -174,7 +198,9 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Fahrerergewicht*",
-            "text_beschreibung": "inkl. Ausrüstung (kg)"
+            "text_beschreibung": "inkl. Ausrüstung (kg)",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_radio_8X4dKj": {
@@ -183,6 +209,7 @@
             "text_titel": "Ich fahre Rennen",
             "text_lable_1": "Ja",
             "text_lable_2": "Nein",
+            "name": "attributes[Fahrergewicht]",
             "text_beschreibung": ""
           }
         },
@@ -190,12 +217,16 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Größe (cm)*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_fmEHKc": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_Gcrpez": {
           "type": "headline",
@@ -207,33 +238,43 @@
           "type": "input-text",
           "settings": {
             "text_input_lable": "Hersteller*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_text_8XwRxE": {
           "type": "input-text",
           "settings": {
             "text_input_lable": "Modell*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_text_gyW7Vz": {
           "type": "input-text",
           "settings": {
             "text_input_lable": "Baujahr*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "input_text_i6KRcV": {
           "type": "input-text",
           "settings": {
             "text_input_lable": "Hubraum*",
-            "text_beschreibung": ""
+            "text_beschreibung": "",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_c6WJt3": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_iNjkLP": {
           "type": "headline",
@@ -244,48 +285,58 @@
         "input_checkbox_eBC8wF": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Motocross"
+            "text_checkbox_lable": "Motocross",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_c8xPDY": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Hard Enduro"
+            "text_checkbox_lable": "Hard Enduro",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_HhAR3a": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Supercross"
+            "text_checkbox_lable": "Supercross",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_heVzRW": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Supermoto"
+            "text_checkbox_lable": "Supermoto",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_UgL8G3": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Enduro"
+            "text_checkbox_lable": "Enduro",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_VGBmtU": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Alltag"
+            "text_checkbox_lable": "Alltag",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_medium_text_ArqQcF": {
           "type": "input-medium-text",
           "settings": {
-            "text_input_lable": "Sonstige Einsatzgebiete*"
+            "text_input_lable": "Sonstige Einsatzgebiete*",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_KzhykR": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_tGKean": {
           "type": "headline",
@@ -296,48 +347,58 @@
         "input_checkbox_iY3XLm": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Sand"
+            "text_checkbox_lable": "Sand",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_CbFJ7E": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Enduro-Terrain"
+            "text_checkbox_lable": "Enduro-Terrain",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_VDwUmE": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Mischboden"
+            "text_checkbox_lable": "Mischboden",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_FgRGXX": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Rennstrecke (Asphalt)"
+            "text_checkbox_lable": "Rennstrecke (Asphalt)",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_PYJrJQ": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Hartboden"
+            "text_checkbox_lable": "Hartboden",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_checkbox_HetEpN": {
           "type": "input-checkbox",
           "settings": {
-            "text_checkbox_lable": "Straße"
+            "text_checkbox_lable": "Straße",
+            "name": "attributes[Fahrergewicht]"
           }
         },
         "input_medium_text_bxH7wX": {
           "type": "input-medium-text",
           "settings": {
-            "text_input_lable": "Sonstiger Streckenbelag*"
+            "text_input_lable": "Sonstiger Streckenbelag*",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_CneJXg": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         },
         "headline_ykj9qF": {
           "type": "headline",
@@ -348,12 +409,16 @@
         "input_big_text_GbDYxn": {
           "type": "input-big-text",
           "settings": {
-            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche"
+            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche",
+            "name": "attributes[Fahrergewicht]",
+            "required": false
           }
         },
         "spacer_cBCVi6": {
           "type": "spacer",
-          "settings": {}
+          "settings": {
+            "text_text": "This is some text inside of a div block."
+          }
         }
       },
       "block_order": [
