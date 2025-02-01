@@ -34,7 +34,7 @@
             "text_input_lable": "Fahrerergewicht*",
             "text_beschreibung": "inkl. Ausrüstung (kg)",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_radio_LbhyjQ": {
@@ -62,10 +62,10 @@
         "input_text_7dK4wC": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Modell*",
+            "text_input_lable": "Marke*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_text_cjAby9": {
@@ -74,7 +74,7 @@
             "text_input_lable": "Modell*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_text_qzPQy9": {
@@ -200,7 +200,7 @@
             "text_input_lable": "Fahrerergewicht*",
             "text_beschreibung": "inkl. Ausrüstung (kg)",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_radio_8X4dKj": {
@@ -216,7 +216,7 @@
         "input_text_K3cD8A": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Größe (cm)*",
+            "text_input_lable": "Größe (cm)",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
             "required": false
@@ -240,7 +240,7 @@
             "text_input_lable": "Hersteller*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_text_8XwRxE": {
@@ -249,7 +249,7 @@
             "text_input_lable": "Modell*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_text_gyW7Vz": {
@@ -258,7 +258,7 @@
             "text_input_lable": "Baujahr*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "input_text_i6KRcV": {
@@ -267,7 +267,7 @@
             "text_input_lable": "Hubraum*",
             "text_beschreibung": "",
             "name": "attributes[Fahrergewicht]",
-            "required": false
+            "required": true
           }
         },
         "spacer_c6WJt3": {
@@ -327,7 +327,7 @@
         "input_medium_text_ArqQcF": {
           "type": "input-medium-text",
           "settings": {
-            "text_input_lable": "Sonstige Einsatzgebiete*",
+            "text_input_lable": "Sonstige Einsatzgebiete",
             "name": "attributes[Fahrergewicht]",
             "required": false
           }
@@ -389,7 +389,7 @@
         "input_medium_text_bxH7wX": {
           "type": "input-medium-text",
           "settings": {
-            "text_input_lable": "Sonstiger Streckenbelag*",
+            "text_input_lable": "Sonstiger Streckenbelag",
             "name": "attributes[Fahrergewicht]",
             "required": false
           }
