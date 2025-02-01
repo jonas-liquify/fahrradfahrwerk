@@ -192,10 +192,10 @@
     "marken": {
       "type": "marken",
       "blocks": {
-        "logo_AamwGt": {
+        "logo_cHfTxA": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
           }
         },
         "logo_nE8Md8": {
@@ -208,12 +208,6 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/rst_logo_512x512_a021faf0-2034-47da-a63c-bdf9b18d1837.webp"
-          }
-        },
-        "logo_cHfTxA": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
           }
         },
         "logo_BnAkdk": {
@@ -234,16 +228,16 @@
             "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
           }
         },
-        "logo_nKAp6T": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
-          }
-        },
         "logo_qATA8w": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/dvo_logo_512x512-2.webp"
+          }
+        },
+        "logo_nKAp6T": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
           }
         },
         "logo_Q3PR8j": {
@@ -270,10 +264,10 @@
             "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
           }
         },
-        "logo_dQtDxb": {
+        "logo_KmkkhH": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
           }
         },
         "logo_MnXREJ": {
@@ -282,10 +276,10 @@
             "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
           }
         },
-        "logo_KmkkhH": {
+        "logo_dQtDxb": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
           }
         },
         "logo_4PUkUq": {
@@ -317,30 +311,36 @@
           "settings": {
             "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
           }
+        },
+        "logo_AamwGt": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
+          }
         }
       },
       "block_order": [
-        "logo_AamwGt",
+        "logo_cHfTxA",
         "logo_nE8Md8",
         "logo_4YUACx",
-        "logo_cHfTxA",
         "logo_BnAkdk",
         "logo_7PnQbn",
         "logo_FC6yjg",
-        "logo_nKAp6T",
         "logo_qATA8w",
+        "logo_nKAp6T",
         "logo_Q3PR8j",
         "logo_9dR9Tr",
         "logo_zcH4xz",
         "logo_jHBxmd",
-        "logo_dQtDxb",
-        "logo_MnXREJ",
         "logo_KmkkhH",
+        "logo_MnXREJ",
+        "logo_dQtDxb",
         "logo_4PUkUq",
         "logo_MkqhzW",
         "logo_4KfQGr",
         "logo_nFtrJX",
-        "logo_Qy6e8n"
+        "logo_Qy6e8n",
+        "logo_AamwGt"
       ],
       "settings": {
         "text_subheading": "// MARKEN",
