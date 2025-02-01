@@ -210,12 +210,6 @@
             "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
           }
         },
-        "logo_FC6yjg": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
-          }
-        },
         "logo_BnAkdk": {
           "type": "logo",
           "settings": {
@@ -226,6 +220,12 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/canecreek_logo_512x512-2.webp"
+          }
+        },
+        "logo_FC6yjg": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
           }
         },
         "logo_nKAp6T": {
@@ -246,6 +246,12 @@
             "image_logo": "shopify://shop_images/fox_logo_512x512-2.webp"
           }
         },
+        "logo_9dR9Tr": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/kyb_logo_512x512-2.webp"
+          }
+        },
         "logo_zcH4xz": {
           "type": "logo",
           "settings": {
@@ -258,22 +264,10 @@
             "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
           }
         },
-        "logo_9dR9Tr": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/kyb_logo_512x512-2.webp"
-          }
-        },
         "logo_dQtDxb": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
-          }
-        },
-        "logo_KmkkhH": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
           }
         },
         "logo_MnXREJ": {
@@ -282,10 +276,16 @@
             "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
           }
         },
-        "logo_Qy6e8n": {
+        "logo_KmkkhH": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
+          }
+        },
+        "logo_4PUkUq": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
           }
         },
         "logo_MkqhzW": {
@@ -306,10 +306,10 @@
             "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
           }
         },
-        "logo_4PUkUq": {
+        "logo_Qy6e8n": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
           }
         },
         "logo_AamwGt": {
@@ -323,23 +323,23 @@
         "logo_nE8Md8",
         "logo_4YUACx",
         "logo_cHfTxA",
-        "logo_FC6yjg",
         "logo_BnAkdk",
         "logo_7PnQbn",
+        "logo_FC6yjg",
         "logo_nKAp6T",
         "logo_qATA8w",
         "logo_Q3PR8j",
+        "logo_9dR9Tr",
         "logo_zcH4xz",
         "logo_jHBxmd",
-        "logo_9dR9Tr",
         "logo_dQtDxb",
-        "logo_KmkkhH",
         "logo_MnXREJ",
-        "logo_Qy6e8n",
+        "logo_KmkkhH",
+        "logo_4PUkUq",
         "logo_MkqhzW",
         "logo_4KfQGr",
         "logo_nFtrJX",
-        "logo_4PUkUq",
+        "logo_Qy6e8n",
         "logo_AamwGt"
       ],
       "settings": {
