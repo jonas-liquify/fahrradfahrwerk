@@ -228,12 +228,6 @@
             "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
           }
         },
-        "logo_qATA8w": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/dvo_logo_512x512-2.webp"
-          }
-        },
         "logo_nKAp6T": {
           "type": "logo",
           "settings": {
@@ -244,6 +238,12 @@
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/fox_logo_512x512-2.webp"
+          }
+        },
+        "logo_qATA8w": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/dvo_logo_512x512-2.webp"
           }
         },
         "logo_9dR9Tr": {
@@ -300,16 +300,16 @@
             "image_logo": "shopify://shop_images/magura_logo_512x512-2.webp"
           }
         },
-        "logo_nFtrJX": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
-          }
-        },
         "logo_Qy6e8n": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
+          }
+        },
+        "logo_nFtrJX": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
           }
         },
         "logo_AamwGt": {
@@ -326,9 +326,9 @@
         "logo_BnAkdk",
         "logo_7PnQbn",
         "logo_FC6yjg",
-        "logo_qATA8w",
         "logo_nKAp6T",
         "logo_Q3PR8j",
+        "logo_qATA8w",
         "logo_9dR9Tr",
         "logo_zcH4xz",
         "logo_jHBxmd",
@@ -338,8 +338,8 @@
         "logo_4PUkUq",
         "logo_MkqhzW",
         "logo_4KfQGr",
-        "logo_nFtrJX",
         "logo_Qy6e8n",
+        "logo_nFtrJX",
         "logo_AamwGt"
       ],
       "settings": {
