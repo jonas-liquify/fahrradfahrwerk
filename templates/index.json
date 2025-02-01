@@ -192,22 +192,16 @@
     "marken": {
       "type": "marken",
       "blocks": {
-        "logo_cHfTxA": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
-          }
-        },
-        "logo_nE8Md8": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/xfusion_logo_512x512-2.webp"
-          }
-        },
         "logo_4YUACx": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/rst_logo_512x512_a021faf0-2034-47da-a63c-bdf9b18d1837.webp"
+          }
+        },
+        "logo_cHfTxA": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
           }
         },
         "logo_BnAkdk": {
@@ -216,28 +210,16 @@
             "image_logo": "shopify://shop_images/ohlins_logo_512x512-2.webp"
           }
         },
-        "logo_7PnQbn": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/canecreek_logo_512x512-2.webp"
-          }
-        },
         "logo_FC6yjg": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
           }
         },
-        "logo_nKAp6T": {
+        "logo_7PnQbn": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
-          }
-        },
-        "logo_Q3PR8j": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fox_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/canecreek_logo_512x512-2.webp"
           }
         },
         "logo_qATA8w": {
@@ -252,16 +234,16 @@
             "image_logo": "shopify://shop_images/kyb_logo_512x512-2.webp"
           }
         },
+        "logo_Q3PR8j": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/fox_logo_512x512-2.webp"
+          }
+        },
         "logo_zcH4xz": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/bos_logo_512x512-2.webp"
-          }
-        },
-        "logo_jHBxmd": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
           }
         },
         "logo_KmkkhH": {
@@ -270,22 +252,34 @@
             "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
           }
         },
+        "logo_nKAp6T": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
+          }
+        },
+        "logo_jHBxmd": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
+          }
+        },
         "logo_MnXREJ": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
           }
         },
+        "logo_nE8Md8": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/xfusion_logo_512x512-2.webp"
+          }
+        },
         "logo_dQtDxb": {
           "type": "logo",
           "settings": {
             "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
-          }
-        },
-        "logo_4PUkUq": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
           }
         },
         "logo_MkqhzW": {
@@ -312,6 +306,12 @@
             "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
           }
         },
+        "logo_4PUkUq": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
+          }
+        },
         "logo_AamwGt": {
           "type": "logo",
           "settings": {
@@ -320,26 +320,26 @@
         }
       },
       "block_order": [
-        "logo_cHfTxA",
-        "logo_nE8Md8",
         "logo_4YUACx",
+        "logo_cHfTxA",
         "logo_BnAkdk",
-        "logo_7PnQbn",
         "logo_FC6yjg",
-        "logo_nKAp6T",
-        "logo_Q3PR8j",
+        "logo_7PnQbn",
         "logo_qATA8w",
         "logo_9dR9Tr",
+        "logo_Q3PR8j",
         "logo_zcH4xz",
-        "logo_jHBxmd",
         "logo_KmkkhH",
+        "logo_nKAp6T",
+        "logo_jHBxmd",
         "logo_MnXREJ",
+        "logo_nE8Md8",
         "logo_dQtDxb",
-        "logo_4PUkUq",
         "logo_MkqhzW",
         "logo_4KfQGr",
         "logo_Qy6e8n",
         "logo_nFtrJX",
+        "logo_4PUkUq",
         "logo_AamwGt"
       ],
       "settings": {
