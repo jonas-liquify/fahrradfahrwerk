@@ -192,6 +192,12 @@
     "marken": {
       "type": "marken",
       "blocks": {
+        "logo_AamwGt": {
+          "type": "logo",
+          "settings": {
+            "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
+          }
+        },
         "logo_nE8Md8": {
           "type": "logo",
           "settings": {
@@ -311,15 +317,10 @@
           "settings": {
             "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
           }
-        },
-        "logo_AamwGt": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
-          }
         }
       },
       "block_order": [
+        "logo_AamwGt",
         "logo_nE8Md8",
         "logo_4YUACx",
         "logo_cHfTxA",
@@ -339,8 +340,7 @@
         "logo_MkqhzW",
         "logo_4KfQGr",
         "logo_nFtrJX",
-        "logo_Qy6e8n",
-        "logo_AamwGt"
+        "logo_Qy6e8n"
       ],
       "settings": {
         "text_subheading": "// MARKEN",
