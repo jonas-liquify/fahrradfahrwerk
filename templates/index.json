@@ -294,10 +294,10 @@
             "image_logo": "shopify://shop_images/fast_suspension_logo_512x512-2.webp"
           }
         },
-        "logo_Qy6e8n": {
+        "logo_4PUkUq": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
           }
         },
         "logo_nFtrJX": {
@@ -306,10 +306,10 @@
             "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
           }
         },
-        "logo_4PUkUq": {
+        "logo_Qy6e8n": {
           "type": "logo",
           "settings": {
-            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
+            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
           }
         },
         "logo_AamwGt": {
@@ -337,9 +337,9 @@
         "logo_MnXREJ",
         "logo_4KfQGr",
         "logo_MkqhzW",
-        "logo_Qy6e8n",
-        "logo_nFtrJX",
         "logo_4PUkUq",
+        "logo_nFtrJX",
+        "logo_Qy6e8n",
         "logo_AamwGt"
       ],
       "settings": {
