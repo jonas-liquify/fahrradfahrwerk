@@ -3,7 +3,7 @@
 </h2>
 </div><div li-for:inside="product in collection.products" class="choose_a choose_main_logos">
         {% for product in collection.products %}                            <div id="w-node-_4b68e740-cb5b-30f5-6bcc-b6a3583ae8ba-9b07688f" class="choose_main_logo"><img src="{{ product.metafields.custom.marken_logo }}" loading="lazy" li-object:src="product.metafields.custom.marken_logo" alt="" class="choose_main_logo-img">
-<div class="choose_main_logo-overlay"><div class="choose_main_logo-top"><h3 li-object="product.title" class="heading-style-h4">{{ product.title }}</h3><p>
+<div class="choose_main_logo-overlay"><div class="choose_main_logo-top"><h3 li-object="product.metafields.custom.marke.title" class="heading-style-h4">{{ product.metafields.custom.marke.title }}</h3><p>
 {{ section.settings.text_logo_text }}
 </p>
 </div><a li-object:href="product.url" href="{{ product.url }}" class="button is-secondary-white max-width-full w-button">{{ section.settings.button_text }}</a></div></div>
