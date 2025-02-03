@@ -28,7 +28,8 @@
 <ul role="list" class="footer_payment-list w-list-unstyled">{% for type in shop.enabled_payment_types %}    <li li-for="type in shop.enabled_payment_types" class="footer_payment-item">
                                     <div li-object="type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color'" class="footer_payment-svg">{{ type | payment_type_svg_tag: class: 'footer_payment-img icon--full-color' }}</div>
                         </li>
-{% endfor %}</ul></div></div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0badd-cf39daf1" class="footer_newsletter"><div class="footer_newsletter-top"><h2 class="text-size-regular">
+{% endfor %}<li class="footer_payment-item"><div><img loading="lazy" src="{{ 'rechnung.svg' | asset_url }}" alt="" class="footer_payment-icon">
+</div></li></ul></div></div><div id="w-node-_946c4dcd-3bf7-2b09-3073-715a0eb0badd-cf39daf1" class="footer_newsletter"><div class="footer_newsletter-top"><h2 class="text-size-regular">
 {{ section.settings.text_newsletter_headline }}
 </h2>
 <p class="text-size-regular">
