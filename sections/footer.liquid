@@ -9,7 +9,7 @@
     </div>
 {% endif %}</div><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="footer_cta-bg-image">
 <div class="footer_cta-gradient"></div><div class="li-custom w-embed"></div>
-</div></div></div><div class="padding-global"><div class="container-large"><div class="footer_main-wrapper"><div class="footer_link-grid">{% for link in linklists['footer'].links %}    <div li-for="link in linklists['footer'].links" class="footer_link-column">
+</div></div></div><div class="padding-global"><div class="container-large"><div class="footer_main-wrapper"><div class="footer_link-grid">{% for link in linklists['footer-2'].links %}    <div li-for="link in linklists['footer'].links" class="footer_link-column">
                                     <div li-object="link.title" class="footer_link-heading">{{ link.title }}</div>
                             <div li-for:inside="child_link in link.links" class="footer_link-list">
         {% for child_link in link.links %}                            <a li-object:href="child_link.url" li-object="child_link.title" href="{{ child_link.url }}" class="footer_link">{{ child_link.title }}</a>
