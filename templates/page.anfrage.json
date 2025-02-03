@@ -36,7 +36,7 @@
             "text_choose_headline": "FAHRRAD",
             "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
             "image_choose_img": "shopify://shop_images/mtb_black.webp",
-            "url_button_link": "",
+            "url_button_link": "shopify://pages/service-anfrage-bauteil",
             "text_button_text": "Bauteil auswählen"
           }
         },
@@ -46,7 +46,7 @@
             "text_choose_headline": "MOTORRAD",
             "text_choose_text": "Wähle im nächsten Schritt deine Bauteile aus.",
             "image_choose_img": "shopify://shop_images/moto_black.webp",
-            "url_button_link": "",
+            "url_button_link": "shopify://pages/service-anfrage-bauteil-motorrad",
             "text_button_text": "Bauteile auswählen"
           }
         }
