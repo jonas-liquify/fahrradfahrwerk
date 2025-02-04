@@ -37,50 +37,6 @@
         "text_more_text": "Option für Text",
         "text_headline_tuning": "Tuning hinzufügen"
       }
-    },
-    "content": {
-      "type": "content",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// SERVICE",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
-        "content_allign": "right"
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// FAQ",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "Service anfragen",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
-        "text_cta_headline": "Heading",
-        "text_cta_infos": "Max Mustermann (Gründer)",
-        "url_cta_button_link": "",
-        "text_cta_button_text": "Kontaktiere uns"
-      }
-    },
-    "product_recommended": {
-      "type": "product_recommended",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// Topseller",
-        "text_heading": "Produkte für dein Fahrrad &amp; Motorrad",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": "Alle Produkte"
-      }
     }
   },
   "layout": "product",
@@ -88,9 +44,6 @@
   "order": [
     "hero_anfrage_gPyt7k",
     "funnel_nav_6TdT9X",
-    "funnel_product_hero_mqCGaq",
-    "content",
-    "faq",
-    "product_recommended"
+    "funnel_product_hero_mqCGaq"
   ]
 }
