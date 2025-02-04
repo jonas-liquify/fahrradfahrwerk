@@ -418,6 +418,7 @@
     },
     "location": {
       "type": "location",
+      "disabled": true,
       "settings": {
         "text_subheading": "// Service-Partner",
         "text_heading": "Rundum-Sorglos-Paket, auch in deiner Nähe",

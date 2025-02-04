@@ -22,7 +22,7 @@
       "settings": {
         "collection_search_bestseller": "",
         "collection_search_bestseller_limit": 6,
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN"
       }
     }
