@@ -27,14 +27,14 @@
         "steps": "third"
       }
     },
-    "funnel_produkte_kmx4Xk": {
-      "type": "funnel_produkte",
+    "funnel_einsatzgebiet_yx4CeK": {
+      "type": "funnel_einsatzgebiet",
       "settings": {
-        "text_headline": "Wo bist du Unterwegs?",
-        "text_logo_text": "Wähle im nächsten Schritt dein Service aus.",
-        "collection_list": [
-          "federgabel-service-motorrad"
-        ]
+        "url_zuruck_link": "",
+        "text_headline": "Welche Marke benötigen sie?",
+        "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+        "collection_list": [],
+        "button_text": ""
       }
     }
   },
@@ -43,6 +43,6 @@
   "order": [
     "hero_anfrage_qVbV6D",
     "funnel_nav_rgPBQb",
-    "funnel_produkte_kmx4Xk"
+    "funnel_einsatzgebiet_yx4CeK"
   ]
 }
