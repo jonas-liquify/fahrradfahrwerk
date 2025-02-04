@@ -29,23 +29,13 @@
     },
     "funnel_product_hero_mqCGaq": {
       "type": "funnel_product_hero",
-      "blocks": {
-        "info_item_VWWXfE": {
-          "type": "info-item",
-          "settings": {
-            "text_text": "mehr als 500 Rapire pro Jahr"
-          }
-        }
-      },
-      "block_order": [
-        "info_item_VWWXfE"
-      ],
       "settings": {
         "text_headline": "Was benötigt dein Bauteil?",
         "text_opener_text": "Mehr Informationen",
         "kategorie": "Alle FAQs",
         "text_more_headline": "Zubehör",
-        "text_more_text": "Option für Text"
+        "text_more_text": "Option für Text",
+        "text_headline_tuning": "Tuning-Service hinzufügen"
       }
     },
     "content": {
@@ -85,7 +75,7 @@
       "settings": {
         "text_subheading": "// Topseller",
         "text_heading": "Produkte für dein Fahrrad &amp; Motorrad",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
