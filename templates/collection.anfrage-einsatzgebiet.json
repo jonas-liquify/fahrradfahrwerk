@@ -31,9 +31,11 @@
       "type": "funnel_einsatzgebiet",
       "settings": {
         "url_zuruck_link": "",
-        "text_headline": "Welche Marke benötigen sie?",
+        "text_headline": "Wo bist du unterwegs?",
         "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
-        "collection_list": [],
+        "collection_list": [
+          "offroad"
+        ],
         "button_text": ""
       }
     }
