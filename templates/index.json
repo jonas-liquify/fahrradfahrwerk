@@ -348,7 +348,7 @@
         "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN",
         "image_bild": "shopify://shop_images/action_Innsbruck_julian.webp"
       }
