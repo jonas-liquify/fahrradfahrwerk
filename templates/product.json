@@ -29,6 +29,7 @@
     },
     "content": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "text_subheading": "// SERVICE",
         "url_button_link_2": "",
@@ -64,7 +65,7 @@
         "textarea_text": "<p>Ob für Wartung, Reparatur oder Tuning - bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://collections",
         "text_button_text": "Alle Produkte"
       }
     }
