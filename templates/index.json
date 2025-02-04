@@ -448,7 +448,8 @@
     "popup_gA9eq9": {
       "type": "popup",
       "settings": {
-        "text_black_friday": "FAHRRAD FAHRWERK WIRD ZU<br>SWIFT SUSPENSION",
+        "image_bild": "shopify://shop_images/reparatur_mtb_drehmaschine.webp",
+        "text_black_friday": "FAHRRAD FAHRWERK WIRD ZUSWIFT SUSPENSION",
         "text_button_text": "Mehr erfahren",
         "url_button_link": "",
         "text_button_text_2": "Mehr erfahren",
