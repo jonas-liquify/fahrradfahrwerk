@@ -262,6 +262,64 @@
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
   }
   
- 
+{% if request.page_type == "policy" %}
+h1, h2, h3, h4, h5 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  font-weight: normal;
+  color: #3a3228; /* ein natürlicher Braunton */
+}
+
+/* Größentabelle je nach Wunsch anpassen */
+h1 {
+  font-size: 2.5rem;
+  /* optionaler Schatten, um die Schrift 'weicher' wirken zu lassen */
+  text-shadow: 1px 1px 2px rgba(50, 40, 30, 0.2);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+/* 4) Absätze */
+
+p {
+  margin-bottom: 1.2em;
+  font-size: 1rem;
+  color: #454545;
+  /* Falls du eine ganz dezente Umrahmung möchtest:
+     border-left: 3px solid #d8d2c4;
+     padding-left: 1rem; */
+}
+
+/* 5) Optional: Kleine Verzierungen für ein „natürliches“ Flair */
+hr {
+  border: 0;
+  height: 1px;
+  background: #d8d2c4;
+  margin: 2rem 0;
+}
+
+blockquote {
+  border-left: 4px solid #b5ab9b;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #3b3b3b;
+}
+{% endif %}
 
 </style>
