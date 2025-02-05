@@ -44,7 +44,7 @@
 
                         </div>
 {% endfor %}</div>{% if product.selected_or_first_available_variant.available == true %}    <div li-if="product.selected_or_first_available_variant.available == true" class="product-header_availability">
-    <div class="product-header_dot"></div><div>Aktuelle Bearbeitungszeit: <span li-object="">{{  }}</span></div>    </div>
+    <div class="product-header_dot"></div><div>Aktuelle Bearbeitungszeit: <span li-object="">{{ product.metafields.custom.bearbeitungszeit | default: settings.motorrad_bearbeitungsdauer }}</span></div>    </div>
 {% endif %}{% if product.selected_or_first_available_variant.available == false %}    <div li-if="product.selected_or_first_available_variant.available == false" class="product-header_availability is-red">
     <div class="product-header_dot is-red"></div><div>Aktuell nicht verfügbar</div>    </div>
 {% endif %}<div class="product-header_add-to-cart-wrapper"><div><template x-if="selected_or_first_available_variant.available">
