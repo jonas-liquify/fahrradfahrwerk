@@ -445,6 +445,18 @@
         "text_category": "Step 1",
         "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
       }
+    },
+    "popup_mM9K3G": {
+      "type": "popup",
+      "settings": {
+        "image_bild": "shopify://shop_images/swift_logo_512x512_f6bb0289-0fc3-42ff-9fc1-fd574d355b30.png",
+        "text_black_friday": "FAHRRAD FAHRWERK WIRD ZUSWIFT SUSPENSION",
+        "text_button_text": "Mehr erfahren",
+        "url_button_link": "",
+        "text_button_text_2": "Mehr erfahren",
+        "url_button_link_2": "",
+        "text_disclaimer": "Der Rabatt wird automatisch bei Ihrer Bestellung abgezogen."
+      }
     }
   },
   "layout": "theme",
@@ -459,6 +471,7 @@
     "products",
     "showcase",
     "location",
-    "blog_teaser"
+    "blog_teaser",
+    "popup_mM9K3G"
   ]
 }
