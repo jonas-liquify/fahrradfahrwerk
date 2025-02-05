@@ -5,7 +5,7 @@
 </div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" class="button_first">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="blog-teaser_grid">{% assign blog = blogs[section.settings.blog_blog] %}
