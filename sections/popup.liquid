@@ -1,6 +1,6 @@
 <div><div id="popup" class="popup_component hide"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="popup_image">
 <div class="text-size-medium text-weight-semibold">
-{{ section.settings.text_black_friday }}
+{{ section.settings.text_headline }}
 </div>
 {% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade09-b41ade01" class="button-group padding-top padding-small">
     {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade0a-b41ade01">
@@ -29,4 +29,4 @@
       localStorage.setItem("popupShown", "true");
     });
   });
-</script></div></div> {% schema %} {"tag":"div","name":"Popup","class":"section_popup","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_black_friday","type":"text","label":"Black Friday","default":"FAHRRAD FAHRWERK WIRD ZU<br\/>SWIFT SUSPENSION"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"id":"text_disclaimer","type":"text","label":"Disclaimer","default":"Der Rabatt wird automatisch bei Ihrer Bestellung abgezogen."}],"presets":[{"name":"Popup","category":"Liquify","blocks":[]}]} {% endschema %}
+</script></div></div> {% schema %} {"tag":"div","name":"Popup","class":"section_popup","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"FAHRRAD FAHRWERK WIRD ZU<br\/>SWIFT SUSPENSION"},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"url_button_link","type":"url","label":"Button Link"},{"id":"text_button_text_2","type":"text","label":"Button Text 2","default":"Mehr erfahren"},{"id":"url_button_link_2","type":"url","label":"Button Link 2"},{"id":"text_disclaimer","type":"text","label":"Disclaimer","default":"Der Rabatt wird automatisch bei Ihrer Bestellung abgezogen."}],"presets":[{"name":"Popup","category":"Liquify","blocks":[]}]} {% endschema %}
