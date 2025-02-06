@@ -163,7 +163,7 @@
         "textarea_text": "<p>Um die volle Funktion und maximale Sicherheit zu gewährleisten, sollte das Fahrwerk deines Bikes in regelmäßigen Abständen gewartet werden.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN",
         "text_head_1": "Einsatzgebiet",
         "text_head_2": "Dämpfer",
@@ -255,7 +255,7 @@
         "text_subheading": "// Leistung",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN",
         "text_heading": "Service mit Herzblut",
         "textarea_text": "<p>Unser Service sorgt dafür, dass dein Fahrwerk immer in Bestform bleibt. Hier erfährst du im Detail, welche Leistung in unserem Service steckt.</p>"
@@ -344,7 +344,7 @@
         "textarea_text": "<p>Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN"
       }
     },
@@ -428,7 +428,7 @@
         "textarea_text": "<p>Hier findest du klare und verständliche Antworten auf häufig gestellte Fragen rund um unseren Service.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://pages/faqs",
         "text_button_text": "MEHR FAQ´s",
         "text_cta_headline": "SWIFT Suspension",
         "text_cta_infos": "Kundenservice",
