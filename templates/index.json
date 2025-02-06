@@ -23,6 +23,7 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
+            "url_link": "",
             "image_bild": "shopify://shop_images/mtb_white.webp",
             "text_headline": "FAHRRAD",
             "text_text": "Fahrzeug auswählen"
@@ -31,6 +32,7 @@
         "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
+            "url_link": "",
             "image_bild": "shopify://shop_images/moto_white.webp",
             "text_headline": "MOTORRAD",
             "text_text": "Fahrzeug auswählen"
@@ -149,7 +151,7 @@
         "service_block_6UaQMn": {
           "type": "service-block",
           "settings": {
-            "image_bild": "shopify://shop_images/step-1_moto.webp",
+            "image_bild": "shopify://shop_images/step-1_mtb.webp",
             "text_step": "Step 1",
             "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
             "text_headline": "Service buchen"
@@ -450,7 +452,7 @@
       "type": "popup",
       "settings": {
         "image_bild": "shopify://shop_images/swift-suspension_logo_300x300px.jpg",
-        "text_black_friday": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_headline": "FAHRRAD FAHRWERK WIRD ZU<br>SWIFT SUSPENSION",
         "text_button_text": "Mehr erfahren",
         "url_button_link": "",
         "text_button_text_2": "Mehr erfahren",
