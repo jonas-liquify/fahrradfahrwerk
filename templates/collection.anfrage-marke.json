@@ -22,7 +22,7 @@
       "settings": {
         "text_text_1": "1. Fahrzeug",
         "text_text_2": "2. Bauteil",
-        "text_text_3": "3. Marke",
+        "text_text_3": "3. Einsatz",
         "text_text_4": "4. Service",
         "steps": "third"
       }
@@ -32,7 +32,8 @@
       "settings": {
         "text_headline": "Welche Marke hast du?",
         "text_logo_text": "Wähle im nächsten Schritt dein Service aus.",
-        "collection_list": []
+        "collection_list": [],
+        "button_text": ""
       }
     }
   },
