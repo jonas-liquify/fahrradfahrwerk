@@ -395,13 +395,20 @@
           "settings": {
             "image_bild": "shopify://shop_images/2023_01_04_PBK_21840_LR.jpg"
           }
+        },
+        "showcase_slide_jitqXL": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/swift_suspension4.webp"
+          }
         }
       },
       "block_order": [
         "showcase_slide_4tTe4r",
         "showcase_slide_JJV6R8",
         "showcase_slide_t7bCw6",
-        "showcase_slide_jfnFkJ"
+        "showcase_slide_jfnFkJ",
+        "showcase_slide_jitqXL"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
