@@ -13,7 +13,7 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// SWIFT Suspension",
-        "image_bild": "shopify://shop_images/2023_01_05_PBK_33928_LR.jpg",
+        "image_bild": "shopify://shop_images/2023_01_04_PBK_21840_LR.jpg",
         "text_heading": "Dein Fahrwerk <span class=\"gradient-bar\">in Bestform</span>"
       }
     },
@@ -84,7 +84,7 @@
         "url_button_link": "shopify://pages/uber-uns",
         "text_button_text": "ÜBER UNS",
         "text_left_text_bottom": "Unsere Macht in Zahlen",
-        "image_bild": "shopify://shop_images/action_rider.webp"
+        "image_bild": "shopify://shop_images/swift_suspension.webp"
       }
     },
     "service_slide": {
