@@ -396,6 +396,12 @@
             "image_bild": "shopify://shop_images/swift_suspension4.webp"
           }
         },
+        "showcase_slide_pCGA9N": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/action_nohander_julian.webp"
+          }
+        },
         "showcase_slide_jfnFkJ": {
           "type": "showcase-slide",
           "settings": {
@@ -408,6 +414,7 @@
         "showcase_slide_JJV6R8",
         "showcase_slide_t7bCw6",
         "showcase_slide_jitqXL",
+        "showcase_slide_pCGA9N",
         "showcase_slide_jfnFkJ"
       ],
       "settings": {
