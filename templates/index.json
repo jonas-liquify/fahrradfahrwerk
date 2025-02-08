@@ -372,41 +372,29 @@
     "showcase": {
       "type": "showcase",
       "blocks": {
-        "showcase_slide_qjHGDM": {
+        "showcase_slide_4tTe4r": {
           "type": "showcase-slide",
           "settings": {
-            "image_bild": "shopify://shop_images/IMG_8354_2.jpg"
+            "image_bild": "shopify://shop_images/swift_suspension3.webp"
           }
         },
-        "showcase_slide_EAc7VD": {
+        "showcase_slide_JJV6R8": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/2024_03_26_PBK_13367_LR.jpg"
+          }
+        },
+        "showcase_slide_t7bCw6": {
           "type": "showcase-slide",
           "settings": {
             "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
           }
-        },
-        "showcase_slide_xibxrg": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/IMG_8335_2.jpg"
-          }
-        },
-        "showcase_slide_xxdXYU": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/IMG_8351.jpg"
-          }
-        },
-        "showcase_slide_4tTe4r": {
-          "type": "showcase-slide",
-          "settings": {}
         }
       },
       "block_order": [
-        "showcase_slide_qjHGDM",
-        "showcase_slide_EAc7VD",
-        "showcase_slide_xibxrg",
-        "showcase_slide_xxdXYU",
-        "showcase_slide_4tTe4r"
+        "showcase_slide_4tTe4r",
+        "showcase_slide_JJV6R8",
+        "showcase_slide_t7bCw6"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
