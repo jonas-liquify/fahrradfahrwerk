@@ -13,6 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// MOTO SUSPENSION-SERVICE",
+        "image_bild": "shopify://shop_images/swift_suspension4.webp",
         "text_heading": "Dein Fahrwerk ist unsere Leidenschaft"
       }
     },
