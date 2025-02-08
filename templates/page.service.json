@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "hero_UhJ6mz": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "text_subheading": "// wir sind Rebound racing",
+        "image_bild": "shopify://shop_images/action_Innsbruck_julian.webp",
+        "text_heading": "Optimale Leistung für deine Federgabela"
+      }
+    },
     "hero_2": {
       "type": "hero_2",
       "settings": {
@@ -268,7 +277,7 @@
         "url_button_link": "",
         "text_button_text": "",
         "text_left_text_bottom": "Unsere Macht in Zahlen",
-        "image_bild": "shopify://shop_images/swift_suspension4.webp"
+        "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
       }
     },
     "prozess": {
@@ -409,6 +418,7 @@
   "layout": "page.service",
   "wrapper": "main.main-wrapper",
   "order": [
+    "hero_UhJ6mz",
     "hero_2",
     "content_i4wyK3",
     "content",
