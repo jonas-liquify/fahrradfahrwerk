@@ -390,12 +390,6 @@
             "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
           }
         },
-        "showcase_slide_JdHJ6B": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/A7406287.webp"
-          }
-        },
         "showcase_slide_jitqXL": {
           "type": "showcase-slide",
           "settings": {
@@ -413,23 +407,15 @@
           "settings": {
             "image_bild": "shopify://shop_images/action_nohander_julian.webp"
           }
-        },
-        "showcase_slide_3mKEi4": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/mtb_rockshox_zeb_airshaft.webp"
-          }
         }
       },
       "block_order": [
         "showcase_slide_4tTe4r",
         "showcase_slide_JJV6R8",
         "showcase_slide_t7bCw6",
-        "showcase_slide_JdHJ6B",
         "showcase_slide_jitqXL",
         "showcase_slide_jfnFkJ",
-        "showcase_slide_pCGA9N",
-        "showcase_slide_3mKEi4"
+        "showcase_slide_pCGA9N"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
