@@ -352,7 +352,7 @@
         "text_button_text_2": "",
         "url_button_link": "shopify://pages/service-anfrage",
         "text_button_text": "SERVICE BUCHEN",
-        "image_bild": "shopify://shop_images/2023_01_05_PBK_33928_LR.jpg"
+        "image_bild": "shopify://shop_images/2023_01_03_PBK_14655_LR.jpg"
       }
     },
     "products": {
@@ -389,12 +389,19 @@
           "settings": {
             "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
           }
+        },
+        "showcase_slide_jfnFkJ": {
+          "type": "showcase-slide",
+          "settings": {
+            "image_bild": "shopify://shop_images/2023_01_04_PBK_21840_LR.jpg"
+          }
         }
       },
       "block_order": [
         "showcase_slide_4tTe4r",
         "showcase_slide_JJV6R8",
-        "showcase_slide_t7bCw6"
+        "showcase_slide_t7bCw6",
+        "showcase_slide_jfnFkJ"
       ],
       "settings": {
         "text_subheading": "// Bildergalerie",
