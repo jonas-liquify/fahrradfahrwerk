@@ -452,9 +452,10 @@
         "text_button_text": "ALLE BEITRÄGE",
         "blog_blog": "news",
         "post_limit_blog": 3,
-        "text_step": "Step 1",
-        "text_category": "Step 1",
-        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "image_bild": "shopify://shop_images/icon_reset.png",
+        "text_step": "NEWS",
+        "text_category": "",
+        "text_text": "Von FAHRRAD FAHRWERK zu SWIFT Suspension - ein neues Kapitel beginnt"
       }
     },
     "popup_mM9K3G": {
