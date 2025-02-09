@@ -413,6 +413,18 @@
         "url_cta_button_link": "",
         "text_cta_button_text": "Kontaktiere uns"
       }
+    },
+    "popup_JPgJt4": {
+      "type": "popup",
+      "settings": {
+        "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
+        "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_button_text": "Mehr erfahren",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "text_disclaimer": "STOP! Du bist hier genau richtig bei FAHRRAD FAHRWERK. Bei uns hat sich in letzter Zeit vieles geändert unter anderem unser Firmenname."
+      }
     }
   },
   "layout": "page.service",
@@ -429,6 +441,7 @@
     "about_1",
     "prozess",
     "blog_teaser",
-    "faq"
+    "faq",
+    "popup_JPgJt4"
   ]
 }
