@@ -44,7 +44,7 @@
           "type": "art",
           "settings": {
             "text_choose_headline": "MOTORRAD",
-            "text_choose_text": "Wähle im nächsten Schritt dein Bauteile aus.",
+            "text_choose_text": "Wähle im nächsten Schritt das Bauteile aus.",
             "image_choose_img": "shopify://shop_images/moto_black.webp",
             "url_button_link": "shopify://pages/service-anfrage-bauteil-motorrad",
             "text_button_text": "Bauteile auswählen"
