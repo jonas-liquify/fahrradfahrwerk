@@ -211,6 +211,7 @@
         },
         "info_KTGUQX": {
           "type": "info",
+          "disabled": true,
           "settings": {
             "image_icon": "shopify://shop_images/icon_delete.svg",
             "text_headline": "Entsorgung",
