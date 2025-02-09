@@ -77,13 +77,13 @@
       ],
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "Suspension Service für Fahrrad &amp; Motorrad",
+        "text_heading": "Suspension Service für MTB &amp; MOTO",
         "textarea_text": "<p>Willkommen bei SWIFT Suspension, deinem Experten-Team für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportlerinnen und Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben, um sicherzustellen, dass unsere Kundschaft das Maximum aus ihrem Fahrzeug herausholen kann.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "shopify://pages/uber-uns",
         "text_button_text": "ÜBER UNS",
-        "text_left_text_bottom": "Unsere Macht in Zahlen",
+        "text_left_text_bottom": "<b>Unsere Macht <br>in Zahlen</b>",
         "image_bild": "shopify://shop_images/Banner.webp"
       }
     },
