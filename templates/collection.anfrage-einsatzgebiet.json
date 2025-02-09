@@ -14,7 +14,15 @@
       "settings": {
         "text_subheading": "// Motorrad",
         "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
-        "text_heading": "Optimale Leistung für deine Federgabela"
+        "text_heading": "Optimale Leistung für deine Federgabel"
+      }
+    },
+    "hero_anfrage_qg8Yam": {
+      "type": "hero_anfrage",
+      "settings": {
+        "text_subheading": "// Motorrad",
+        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
+        "text_heading": "Optimale Leistung für deine Federgabel"
       }
     },
     "funnel_nav_rgPBQb": {
@@ -32,7 +40,7 @@
       "settings": {
         "url_zuruck_link": "",
         "text_headline": "Wo bist du unterwegs?",
-        "text_choose_text": "Wähle im nächsten Schritt dein Service aus.",
+        "text_choose_text": "Wähle im nächsten Schritt den Service aus.",
         "collection_list": [
           "offroad",
           "onroad"
@@ -45,6 +53,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_anfrage_qVbV6D",
+    "hero_anfrage_qg8Yam",
     "funnel_nav_rgPBQb",
     "funnel_einsatzgebiet_yx4CeK"
   ]
