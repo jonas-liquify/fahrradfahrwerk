@@ -43,6 +43,7 @@
     },
     "faq": {
       "type": "faq",
+      "disabled": true,
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
