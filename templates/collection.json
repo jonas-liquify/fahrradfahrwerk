@@ -13,6 +13,7 @@
       "type": "hero_2",
       "settings": {
         "text_subheading": "// PRODUKT-KATEGORIE",
+        "image_bild": "shopify://shop_images/fox40_awk.webp",
         "text_heading": "Optimale Leistung für deine Federgabela"
       }
     },
