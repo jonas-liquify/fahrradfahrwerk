@@ -58,6 +58,18 @@
       "settings": {
         "text_headline": "Wofür benötigst du einen Service?"
       }
+    },
+    "popup_BDiygt": {
+      "type": "popup",
+      "settings": {
+        "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
+        "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_button_text": "",
+        "url_button_link": "",
+        "text_button_text_2": "",
+        "url_button_link_2": "",
+        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität"
+      }
     }
   },
   "layout": "page.anfrage",
@@ -65,6 +77,7 @@
   "order": [
     "hero_anfrage",
     "funnel_nav_TJNbhK",
-    "funnel_art_B69yqk"
+    "funnel_art_B69yqk",
+    "popup_BDiygt"
   ]
 }
