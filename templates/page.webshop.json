@@ -36,6 +36,14 @@
             "text_name": "MTB Dämpfer"
           }
         },
+        "category_fFAPqJ": {
+          "type": "category",
+          "settings": {
+            "url_link": "",
+            "image_image": "shopify://shop_images/bauteil_mtb_vario.webp",
+            "text_name": "MTB Vario-Stütze"
+          }
+        },
         "category_VGaWmQ": {
           "type": "category",
           "settings": {
@@ -51,30 +59,14 @@
             "image_image": "shopify://shop_images/bauteil_moto_shock.webp",
             "text_name": "MOTO Dämpfer"
           }
-        },
-        "category_fFAPqJ": {
-          "type": "category",
-          "settings": {
-            "url_link": "",
-            "image_image": "shopify://shop_images/bauteil_mtb_vario.webp",
-            "text_name": "MTB Vario-Stütze"
-          }
-        },
-        "category_LRYfCh": {
-          "type": "category",
-          "settings": {
-            "url_link": "",
-            "text_name": "Kategorie 1"
-          }
         }
       },
       "block_order": [
         "category_PwwFxQ",
         "category_6F3kLf",
-        "category_VGaWmQ",
-        "category_FCgWeE",
         "category_fFAPqJ",
-        "category_LRYfCh"
+        "category_VGaWmQ",
+        "category_FCgWeE"
       ],
       "settings": {
         "text_heading": "KATEGORIEN"
