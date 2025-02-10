@@ -32,6 +32,7 @@
           "type": "category",
           "settings": {
             "url_link": "",
+            "image_image": "shopify://shop_images/bauteil_mtb_daempfer-2.webp",
             "text_name": "Kategorie 1"
           }
         },
@@ -39,7 +40,8 @@
           "type": "category",
           "settings": {
             "url_link": "",
-            "text_name": "Kategorie 1"
+            "image_image": "shopify://shop_images/bauteil_moto_fork.webp",
+            "text_name": "MOTO Federgabel Zubehör"
           }
         },
         "category_FCgWeE": {
