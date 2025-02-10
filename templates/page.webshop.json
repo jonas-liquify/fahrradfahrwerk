@@ -25,7 +25,7 @@
           "settings": {
             "url_link": "",
             "image_image": "shopify://shop_images/bauteil_mtb_fork.webp",
-            "text_name": "MTB Federgabel Ersatzteile"
+            "text_name": "MTB Federgabel"
           }
         },
         "category_6F3kLf": {
@@ -48,6 +48,7 @@
           "type": "category",
           "settings": {
             "url_link": "",
+            "image_image": "shopify://shop_images/bauteil_moto_shock.webp",
             "text_name": "Kategorie 1"
           }
         },
