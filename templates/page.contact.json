@@ -24,6 +24,7 @@
     },
     "map_single": {
       "type": "map_single",
+      "disabled": true,
       "settings": {}
     }
   },
