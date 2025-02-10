@@ -49,14 +49,15 @@
           "settings": {
             "url_link": "",
             "image_image": "shopify://shop_images/bauteil_moto_shock.webp",
-            "text_name": "Kategorie 1"
+            "text_name": "MOTO Dämpfer"
           }
         },
         "category_fFAPqJ": {
           "type": "category",
           "settings": {
             "url_link": "",
-            "text_name": "Kategorie 1"
+            "image_image": "shopify://shop_images/bauteil_mtb_vario.webp",
+            "text_name": "MTB Vario-Stütze"
           }
         },
         "category_LRYfCh": {
