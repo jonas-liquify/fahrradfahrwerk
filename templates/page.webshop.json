@@ -97,6 +97,7 @@
       "block_order": [
         "service_item_NpEYcT"
       ],
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
         "text_heading": "Optimale Leistung für deine Federgabela",
@@ -113,10 +114,10 @@
         "testimonial_XeHtjj": {
           "type": "testimonial",
           "settings": {
-            "text_heading": "“Hervorragender Service: Schnell, Professionell und Freundlich!”",
-            "text_text": "Ich habe eine Gabel und einen Dämpfer eingeschickt, und der Service ist wirklich erstklassig. Sogar als bei meiner Gabel etwas nicht stimmte, erhielt ich einen Anruf und wurde darauf hingewiesen, dass es etwas teurer werden könnte, da ein Ersatzteil eingebaut werden muss. Das war natürlich in Ordnung. Sehr nett, kompetent und schnell.",
-            "text_name": "Max Mustermann",
-            "text_job_title": "Client job title"
+            "text_heading": "Volumespacerst du noch oder AWKst du schon?",
+            "text_text": "Die AWK ist ein Doppelkammer-Luftsystem und sorgt für eine stufenlose Anpassung der Federkennlinie.",
+            "text_name": "",
+            "text_job_title": ""
           }
         }
       },
