@@ -1,11 +1,11 @@
-<div>{% assign has_service_product = false %}
+<div>{% for line_item in cart.items %}  {% if line_item.product.tags contains 'MTB Service' or line_item.product.tags contains 'MOTO Service'  %}    {% assign has_service_product = true %}{% assign has_tunig_product = true %}  {% endif %}{% endfor %}
+{% assign has_service_product = false %}
 {% assign has_tuning_product = false %}
-{% for line_item in cart.items %}  {% if line_item.product.tags contains 'service' %}    {% assign has_service_product = true %}{% assign has_tunig_product = true %}  {% endif %}{% endfor %}
 </div>{% if has_service_product == false and has_tuning_product == false %}    <div li-if="has_service_product == false and has_tuning_product == false" class="padding-global padding-section-small">
     <div class="container-large"><div class="headline-wrapper"><h2 id="w-node-e70215e6-46ed-17af-2aa7-195241f33af3-2048041f" class="heading-style-h2">
 {{ section.settings.text_heading }}
 </h2>
-<a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="text-size-small text-style-link hide-mobile-landscape">Continue shopping</a></div>{% if cart.item_count > 0 %}    <div li-if="cart.item_count > 0" class="cart_form-block w-form">
+<a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="text-size-small text-style-link hide-mobile-landscape text-color-white">Continue shopping</a></div>{% if cart.item_count > 0 %}    <div li-if="cart.item_count > 0" class="cart_form-block w-form">
     {% form 'cart', cart, class: 'cart_grid-wrapper' %}
 <div class="cart_table outline-solid-1"><div class="cart_grid is-header w-hidden-tiny"><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33afb-2048041f" class="cart_table-header"><p class="text-size-regular">Produkte</p></div><div class="cart_table-header"><p class="text-size-regular">Anzahl</p></div><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b01-2048041f" class="cart_table-header"><p class="text-size-regular">Preis</p></div></div>{% for item in cart.items %}    <div li-for="item in cart.items" class="cart_grid">
                                     <div id="w-node-_51dd9338-e259-f546-1410-ab7878c921b7-2048041f" class="display-inlineflex"><a href="{{ item.url }}" li-object:href="item.url" id="w-node-_51dd9338-e259-f546-1410-ab7878c921b8-2048041f" class="w-inline-block"><img src="{{ item.image |  img_url: 'small' }}" li-object:src="item.image |  img_url: 'small'" alt="" class="cart_image">
