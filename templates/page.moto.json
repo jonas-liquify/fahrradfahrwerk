@@ -269,8 +269,8 @@
         "numbers_block_94N89h": {
           "type": "numbers-block",
           "settings": {
-            "text_number": "4.000+",
-            "text_text": "Services <br>pro Jahr"
+            "text_number": "3.500+",
+            "text_text": "Services pro Jahr"
           }
         },
         "numbers_block_eErhiz": {
@@ -363,10 +363,7 @@
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "blog_blog": "",
-        "post_limit_blog": 3,
-        "text_step": "<span class=\"gradient-bar-step\" li-settings:text=\"Category\">Step 1</span>",
-        "text_category": "Step 1",
-        "text_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "post_limit_blog": 3
       }
     },
     "faq": {
