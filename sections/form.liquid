@@ -1,4 +1,4 @@
-<div>{% for line_item in cart.items %}  {% if line_item.product.tags contains 'MTB Service' %}    {% assign has_service_product = true %}  {% endif %}{% endfor %}
+<div>{% for line_item in cart.items %} 1 {% if line_item.product.tags contains 'MTB Service' %}    {% assign has_service_product = true %}  {% endif %}{% endfor %}
 {% assign has_service_product = false %}
 {% assign has_tuning_product = false %}
 </div>{% if has_service_product == true %}    <div li-if="has_service_product and has_tuning_product == false">
