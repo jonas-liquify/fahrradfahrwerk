@@ -54,7 +54,7 @@
           "settings": {
             "text_input_lable": "Marke*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Marke]",
             "required": true
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "text_input_lable": "Modell*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Modell]",
             "required": true
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "text_input_lable": "Baujahr*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Baujahr]",
             "required": false
           }
         },
@@ -92,42 +92,42 @@
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Downhill",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Downhill]"
           }
         },
         "input_checkbox_7C6Uen": {
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Tour",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Tour]"
           }
         },
         "input_checkbox_BtaCk3": {
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Enduro",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Enduro]"
           }
         },
         "input_checkbox_xMWPwi": {
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Alltag",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Alltag]"
           }
         },
         "input_checkbox_VRKXWJ": {
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Cross Country",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Cross_Country]"
           }
         },
         "input_medium_text_nqLJkK": {
           "type": "input-medium-text",
           "settings": {
             "text_input_lable": "Sonstige Einsatzgebiete",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Sonstiges]",
             "required": false
           }
         },
@@ -147,7 +147,7 @@
           "type": "input-big-text",
           "settings": {
             "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Nachricht]",
             "required": false
           }
         }
@@ -179,25 +179,6 @@
         "text_versandkosten": "Versandkosten",
         "text_versandkosten_preis": "Wird im Check-out berechnet",
         "text_tag": "MTB Service"
-      }
-    },
-    "cart_L3dq68": {
-      "type": "cart",
-      "settings": {
-        "text_heading": "Warenkorb",
-        "text_cart_empty": "Dein Warenkorb ist leer.",
-        "text_tag": "MTB Service"
-      }
-    },
-    "funnel_nav_qAw4mh": {
-      "type": "funnel_nav",
-      "disabled": true,
-      "settings": {
-        "text_text_1": "1. Art Wählen",
-        "text_text_2": "2. Auswahl Marke",
-        "text_text_3": "3. Auswahl Bauteil",
-        "text_text_4": "4. kasse",
-        "steps": "fourth"
       }
     },
     "form_iyc66b": {
@@ -476,6 +457,25 @@
         "text_versandkosten": "Versandkosten",
         "text_versandkosten_preis": "Wird im Check-out berechnet",
         "text_tag": "MOTO Service"
+      }
+    },
+    "cart_L3dq68": {
+      "type": "cart",
+      "settings": {
+        "text_heading": "Warenkorb",
+        "text_cart_empty": "Dein Warenkorb ist leer.",
+        "text_tag": "MTB Service"
+      }
+    },
+    "funnel_nav_qAw4mh": {
+      "type": "funnel_nav",
+      "disabled": true,
+      "settings": {
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Auswahl Marke",
+        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_4": "4. kasse",
+        "steps": "fourth"
       }
     }
   },
