@@ -11,17 +11,6 @@
   "sections": {
     "product_hero": {
       "type": "product_hero",
-      "blocks": {
-        "info_item_qPGhDU": {
-          "type": "info-item",
-          "settings": {
-            "text_text": "mehr als 500 Rapire pro Jahr"
-          }
-        }
-      },
-      "block_order": [
-        "info_item_qPGhDU"
-      ],
       "settings": {
         "text_headline": "Zubehör",
         "kategorie": "Alle FAQs"
