@@ -157,7 +157,7 @@
 <div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
 </div>{% for variant in product.variants %}    <div x-show="selected_product_id === {{ variant.id }}" li-for="variant in product.variants" class="choose_main_more">
                                     
-                            {% for upsell in variant.metafield.custom.complementary_products.value %}    <div li-for="upsell in variant.custom.complementary_products.value" class="choose_main_more-item">
+                            {% for upsell in variant.metafields.custom.complementary_variant_product.value %}    <div li-for="upsell in variant.custom.complementary_products.value" class="choose_main_more-item">
                                     <img loading="lazy" li-object:src="upsell.featured_image.src | product_img_url: 'master'" li-object:alt="upsell.featured_image.alt" src="{{ upsell.featured_image.src | product_img_url: 'master' }}" alt="{{ upsell.featured_image.alt }}" class="choose_main_more-item-img">
 
                             
