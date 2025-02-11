@@ -448,7 +448,7 @@
         "textarea_text": "<p>Hier erwarten dich spannende und informative Beiträge rund um das Thema Fahrrad und Motorrad Fahrwerke.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "",
+        "url_button_link": "shopify://blogs/news",
         "text_button_text": "ALLE BEITRÄGE",
         "blog_blog": "news",
         "post_limit_blog": 3,
@@ -467,7 +467,7 @@
         "url_button_link": "",
         "text_button_text_2": "",
         "url_button_link_2": "",
-        "text_disclaimer": "<b>Neuer Name - neue Website - gewohnte Qualität</b>"
+        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität"
       }
     }
   },
