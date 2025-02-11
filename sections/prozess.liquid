@@ -13,15 +13,18 @@
                     <div li-block="Service Block" id="w-node-_1c6a3559-0f34-01bd-89fb-15c4378d6185-378d6180" class="how_item">
                                     <img loading="lazy" alt="{{ block.settings.image_bild.alt }}" src="{{ block.settings.image_bild | img_url: 'master' }}" class="how_bg-img">
 
+                                    
                                     <div class="how_step gradient-bar-step">
 {{ block.settings.text_step }}
 </div>
 
+                                    
                                     <div class="how_content"><h3 li-object="block.settings.text_headline" class="heading-style-h4">{{ block.settings.text_headline }}</h3><p>
 {{ block.settings.text_text }}
 </p>
 <div class="li-custom w-embed"></div>
 </div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}

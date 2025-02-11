@@ -11,17 +11,21 @@
 {% endif %}</div></div><div class="faq_component"><div class="faq_items">{% for block in section.blocks %}
     {% if block.type == "faq" %}
                     <div li-block="FAQ" data-w-id="744f4c46-b1e1-202e-49fc-98d73faec4a8" class="faq_item">
+                                    
                                     <div class="faq_question"><h3 class="heading-style-h5">
 {{ block.settings.text_headline }}
 </h3>
 <div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div>
+                                    
                                     <div class="faq_answer"><div class="faq_answer-wrapper"><div> {{ block.settings.richtext_antwort }} </div>
 <div fs-cmsfilter-field="category" class="hide-3">
 {{ block.settings.text_kategorie }}
 </div>
 </div></div>
+                                    
                                     <div class="li-custom w-embed"></div>
 
+                                    
                             </div>
             {% endif %}
 {% endfor %}

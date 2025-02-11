@@ -4,6 +4,7 @@
 <div class="choose_main_component">{% for block in section.blocks %}
     {% if block.type == "art" %}
                     <div li-block="Art" id="w-node-_23013639-99e4-d081-fb17-ff15b9563d8e-bee728e2" data-w-id="23013639-99e4-d081-fb17-ff15b9563d8e" class="choose_main_item">
+                                    
                                     <div class="choose_main_content"><h3 class="choose_main_name gradient-bar-choose">
 {{ block.settings.text_choose_headline }}
 </h3>
@@ -11,9 +12,11 @@
 {{ block.settings.text_choose_text }}
 </p>
 </div>
+                                    
                                     <div class="choose_main_img-wrapper"><img class="choose_main_img" src="{{ block.settings.image_choose_img | img_url: 'master' }}" alt="{{ block.settings.image_choose_img.alt }}" sizes="(max-width: 479px) 100vw, (max-width: 767px) 19.700000762939453px, 15vw" loading="lazy">
 <div id="w-node-af1dcb64-976f-99e5-8dd4-6ddec9062b61-bee728e2" class="choose_main_button-wrapper"><a href="{{ block.settings.url_button_link }}" class="button is-secondary-white w-button"> {{ block.settings.text_button_text }} </a>
 </div></div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}

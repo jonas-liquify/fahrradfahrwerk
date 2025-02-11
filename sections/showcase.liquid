@@ -11,16 +11,20 @@
 {% endif %}</div></div><div class="swiper_wrapper"><div class="swiper is-showcase-swiper"><div class="swiper-wrapper">{% for block in section.blocks %}
     {% if block.type == "showcase-slide" %}
                     <div li-block="Showcase Slide" class="swiper-slide">
+                                    
                                     <div class="showcase_item"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="showcase_img">
 </div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}
 {% for block in section.blocks %}
     {% if block.type == "showcase-slide" %}
                     <div li-block="Showcase Slide" class="swiper-slide">
+                                    
                                     <div class="showcase_item"><img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="showcase_img">
 </div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}
@@ -39,8 +43,6 @@
     479: {
      slidesPerView: 2,
         spaceBetween: 50,
-
-
     },
     // when window width is >= 480px
     767: {
@@ -54,6 +56,5 @@
     }
   },*/
       centeredSlides: true,
-
     })
 </script></div> {% schema %} {"tag":"section","name":"Showcase","class":"section_showcase","blocks":[{"name":"Showcase Slide","type":"showcase-slide","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"}]}],"settings":[{"id":"text_subheading","type":"text","label":"Subheading","default":"\/\/ wir sind Rebound racing"},{"type":"html","id":"text_heading","label":"Headline","default":"Optimale Leistung f\u00fcr deine Federgabela"},{"type":"richtext","id":"textarea_text","label":"Text","default":"<p>Wir sind deine Experten f\u00fcr Federelemente. Professioneller Service f\u00fcr alle Federgabel- &amp; D\u00e4mpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!<\/p>"},{"id":"url_button_link_2","type":"url","label":"Button-Link 2"},{"id":"text_button_text_2","type":"text","label":"Button-Text 2","default":"Service anfragen"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Service anfragen"}],"presets":[{"name":"Showcase","category":"Liquify","blocks":[{"type":"showcase-slide"}]}]} {% endschema %}

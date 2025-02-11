@@ -17,12 +17,10 @@
 </div></div><div class="hide w-embed w-script"><script>document.addEventListener("DOMContentLoaded", () => {
     const popup = document.getElementById("popup");
     const closePopupButton = document.getElementById("closepopup");
-
     // Check if the popup has already been shown
     if (!localStorage.getItem("popupShown")) {
       popup.classList.remove("hide");
     }
-
     // Close popup and save to localStorage
     closePopupButton.addEventListener("click", () => {
       popup.classList.add("hide");
