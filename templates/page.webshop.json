@@ -124,6 +124,7 @@
       "block_order": [
         "testimonial_XeHtjj"
       ],
+      "disabled": true,
       "settings": {}
     },
     "faq_fay4i8": {
@@ -182,6 +183,7 @@
         "faq_CaFUrD",
         "faq_wmpDX9"
       ],
+      "disabled": true,
       "settings": {
         "text_subheading": "// FAQ",
         "text_heading": "Häufige Fragen, klare Antworten",
