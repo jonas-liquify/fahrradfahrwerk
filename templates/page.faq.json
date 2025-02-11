@@ -144,8 +144,9 @@
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "Service buchen",
+        "image_cta_image": "shopify://shop_images/action_rider.jpg",
         "text_cta_headline": "Du hast noch weitere Fragen?",
-        "text_cta_infos": "Kundenservice:Telefon: 07073 - 917 43 43 <br>E-Mail: service@swift-suspension.de",
+        "text_cta_infos": "Kundenservice:Telefon: 07073 - 917 43 43 E-Mail: service@swift-suspension.de",
         "url_cta_button_link": "",
         "text_cta_button_text": "Kontaktiere uns"
       }
