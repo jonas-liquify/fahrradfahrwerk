@@ -154,10 +154,12 @@
 <div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="product-header_open-white"><div class="faq_question"><div class="text-weight-semibold">
 {{ section.settings.text_opener_text }}
 </div>
-<div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
+<div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer">{% if product.description != blank %}    <div li-if="product.description != blank" class="faq_answer-wrapper">
+    <div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div>    </div>
+{% endif %}</div><div class="li-custom w-embed"></div>
 </div>{% for variant in product.variants %}    <div x-show="selected_product_id === {{ variant.id }}" li-for="variant in product.variants" class="choose_main_more">
                                     
-                            {% for upsell in variant.metafields.custom.complementary_variant_product.value %}    <div li-for="upsell in variant.custom.complementary_products.value" class="choose_main_more-item">
+                            {% for upsell in variant.metafields.custom.complementary_variant_product.value %}    <div li-for="upsell in variant.metafields.custom.complementary_variant_product.value" class="choose_main_more-item">
                                     <img loading="lazy" li-object:src="upsell.featured_image.src | product_img_url: 'master'" li-object:alt="upsell.featured_image.alt" src="{{ upsell.featured_image.src | product_img_url: 'master' }}" alt="{{ upsell.featured_image.alt }}" class="choose_main_more-item-img">
 
                             

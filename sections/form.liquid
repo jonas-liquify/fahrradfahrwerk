@@ -16,7 +16,8 @@
     transform: translateY(-50%);
     opacity: 0.5;
   }
-</style></div><div class="formular_form w-form"><form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="get" data-wf-page-id="6732e3a25d39d28b2048041f" data-wf-element-id="7371c754-b39b-e80a-6f94-d88ef8a7baa7"><div class="formular_component"><div id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d52c-aac2d52c" class="formular_left"><div li-content-for-blocks="" class="formular_grid">
+</style></div><div class="formular_form w-form">{% form 'cart', cart %}
+<div class="formular_component"><div id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d52c-aac2d52c" class="formular_left"><div li-content-for-blocks="" class="formular_grid">
 {% for block in section.blocks %}
     {% case block.type %}
         {% when '@app' %}
@@ -142,16 +143,11 @@
                                     <img li-object:src="item.image |  img_url: 'small'" loading="lazy" alt="" src="{{ item.image |  img_url: 'small' }}" class="mini-cart_line-item_img">
 
                             
-                            <div class="mini-cart_line-item_product-info"><div class="mini-cart_line-item_top"><div class="mini-cart_product-info"><div li-object="item.title" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.title }}</div><div li-for:inside="name in item.options_with_values" class="mini-cart_line-item_values">
-                                   
-                            <div li-object="name">{{ item.variant.title }}</div>
-                            
-                        </div>
-</div><div class="mini-cart_line-item_price"><div li-object="item.final_line_price | money" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.final_line_price | money }}</div><template x-if="product.price < product.original_price">
+                            <div class="mini-cart_line-item_product-info"><div class="mini-cart_line-item_top"><div class="mini-cart_product-info"><div li-object="item.product.title" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.product.title }}</div><div class="mini-cart_line-item_values"><div li-object="item.variant.title">{{ item.variant.title }}</div></div></div><div class="mini-cart_line-item_price"><div li-object="item.final_line_price | money" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.final_line_price | money }}</div><template x-if="product.price < product.original_price">
             <div li-js-if="product.price < product.original_price">
         <div li-object="item.original_line_price | money" class="text-size-small text-style-strikethrough text-style-muted">{{ item.original_line_price | money }}</div>        </div>
     </template>
-</div></div><div class="mini-cart_line-item_bottom"><div><div class="mini-cart_line-item_quantity"><input name="updates[]" class="mini-cart_line-item_quantity-adjust" value="item.quantity">
+</div></div><div class="mini-cart_line-item_bottom"><div><div class="mini-cart_line-item_quantity"><input li-object:value="item.quantity" name="updates[]" class="mini-cart_line-item_quantity-adjust" value="{{ item.quantity }}">
 </div></div><a li-object:href="item.url_to_remove" href="{{ item.url_to_remove }}" class="w-inline-block"><div class="mini-cart_line-item_remove-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7404_5310" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="26" height="26"><rect width="26" height="26" fill="currentColor"></rect></mask><g mask="url(#mask0_7404_5310)"><path d="M7.57813 22.75C6.98229 22.75 6.47222 22.5378 6.04792 22.1135C5.62361 21.6892 5.41146 21.1792 5.41146 20.5833V6.5H4.32812V4.33333H9.74479V3.25H16.2448V4.33333H21.6615V6.5H20.5781V20.5833C20.5781 21.1792 20.366 21.6892 19.9417 22.1135C19.5174 22.5378 19.0073 22.75 18.4115 22.75H7.57813ZM18.4115 6.5H7.57813V20.5833H18.4115V6.5ZM9.74479 18.4167H11.9115V8.66667H9.74479V18.4167ZM14.0781 18.4167H16.2448V8.66667H14.0781V18.4167Z" fill="currentColor"></path></g></svg></div></a></div></div>
                             
                         </li>
@@ -170,7 +166,8 @@
 </div>
 </div></div></div><div class="formular_button-wrapper"><input type="submit" data-wait="Please wait..." class="button is-outline w-button" value="Update cart">
 <input type="submit" data-wait="Bitte warten..." class="button w-button" value="Absenden und Checkout">
-</div></div></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div><div class="formular_white-bg"></div>    </div>
+</div></div></div>{% endform %}
+<div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div><div class="formular_white-bg"></div>    </div>
 {% endif %}<div class="hide">
 {{ section.settings.text_tag }}
 </div>
