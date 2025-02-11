@@ -75,7 +75,7 @@
 <p>
 {{ section.settings.text_more_text }}
 </p>
-</div><div class="choose_main_more">{% for upsell in product.metafields.shopify--discovery--product_recommendation.complementary_products %}    <div li-for="upsell in product.metafields.shopify--discovery--product_recommendation.complementary_products" class="choose_main_more-item">
+</div><div class="choose_main_more">{% for upsell in product.metafields.shopify--discovery--product_recommendation.complementary_products.value %}    <div li-for="upsell in product.metafields.shopify--discovery--product_recommendation.complementary_products" class="choose_main_more-item">
                                     <img loading="lazy" li-object:src="upsell.featured_image.src | product_img_url: 'master'" li-object:alt="upsell.featured_image.alt" src="{{ upsell.featured_image.src | product_img_url: 'master' }}" alt="{{ upsell.featured_image.alt }}" class="choose_main_more-item-img">
 
                             
