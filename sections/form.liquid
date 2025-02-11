@@ -143,10 +143,10 @@
 
                             
                             <div class="mini-cart_line-item_product-info"><div class="mini-cart_line-item_top"><div class="mini-cart_product-info"><div li-object="item.title" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.title }}</div><div li-for:inside="name in item.options_with_values" class="mini-cart_line-item_values">
-        {% for name in item.options_with_values %}                            
-                            <div li-object="name">{{ name }}</div>
+                                   
+                            <div li-object="name">{{ item.variant.title }}</div>
                             
-                    {% endfor %}    </div>
+                        </div>
 </div><div class="mini-cart_line-item_price"><div li-object="item.final_line_price | money" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.final_line_price | money }}</div><template x-if="product.price < product.original_price">
             <div li-js-if="product.price < product.original_price">
         <div li-object="item.original_line_price | money" class="text-size-small text-style-strikethrough text-style-muted">{{ item.original_line_price | money }}</div>        </div>
