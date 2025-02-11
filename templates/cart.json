@@ -183,7 +183,13 @@
         "headline_8fnrJy",
         "input_big_text_9xdiq7"
       ],
-      "settings": {}
+      "settings": {
+        "text_zusammenfassung": "Zusammenfassung",
+        "text_gesamtkosten": "Gesamtkosten",
+        "text_versandkosten": "Versandkosten",
+        "text_versandkosten_preis": "Wird im Check-out berechnet",
+        "text_tag": "MTB Service"
+      }
     },
     "form_iyc66b": {
       "type": "form",
@@ -455,7 +461,13 @@
         "input_big_text_GbDYxn",
         "spacer_cBCVi6"
       ],
-      "settings": {}
+      "settings": {
+        "text_zusammenfassung": "Zusammenfassung",
+        "text_gesamtkosten": "Gesamtkosten",
+        "text_versandkosten": "Versandkosten",
+        "text_versandkosten_preis": "Wird im Check-out berechnet",
+        "text_tag": "MOTO Service"
+      }
     }
   },
   "layout": "cart",
