@@ -2,6 +2,8 @@
 {{ section.settings.text_text }}
 </p>
 <div class="disclaimer_right"><div li-for:inside="link in linklists['main-menu-3'].links" id="w-node-_5a0f4bc5-542b-2292-faa2-36b4291a435f-1d8671f3" class="nav_legal-links">
-        {% for link in linklists['main-menu-3'].links %}                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-style-allcaps">{{ link.title }}</a>
+        {% for link in linklists['main-menu-3'].links %}                            
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="text-style-allcaps">{{ link.title }}</a>
+                            
                     {% endfor %}    </div>
 <div class="disclaimer_line"></div><div class="disclaimer_lng"><div class="text-style-allcaps">de</div></div></div></div></div> {% schema %} {"tag":"div","name":"Announcement Bar","class":"section_disclaimer","settings":[{"id":"text_text","type":"text","label":"Text","default":"Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage"}],"presets":[{"name":"Announcement Bar","category":"Liquify","blocks":[]}]} {% endschema %}

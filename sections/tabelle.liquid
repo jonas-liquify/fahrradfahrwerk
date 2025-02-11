@@ -30,30 +30,36 @@
 {% endif %}</div>{% for block in section.blocks %}
     {% if block.type == "spalte" %}
                     <div li-block="Spalte" class="article_feature-table_row">
+                                    
                                     <div id="w-node-d21aaddf-e2e5-5d98-97b0-7d155da231e7-5da231d5" class="feature-table_item"><div>
 {{ block.settings.text_spalte_1 }}
 </div>
 </div>
+                                    
                                     <div id="w-node-d21aaddf-e2e5-5d98-97b0-7d155da231ea-5da231d5" class="feature-table_item"><div>
 {{ block.settings.text_spalte_2 }}
 </div>
 </div>
+                                    
                                     <div id="w-node-d21aaddf-e2e5-5d98-97b0-7d155da231ed-5da231d5" class="feature-table_item"><div>
 {{ block.settings.text_spalte_3 }}
 </div>
 </div>
+                                    
                                     {% if block.settings.text_spalte_4 != blank %}    <div li-if="block.settings.text_spalte_4 != blank" id="w-node-ad83f528-4605-f6c8-cd08-ef960b581bf9-5da231d5" class="feature-table_item">
     <div>
 {{ block.settings.text_spalte_4 }}
 </div>
     </div>
 {% endif %}
+                                    
                                     {% if block.settings.text_spalte_5 != blank %}    <div li-if="block.settings.text_spalte_5 != blank" id="w-node-_61d04155-0235-3d2d-c369-7d3a7ded6f67-5da231d5" class="feature-table_item">
     <div>
 {{ block.settings.text_spalte_5 }}
 </div>
     </div>
 {% endif %}
+                                    
                             </div>
             {% endif %}
 {% endfor %}
