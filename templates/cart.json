@@ -9,25 +9,6 @@
  */
 {
   "sections": {
-    "cart_L3dq68": {
-      "type": "cart",
-      "settings": {
-        "text_heading": "Warenkorb",
-        "text_cart_empty": "Dein Warenkorb ist leer.",
-        "text_tag": "MOTO Service"
-      }
-    },
-    "funnel_nav_qAw4mh": {
-      "type": "funnel_nav",
-      "disabled": true,
-      "settings": {
-        "text_text_1": "1. Art Wählen",
-        "text_text_2": "2. Auswahl Marke",
-        "text_text_3": "3. Auswahl Bauteil",
-        "text_text_4": "4. kasse",
-        "steps": "fourth"
-      }
-    },
     "form": {
       "type": "form",
       "blocks": {
@@ -198,6 +179,25 @@
         "text_versandkosten": "Versandkosten",
         "text_versandkosten_preis": "Wird im Check-out berechnet",
         "text_tag": "MTB Service"
+      }
+    },
+    "cart_L3dq68": {
+      "type": "cart",
+      "settings": {
+        "text_heading": "Warenkorb",
+        "text_cart_empty": "Dein Warenkorb ist leer.",
+        "text_tag": "MTB Service"
+      }
+    },
+    "funnel_nav_qAw4mh": {
+      "type": "funnel_nav",
+      "disabled": true,
+      "settings": {
+        "text_text_1": "1. Art Wählen",
+        "text_text_2": "2. Auswahl Marke",
+        "text_text_3": "3. Auswahl Bauteil",
+        "text_text_4": "4. kasse",
+        "steps": "fourth"
       }
     },
     "form_iyc66b": {
@@ -482,9 +482,9 @@
   "layout": "cart",
   "wrapper": "main.main-wrapper",
   "order": [
-    "cart_L3dq68",
-    "funnel_nav_qAw4mh",
     "form",
-    "form_iyc66b"
+    "form_iyc66b",
+    "cart_L3dq68",
+    "funnel_nav_qAw4mh"
   ]
 }
