@@ -75,7 +75,9 @@
     "porduct_list_Gyj9Lt": {
       "type": "porduct_list",
       "settings": {
-        "text_heading": "TOPSELLER"
+        "text_heading": "TOPSELLER",
+        "collection_products": "federgabel-fahrrad",
+        "collection_products_limit": 6
       }
     },
     "service_slide_8d64g4": {
