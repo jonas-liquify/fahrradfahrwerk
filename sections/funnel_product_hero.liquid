@@ -42,18 +42,12 @@
     </template>
 </div></div><div class="text-size-small">inkl. VAT</div><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state is-choose' %}
 {% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
-    {% for option in product.options_with_values %}    <div li-for="option in product.options_with_values" id="w-node-_50c8fc68-3055-c7de-49ed-6222121c5b9f-8d331af2">
-                                    
-                            <div class="product-header_variant-title"><div li-object="option.name | escape" class="text-weight-semibold text-size-small text-style-allcaps">{{ option.name | escape }}</div><div class="product-header_info hide w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 14 14" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M6.33203 10.249H7.66536V6.24902H6.33203V10.249ZM6.9987 4.91569C7.18759 4.91569 7.34592 4.8518 7.4737 4.72402C7.60148 4.59625 7.66536 4.43791 7.66536 4.24902C7.66536 4.06013 7.60148 3.9018 7.4737 3.77402C7.34592 3.64625 7.18759 3.58236 6.9987 3.58236C6.80981 3.58236 6.65148 3.64625 6.5237 3.77402C6.39592 3.9018 6.33203 4.06013 6.33203 4.24902C6.33203 4.43791 6.39592 4.59625 6.5237 4.72402C6.65148 4.8518 6.80981 4.91569 6.9987 4.91569ZM6.9987 13.5824C6.07648 13.5824 5.20981 13.4074 4.3987 13.0574C3.58759 12.7074 2.88203 12.2324 2.28203 11.6324C1.68203 11.0324 1.20703 10.3268 0.857031 9.51569C0.507031 8.70458 0.332031 7.83791 0.332031 6.91569C0.332031 5.99347 0.507031 5.1268 0.857031 4.31569C1.20703 3.50458 1.68203 2.79902 2.28203 2.19902C2.88203 1.59902 3.58759 1.12402 4.3987 0.774023C5.20981 0.424023 6.07648 0.249023 6.9987 0.249023C7.92092 0.249023 8.78759 0.424023 9.5987 0.774023C10.4098 1.12402 11.1154 1.59902 11.7154 2.19902C12.3154 2.79902 12.7904 3.50458 13.1404 4.31569C13.4904 5.1268 13.6654 5.99347 13.6654 6.91569C13.6654 7.83791 13.4904 8.70458 13.1404 9.51569C12.7904 10.3268 12.3154 11.0324 11.7154 11.6324C11.1154 12.2324 10.4098 12.7074 9.5987 13.0574C8.78759 13.4074 7.92092 13.5824 6.9987 13.5824ZM6.9987 12.249C8.48759 12.249 9.7487 11.7324 10.782 10.699C11.8154 9.66569 12.332 8.40458 12.332 6.91569C12.332 5.4268 11.8154 4.16569 10.782 3.13236C9.7487 2.09902 8.48759 1.58236 6.9987 1.58236C5.50981 1.58236 4.2487 2.09902 3.21536 3.13236C2.18203 4.16569 1.66536 5.4268 1.66536 6.91569C1.66536 8.40458 2.18203 9.66569 3.21536 10.699C4.2487 11.7324 5.50981 12.249 6.9987 12.249Z" fill="currentColor" fill-opacity="0.5"></path></svg></div></div>
-                            <select li-for:inside="value in option.values" class="select-field is-white">
-        {% for value in option.values %}                            
-                            <option  {% if option.selected_value == value %} checked='checked'{% endif %}{% unless value.available %} disabled='disabled'{% endunless %} value="{{ value.variant.id }}" name="{{ option.name | handleize }}">{{ value }}</option>
-                            
-                    {% endfor %}    </select>
+    <template x-for="(option, optionKey) in product.options" :key="optionKey">
+    <div li-element="product-options-loop" id="w-node-_60a6db7b-60ce-d5c2-0dbb-0d257b2d7633-8d331af2" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
+    <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
 
-                            
-                        </div>
-{% endfor %}    </div>
+</select></div></template>
+    </div>
 {% endif %}{% if product.selected_or_first_available_variant.available == true %}    <div li-if="product.selected_or_first_available_variant.available == true" class="product-header_availability">
     <div class="product-header_dot"></div><div>Aktuelle Bearbeitungszeit: <span li-object="product.metafields.custom.bearbeitungszeit | default: settings.motorrad_bearbeitungsdauer">{{ product.metafields.custom.bearbeitungszeit | default: settings.motorrad_bearbeitungsdauer }}</span></div>    </div>
 {% endif %}{% if product.selected_or_first_available_variant.available == false %}    <div li-if="product.selected_or_first_available_variant.available == false" class="product-header_availability is-red">
@@ -67,10 +61,10 @@
         <a href="#" class="button is-secondary max-width-full pointer-events-off w-button">Not in Stock</a>        </div>
     </template>
 </div>{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="fb9e60a2-6628-6eeb-a038-85902bc9699d" class="product-header_open-white"><div class="faq_question"><div class="text-weight-semibold">
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="product-header_open-white"><div class="faq_question"><div class="text-weight-semibold">
 {{ section.settings.text_opener_text }}
 </div>
-<div style="border-color:rgb(29,26,26)" class="faq_icon"><div style="background-color:rgb(29,26,26)" class="faq_icon-line"></div><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform-style:preserve-3d" class="faq_icon-line is-vertical"></div></div></div><div style="height:0px" class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
+<div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
 </div></div></div><div class="choose_main_block"><div class="choose_main_top-more"><h2 class="heading-style-h4">
 {{ section.settings.text_more_headline }}
 </h2>
@@ -92,9 +86,9 @@
                                     <img loading="lazy" li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" src="{{ image.src | product_img_url: 'master' }}" alt="{{ image.alt }}" class="product_thumbnail-image">
 
                         </div>
-{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_387d62b1-bd04-2056-7d01-33f4f099465e-f099464c" class="product-header_product-details"><div class="product-header_product-content"><div li-object="product.vendor" class="product-header_vendor">{{ product.vendor }}</div><h1 li-object:text="product.title" class="heading-style-h2">
+{% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div id="w-node-_387d62b1-bd04-2056-7d01-33f4f099465e-f099464c" class="product-header_product-details"><div class="product-header_product-content"><div li-object="product.vendor" class="product-header_vendor">{{ product.vendor }}</div><h2 li-object:text="product.title" class="heading-style-h2">
 {{ product.title }}
-</h1><div class="product-header_price-wrapper"><div li-js-price="price" class="heading-style-h4 text-weight-semibold" x-text="LiquifyHelper.moneyFormat(price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
+</h2><div class="product-header_price-wrapper"><div li-js-price="price" class="heading-style-h4 text-weight-semibold" x-text="LiquifyHelper.moneyFormat(price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
             <div li-js-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
         <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-align-right text-style-muted">{{ product.compare_at_price | money }}</div>        </div>
     </template>
@@ -106,7 +100,10 @@
             <div li-js-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price" class="product-item_tag is-red">
         Sale        </div>
     </template>
-</div></div><div class="text-size-small">inkl. VAT</div><div class="product-header_shipping-wrapper"><div class="product-header_availability-wrapper"><template x-if="selected_or_first_available_variant.available == true">
+</div></div><div class="text-size-small">
+{{ section.settings.text_inklusive_mwst }}
+</div>
+<div class="product-header_shipping-wrapper"><div class="product-header_availability-wrapper"><template x-if="selected_or_first_available_variant.available == true">
             <div li-js-if="selected_or_first_available_variant.available == true" class="product-header_availability">
         <div class="product-header_dot"></div><div>Aktuelle Lieferzeit: 2-3 Werktage</div>        </div>
     </template>
@@ -115,21 +112,16 @@
         <div class="product-header_dot is-red"></div><div>Aktuell nicht verfügbar</div>        </div>
     </template>
 </div></div><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state' %}
-<div class="product-header_select">{% for option in product.options_with_values %}    <div li-for="option in product.options_with_values" id="w-node-_387d62b1-bd04-2056-7d01-33f4f0994687-f099464c">
-                                    
-                            <div li-object="option.name | escape" class="text-weight-semibold text-size-small text-style-allcaps">{{ option.name | escape }}</div>
-                            <select li-for:inside="value in option.values" class="select-field">
-        {% for value in option.values %}                            
-                            <option  {% if option.selected_value == value %} checked='checked'{% endif %}{% unless value.available %} disabled='disabled'{% endunless %} value="{{ value.variant.id }}" name="{{ option.name | handleize }}">{{ value }}</option>
-                            
-                    {% endfor %}    </select>
+{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
+    <template x-for="(option, optionKey) in product.options" :key="optionKey">
+    <div li-element="product-options-loop" id="w-node-e8bced40-5328-e5be-9cc6-0dde96aefb72-f099464c" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
+    <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
 
-                            
-                        </div>
-{% endfor %}</div><div class="product-header_add-to-cart-wrapper"><div><div class="text-weight-semibold text-size-small text-style-allcaps">STÜCKZAHL</div><template x-if="selected_or_first_available_variant.available">
+</select></div></template>
+    </div>
+{% endif %}<div class="product-header_add-to-cart-wrapper"><div><div class="text-weight-semibold text-size-small text-style-allcaps">STÜCKZAHL</div><template x-if="selected_or_first_available_variant.available">
             <div li-js-if="selected_or_first_available_variant.available" class="product-header_buy-wrappper">
-        <input class="form_input is-quantity w-input" maxlength="256" name="quantity-2" li-element="add-to-cart-quantity" data-name="Quantity 2" placeholder="1" type="number" id="quantity-2" required="" x-model="quantity">
-<a li-element="add-to-cart" href="#" class="button max-width-full w-button" @click="addToCart($event, true), open = false" :disabled="!addToCartButton">Add to cart</a>        </div>
+        <a x-on:click="addToCart($event, true), open = false" href="#" class="button max-width-full w-button">Add to cart</a>        </div>
     </template>
 </div><template x-if="!selected_or_first_available_variant.available">
             <div li-js-if="!selected_or_first_available_variant.available" class="product-header_out-of-stock">
@@ -145,30 +137,24 @@
                             
                         </div>
 {% endfor %}<div class="choose_main_show-more hide"><div>Mehr anzeigen</div><div class="choose_main_show-icon-wrapper"><div class="choose_main_show-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_7404_5546" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="19" height="19"><rect x="0.491211" y="0.52002" width="18.4713" height="18.4713" fill="currentColor"></rect></mask><g mask="url(#mask0_7404_5546)"></g><path d="M10.2708 12.7466L9.72559 13.2919L9.18034 12.7466L5.45446 9.02072C5.38215 8.94842 5.34153 8.85035 5.34153 8.7481C5.34153 8.64585 5.38215 8.54778 5.45446 8.47547C5.52676 8.40317 5.62483 8.36255 5.72708 8.36255C5.82934 8.36255 5.9274 8.40317 5.99971 8.47547L9.72559 12.2014L13.4515 8.47547C13.5238 8.40317 13.6218 8.36255 13.7241 8.36255C13.8263 8.36255 13.9244 8.40317 13.9967 8.47547C14.069 8.54778 14.1096 8.64585 14.1096 8.7481C14.1096 8.85035 14.069 8.94842 13.9967 9.02072L10.2708 12.7466Z" fill="currentColor"></path></svg></div></div></div></div></div>{% if product.metafields.custom.tuning_service != blank %}    <div li-if="product.metafields.custom.tuning_service != blank" class="choose_main_add">
-    {% assign product = product.metafields.custom.tuning_product_2.value %}
+    {% assign product = product.metafields.custom.tuning_service.value %}
 <div class="choose_main_header"><h2 class="heading-style-h4">
 {{ section.settings.text_headline_tuning }}
 </h2>
 <div class="choose_main_add-icon hide"><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.7693 7.74816C15.7693 7.87341 15.7195 7.99354 15.6309 8.0821C15.5424 8.17067 15.4223 8.22042 15.297 8.22042H8.84274V14.6747C8.84274 14.7999 8.79298 14.9201 8.70442 15.0086C8.61585 15.0972 8.49573 15.147 8.37047 15.147C8.24522 15.147 8.1251 15.0972 8.03653 15.0086C7.94797 14.9201 7.89821 14.7999 7.89821 14.6747V8.22042H1.44394C1.31869 8.22042 1.19857 8.17067 1.11 8.0821C1.02144 7.99354 0.97168 7.87341 0.97168 7.74816C0.97168 7.62291 1.02144 7.50279 1.11 7.41422C1.19857 7.32565 1.31869 7.2759 1.44394 7.2759H7.89821V0.821629C7.89821 0.696377 7.94797 0.576255 8.03653 0.487688C8.1251 0.399121 8.24522 0.349365 8.37047 0.349365C8.49573 0.349365 8.61585 0.399121 8.70442 0.487688C8.79298 0.576255 8.84274 0.696377 8.84274 0.821629V7.2759H15.297C15.4223 7.2759 15.5424 7.32565 15.6309 7.41422C15.7195 7.50279 15.7693 7.62291 15.7693 7.74816Z" fill="currentColor"></path></svg></div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
 <div li-element="product-variant-container" class="product-header_product-content is-tuning" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state is-choose' %}
 {% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
-    {% for option in product.options_with_values %}    <div li-for="option in product.options_with_values" id="w-node-_7f7ae76f-8812-08cc-89aa-73b0011d5fc5-8d331af2">
-                                    
-                            <div li-object="option.name | escape" class="text-weight-semibold text-size-small text-style-allcaps">{{ option.name | escape }}</div>
-                            <select li-for:inside="value in option.values" class="select-field is-white">
-        {% for value in option.values %}                            
-                            <option  {% if option.selected_value == value %} checked='checked'{% endif %}{% unless value.available %} disabled='disabled'{% endunless %} value="{{ value.variant.id }}" name="{{ option.name | handleize }}">{{ value }}</option>
-                            
-                    {% endfor %}    </select>
+    <template x-for="(option, optionKey) in product.options" :key="optionKey">
+    <div li-element="product-options-loop" id="w-node-_1b726c6f-0272-4e14-6587-2f0d7d9c7d3b-8d331af2" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
+    <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
 
-                            
-                        </div>
-{% endfor %}    </div>
+</select></div></template>
+    </div>
 {% endif %}{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="7f7ae76f-8812-08cc-89aa-73b0011d5fd1" class="product-header_open-white"><div class="faq_question"><div class="text-weight-semibold">
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="product-header_open-white"><div class="faq_question"><div class="text-weight-semibold">
 {{ section.settings.text_opener_text }}
 </div>
-<div style="border-color:rgb(29,26,26)" class="faq_icon"><div style="background-color:rgb(29,26,26)" class="faq_icon-line"></div><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(null) rotateZ(90deg) skew(0, 0);transform-style:preserve-3d" class="faq_icon-line is-vertical"></div></div></div><div style="height:0px" class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
+<div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
 </div>{% for variant in product.variants %}    <div x-show="product.selected_or_first_available_variant.id === {{ variant.id }}" li-for="variant in product.variants" class="choose_main_more">
                                     
                             {% for upsell in variant.custom.complementary_products.value %}    <div li-for="upsell in variant.custom.complementary_products.value" class="choose_main_more-item">
@@ -185,4 +171,4 @@
                             
                         </div>
 {% endfor %}</div>    </div>
-{% endif %}</div></div></div></div></div> {% schema %} {"tag":"div","name":"Funnel - Product-Her","class":"section_product-header","blocks":[{"name":"Info Item","type":"info-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"mehr als 500 Rapire pro Jahr"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welchen Service ben\u00f6tigen sie?"},{"id":"text_opener_text","type":"text","label":"Opener Text","default":"Mehr Informationen"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"},{"id":"text_more_headline","type":"text","label":"More Headline","default":"Heading"},{"id":"text_more_text","type":"text","label":"More Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."},{"id":"text_headline_tuning","type":"text","label":"Headline Tuning","default":"Tuning-Service hinzuf\u00fcgen"}],"presets":[{"name":"Funnel - Product-Her","category":"Liquify","blocks":[{"type":"info-item"}]}]} {% endschema %}
+{% endif %}</div></div></div></div></div> {% schema %} {"tag":"div","name":"Funnel - Product-Her","class":"section_product-header","blocks":[{"name":"Info Item","type":"info-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"mehr als 500 Rapire pro Jahr"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welchen Service ben\u00f6tigen sie?"},{"id":"text_opener_text","type":"text","label":"Opener Text","default":"Mehr Informationen"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"},{"id":"text_more_headline","type":"text","label":"More Headline","default":"Heading"},{"id":"text_more_text","type":"text","label":"More Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."},{"id":"text_inklusive_mwst","type":"text","label":"Inklusive Mwst.","default":"inkl. VAT"},{"id":"text_headline_tuning","type":"text","label":"Headline Tuning","default":"Tuning-Service hinzuf\u00fcgen"}],"presets":[{"name":"Funnel - Product-Her","category":"Liquify","blocks":[{"type":"info-item"}]}]} {% endschema %}
