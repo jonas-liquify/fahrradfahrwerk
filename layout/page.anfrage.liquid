@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-wf-page="6732e3a25d39d28b204803ca" data-wf-site="6732e3a25d39d28b20480353" lang="{{ request.locale.iso_code }}"><head><meta charset="utf-8">
+<html data-wf-page="674a959ee33071a9bee728e2" data-wf-site="6732e3a25d39d28b20480353" lang="{{ request.locale.iso_code }}"><head><meta charset="utf-8">
 <title>{{ page_title }}</title><meta content="{{ page_description }}" name="description">
 <meta content="{{ page_title }}" property="og:title">
 <meta content="{{ page_description }}" property="og:description">
@@ -126,6 +126,48 @@
         });
     });
 </script>{% render 'search_javascript' %}
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
+    const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
+      slidesPerView: "auto",
+      rewind: false,
+      loopedSlides: 8,
+      slideToClickedSlide: true,
+      spaceBetween: "4%",
+    });
+    const swiper = new Swiper($(this).find(".swiper.is-product-gallery")[0], {
+      mousewheel: {
+        forceToAxis: true
+      },
+      thumbs: {
+        swiper: thumbsSwiper,
+        slideThumbActiveClass: "is-active",
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true
+      },
+      navigation: {
+        nextEl: $(this).find(".swiper-next")[0],
+        prevEl: $(this).find(".swiper-prev")[0],
+      }
+    });
+  }); 
+</script><script>// Select all elements with the class 'choose_main_item'
+const chooseMainItems = document.querySelectorAll('.choose_main_item');
+chooseMainItems.forEach(item => {
+  item.addEventListener('mouseenter', () => {
+    const child = item.querySelector('.choose_main_name');
+    if (child) {
+      child.classList.add('gradient-bar-choose');
+    }
+  });
+  item.addEventListener('mouseleave', () => {
+    const child = item.querySelector('.choose_main_name');
+    if (child) {
+      child.classList.remove('gradient-bar-choose');
+    }
+  });
+});
+</script>
 </body>
 </html>
