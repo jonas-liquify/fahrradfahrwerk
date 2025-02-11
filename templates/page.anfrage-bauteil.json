@@ -41,11 +41,7 @@
       }
     }
   },
-  "layout": "page.anfrage-marke",
+  "layout": "theme",
   "wrapper": "main.main-wrapper",
-  "order": [
-    "hero_anfrage",
-    "funnel_nav_hXimt6",
-    "funnel_marken"
-  ]
+  "order": ["hero_anfrage", "funnel_nav_hXimt6", "funnel_marken"]
 }
