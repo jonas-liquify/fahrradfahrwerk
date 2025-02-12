@@ -296,7 +296,7 @@
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Supercross",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Supercross]"
           }
         },
         "input_checkbox_heVzRW": {
