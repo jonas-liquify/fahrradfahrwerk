@@ -282,7 +282,7 @@
           "type": "input-checkbox",
           "settings": {
             "text_checkbox_lable": "Motocross",
-            "name": "attributes[Fahrergewicht]"
+            "name": "attributes[Motocross]"
           }
         },
         "input_checkbox_c8xPDY": {
