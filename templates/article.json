@@ -11,7 +11,9 @@
   "sections": {
     "article": {
       "type": "article",
-      "settings": {}
+      "settings": {
+        "url_zuruck": ""
+      }
     },
     "related_articles": {
       "type": "related_articles",

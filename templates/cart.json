@@ -21,7 +21,7 @@
         "input_text_NmeBV9": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Fahrerergewicht*",
+            "text_input_lable": "Fahrergewicht*",
             "text_beschreibung": "inkl. Ausrüstung (kg)",
             "name": "attributes[Fahrergewicht]",
             "required": true
@@ -146,7 +146,7 @@
         "input_big_text_9xdiq7": {
           "type": "input-big-text",
           "settings": {
-            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche",
+            "text_input_lable": "Hast du uns noch etwas zu sagen?",
             "name": "attributes[Nachricht]",
             "required": false
           }
