@@ -2848,7 +2848,6 @@ figcaption {
 .section_home_hero {
   text-align: left;
   background-image: linear-gradient(50deg, #0006, #0000), linear-gradient(#0000004d, #0000 47%);
-  margin-top: -5rem;
   padding-top: 29.6875rem;
   padding-bottom: 7.9375rem;
   position: relative;
@@ -4291,6 +4290,7 @@ figcaption {
 
 .section_disclaimer {
   z-index: 1;
+  border-bottom: 1px solid var(--base-color-neutral--neutral-darker);
   background-color: var(--base-color-neutral--black);
   color: var(--base-color-neutral--white);
   height: 2.5rem;
@@ -4306,8 +4306,6 @@ figcaption {
 }
 
 .disclaimer_right {
-  grid-column-gap: .625rem;
-  grid-row-gap: .625rem;
   justify-content: flex-end;
   align-items: stretch;
   display: flex;
@@ -4316,6 +4314,7 @@ figcaption {
 .disclaimer_line {
   background-color: #ffffff1a;
   width: 1px;
+  margin-left: .6rem;
 }
 
 .disclaimer_lng {
@@ -6593,7 +6592,7 @@ figcaption {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding: .5rem 0 .5rem 0;
+  padding: .5rem 0 .5rem .5rem;
   transition: all .3s ease-out;
   display: flex;
 }
@@ -6621,7 +6620,7 @@ figcaption {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   display: flex;
-  inset: 0% 110% 0% auto;
+  inset: 0% 100% 0% auto;
 }
 
 .li-dropdown-link {
