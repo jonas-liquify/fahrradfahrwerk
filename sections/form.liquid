@@ -143,7 +143,9 @@
                                     <img li-object:src="item.image |  img_url: 'small'" loading="lazy" alt="" src="{{ item.image |  img_url: 'small' }}" class="mini-cart_line-item_img">
 
                             
-                            <div class="mini-cart_line-item_product-info"><div class="mini-cart_line-item_top"><div class="mini-cart_product-info"><div li-object="item.product.title" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.product.title }}</div><div class="mini-cart_line-item_values"><div li-object="item.variant.title">{{ item.variant.title }}</div></div></div><div class="mini-cart_line-item_price"><div li-object="item.final_line_price | money" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.final_line_price | money }}</div><template x-if="product.price < product.original_price">
+                            <div class="mini-cart_line-item_product-info"><div class="mini-cart_line-item_top"><div class="mini-cart_product-info"><div li-object="item.product.title" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.product.title }}</div>{% if item.product.has_only_default_variant != true %}    <div li-if="item.product.has_only_default_variant != true" class="mini-cart_line-item_values">
+    <div li-object="item.variant.title">{{ item.variant.title }}</div>    </div>
+{% endif %}</div><div class="mini-cart_line-item_price"><div li-object="item.final_line_price | money" class="text-size-medium text-weight-semibold text-style-allcaps">{{ item.final_line_price | money }}</div><template x-if="product.price < product.original_price">
             <div li-js-if="product.price < product.original_price">
         <div li-object="item.original_line_price | money" class="text-size-small text-style-strikethrough text-style-muted">{{ item.original_line_price | money }}</div>        </div>
     </template>
@@ -154,9 +156,9 @@
 {% endfor %}</ul></div><div class="formular_total"><div class="mini-cart_footer-total is-top"><div class="text-size-regular">
 {{ section.settings.text_gesamtkosten }}
 </div>
-<div class="mini-cart_footer-price"><div li-js-price="total.price" class="text-size-regular text-weight-bold" x-text="LiquifyHelper.moneyFormat(total.price, true, '{{ shop.money_with_currency_format }}')">14,99 $</div><template x-if="total.price < original_total_price">
+<div class="mini-cart_footer-price"><div li-object="cart.total_price | money" class="text-size-regular text-weight-bold">{{ cart.total_price | money }}</div><template x-if="total.price < original_total_price">
             <div li-js-if="total.price < original_total_price" class="mini-cart_conditional">
-        <div li-js-price="original_total_price" class="text-size-regular text-weight-bold text-style-strikethrough text-style-muted" x-text="LiquifyHelper.moneyFormat(original_total_price, true, '{{ shop.money_with_currency_format }}')">14,99 $</div>        </div>
+        <div li-object="cart.original_total_price | money" class="text-size-regular text-weight-bold text-style-strikethrough text-style-muted">{{ cart.original_total_price | money }}</div>        </div>
     </template>
 </div></div><div class="mini-cart_footer-total"><div class="text-size-regular">
 {{ section.settings.text_versandkosten }}
@@ -165,7 +167,7 @@
 {{ section.settings.text_versandkosten_preis }}
 </div>
 </div></div></div><div class="formular_button-wrapper"><input type="submit" data-wait="Please wait..." class="button is-outline w-button" value="Update cart">
-<input type="submit" data-wait="Bitte warten..." class="button w-button" value="Absenden und Checkout">
+<input type="submit" data-wait="Bitte warten..." class="button w-button" value="Checkout" name="checkout">
 </div></div></div>{% endform %}
 <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div><div class="formular_white-bg"></div>    </div>
 {% endif %}<div class="hide">
