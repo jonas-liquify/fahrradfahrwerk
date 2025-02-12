@@ -90,7 +90,17 @@
       maxWidth: 220,
       placement: 'top',
     })
-  </script><script>document.addEventListener('DOMContentLoaded', function () {
+  </script><script>document.querySelectorAll(".li-language-wrapper").forEach((wrapper) => {
+    const form = wrapper.querySelector("form");
+    const input = wrapper.querySelector("input[name='language_code']");
+    form.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        input.value = event.currentTarget.dataset.value;
+        form.submit();
+      });
+    });
+  });
+</script><script>document.addEventListener('DOMContentLoaded', function () {
         new Pikaday({
             field: document.getElementById('termin'),
             format: 'DD.MM.YYYY', // Sicherstellen, dass das gew&uuml;nschte Format eingestellt ist
