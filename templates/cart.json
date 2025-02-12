@@ -253,7 +253,7 @@
           "settings": {
             "text_input_lable": "Baujahr*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Baujahr]",
             "required": true
           }
         },
@@ -262,7 +262,7 @@
           "settings": {
             "text_input_lable": "Hubraum*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Hubraum]",
             "required": true
           }
         },
