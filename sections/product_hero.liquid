@@ -42,9 +42,9 @@
 
 </select></div></template>
     </div>
-{% endif %}<div class="product-header_add-to-cart-wrapper"><div><div class="text-weight-semibold text-size-small text-style-allcaps">STÜCKZAHL</div><template x-if="selected_or_first_available_variant.available">
+{% endif %}<div class="product-header_add-to-cart-wrapper"><div><template x-if="selected_or_first_available_variant.available">
             <div li-js-if="selected_or_first_available_variant.available" class="product-header_buy-wrappper">
-        <a x-on:click="addToCart($event, true), open = false" href="#" class="button max-width-full w-button">Add to cart</a>        </div>
+        <a x-on:click="addToCart($event, true), open = false" href="#" class="button max-width-full w-button">Zum Warenkorb hinzufügen</a>        </div>
     </template>
 </div><template x-if="!selected_or_first_available_variant.available">
             <div li-js-if="!selected_or_first_available_variant.available" class="product-header_out-of-stock">
