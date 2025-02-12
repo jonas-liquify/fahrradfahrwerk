@@ -12,6 +12,7 @@
     "product_hero": {
       "type": "product_hero",
       "settings": {
+        "text_inklusive_mwst": "inkl. Mwst.",
         "text_headline": "Zubehör",
         "kategorie": "Alle FAQs"
       }
