@@ -235,7 +235,7 @@
           "settings": {
             "text_input_lable": "Hersteller*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Hersteller]",
             "required": true
           }
         },
@@ -244,7 +244,7 @@
           "settings": {
             "text_input_lable": "Modell*",
             "text_beschreibung": "",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Modell]",
             "required": true
           }
         },
