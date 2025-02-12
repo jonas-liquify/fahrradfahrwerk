@@ -76,8 +76,20 @@
       "type": "porduct_list",
       "settings": {
         "text_heading": "TOPSELLER",
-        "collection_products": "federgabel-fahrrad",
-        "collection_products_limit": 8
+        "product_list": [
+          "fox-36-2018-awk",
+          "kopie-von-awk-rock-shox-zeb",
+          "awk-lyrik",
+          "awk-rock-shox-zeb",
+          "fox-federgabel-service",
+          "rock-shox-federgabel-service",
+          "rock-shox-dampfer-service",
+          "offroad-dampfer-service",
+          "offroad-federgabel-service",
+          "onroad-dampfer-service",
+          "onroad-federgabel-service",
+          "fox-dampfer-service"
+        ]
       }
     },
     "service_slide_8d64g4": {
