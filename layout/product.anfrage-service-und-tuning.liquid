@@ -72,27 +72,8 @@
     }
 </style><meta name="theme-color" content="#000" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#fff" media="(prefers-color-scheme: dark)">
-<script type="application/ld+json">{
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "{{ product.title }}",
-       "image": "https:{{ product.featured_image.src | img_url: '1500x1500' }}",
-        "description": "{{ product.description | strip_html }}",
-        "brand": "{{ product.vendor }}",
-        "sku": "{{ product.selected_or_first_available_variant.sku }}",
-        "offers": [
-        {% for variant in product.variants %}{
-          "@type": "Offer",
-          "url": "{{ variant.url }}",
-          "priceCurrency": "EUR",
-          "price": "{{ variant.price | money }}",
-      "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' | uri_encode | replace:'+','%20' }}",
-          "availability": "{% if variant.available %}https://schema.org/InStock{% else variant.available == false %}https://schema.org/SoldOut{% endif %}",
-          "itemCondition": "https://schema.org/NewCondition"
-        }{% if forloop.last == false %},{% endif %}{% endfor %}
-        ]
-        }
-    </script><script type="application/ld+json">{
+<script type="application/ld+json">{{ product | structured_data }}
+  </script><script type="application/ld+json">{
          "@context": "https://schema.org",
          "@type": "BreadcrumbList",
          "itemListElement":
@@ -125,19 +106,6 @@
            }
           }
          ]
-        }
-    </script><script type="application/ld+json">{
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [{% for fa_qs in shop.metaobjects.fa_qs.values %}{
-            "@type": "Question",
-            "name": "{{ fa_qs.frage }}",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "{{ fa_qs.antwort | metafield_tag | strip_html }}"
-            }
-          }{% if forloop.last == false %},{% endif %}{% endfor %}
-          ]
         }
     </script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
 <body li-page="product.anfrage-service-und-tuning">

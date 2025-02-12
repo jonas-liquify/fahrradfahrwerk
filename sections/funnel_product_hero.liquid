@@ -1,4 +1,7 @@
-<div class="padding-global padding-section-small"><div class="container-large"><div class="choose_main_slide"><div class="choose_main_top-wrapper"><a href="#" class="choose_main_back w-inline-block"><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52901 11.7998L5.72435 7.9951L9.52901 4.19043L10.4717 5.1331L7.60968 7.9951L10.4717 10.8571L9.52901 11.7998Z" fill="currentColor"></path></svg></div><div class="text-weight-medium text-size-small">Zurück</div></a><h2 class="heading-style-h3">
+<div class="padding-global padding-section-small"><div class="container-large"><div class="choose_main_slide"><div class="choose_main_top-wrapper"><div x-data=""><a x-on:click="history.back()" href="#" class="choose_main_back w-inline-block"><div class="icon-1x1-centered-small w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.52901 11.7998L5.72435 7.9951L9.52901 4.19043L10.4717 5.1331L7.60968 7.9951L10.4717 10.8571L9.52901 11.7998Z" fill="currentColor"></path></svg></div><div class="text-weight-medium text-size-small">
+{{ section.settings.text_zuruck }}
+</div>
+</a></div><h2 class="heading-style-h3">
 {{ section.settings.text_headline }}
 </h2>
 </div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
@@ -28,9 +31,9 @@
 {% endfor %}
 </div></div><div class="choose_main_right"><div class="choose_main_block"><div class="product-header_product-content"><div class="choose_main_top"><div li-object="product.vendor" class="product-header_vendor">{{ product.vendor }}</div><h1 li-object:text="product.title" class="heading-style-h2">
 {{ product.title }}
-</h1></div><div class="product-header_price-wrapper"><div li-js-price="product.price" class="heading-style-h4 text-weight-semibold" x-text="LiquifyHelper.moneyFormat(product.price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
-            <div li-js-if="selected_or_first_available_variant.compare_at_price > selected_or_first_available_variant.price">
-        <div li-object="product.compare_at_price | money" class="text-size-regular text-style-strikethrough text-align-right text-style-muted">{{ product.compare_at_price | money }}</div>        </div>
+</h1></div><div class="product-header_price-wrapper"><div li-js-price="product.selected_or_first_available_variant.price" class="heading-style-h4 text-weight-semibold" x-text="LiquifyHelper.moneyFormat(product.selected_or_first_available_variant.price, true, '{{ shop.money_with_currency_format }}')">$55</div><template x-if="product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price">
+            <div li-js-if="product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price">
+        <div li-js-price="product.selected_or_first_available_variant.compare_at_price" class="text-size-regular text-style-strikethrough text-align-right text-style-muted" x-text="LiquifyHelper.moneyFormat(product.selected_or_first_available_variant.compare_at_price, true, '{{ shop.money_with_currency_format }}')">$55</div>        </div>
     </template>
 <div class="product-header_tag-list"><template x-if="selected_or_first_available_variant.available != true">
             <div li-js-if="selected_or_first_available_variant.available != true" class="product-item_tag">
@@ -128,9 +131,9 @@
         <a href="#" class="button is-secondary max-width-full pointer-events-off w-button">Not in Stock</a>        </div>
     </template>
 </div>{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="387d62b1-bd04-2056-7d01-33f4f09946a3" class="product-header_open"><div class="faq_question"><h3 class="heading-style-h5">
-{{ section.settings.text_headline }}
-</h3>
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="387d62b1-bd04-2056-7d01-33f4f09946a3" class="product-header_open"><div class="faq_question"><div class="text-weight-semibold">
+{{ section.settings.text_opener_text }}
+</div>
 <div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
 </div></div></div></div></div></div><img src="{{ 'close-icon.svg' | asset_url }}" loading="lazy" x-on:click="open = false" alt="" class="choose_close">
 </div></div></div>
@@ -173,4 +176,4 @@
                             
                         </div>
 {% endfor %}</div>    </div>
-{% endif %}</div></div></div></div></div> {% schema %} {"tag":"div","name":"Funnel - Product-Her","class":"section_product-header","blocks":[{"name":"Info Item","type":"info-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"mehr als 500 Rapire pro Jahr"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Welchen Service ben\u00f6tigen sie?"},{"id":"text_opener_text","type":"text","label":"Opener Text","default":"Mehr Informationen"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"},{"id":"text_more_headline","type":"text","label":"More Headline","default":"Heading"},{"id":"text_more_text","type":"text","label":"More Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."},{"id":"text_inklusive_mwst","type":"text","label":"Inklusive Mwst.","default":"inkl. VAT"},{"id":"text_headline_tuning","type":"text","label":"Headline Tuning","default":"Tuning-Service hinzuf\u00fcgen"}],"presets":[{"name":"Funnel - Product-Her","category":"Liquify","blocks":[{"type":"info-item"}]}]} {% endschema %}
+{% endif %}</div></div></div></div></div> {% schema %} {"tag":"div","name":"Funnel - Product-Her","class":"section_product-header","blocks":[{"name":"Info Item","type":"info-item","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_text","type":"text","label":"Text","default":"mehr als 500 Rapire pro Jahr"}]}],"settings":[{"id":"text_zuruck","type":"text","label":"Zur\u00fcck","default":"Zur\u00fcck"},{"id":"text_headline","type":"text","label":"Headline","default":"Welchen Service ben\u00f6tigen sie?"},{"id":"text_opener_text","type":"text","label":"Opener Text","default":"Mehr Informationen"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"},{"id":"text_more_headline","type":"text","label":"More Headline","default":"Heading"},{"id":"text_more_text","type":"text","label":"More Text","default":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."},{"id":"text_inklusive_mwst","type":"text","label":"Inklusive Mwst.","default":"inkl. VAT"},{"id":"text_headline_tuning","type":"text","label":"Headline Tuning","default":"Tuning-Service hinzuf\u00fcgen"}],"presets":[{"name":"Funnel - Product-Her","category":"Liquify","blocks":[{"type":"info-item"}]}]} {% endschema %}
