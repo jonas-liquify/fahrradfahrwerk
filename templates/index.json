@@ -366,7 +366,14 @@
         "text_button_text_2": "",
         "url_button_link": "shopify://pages/shop",
         "text_button_text": "ALLE PRODUKTE",
-        "product_list": []
+        "product_list": [
+          "fox-federgabel-service",
+          "kopie-von-awk-rock-shox-zeb",
+          "offroad-dampfer-service",
+          "onroad-federgabel-service",
+          "awk-rock-shox-zeb",
+          "rockshox-charger-3-1-rc2-upgrade-kit"
+        ]
       }
     },
     "showcase": {
