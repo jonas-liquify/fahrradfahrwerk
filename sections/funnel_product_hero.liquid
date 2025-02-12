@@ -163,10 +163,13 @@
 </div>{% for variant in product.variants %}    <div x-show="selected_product_id === {{ variant.id }}" li-for="variant in product.variants" class="choose_main_more">
                                     
                             {% for upsell in variant.metafields.custom.complementary_variant_product.value %}    <div li-for="upsell in variant.metafields.custom.complementary_variant_product.value" class="choose_main_more-item">
-                                    <img loading="lazy" li-object:src="upsell.featured_image.src | product_img_url: 'master'" li-object:alt="upsell.featured_image.alt" src="{{ upsell.featured_image.src | product_img_url: 'master' }}" alt="{{ upsell.featured_image.alt }}" class="choose_main_more-item-img">
+                                    
+                            {% assign product = upsell.product %}
+
+                            <img loading="lazy" li-object:src="upsell.product.featured_image.src | product_img_url: 'master'" li-object:alt="upsell.featured_image.alt" src="{{ upsell.product.featured_image.src | product_img_url: 'master' }}" alt="{{ upsell.featured_image.alt }}" class="choose_main_more-item-img">
 
                             
-                            <div class="choose_main_more-item-right"><div class="choose_main_more-item-content"><div><div li-object="upsell.title" class="text-weight-semibold text-size-small text-style-allcaps">{{ upsell.title }}</div><div li-object="upsell.price | money" class="text-size-small text-style-allcaps">{{ upsell.price | money }}</div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
+                            <div class="choose_main_more-item-right"><div class="choose_main_more-item-content"><div><div li-object="upsell.product.title" class="text-weight-semibold text-size-small text-style-allcaps">{{ upsell.product.title }}</div><div li-object="upsell.price | money" class="text-size-small text-style-allcaps">{{ upsell.price | money }}</div></div></div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
 <a li-element="direct-add-to-cart" href="#" class="button is-black-long w-button" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" @click="addToCart($event, true)">Hinzufügen</a></div>
                             
                         </div>
