@@ -51,8 +51,8 @@
         <a href="#" class="button is-secondary max-width-full pointer-events-off w-button">Not in Stock</a>        </div>
     </template>
 </div>{% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="387d62b1-bd04-2056-7d01-33f4f09946a3" class="product-header_open"><div class="faq_question"><h3 class="heading-style-h5">
-{{ section.settings.text_headline }}
-</h3>
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div data-w-id="387d62b1-bd04-2056-7d01-33f4f09946a3" class="product-header_open"><div class="faq_question"><div class="text-weight-semibold">
+{{ section.settings.text_opener_text }}
+</div>
 <div class="faq_icon"><div class="faq_icon-line"></div><div class="faq_icon-line is-vertical"></div></div></div><div class="faq_answer"><div class="faq_answer-wrapper"><div li-object="product.description" class="text-rich-text max-width-large w-richtext">{{ product.description }}</div></div></div><div class="li-custom w-embed"></div>
-</div></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"Product-Hero","class":"section_product-header","settings":[{"id":"text_inklusive_mwst","type":"text","label":"Inklusive Mwst.","default":"inkl. VAT"},{"id":"text_headline","type":"text","label":"Headline","default":"Mehr erfahren"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"}],"presets":[{"name":"Product-Hero","category":"Liquify","blocks":[]}]} {% endschema %}
+</div></div></div></div></div></div></div> {% schema %} {"tag":"div","name":"Product-Hero","class":"section_product-header","settings":[{"id":"text_inklusive_mwst","type":"text","label":"Inklusive Mwst.","default":"inkl. VAT"},{"id":"text_opener_text","type":"text","label":"Opener Text","default":"Mehr Informationen"},{"type":"text","id":"kategorie","label":"Kategorie","default":"Alle FAQs"}],"presets":[{"name":"Product-Hero","category":"Liquify","blocks":[]}]} {% endschema %}
