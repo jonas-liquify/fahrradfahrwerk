@@ -205,7 +205,7 @@
             "text_titel": "Ich fahre Rennen",
             "text_lable_1": "Ja",
             "text_lable_2": "Nein",
-            "name": "attributes[Fahrergewicht]",
+            "name": "attributes[Kunde fährt Rennen]",
             "text_beschreibung": ""
           }
         },
