@@ -127,7 +127,7 @@
           "type": "input-medium-text",
           "settings": {
             "text_input_lable": "Sonstige Einsatzgebiete",
-            "name": "attributes[Sonstiges]",
+            "name": "attributes[Sonstige Einsatzgebiete]",
             "required": false
           }
         },
