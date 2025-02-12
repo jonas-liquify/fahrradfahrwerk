@@ -193,7 +193,7 @@
         "input_text_xVc7xw": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Fahrerergewicht*",
+            "text_input_lable": "Fahrergewicht*",
             "text_beschreibung": "inkl. Ausrüstung (kg)",
             "name": "attributes[Fahrergewicht]",
             "required": true
