@@ -81,14 +81,14 @@
           "kopie-von-awk-rock-shox-zeb",
           "awk-lyrik",
           "awk-rock-shox-zeb",
-          "fox-federgabel-service",
           "rock-shox-federgabel-service",
           "rock-shox-dampfer-service",
+          "fox-federgabel-service",
+          "fox-dampfer-service",
           "offroad-dampfer-service",
           "offroad-federgabel-service",
           "onroad-dampfer-service",
-          "onroad-federgabel-service",
-          "fox-dampfer-service"
+          "onroad-federgabel-service"
         ]
       }
     },
