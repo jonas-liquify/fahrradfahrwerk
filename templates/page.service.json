@@ -273,11 +273,12 @@
         "text_subheading": "// SUSPENSION-SERVICE",
         "text_heading": "Bei uns ist dein Fahrwerk in den besten Händen",
         "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Egal ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
+        "image_badge": "shopify://shop_images/google_bewertungen.svg",
         "url_button_link_2": "",
         "text_button_text_2": "",
         "url_button_link": "",
         "text_button_text": "",
-        "text_left_text_bottom": "SWIFT Suspension <br>in Zahlen",
+        "text_left_text_bottom": "SWIFT Suspension in Zahlen",
         "image_bild": "shopify://shop_images/action_Innsbruck_julian.webp"
       }
     },
@@ -418,11 +419,11 @@
       "settings": {
         "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
         "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": "",
-        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität"
+        "url_button_link_2": ""
       }
     }
   },
