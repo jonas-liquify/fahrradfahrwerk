@@ -11,7 +11,6 @@
   "sections": {
     "hero_blog": {
       "type": "hero_blog",
-      "disabled": true,
       "settings": {}
     },
     "blog_main": {
