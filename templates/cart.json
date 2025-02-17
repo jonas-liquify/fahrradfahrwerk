@@ -21,10 +21,10 @@
         "input_text_NmeBV9": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Fahrergewicht*",
+            "text_input_lable": "Fahrergewicht",
             "text_beschreibung": "inkl. Ausrüstung (kg)",
             "name": "attributes[Fahrergewicht]",
-            "required": true
+            "required": false
           }
         },
         "input_radio_LbhyjQ": {
