@@ -177,7 +177,7 @@
         "text_zusammenfassung": "Zusammenfassung",
         "text_gesamtkosten": "Gesamtkosten",
         "text_versandkosten": "Versandkosten",
-        "text_versandkosten_preis": "Wird im Check-out berechnet",
+        "text_versandkosten_preis": "Werden im nächsten Schritt berechnet",
         "text_tag": "MTB Service"
       }
     },
@@ -453,9 +453,9 @@
       ],
       "settings": {
         "text_zusammenfassung": "Zusammenfassung",
-        "text_gesamtkosten": "Gesamtkosten",
+        "text_gesamtkosten": "Gesamtpreis",
         "text_versandkosten": "Versandkosten",
-        "text_versandkosten_preis": "Wird im Check-out berechnet",
+        "text_versandkosten_preis": "Werden im nächsten Schritt berechnet",
         "text_tag": "MOTO Service"
       }
     },
