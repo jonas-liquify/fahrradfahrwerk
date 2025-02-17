@@ -146,7 +146,7 @@
         "input_big_text_9xdiq7": {
           "type": "input-big-text",
           "settings": {
-            "text_input_lable": "z.B. Defektbeschreibung, Fehlfunktionen, Optimierungswünsche",
+            "text_input_lable": "z.B. Defektbeschreibung, Reparaturbedarf, Optimierungswünsche",
             "name": "attributes[Nachricht]",
             "required": false
           }
@@ -405,15 +405,9 @@
         "input_big_text_GbDYxn": {
           "type": "input-big-text",
           "settings": {
-            "text_input_lable": "Defektbeschreibung/Reparaturbedarf/Optimierungswünsche",
+            "text_input_lable": "z.B. Defektbeschreibung, Reparaturbedarf, Optimierungswünsche",
             "name": "attributes[Fahrergewicht]",
             "required": false
-          }
-        },
-        "spacer_cBCVi6": {
-          "type": "spacer",
-          "settings": {
-            "text_text": "This is some text inside of a div block."
           }
         }
       },
@@ -448,8 +442,7 @@
         "input_medium_text_bxH7wX",
         "spacer_CneJXg",
         "headline_ykj9qF",
-        "input_big_text_GbDYxn",
-        "spacer_cBCVi6"
+        "input_big_text_GbDYxn"
       ],
       "settings": {
         "text_zusammenfassung": "Zusammenfassung",
