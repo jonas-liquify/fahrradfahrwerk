@@ -29,7 +29,36 @@
     },
     "funnel_product_hero_mqCGaq": {
       "type": "funnel_product_hero",
+      "blocks": {
+        "info_item_njAa7c": {
+          "type": "info-item",
+          "settings": {
+            "image_bild": "shopify://shop_images/hotel_class.svg",
+            "text_text": "Service ohne Wartezeit"
+          }
+        },
+        "info_item_gT8dta": {
+          "type": "info-item",
+          "settings": {
+            "image_bild": "shopify://shop_images/hotel_class.svg",
+            "text_text": "Online buchen - sofort losschicken"
+          }
+        },
+        "info_item_wPntmA": {
+          "type": "info-item",
+          "settings": {
+            "image_bild": "shopify://shop_images/hotel_class.svg",
+            "text_text": "kurze Bearbeitungszeit"
+          }
+        }
+      },
+      "block_order": [
+        "info_item_njAa7c",
+        "info_item_gT8dta",
+        "info_item_wPntmA"
+      ],
       "settings": {
+        "text_zuruck": "Zurück",
         "text_headline": "Was benötigt dein Bauteil?",
         "text_opener_text": "Mehr Informationen",
         "kategorie": "Alle FAQs",

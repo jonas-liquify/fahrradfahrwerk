@@ -468,11 +468,11 @@
       "settings": {
         "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
         "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": "",
-        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität"
+        "url_button_link_2": ""
       }
     }
   },
