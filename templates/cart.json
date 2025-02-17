@@ -70,7 +70,7 @@
         "input_text_qzPQy9": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Baujahr*",
+            "text_input_lable": "Baujahr",
             "text_beschreibung": "",
             "name": "attributes[Baujahr]",
             "required": false
