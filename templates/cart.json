@@ -52,19 +52,19 @@
         "input_text_7dK4wC": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Marke*",
+            "text_input_lable": "Marke",
             "text_beschreibung": "",
             "name": "attributes[Marke]",
-            "required": true
+            "required": false
           }
         },
         "input_text_cjAby9": {
           "type": "input-text",
           "settings": {
-            "text_input_lable": "Modell*",
+            "text_input_lable": "Modell",
             "text_beschreibung": "",
             "name": "attributes[Modell]",
-            "required": true
+            "required": false
           }
         },
         "input_text_qzPQy9": {
