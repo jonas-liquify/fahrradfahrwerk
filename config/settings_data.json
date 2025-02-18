@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "fahrrad_bearbeitungsdauer": "2-3 Tage",
+    "fahrrad_bearbeitungsdauer": "3-4 Tage",
     "sections": {
       "announcement_bar": {
         "type": "announcement_bar",
