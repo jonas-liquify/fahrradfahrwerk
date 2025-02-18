@@ -1,47 +1,24 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "hero_anfrage_qVbV6D": {
-      "type": "hero_anfrage",
-      "settings": {
-        "text_subheading": "// Fahrrad",
-        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
-        "text_heading": "Service &amp; Tuning Anfrage"
-      }
+    "sections": {
+        "hero_anfrage": {
+            "type": "hero_anfrage"
+        },
+        "funnel_nav": {
+            "type": "funnel_nav"
+        },
+        "funnel_produkte": {
+            "type": "funnel_produkte"
+        },
+        "funnel_einsatzgebiet": {
+            "type": "funnel_einsatzgebiet"
+        }
     },
-    "funnel_nav_rgPBQb": {
-      "type": "funnel_nav",
-      "settings": {
-        "text_text_1": "1. Fahrzeug",
-        "text_text_2": "2. Bauteil",
-        "text_text_3": "3. Marke",
-        "text_text_4": "4. Service",
-        "steps": "third"
-      }
-    },
-    "funnel_produkte_kmx4Xk": {
-      "type": "funnel_produkte",
-      "settings": {
-        "text_headline": "Welche Marke hast du?",
-        "text_logo_text": "Wähle im nächsten Schritt den Service aus.",
-        "collection_list": [],
-        "button_text": "Service auswählen"
-      }
-    }
-  },
-  "layout": "collection",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero_anfrage_qVbV6D",
-    "funnel_nav_rgPBQb",
-    "funnel_produkte_kmx4Xk"
-  ]
+    "layout": "collection.anfrage-marke",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero_anfrage",
+        "funnel_nav",
+        "funnel_produkte",
+        "funnel_einsatzgebiet"
+    ]
 }

@@ -1,31 +1,16 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "hero_2": {
-      "type": "hero_2",
-      "settings": {
-        "text_subheading": "// PRODUKT-KATEGORIE",
-        "image_bild": "shopify://shop_images/fox40_awk.webp",
-        "text_heading": "Unsere Produkte <span class=\"gradient-bar\">dein Fahrspaß</span>"
-      }
+    "sections": {
+        "hero_2": {
+            "type": "hero_2"
+        },
+        "collection_products": {
+            "type": "collection_products"
+        }
     },
-    "collection_products": {
-      "type": "collection_products",
-      "settings": {}
-    }
-  },
-  "layout": "collection",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero_2",
-    "collection_products"
-  ]
+    "layout": "collection",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero_2",
+        "collection_products"
+    ]
 }

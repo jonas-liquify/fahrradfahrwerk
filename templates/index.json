@@ -1,494 +1,64 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "hero": {
-      "type": "hero",
-      "settings": {
-        "text_subheading": "// SWIFT Suspension",
-        "image_bild": "shopify://shop_images/swift_suspension.webp",
-        "text_heading": "Dein Fahrwerk <span class=\"gradient-bar\">in Bestform</span>"
-      }
-    },
-    "select_type": {
-      "type": "select_type",
-      "blocks": {
-        "select_block_Je8qLz": {
-          "type": "select-block",
-          "settings": {
-            "url_link": "shopify://pages/service-anfrage-bauteil",
-            "image_bild": "shopify://shop_images/mtb_white.webp",
-            "text_headline": "FAHRRAD",
-            "text_text": "Fahrzeug auswählen"
-          }
+    "sections": {
+        "hero": {
+            "type": "hero"
         },
-        "select_block_QAemQe": {
-          "type": "select-block",
-          "settings": {
-            "url_link": "shopify://pages/service-anfrage-bauteil-motorrad",
-            "image_bild": "shopify://shop_images/moto_white.webp",
-            "text_headline": "MOTORRAD",
-            "text_text": "Fahrzeug auswählen"
-          }
+        "select_type": {
+            "type": "select_type"
+        },
+        "about_1": {
+            "type": "about_1"
+        },
+        "service_slide": {
+            "type": "service_slide"
+        },
+        "bilder_slider": {
+            "type": "bilder_slider"
+        },
+        "prozess": {
+            "type": "prozess"
+        },
+        "marken": {
+            "type": "marken"
+        },
+        "products": {
+            "type": "products"
+        },
+        "showcase": {
+            "type": "showcase"
+        },
+        "location": {
+            "type": "location"
+        },
+        "blog_teaser": {
+            "type": "blog_teaser"
+        },
+        "tabelle": {
+            "type": "tabelle"
+        },
+        "infos": {
+            "type": "infos"
+        },
+        "popup": {
+            "type": "popup"
         }
-      },
-      "block_order": [
-        "select_block_Je8qLz",
-        "select_block_QAemQe"
-      ],
-      "settings": {}
     },
-    "about_1": {
-      "type": "about_1",
-      "blocks": {
-        "numbers_block_TAnCXC": {
-          "type": "numbers-block",
-          "settings": {
-            "text_number": "3.500+",
-            "text_text": "Services <br>pro Jahr"
-          }
-        },
-        "numbers_block_UXYq3q": {
-          "type": "numbers-block",
-          "settings": {
-            "text_number": "18.000+",
-            "text_text": "Zufriedene Kunden"
-          }
-        },
-        "numbers_block_WkYW6X": {
-          "type": "numbers-block",
-          "settings": {
-            "text_number": "15+",
-            "text_text": "Jahre <br>Erfahrung"
-          }
-        }
-      },
-      "block_order": [
-        "numbers_block_TAnCXC",
-        "numbers_block_UXYq3q",
-        "numbers_block_WkYW6X"
-      ],
-      "settings": {
-        "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "Suspension Service für MTB &amp; MOTO",
-        "textarea_text": "<p>Willkommen bei SWIFT Suspension, deinem Experten-Team für Service, Reparatur und Tuning von Federgabeln und Dämpfern in den Bereichen Fahrrad & Motorrad. Als leidenschaftliche Sportlerinnen und Sportler wissen wir, wie wichtig dein Fahrwerk für dich ist! Diese Leidenschaft treibt uns an, jeden Tag unser Bestes zu geben, um sicherzustellen, dass unsere Kundschaft das Maximum aus ihrem Fahrzeug herausholen kann.</p>",
-        "image_badge": "shopify://shop_images/google_bewertungen.svg",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": "ÜBER UNS",
-        "text_left_text_bottom": "SWIFT Suspension in Zahlen",
-        "image_bild": "shopify://shop_images/Banner.webp"
-      }
-    },
-    "service_slide": {
-      "type": "service_slide",
-      "blocks": {
-        "service_item_77DyPw": {
-          "type": "service-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/service_sealhead.webp",
-            "text_subheading": "",
-            "url_button_link_2": "",
-            "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
-            "text_button_text": "SERVICE-ANFRAGE",
-            "text_heading": "Service",
-            "textarea_text": "<p><br/></p><ul><li>In den Bereichen Fahrrad und Motorrad</li><li>Für Federgabeln, Dämpfer und Vario-Stützen</li><li>Keine Terminvergabe und Wartezeiten</li><li>Online buchen - sofort losschicken</li><li>Kurze Bearbeitungszeit<br/><br/><br/></li></ul>"
-          }
-        },
-        "service_item_AtXQ94": {
-          "type": "service-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/service_reparatur_lupe.webp",
-            "text_subheading": "",
-            "url_button_link_2": "",
-            "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
-            "text_button_text": "REPARATUR-ANFRAGE",
-            "text_heading": "Reparatur",
-            "textarea_text": "<p><br/></p><ul><li>Gründliche Analyse der Bauteile</li><li>Toleranzen prüfen und anpassen</li><li>Instandsetzung oder Austausch von defekten Bauteilen</li><li>Wiederherstellen von Funktion und Sicherheit</li><li>Mit langjähriger Erfahrung & Präzision<br/><br/><br/></li></ul>"
-          }
-        },
-        "service_item_LUJzPt": {
-          "type": "service-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/service_tuning_shims.webp",
-            "text_subheading": "",
-            "url_button_link_2": "",
-            "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
-            "text_button_text": "TUNING-ANFRAGE",
-            "text_heading": "Tuning",
-            "textarea_text": "<p><br/></p><ul><li>Individuelle Abstimmung der Dämpfungskennlinie</li><li>Montage von Tuningbauteilen</li><li>Datenerfassung per Prüfstand & Telemetry-System</li><li>Dokumentation und Analyse von Messdaten</li><li>Lackieren & Beschichten von Bauteilen<br/><br/><br/></li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "service_item_77DyPw",
-        "service_item_AtXQ94",
-        "service_item_LUJzPt"
-      ],
-      "settings": {
-        "text_subheading": "// Unsere Dienstleistungen",
-        "text_heading": "Alles aus einer Hand",
-        "textarea_text": "<p>Schnelle Bearbeitung, herausragende Qualität und langjährige Erfahrung im Bereich Fahrwerkstechnik machen uns zum perfekten Servicepartner für dein Fahrrad- und Motorrad-Fahrwerk.</p>",
-        "url_button_link_2": "shopify://pages/service-fahrrad",
-        "text_button_text_2": "FAHRRAD",
-        "url_button_link": "shopify://pages/service-motorrad",
-        "text_button_text": "MOTORRAD"
-      }
-    },
-    "prozess_c3xmcJ": {
-      "type": "prozess",
-      "blocks": {
-        "service_block_6UaQMn": {
-          "type": "service-block",
-          "settings": {
-            "image_bild": "shopify://shop_images/step-1_moto.webp",
-            "text_step": "Step 1",
-            "text_text": "Buche deinen Service direkt online: Wähle dein Fahrzeug, den passenden Service sowie das gewünschte Tuning aus und erlebe maximale Preistransparenz und einfachste Abwicklung.",
-            "text_headline": "Service buchen"
-          }
-        },
-        "service_block_UtpqEd": {
-          "type": "service-block",
-          "settings": {
-            "image_bild": "shopify://shop_images/step-2_moto.webp",
-            "text_step": "Step 2",
-            "text_text": "Verpacke deine Bauteile sicher und schicke sie uns zu. Wir informieren dich über jeden Schritt vom Eingang deines Pakets, über den Bearbeitungsstatus bis hin zur Fertigstellung.",
-            "text_headline": "Versand der Bauteile"
-          }
-        },
-        "service_block_hPdt7G": {
-          "type": "service-block",
-          "settings": {
-            "image_bild": "shopify://shop_images/step-3_moto.webp",
-            "text_step": "Step 3",
-            "text_text": "Unser Serviceteam sorgt für eine fachgerechte und schnelle Bearbeitung deiner Bauteile. Der Rückversand erfolgt zuverlässig und sicher direkt an deine Wunschadresse.",
-            "text_headline": "Bearbeitung"
-          }
-        }
-      },
-      "block_order": [
-        "service_block_6UaQMn",
-        "service_block_UtpqEd",
-        "service_block_hPdt7G"
-      ],
-      "settings": {
-        "text_subheading": "// wie es funktioniert",
-        "text_heading": "Service-Abwicklung",
-        "textarea_text": "<p>Individuelle Beratung, fachgerechte Durchführung und kurze Lieferzeiten sind unser Schlüssel zu einer effizienten und kundenorientierten Serviceabwicklung.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "shopify://pages/faqs",
-        "text_button_text": "FAQ"
-      }
-    },
-    "marken": {
-      "type": "marken",
-      "blocks": {
-        "logo_cHfTxA": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/marzocchi_logo_512x512-2.webp"
-          }
-        },
-        "logo_KmkkhH": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/formula_logo_512x512-2.webp"
-          }
-        },
-        "logo_BnAkdk": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ohlins_logo_512x512-2.webp"
-          }
-        },
-        "logo_FC6yjg": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/rockshock_logo_512x512-2.webp"
-          }
-        },
-        "logo_7PnQbn": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/canecreek_logo_512x512-2.webp"
-          }
-        },
-        "logo_qATA8w": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/dvo_logo_512x512-2.webp"
-          }
-        },
-        "logo_9dR9Tr": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/kyb_logo_512x512-2.webp"
-          }
-        },
-        "logo_Q3PR8j": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fox_logo_512x512-2.webp"
-          }
-        },
-        "logo_zcH4xz": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/bos_logo_512x512-2.webp"
-          }
-        },
-        "logo_jHBxmd": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/srsuntour_logo_512x512-2.webp"
-          }
-        },
-        "logo_nKAp6T": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/wp_logo_512x512-2.webp"
-          }
-        },
-        "logo_dQtDxb": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/push_logo_512x512-2.webp"
-          }
-        },
-        "logo_4YUACx": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/rst_logo_512x512_a021faf0-2034-47da-a63c-bdf9b18d1837.webp"
-          }
-        },
-        "logo_nE8Md8": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/xfusion_logo_512x512-2.webp"
-          }
-        },
-        "logo_MnXREJ": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/showa_logo_512x512-2.webp"
-          }
-        },
-        "logo_4KfQGr": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/magura_logo_512x512-2.webp"
-          }
-        },
-        "logo_MkqhzW": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/fast_suspension_logo_512x512-2.webp"
-          }
-        },
-        "logo_4PUkUq": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ext_logo_512x512-2.webp"
-          }
-        },
-        "logo_nFtrJX": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/sachs_logo_512x512_12154287-8709-40e9-a0c3-cc89a36cb1f4.webp"
-          }
-        },
-        "logo_Qy6e8n": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/manitou_logo_512x512-2.webp"
-          }
-        },
-        "logo_AamwGt": {
-          "type": "logo",
-          "settings": {
-            "image_logo": "shopify://shop_images/ndtuned_logo_512x512-2.webp"
-          }
-        }
-      },
-      "block_order": [
-        "logo_cHfTxA",
-        "logo_KmkkhH",
-        "logo_BnAkdk",
-        "logo_FC6yjg",
-        "logo_7PnQbn",
-        "logo_qATA8w",
-        "logo_9dR9Tr",
-        "logo_Q3PR8j",
-        "logo_zcH4xz",
-        "logo_jHBxmd",
-        "logo_nKAp6T",
-        "logo_dQtDxb",
-        "logo_4YUACx",
-        "logo_nE8Md8",
-        "logo_MnXREJ",
-        "logo_4KfQGr",
-        "logo_MkqhzW",
-        "logo_4PUkUq",
-        "logo_nFtrJX",
-        "logo_Qy6e8n",
-        "logo_AamwGt"
-      ],
-      "settings": {
-        "text_subheading": "// MARKEN",
-        "text_heading": "Suspension Marken",
-        "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "shopify://pages/service-anfrage",
-        "text_button_text": "SERVICE BUCHEN",
-        "image_bild": "shopify://shop_images/2023_01_03_PBK_14655_LR.jpg"
-      }
-    },
-    "products": {
-      "type": "products",
-      "settings": {
-        "text_subheading": "// Topseller",
-        "text_heading": "Produkte für dein Fahrrad &amp; Motorrad",
-        "textarea_text": "<p>Ob für Wartung, Reparatur oder Tuning - bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "shopify://pages/shop",
-        "text_button_text": "ALLE PRODUKTE",
-        "product_list": [
-          "fox-federgabel-service",
-          "kopie-von-awk-rock-shox-zeb",
-          "offroad-dampfer-service",
-          "onroad-federgabel-service",
-          "awk-rock-shox-zeb",
-          "rockshox-charger-3-1-rc2-upgrade-kit",
-          "rock-shox-dampfer-service",
-          "awk-lyrik"
-        ]
-      }
-    },
-    "showcase": {
-      "type": "showcase",
-      "blocks": {
-        "showcase_slide_pCGA9N": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/action_nohander_julian.webp"
-          }
-        },
-        "showcase_slide_4tTe4r": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/swift_suspension3.webp"
-          }
-        },
-        "showcase_slide_JJV6R8": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/2024_03_26_PBK_13367_LR.jpg"
-          }
-        },
-        "showcase_slide_t7bCw6": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/action_dirt_flavor_julian.webp"
-          }
-        },
-        "showcase_slide_jitqXL": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/swift_suspension4.webp"
-          }
-        },
-        "showcase_slide_jfnFkJ": {
-          "type": "showcase-slide",
-          "settings": {
-            "image_bild": "shopify://shop_images/2023_01_04_PBK_21840_LR.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "showcase_slide_pCGA9N",
-        "showcase_slide_4tTe4r",
-        "showcase_slide_JJV6R8",
-        "showcase_slide_t7bCw6",
-        "showcase_slide_jitqXL",
-        "showcase_slide_jfnFkJ"
-      ],
-      "settings": {
-        "text_subheading": "// Bildergalerie",
-        "text_heading": "Dein Fahrwerk ist unsere Leidenschaft",
-        "textarea_text": "<p>Unser Team besteht aus erfahrenen Mechanikern und begeisterten Sportlerinnen und Sportlern, die nicht nur über das technische Know-how verfügen, sondern auch die Leidenschaft für den Radsport und das Motorradfahren teilen. Darum wissen wir genau, worauf es bei deinem Fahrwerk ankommt.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": ""
-      }
-    },
-    "location": {
-      "type": "location",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// Service-Partner",
-        "text_heading": "Rundum-Sorglos-Paket, auch in deiner Nähe",
-        "textarea_text": "<p>Du möchtest dein Fahrwerk bei SWIFT Suspension warten lassen, doch der Ausbau deiner Bauteile ist dir zu kompliziert oder aufwendig? Dann gib dein Bike einfach bei einem unserer Partner ab. Von der fachgerechten De- und Montage bis hin zum sicheren Versand, unsere Service-Partner übernehmen das für dich.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "PARTNER WERDEN",
-        "url_button_link": "",
-        "text_button_text": "PARTNER FINDEN"
-      }
-    },
-    "blog_teaser": {
-      "type": "blog_teaser",
-      "settings": {
-        "text_subheading": "// Blog",
-        "text_heading": "News &amp; Tech-Talk",
-        "textarea_text": "<p>Hier erwarten dich spannende und informative Beiträge rund um das Thema Fahrrad und Motorrad Fahrwerke.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "shopify://blogs/news",
-        "text_button_text": "ALLE BEITRÄGE",
-        "blog_blog": "news",
-        "post_limit_blog": 3
-      }
-    },
-    "popup_mM9K3G": {
-      "type": "popup",
-      "settings": {
-        "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
-        "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
-        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität",
-        "text_button_text": "",
-        "url_button_link": "",
-        "text_button_text_2": "",
-        "url_button_link_2": ""
-      }
-    }
-  },
-  "layout": "theme",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero",
-    "select_type",
-    "about_1",
-    "service_slide",
-    "prozess_c3xmcJ",
-    "marken",
-    "products",
-    "showcase",
-    "location",
-    "blog_teaser",
-    "popup_mM9K3G"
-  ]
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero",
+        "select_type",
+        "about_1",
+        "service_slide",
+        "bilder_slider",
+        "prozess",
+        "marken",
+        "products",
+        "showcase",
+        "location",
+        "blog_teaser",
+        "tabelle",
+        "infos",
+        "popup"
+    ]
 }

@@ -1,79 +1,20 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "hero_anfrage_gPyt7k": {
-      "type": "hero_anfrage",
-      "settings": {
-        "text_subheading": "// Online buchen",
-        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
-        "text_heading": "Optimale Leistung für deine Federgabel"
-      }
-    },
-    "funnel_nav_6TdT9X": {
-      "type": "funnel_nav",
-      "settings": {
-        "text_text_1": "1. Fahrzeug",
-        "text_text_2": "2. Bauteil",
-        "text_text_3": "3. Marke",
-        "text_text_4": "4. Service",
-        "steps": "fourth"
-      }
-    },
-    "funnel_product_hero_mqCGaq": {
-      "type": "funnel_product_hero",
-      "blocks": {
-        "info_item_njAa7c": {
-          "type": "info-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/hotel_class.svg",
-            "text_text": "Service ohne Wartezeit"
-          }
+    "sections": {
+        "funnel_product_hero": {
+            "type": "funnel_product_hero"
         },
-        "info_item_gT8dta": {
-          "type": "info-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/hotel_class.svg",
-            "text_text": "Online buchen - sofort losschicken"
-          }
+        "faq": {
+            "type": "faq"
         },
-        "info_item_wPntmA": {
-          "type": "info-item",
-          "settings": {
-            "image_bild": "shopify://shop_images/hotel_class.svg",
-            "text_text": "Kurze Bearbeitungszeit"
-          }
+        "product_recommended": {
+            "type": "product_recommended"
         }
-      },
-      "block_order": [
-        "info_item_njAa7c",
-        "info_item_gT8dta",
-        "info_item_wPntmA"
-      ],
-      "settings": {
-        "text_zuruck": "Zurück",
-        "text_headline": "Was benötigt dein Bauteil?",
-        "text_opener_text": "Mehr Informationen",
-        "kategorie": "Alle FAQs",
-        "text_more_headline": "Zubehör",
-        "text_more_text": "Ergänze unseren Service mit weiteren Optionen und Produkten.",
-        "text_inklusive_mwst": "inkl. MwSt.",
-        "text_headline_tuning": "Tuning hinzufügen"
-      }
-    }
-  },
-  "layout": "product",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "hero_anfrage_gPyt7k",
-    "funnel_nav_6TdT9X",
-    "funnel_product_hero_mqCGaq"
-  ]
+    },
+    "layout": "product.anfrage-service-und-tuning",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "funnel_product_hero",
+        "faq",
+        "product_recommended"
+    ]
 }
