@@ -1,32 +1,16 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "article": {
-      "type": "article",
-      "settings": {
-        "url_zuruck": ""
-      }
+    "sections": {
+        "article": {
+            "type": "article"
+        },
+        "related_articles": {
+            "type": "related_articles"
+        }
     },
-    "related_articles": {
-      "type": "related_articles",
-      "disabled": true,
-      "settings": {
-        "text_headline": "Other Articles"
-      }
-    }
-  },
-  "layout": "article",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "article",
-    "related_articles"
-  ]
+    "layout": "article",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "article",
+        "related_articles"
+    ]
 }

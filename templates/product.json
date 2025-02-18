@@ -1,72 +1,24 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "product_hero": {
-      "type": "product_hero",
-      "settings": {
-        "text_inklusive_mwst": "inkl. MwSt.",
-        "text_headline": "Zubehör",
-        "kategorie": "Alle FAQs"
-      }
+    "sections": {
+        "product_hero": {
+            "type": "product_hero"
+        },
+        "content": {
+            "type": "content"
+        },
+        "faq": {
+            "type": "faq"
+        },
+        "product_recommended": {
+            "type": "product_recommended"
+        }
     },
-    "content": {
-      "type": "content",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// SERVICE",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": "Service anfragen",
-        "text_heading": "Unsere hochwertigen Produkte",
-        "textarea_text": "<p>dawdawda</p>",
-        "content_allign": "right"
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "disabled": true,
-      "settings": {
-        "text_subheading": "// FAQ",
-        "text_heading": "Häufige Fragen, klare Antworten",
-        "textarea_text": "<p>Hier findest du klare und verständliche Antworten auf häufig gestellte Fragen rund um unseren Service.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "",
-        "text_button_text": "ALLE FAQ´s",
-        "text_cta_headline": "Heading",
-        "text_cta_infos": "Max Mustermann (Gründer)",
-        "url_cta_button_link": "",
-        "text_cta_button_text": "Kontaktiere uns"
-      }
-    },
-    "product_recommended": {
-      "type": "product_recommended",
-      "settings": {
-        "text_subheading": "// Topseller",
-        "text_heading": "Produkte für dein Fahrrad &amp; Motorrad",
-        "textarea_text": "<p>Ob für Wartung, Reparatur oder Tuning - bei uns findest du alles, was du für beste Performance und höchsten Fahrspaß brauchst.</p>",
-        "url_button_link_2": "",
-        "text_button_text_2": "",
-        "url_button_link": "shopify://collections",
-        "text_button_text": "Alle Produkte"
-      }
-    }
-  },
-  "layout": "product",
-  "wrapper": "main.main-wrapper",
-  "order": [
-    "product_hero",
-    "content",
-    "faq",
-    "product_recommended"
-  ]
+    "layout": "product",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "product_hero",
+        "content",
+        "faq",
+        "product_recommended"
+    ]
 }

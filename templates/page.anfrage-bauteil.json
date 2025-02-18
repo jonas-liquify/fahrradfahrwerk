@@ -1,47 +1,20 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
-  "sections": {
-    "hero_anfrage": {
-      "type": "hero_anfrage",
-      "settings": {
-        "text_subheading": "// Fahrrad",
-        "text_text": "Schnell, einfach und trotzdem individuell. Unsere Service- & Tuning-Anfrage begleitet dich Schritt für Schritt durch einfache Auswahlmöglichkeiten bis hin zur individuellen Leistung. Wähle dein Fahrzeug und das benötigte Bauteile aus - wir zeigen dir individuell abgestimmte Optionen und sorgen für die perfekte Lösung für deine Anforderungen.",
-        "text_heading": "Service &amp; Tuning Anfrage"
-      }
+    "sections": {
+        "hero_anfrage": {
+            "type": "hero_anfrage"
+        },
+        "funnel_nav": {
+            "type": "funnel_nav"
+        },
+        "funnel_marken": {
+            "type": "funnel_marken"
+        }
     },
-    "funnel_nav_hXimt6": {
-      "type": "funnel_nav",
-      "settings": {
-        "text_text_1": "1. Fahrzeug",
-        "text_text_2": "2. Bauteil",
-        "text_text_3": "3. Marke",
-        "text_text_4": "4. Service",
-        "steps": "second"
-      }
-    },
-    "funnel_marken": {
-      "type": "funnel_marken",
-      "settings": {
-        "text_headline": "Welches Bauteil hast du?",
-        "text_choose_text": "Wähle im nächsten Schritt die Marke aus.",
-        "collection_list": [
-          "federgabel-fahrrad",
-          "dampfer-fahrrad",
-          "vario-stutze-fahrrad"
-        ],
-        "button_text": "Marke auswählen"
-      }
-    }
-  },
-  "layout": "page.anfrage-marke",
-  "wrapper": "main.main-wrapper",
-  "order": ["hero_anfrage", "funnel_nav_hXimt6", "funnel_marken"]
+    "layout": "page.anfrage-bauteil",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero_anfrage",
+        "funnel_nav",
+        "funnel_marken"
+    ]
 }
