@@ -1,1 +1,118 @@
-{}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "search": {
+    "heading": "Suche",
+    "placeholder": "Jetzt suchen",
+    "suggestions": "Vorschläge",
+    "pages": "Seiten",
+    "bestseller": "Bestseller",
+    "empty": "Nichts in '{{ search_term }}' gefunden",
+    "show": "Zeige",
+    "out_of": "von",
+    "products": "Produkte"
+  },
+  "cart": {
+    "heading": "Warenkorb",
+    "get_free_shipping": "Jetzt Gratisversand sichern",
+    "still": "Noch",
+    "to_free_shipping": "zum kostenlosen Versand",
+    "free_shipping_heading": "Gratisversand freigeschaltet",
+    "free_shipping_text": "Glückwunsch! Du hast den Gratisversand auf Deine Bestellung freigeschaltet.",
+    "free": "Kostenlos",
+    "total_price": "Gesamtkosten",
+    "shipping_fee": "Versandkosten",
+    "go_to_checkout": "Jetzt sicher zur Kasse",
+    "empty": "Keine Artikel im Warenkorb",
+    "update_cart": "Warenkorb aktualisieren",
+    "remove": "Entfernen",
+    "add_to_cart": "In den Warenkorb",
+    "not_in_stock": "Nicht auf Lager"
+  },
+  "default_form": {
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "full_name": "Voller Name",
+    "message": "Nachricht",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "address_1": "Adresse",
+    "address_2": "Adresszusatz",
+    "company": "Firma",
+    "zip": "Postleitzahl",
+    "city": "Stadt",
+    "region": "Bundesland",
+    "password": "Passwort",
+    "repeat_password": "Passwort wiederholen",
+    "register_button": "Jetzt registrieren",
+    "login_button": "Jetzt anmelden",
+    "reset_button": "Zurücksetzen",
+    "reset_password_button": "Passwort zurücksetzen",
+    "activate_button": "Aktivieren",
+    "decline_button": "Ablehnen",
+    "create_button": "Erstellem",
+    "save_button": "Speichern",
+    "save_as_default": "Als Standard speichern",
+    "abort": "Abbrechen",
+    "login_link": "Anmelden",
+    "contact_button": "Absenden",
+    "already_have_account_html": "Du hast bereits einen Account? <span class='text-style-link text-weight-bold'>Jetzt anmelden</span>",
+    "no_account_html": "Du hast noch keinen Account? <span class='text-style-link text-weight-bold'>Jetzt registrieren</span>",
+    "forgot_passwort_html": "Du hast dein Passwort vergessen? <span class='text-style-link text-weight-bold'>Jetzt zurücksetzen</span>",
+    "show_more": "Mehr anzeigen",
+    "show_less": "Weniger anzeigen"
+  },
+  "account": {
+    "greeting_html": "Hi, {{ name }}.<br>Willkommen zurück!",
+    "account_link": "Account",
+    "address_link": "Adressen",
+    "logout_link": "Ausloggen",
+    "edit_link": "Bearbeiten",
+    "order_details_button": "Details",
+    "add_address_button": "Adresse hinzufügen",
+    "shop_now_button": "Jetzt shoppen"
+  },
+  "aria_labels": {
+    "create_new_address": "Erstelle eine neue Adresse",
+    "share_on_twitter": "Auf Twitter teilen",
+    "share_on_facebook": "Auf Facebook teilen",
+    "share_on_linkedin": "Auf LinkedIn teilen",
+    "copy_link": "Link kopieren"
+  },
+  "filter": {
+    "sort_by": "Sortieren nach",
+    "categories": "Kategorien",
+    "search": "Suchen",
+    "all_products": "Alle Produkte",
+    "filter": "Filter",
+    "blog_button": "Jetzt lesen"
+  },
+  "customer_accounts": {
+    "orders": {
+      "list_title": "Willkommen in deinem Dicota Account"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Die Warenanweisung %{position} %{name} enthält eine leere Stall-ID.",
+        "invalid_stable_id_target": "Die Warenanweisung %{position} %{name} verweist auf die Stall-ID %{stable_id}, aber diese Stall-ID befindet sich nicht in den Warenzeilen.",
+        "duplicate_variant_id": "Die Warenanweisung %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
+        "invalid_variant_id_target": "Die Warenanweisung %{position} %{name} verweist auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Warenlinien enthalten."
+      },
+      "payment_challenge_modal": {
+        "close": "Schließen Sie die Herausforderung ab"
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay-Kaufabwicklung"
+      }
+    }
+  }
+}
