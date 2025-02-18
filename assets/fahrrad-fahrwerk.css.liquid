@@ -205,6 +205,10 @@ ol {
   padding-left: 1.5rem;
 }
 
+li {
+  font-size: .875rem;
+}
+
 img {
   object-fit: cover;
   max-width: 100%;
@@ -618,6 +622,7 @@ figcaption {
 }
 
 .form_input.is-text-area {
+  color: var(--base-color-neutral--black);
   min-height: 8rem;
   padding-top: .75rem;
 }
@@ -3784,12 +3789,15 @@ figcaption {
 }
 
 .service_component {
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  flex-flow: column;
   margin-top: 4.375rem;
+  display: flex;
 }
 
 .service_item {
   color: var(--base-color-neutral--white);
-  margin-bottom: 3rem;
   padding-top: 7.25rem;
   padding-bottom: 8.25rem;
   padding-left: 4.625rem;
@@ -5031,9 +5039,10 @@ figcaption {
 }
 
 .choose_main_img-wrapper {
+  flex: none;
   justify-content: center;
   align-items: center;
-  width: 16.75rem;
+  width: 13rem;
   display: flex;
   position: relative;
 }
@@ -5136,9 +5145,10 @@ figcaption {
 }
 
 .choose_main_img-wrapper-secondary {
+  flex: none;
   justify-content: center;
   align-items: center;
-  width: 16.75rem;
+  width: 14rem;
   display: flex;
   position: relative;
 }
@@ -6637,6 +6647,14 @@ figcaption {
 
 .li-dropdown-link:hover {
   background-color: var(--base-color-neutral--neutral-lightest);
+}
+
+.choose_main_price-wrapper {
+  grid-column-gap: .2rem;
+  grid-row-gap: .2rem;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {

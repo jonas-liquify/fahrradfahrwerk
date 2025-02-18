@@ -44,7 +44,8 @@
         Sale        </div>
     </template>
 </div></div><div class="text-size-small">inkl. VAT</div><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state is-choose' %}
-{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
+{% if product.tags contains 'MTB Service' or product.tags contains 'MOTO Service' %}    <input name="properties[Tag]" li-if="product.tags contains 'MTB Service' or product.tags contains 'MOTO Service'" class="hide" value="Service">
+{% endif %}{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
     <template x-for="(option, optionKey) in product.options" :key="optionKey">
     <div li-element="product-options-loop" id="w-node-_60a6db7b-60ce-d5c2-0dbb-0d257b2d7633-8d331af2" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
     <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
@@ -78,7 +79,9 @@
                                     <img loading="lazy" li-object:src="product.featured_image.src | product_img_url: 'master'" li-object:alt="product.featured_image.alt" src="{{ product.featured_image.src | product_img_url: 'master' }}" alt="{{ product.featured_image.alt }}" class="choose_main_more-item-img">
 
                             
-                            <div x-data="{ open: false }" class="choose_main_more-item-right"><div class="choose_main_more-item-content"><div><div li-object="product.title" class="text-weight-semibold text-size-small text-style-allcaps">{{ product.title }}</div><div li-object="product.price | money" class="text-size-small text-style-allcaps">{{ product.price | money }}</div><div class="spacer-xxsmall"></div><a x-on:click="open = true" href="#" class="text-weight-semibold text-size-small text-style-link">Mehr Informationen</a></div></div>{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true">
+                            <div x-data="{ open: false }" class="choose_main_more-item-right"><div class="choose_main_more-item-content"><div><div li-object="product.title" class="text-weight-semibold text-size-small text-style-allcaps">{{ product.title }}</div><div class="choose_main_price-wrapper">{% unless product.has_only_default_variant %}    <div li-unless="product.has_only_default_variant">
+    <div class="text-size-small text-style-allcaps">ab </div>    </div>
+{% endunless %}<div li-object="product.price | money" class="text-size-small text-style-allcaps">{{ product.price | money }}</div></div><div class="spacer-xxsmall"></div><a x-on:click="open = true" href="#" class="text-weight-semibold text-size-small text-style-link">Mehr Informationen</a></div></div>{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true">
     <a x-on:click="open = true" href="#" class="button is-black-long w-button">Hinzufügen</a>    </div>
 {% endif %}{% if product.has_only_default_variant == true %}    <div li-if="product.has_only_default_variant == true">
     <script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
