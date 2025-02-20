@@ -1,7 +1,6 @@
 <div>{% assign has_service_product = false %}
-{% assign has_tuning_product = false %}
 {% for line_item in cart.items %}  {% if line_item.product.tags contains section.settings.text_tag %}    {% assign has_service_product = true %}{% endif %}{% endfor %}
-</div>{% if has_service_product and has_tuning_product == false %}    <div li-if="has_service_product and has_tuning_product == false">
+</div>{% if has_service_product %}    <div li-if="has_service_product">
     <div class="padding-global padding-section-small"><div class="container-large"><div id="w-node-_7371c754-b39b-e80a-6f94-d88ef8a7baa5-2048041f" class="w-embed"><style>.form-input:focus + .form-label,
   .form-input:not(:placeholder-shown) + .form-label {
     top: 0px;
