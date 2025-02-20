@@ -14,7 +14,7 @@
       "announcement_bar": {
         "type": "announcement_bar",
         "settings": {
-          "text_text": "Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage"
+          "text_text": "Aktuelle Bearbeitungszeit: MTB {{ settings.fahrrad_bearbeitungsdauer }} - MOTO {{ settings.motorrad_bearbeitungsdauer }}"
         }
       },
       "header": {
