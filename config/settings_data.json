@@ -27,10 +27,18 @@
               "url_link": "",
               "text_text": "Tag"
             }
+          },
+          "search_suggestion_kzixD9": {
+            "type": "search-suggestion",
+            "settings": {
+              "url_link": "",
+              "text_text": "Tag"
+            }
           }
         },
         "block_order": [
-          "search_suggestion_PHiMiJ"
+          "search_suggestion_PHiMiJ",
+          "search_suggestion_kzixD9"
         ],
         "settings": {
           "collection_search_bestseller": "",
