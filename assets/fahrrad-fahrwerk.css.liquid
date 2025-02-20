@@ -4583,17 +4583,16 @@ figcaption {
 }
 
 .sub_hero_component {
-  padding-bottom: 5.625rem;
+  padding-bottom: 2.025rem;
 }
 
 .sub_hero_image {
-  width: 90rem;
+  width: 100%;
   height: 40.625rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
   position: relative;
-  left: -5rem;
 }
 
 .split_component {
@@ -4770,7 +4769,7 @@ figcaption {
 .shop_category_img-wrapper {
   width: 100%;
   margin-bottom: 1.6875rem;
-  padding-bottom: 100%;
+  padding-bottom: 117%;
   position: relative;
 }
 
@@ -6521,6 +6520,10 @@ figcaption {
   overflow: scroll;
 }
 
+.choose_product-wrapper.is-hinweis {
+  max-width: 50rem;
+}
+
 .choose_close {
   cursor: pointer;
   position: absolute;
@@ -6655,6 +6658,12 @@ figcaption {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.sub_hero_overlay {
+  background-image: linear-gradient(180deg, var(--base-color-neutral--black), #1d1a1ad9 20%, #1d1a1a00);
+  position: absolute;
+  inset: 0%;
 }
 
 @media screen and (max-width: 991px) {
@@ -7249,6 +7258,10 @@ figcaption {
 
   .select_component {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .choose_main_item.is-secondary {
+    padding-left: 0;
   }
 
   .choose_main_product {
@@ -7850,7 +7863,12 @@ figcaption {
     padding: .7125rem 1.925rem;
   }
 
+  .choose_main_component {
+    grid-template-columns: 1fr;
+  }
+
   .choose_main_item.is-secondary {
+    border-right-width: 0;
     padding-top: .35rem;
     padding-bottom: .35rem;
     padding-left: 1.6625rem;
@@ -8560,6 +8578,7 @@ figcaption {
   }
 
   .choose_main_item.is-secondary {
+    border-right-width: 1px;
     padding: .95rem 1.2375rem .55rem;
   }
 
