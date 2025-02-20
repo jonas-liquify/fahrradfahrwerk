@@ -12,7 +12,9 @@
     "hero_blog": {
       "type": "hero_blog",
       "disabled": true,
-      "settings": {}
+      "settings": {
+        "article_artikel": "news/von-fahrrad-fahrwerk-zu-swift-suspension"
+      }
     },
     "blog_main": {
       "type": "blog_main",
