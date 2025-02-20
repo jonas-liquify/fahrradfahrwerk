@@ -9,13 +9,12 @@
  */
 {
   "current": {
-    "motorrad_bearbeitungsdauer": "3-5 Tage",
     "fahrrad_bearbeitungsdauer": "3-4 Tage",
     "sections": {
       "announcement_bar": {
         "type": "announcement_bar",
         "settings": {
-          "text_text": "Aktuelle Bearbeitungszeit: MTB {{ settings.fahrrad_bearbeitungsdauer }} - MOTO {{ settings.motorrad_bearbeitungsdauer }}"
+          "text_text": "Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage"
         }
       },
       "header": {
@@ -24,24 +23,16 @@
           "search_suggestion_PHiMiJ": {
             "type": "search-suggestion",
             "settings": {
-              "url_link": "shopify://collections/federgabel-fahrrad",
-              "text_text": "Federgabel Service"
-            }
-          },
-          "search_suggestion_kzixD9": {
-            "type": "search-suggestion",
-            "settings": {
               "url_link": "",
               "text_text": "Tag"
             }
           }
         },
         "block_order": [
-          "search_suggestion_PHiMiJ",
-          "search_suggestion_kzixD9"
+          "search_suggestion_PHiMiJ"
         ],
         "settings": {
-          "collection_search_bestseller": "federgabel-fahrrad",
+          "collection_search_bestseller": "",
           "collection_search_bestseller_limit": 6,
           "text_warenkorb": "Warenkorb",
           "url_service_link": "shopify://pages/service-anfrage",
