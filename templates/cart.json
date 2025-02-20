@@ -457,18 +457,8 @@
       "settings": {
         "text_heading": "Warenkorb",
         "text_cart_empty": "Dein Warenkorb ist leer.",
-        "text_tag": "MTB Service"
-      }
-    },
-    "funnel_nav_qAw4mh": {
-      "type": "funnel_nav",
-      "disabled": true,
-      "settings": {
-        "text_text_1": "1. Art Wählen",
-        "text_text_2": "2. Auswahl Marke",
-        "text_text_3": "3. Auswahl Bauteil",
-        "text_text_4": "4. kasse",
-        "steps": "fourth"
+        "text_tag": "MTB Service",
+        "text_tag_2": "MOTO Service"
       }
     }
   },
@@ -477,7 +467,6 @@
   "order": [
     "form",
     "form_iyc66b",
-    "cart_L3dq68",
-    "funnel_nav_qAw4mh"
+    "cart_L3dq68"
   ]
 }
