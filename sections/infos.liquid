@@ -4,7 +4,7 @@
 <h2 li-object="section.settings.text_heading" class="heading-style-h2">{{ section.settings.text_heading }}</h2><div><p li-object="section.settings.textarea_text">{{ section.settings.textarea_text }}</p></div><div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" class="button_first">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="li-custom w-embed"></div>
@@ -13,11 +13,13 @@
                     <div li-block="Info" id="w-node-c5946d11-9ea1-dc86-7c4a-11d6c69ff9d6-c69ff9d0" class="infos_item">
                                     <img loading="lazy" alt="{{ block.settings.image_icon.alt }}" src="{{ block.settings.image_icon | img_url: 'master' }}" class="infos_icon">
 
+                                    
                                     <div class="infos_div"><h3 class="heading-style-h4">
 {{ block.settings.text_headline }}
 </h3>
 <div class="text-size-regular max-width-large"> {{ block.settings.textarea_text }} </div>
 </div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}
