@@ -1,0 +1,5 @@
+<div class="header_background-image-wrapper"><div class="image-overlay-layer"></div><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="eager" alt="{{ section.settings.image_bild.alt }}" class="header_background-image">
+</div><div class="padding-global"><div class="container-large"><div class="padding-section-header"><div><div><div class="margin-bottom margin-small"><h1 class="heading-style-h1 text-color-white">
+{{ section.settings.text_headline }}
+</h1>
+</div></div></div></div></div></div> {% schema %} {"tag":"header","name":"About-Hero","class":"section_content-header","settings":[{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_headline","type":"text","label":"Headline","default":"\u00dcber uns"}],"presets":[{"name":"About-Hero","category":"Liquify","blocks":[]}]} {% endschema %}

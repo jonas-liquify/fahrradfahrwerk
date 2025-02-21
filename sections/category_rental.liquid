@@ -1,0 +1,15 @@
+<div class="padding-global padding-section-small"><div class="container-large"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<div li-for:inside="product in collection.products" class="rental_produkt-grid">
+        {% for product in collection.products %}                            
+                            <a li-object:href="product.url" href="{{ product.url }}" class="rental_produkt-item w-inline-block"><div class="rental_produkt-image-wrapper"><img li-object:alt="product.featured_image.alt" loading="eager" li-object:src="product.featured_image | img_url: 'large'" src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.featured_image.alt }}" class="rental_produkt-image">
+{% for tag in product.tags %}    <div li-for="tag in product.tags" class="rental_tags">
+                                    
+                            <div li-object="tag" class="rental_tag">{{ tag }}</div>
+                            
+                        </div>
+{% endfor %}</div><div class="rental_content-wrapper"><div><h3 li-object="product.title" class="heading-style-h3 text-weight-bold">{{ product.title }}</h3><div class="spacer-xxsmall"></div><div li-object="product.metafields.custom.kurzbeschreibung">{{ product.metafields.custom.kurzbeschreibung }}</div></div><div class="rental_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 36 37" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><rect width="36" height="36" rx="18" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 0 36.0625)" fill="#323232"></rect><path d="M22.1705 18.6893L16.2643 24.5956C16.0978 24.762 15.8721 24.8555 15.6367 24.8555C15.4014 24.8555 15.1756 24.762 15.0092 24.5956C14.8428 24.4291 14.7493 24.2034 14.7493 23.968C14.7493 23.7327 14.8428 23.5069 15.0092 23.3405L20.2887 18.0625L15.0107 12.7831C14.9283 12.7007 14.8629 12.6028 14.8183 12.4952C14.7737 12.3875 14.7507 12.2721 14.7507 12.1555C14.7507 12.039 14.7737 11.9236 14.8183 11.8159C14.8629 11.7082 14.9283 11.6104 15.0107 11.528C15.0931 11.4456 15.1909 11.3802 15.2986 11.3356C15.4063 11.291 15.5217 11.2681 15.6382 11.2681C15.7548 11.2681 15.8702 11.291 15.9778 11.3356C16.0855 11.3802 16.1833 11.4456 16.2658 11.528L22.172 17.4343C22.2545 17.5167 22.3199 17.6145 22.3645 17.7223C22.4091 17.83 22.432 17.9455 22.4318 18.0621C22.4317 18.1787 22.4086 18.2941 22.3637 18.4018C22.3189 18.5094 22.2532 18.6071 22.1705 18.6893Z" fill="white"></path></svg></div></div></a>
+                            
+                    {% endfor %}    </div>
+</div></div> {% schema %} {"tag":"section","name":"category-rental","class":"section_rental-produkte","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Mountainbike Kurse &amp; Erlebnisse"}],"presets":[{"name":"category-rental","category":"Liquify","blocks":[]}]} {% endschema %}

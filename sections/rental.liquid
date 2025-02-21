@@ -1,0 +1,14 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-medium"><div class="max-width-large"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+</div><div class="spacer-large"></div><div class="w-layout-grid rental_grid">{% for block in section.blocks %}
+    {% if block.type == "mehr-block" %}
+                    <div li-block="Mehr-Block" class="rental_item">
+                                    
+                                    <a href="{{ block.settings.url_link }}" class="rental_image-link w-inline-block"> <img alt="{{ block.settings.image_bild.alt }}" loading="lazy" src="{{ block.settings.image_bild | img_url: 'master' }}" class="rental_image"><div class="rental_image is-overlay"></div><div class="rental_image-wrapper"><h3 class="heading-style-h3 z-index-1 text-color-white">{{ block.settings.text_titel }}</h3><p class="text-size-regular text-color-white">{{ block.settings.text_text }}</p><div class="rental_button-wrapper"><div class="button is-white-full">{{ block.settings.text_button_text }}</div><div class="text-size-regular text-color-white">{{ block.settings.text_next_tour }}</div></div></div> </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"Rental","class":"section_rental background-color-black","blocks":[{"name":"Mehr-Block","type":"mehr-block","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"image_bild","type":"image_picker","label":"Bild"},{"id":"text_titel","type":"text","label":"Titel","default":"Bestseller"},{"id":"text_text","type":"text","label":"Text","default":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."},{"id":"text_button_text","type":"text","label":"Button Text","default":"Mehr erfahren"},{"id":"text_next_tour","type":"text","label":"Next Tour","default":"Next Tour: 19.05.2025"}]}],"settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Entdecke die Welt mit Auf und Davon Rental"}],"presets":[{"name":"Rental","category":"Liquify","blocks":[{"type":"mehr-block"}]}]} {% endschema %}

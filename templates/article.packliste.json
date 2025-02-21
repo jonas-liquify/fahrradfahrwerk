@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "packliste_headline": {
+            "type": "packliste_headline"
+        },
+        "packliste_content": {
+            "type": "packliste_content"
+        }
+    },
+    "layout": "article.packliste",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "packliste_headline",
+        "packliste_content"
+    ]
+}
