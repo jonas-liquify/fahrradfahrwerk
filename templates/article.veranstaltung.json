@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "veranstaltungen_hero": {
+            "type": "veranstaltungen_hero"
+        },
+        "veranstaltungen_content": {
+            "type": "veranstaltungen_content"
+        }
+    },
+    "layout": "article.veranstaltung",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "veranstaltungen_hero",
+        "veranstaltungen_content"
+    ]
+}

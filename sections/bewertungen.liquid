@@ -1,0 +1,4 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-medium"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+<div class="spacer-medium"></div><div class="bewertungen_wrapper"><div id="judgeme_product_reviews" data-product-title="{{ product.title | escape }}" data-id="{{ product.id }}" data-auto-install="false" li-object="product.metafields.judgeme.widget" class="jdgm-widget jdgm-review-widget">{{ product.metafields.judgeme.widget }}</div></div></div><div class="hoehenlinien_component"></div></div><div id="bewertungen" class="anchor-link"></div></div> {% schema %} {"tag":"section","name":"Bewertungen","class":"section_bewertungen","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Bewertungen"}],"presets":[{"name":"Bewertungen","category":"Liquify","blocks":[]}]} {% endschema %}

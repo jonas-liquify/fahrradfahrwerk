@@ -1,0 +1,24 @@
+{
+    "sections": {
+        "about_hero": {
+            "type": "about_hero"
+        },
+        "about": {
+            "type": "about"
+        },
+        "team": {
+            "type": "team"
+        },
+        "jobs": {
+            "type": "jobs"
+        }
+    },
+    "layout": "page.uber-uns",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "about_hero",
+        "about",
+        "team",
+        "jobs"
+    ]
+}

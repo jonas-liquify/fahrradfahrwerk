@@ -1,0 +1,28 @@
+{
+    "sections": {
+        "breadcrumb": {
+            "type": "breadcrumb"
+        },
+        "product_hero_rental": {
+            "type": "product_hero_rental"
+        },
+        "bewertungen": {
+            "type": "bewertungen"
+        },
+        "recommended": {
+            "type": "recommended"
+        },
+        "produkt_infos": {
+            "type": "produkt_infos"
+        }
+    },
+    "layout": "product.rental",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "breadcrumb",
+        "product_hero_rental",
+        "bewertungen",
+        "recommended",
+        "produkt_infos"
+    ]
+}

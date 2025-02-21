@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "job_hero": {
+            "type": "job_hero"
+        },
+        "job_content": {
+            "type": "job_content"
+        }
+    },
+    "layout": "article.job",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "job_hero",
+        "job_content"
+    ]
+}

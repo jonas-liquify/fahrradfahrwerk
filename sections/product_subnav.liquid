@@ -1,0 +1,11 @@
+<div class="padding-global z-index-1"><div class="container-large"><div class="subnav_component"><a href="#beschreibung" class="subnav_link w-inline-block"><div>Beschreibung</div></a>{% if product.metafields.custom.technische_informationen != blank %}    <a href="#technische-details" li-if="product.metafields.custom.technische_informationen != blank" class="subnav_link w-inline-block">
+    <div>Technische Details</div>    </a>
+{% endif %}{% if product.metafields.custom.passform != blank %}    <a href="#passform" li-if="product.metafields.custom.passform != blank" class="subnav_link w-inline-block">
+    <div>Passform</div>    </a>
+{% endif %}{% if product.metafields.custom.videos != blank %}    <a href="#videos" li-if="product.metafields.custom.videos != blank" class="subnav_link w-inline-block">
+    <div>Videos</div>    </a>
+{% endif %}<a href="#bewertungen" class="subnav_link w-inline-block"><div>Bewertungen</div></a>{% if product.metafields.custom.passend_dazu.value != blank %}    <a href="#passend-dazu" li-if="product.metafields.custom.passend_dazu.value != blank" class="subnav_link w-inline-block">
+    <div>Passend dazu</div>    </a>
+{% endif %}{% if recommendations.performed? and recommendations.products_count > 0  %}    <a href="#empfohlen" li-if="recommendations.performed? and recommendations.products_count > 0 " class="subnav_link w-inline-block">
+    <div>Das könnte Dir auch gefallen</div>    </a>
+{% endif %}</div></div></div> {% schema %} {"tag":"section","name":"product-subnav","class":"section_subnav","presets":[{"name":"product-subnav","category":"Liquify","blocks":[]}]} {% endschema %}

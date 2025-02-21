@@ -1,0 +1,13 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-medium"><div class="product_component"><div id="w-node-f30582a0-c591-dfac-a791-8ead1e974c62-9ee100d4" class="product_heading-wrapper"><div class="product_heading"><div class="max-width-large"><h2 class="heading-style-h2">
+{{ section.settings.text_headline }}
+</h2>
+</div></div><div class="product_button-row"><a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+</div></div><div class="product_list-wrapper"><ul role="list" class="product_list w-list-unstyled">{% for product in section.settings.collection_slider.products limit: section.settings.collection_slider_limit %}
+<li id="w-node-ff24da4c-815b-3a12-c724-af069cc3ed3d-9ee100d4" class="product_list-item">
+    
+    {% render 'product_item', product: product %}
+
+    
+</li>
+{% endfor %}
+</ul></div></div></div><div class="hoehenlinien_component"></div></div></div> {% schema %} {"tag":"section","name":"Produkte","class":"section_product","settings":[{"id":"text_headline","type":"text","label":"Headline","default":"Unsere <br\/>Bestseller"},{"id":"url_button_link","type":"url","label":"Button-Link"},{"id":"text_button_text","type":"text","label":"Button-Text","default":"Alle Produkte"},{"id":"collection_slider","type":"collection","label":"Slider"},{"type":"range","id":"collection_slider_limit","min":1,"max":99,"step":1,"label":"Limit: Slider","default":6}],"presets":[{"name":"Produkte","category":"Liquify","blocks":[]}]} {% endschema %}

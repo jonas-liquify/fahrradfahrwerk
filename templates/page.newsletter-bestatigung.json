@@ -1,0 +1,12 @@
+{
+    "sections": {
+        "newsletter_bestatigung": {
+            "type": "newsletter_bestatigung"
+        }
+    },
+    "layout": "page.newsletter-bestatigung",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "newsletter_bestatigung"
+    ]
+}

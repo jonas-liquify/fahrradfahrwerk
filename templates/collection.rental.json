@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "category_hero": {
+            "type": "category_hero"
+        },
+        "content": {
+            "type": "content"
+        },
+        "category_rental": {
+            "type": "category_rental"
+        }
+    },
+    "layout": "collection.rental",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "category_hero",
+        "content",
+        "category_rental"
+    ]
+}

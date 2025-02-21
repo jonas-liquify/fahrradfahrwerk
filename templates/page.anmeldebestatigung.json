@@ -1,0 +1,12 @@
+{
+    "sections": {
+        "anmeldebstatigung": {
+            "type": "anmeldebstatigung"
+        }
+    },
+    "layout": "page.anmeldebestatigung",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "anmeldebstatigung"
+    ]
+}
