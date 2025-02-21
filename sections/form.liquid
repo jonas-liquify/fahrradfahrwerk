@@ -1,7 +1,7 @@
 <div>{% assign has_service_product = false %}
 {% for line_item in cart.items %}  {% if line_item.product.tags contains section.settings.text_tag %}    {% assign has_service_product = true %}{% endif %}{% endfor %}
 </div>{% if has_service_product %}    <div li-if="has_service_product">
-    <div class="padding-global padding-section-small"><div class="container-large"><div id="w-node-_7371c754-b39b-e80a-6f94-d88ef8a7baa5-2048041f" class="w-embed"><style>.form-input:focus + .form-label,
+    <div class="padding-global padding-section-small"><div class="container-large"><div class="w-embed"><style>.form-input:focus + .form-label,
   .form-input:not(:placeholder-shown) + .form-label {
     top: 0px;
     font-size: 1rem;
@@ -16,21 +16,21 @@
     opacity: 0.5;
   }
 </style></div><div class="formular_form w-form">{% form 'cart', cart %}
-<div class="formular_component"><div id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d52c-aac2d52c" class="formular_left"><div li-content-for-blocks="" class="formular_grid">
+<div class="formular_component"><div class="formular_left"><div li-content-for-blocks="" class="formular_grid">
 {% for block in section.blocks %}
     {% case block.type %}
         {% when '@app' %}
             {% render block %}
     {% when 'headline' %}
             <div li-block="Headline" id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d52e-aac2d52c">
-                    <h2 id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d52f-aac2d52c" class="heading-style-h4">
+                    <h2 class="heading-style-h4">
 {{ block.settings.text_headline }}
 </h2>
 
                 </div>
     {% when 'input-text' %}
-            <div li-block="Input Text" id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d531-aac2d52c">
-                    <div id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d532-aac2d52c" class="form-group"><input class="form-input w-input" maxlength="256" name="{{ block.settings.name }}" data-name="Fahrerergewicht 2" placeholder=" " type="text" id="Fahrerergewicht-2" {% if block.settings.required == true %}required{% endif %}>
+            <div li-block="Input Text">
+                    <div class="form-group"><input class="form-input w-input" maxlength="256" name="{{ block.settings.name }}" data-name="Fahrerergewicht 2" placeholder=" " type="text" id="Fahrerergewicht-2" {% if block.settings.required == true %}required{% endif %}>
 <label for="name" class="form-label">
 {{ block.settings.text_input_lable }}
 </label>
@@ -48,9 +48,9 @@
                     
                 </div>
     {% when 'input-radio' %}
-            <div li-block="Input Radio" id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d539-aac2d52c">
+            <div li-block="Input Radio">
                     
-                    <div id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d53a-aac2d52c" class="form-input-simu"><div class="form-label-simu">
+                    <div class="form-input-simu"><div class="form-label-simu">
 {{ block.settings.text_titel }}
 </div>
 <div class="formular_radio-wrapper"><label class="fs-radio_field-4 w-radio"><div class="w-form-formradioinput w-form-formradioinput--inputType-custom fs-radio_button-4 w-radio-input"></div><input li-object:value="block.settings.text_lable_1" name="{{ block.settings.name }}" data-name="Rennen fahren" li-object:name="block.settings.name" type="radio" id="Ja" style="opacity:0;position:absolute;z-index:-1" value="{{ block.settings.text_lable_1 }}">
@@ -73,7 +73,7 @@
                     
                 </div>
     {% when 'input-checkbox' %}
-            <label li-block="Input Checkbox " id="w-node-_976c3035-d0f5-32d1-c4f5-5bb5aac2d549-aac2d52c" class="w-checkbox checkbox-field">
+            <label li-block="Input Checkbox " class="w-checkbox checkbox-field">
                     
                     <div class="w-checkbox-input w-checkbox-input--inputType-custom formular_checkbox"></div>
                     <input type="checkbox" name="{{ block.settings.name }}" id="Einsatzgebiet-Alltag-2" data-name="Einsatzgebiet Alltag 2" li-object:name="block.settings.name" style="opacity:0;position:absolute;z-index:-1">
@@ -83,7 +83,7 @@
 </span>
 
                     
-                    <div id="w-node-af15b157-d8c1-f7a2-9fcc-ec3eeadde996-aac2d52c" class="li-custom w-embed"></div>
+                    <div class="li-custom w-embed"></div>
 
                     
                 </label>
