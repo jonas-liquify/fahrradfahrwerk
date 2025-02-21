@@ -6,11 +6,11 @@
 </h2>
 </div><div li-for:inside="product in collection.products" class="choose_main_component">
         {% for product in collection.products %}                            
-                            <a li-object:href="product.url" id="w-node-c688898d-9ac7-41fd-7959-4ce33d39909b-9b07688f" href="{{ product.url }}" class="choose_main_item is-secondary w-inline-block"><div class="choose_main_content"><div><h3 li-object="product.metafields.custom.marke.value.title" class="choose_main_name">{{ product.metafields.custom.marke.value.title }}</h3></div><p>
+                            <a li-object:href="product.url" href="{{ product.url }}" class="choose_main_item is-secondary w-inline-block"><div class="choose_main_content"><div><h3 li-object="product.metafields.custom.marke.value.title" class="choose_main_name">{{ product.metafields.custom.marke.value.title }}</h3></div><p>
 {{ section.settings.text_choose_text }}
 </p>
 </div><div class="choose_main_img-wrapper-secondary"><img li-object:src="product.metafields.custom.marke.value.featured_image | image_url" li-object:alt="product.metafields.custom.marken_logo.value.alt" alt="{{ product.metafields.custom.marken_logo.value.alt }}" src="{{ product.metafields.custom.marke.value.featured_image | image_url }}" loading="lazy" class="choose_main_img is-secondary">
-<div id="w-node-c688898d-9ac7-41fd-7959-4ce33d3990a4-9b07688f" class="choose_main_button-wrapper"><div class="button is-secondary-white">{{ section.settings.button_text }}</div></div></div></a>
+<div class="choose_main_button-wrapper"><div class="button is-secondary-white">{{ section.settings.button_text }}</div></div></div></a>
                             
                     {% endfor %}    </div>
 </div></div></div><div class="li-custom w-embed"></div>
