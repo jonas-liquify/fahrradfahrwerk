@@ -5,12 +5,12 @@
 <div class="spacer-xsmall"></div><div class="text-style-disclaimer">
 {{ section.settings.text_disclaimer }}
 </div>
-{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade09-b41ade01" class="button-group padding-top padding-small">
-    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade0a-b41ade01">
-    <a aria-label="{{ section.settings.text_button_text }}" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade0b-b41ade01" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
+{% if section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text != blank or section.settings.text_button_text_2 != blank" class="button-group padding-top padding-small">
+    {% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+    <a aria-label="{{ section.settings.text_button_text }}" href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade0d-b41ade01">
-    <a aria-label="{{ section.settings.text_button_text_2 }}" id="w-node-e2992af1-de0a-98db-30d4-3079b41ade0e-b41ade01" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
+{% endif %}{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
+    <a aria-label="{{ section.settings.text_button_text_2 }}" href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
 {% endif %}    </div>
 {% endif %}<div id="closepopup" class="popup_close"><img loading="lazy" src="{{ 'close-icon.svg' | asset_url }}" alt="" class="popup_img">
