@@ -5,7 +5,7 @@
 {{ section.settings.text_headline }}
 </h2>
 </div><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<div li-element="product-variant-container" class="choose_main_product" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div id="w-node-fb9e60a2-6628-6eeb-a038-85902bc96931-8d331af2" class="choose_main_left"><div class="choose_main_product-imgs"><div id="w-node-fb9e60a2-6628-6eeb-a038-85902bc96933-8d331af2" class="swiper-container is-product-gallery"><div class="swiper is-product-gallery"><div id="my-gallery" class="swiper-wrapper is-product-gallery">{% for image in product.images %}    <div li-for="image in product.images" class="swiper-slide is-product-gallery">
+<div li-element="product-variant-container" class="choose_main_product" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div class="choose_main_left"><div class="choose_main_product-imgs"><div class="swiper-container is-product-gallery"><div class="swiper is-product-gallery"><div id="my-gallery" class="swiper-wrapper is-product-gallery">{% for image in product.images %}    <div li-for="image in product.images" class="swiper-slide is-product-gallery">
                                     
                             <div class="product-header_gallery-lightbox"><img loading="lazy" li-object:src="image.src | product_img_url: 'master'" li-object:alt="image.alt" src="{{ image.src | product_img_url: 'master' }}" alt="{{ image.alt }}" class="product-header_gallery-image">
 </div>
@@ -17,7 +17,7 @@
                         </div>
 {% endfor %}</div></div></div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div></div><div class="product-header_grid">{% for block in section.blocks %}
     {% if block.type == "info-item" %}
-                    <div li-block="Info Item" id="w-node-fb9e60a2-6628-6eeb-a038-85902bc96945-8d331af2" class="product-header_grid-item">
+                    <div li-block="Info Item" class="product-header_grid-item">
                                     <img src="{{ block.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image_bild.alt }}" class="product-header_grid-icon">
 
                                     
@@ -47,7 +47,7 @@
 {% if product.tags contains 'MTB Service' or product.tags contains 'MOTO Service' %}    <input name="properties[Tag]" li-if="product.tags contains 'MTB Service' or product.tags contains 'MOTO Service'" class="hide" value="Service">
 {% endif %}{% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
     <template x-for="(option, optionKey) in product.options" :key="optionKey">
-    <div li-element="product-options-loop" id="w-node-_60a6db7b-60ce-d5c2-0dbb-0d257b2d7633-8d331af2" class="product-header_option" data-ProductVariantsLoop="true"><div><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div></div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
+    <div li-element="product-options-loop" class="product-header_option" data-ProductVariantsLoop="true"><div><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div></div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
     <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
 
 </select></div></template>
@@ -156,7 +156,7 @@
 <div li-element="product-variant-container" class="product-header_product-content is-tuning" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div class="product-header_form-block w-form">{% form 'product', product, class: 'product-header_default-state is-choose' %}
 {% if product.has_only_default_variant != true %}    <div li-if="product.has_only_default_variant != true" class="product-header_select">
     <template x-for="(option, optionKey) in product.options" :key="optionKey">
-    <div li-element="product-options-loop" id="w-node-_1b726c6f-0272-4e14-6587-2f0d7d9c7d3b-8d331af2" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
+    <div li-element="product-options-loop" class="product-header_option" data-ProductVariantsLoop="true"><div li-element="product-options-name" class="product-header_variant-title text-weight-semibold text-size-small text-style-allcaps" x-text="option">Variant</div><select type="select" li-element="product-option-select" class="select-field is-white" x-on:change="setVariant" :name="option" :data-name="option" data-selectorType="select"><template x-for="(variantName, variantKey) in options_by_name[option].option.values" :key="variantName">
     <option li-element="product-option-select-loop" x-text="variantName" :value="variantName" :selected="selected_or_first_available_variant?.options.includes(variantName)"></option></template>
 
 </select></div></template>
