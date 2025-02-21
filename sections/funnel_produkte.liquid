@@ -6,7 +6,7 @@
 </h2>
 </div><div li-for:inside="product in collection.products" class="choose_a choose_main_logos">
         {% for product in collection.products %}                            
-                            <a li-object:href="product.url" id="w-node-_4b68e740-cb5b-30f5-6bcc-b6a3583ae8ba-9b07688f" href="{{ product.url }}" class="choose_main_logo w-inline-block"><img src="{{ product.metafields.custom.marke.value.featured_image | image_url }}" loading="lazy" li-object:src="product.metafields.custom.marke.value.featured_image | image_url" alt="" class="choose_main_logo-img">
+                            <a li-object:href="product.url" href="{{ product.url }}" class="choose_main_logo w-inline-block"><img src="{{ product.metafields.custom.marke.value.featured_image | image_url }}" loading="lazy" li-object:src="product.metafields.custom.marke.value.featured_image | image_url" alt="" class="choose_main_logo-img">
 <div class="choose_main_logo-overlay"><div class="choose_main_logo-top"><h3 li-object="product.metafields.custom.marke.value.title" class="heading-style-h4">{{ product.metafields.custom.marke.value.title }}</h3><p>
 {{ section.settings.text_logo_text }}
 </p>
