@@ -167,6 +167,13 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "404_hpYkcE": {
+      "type": "404",
+      "settings": {
+        "text_heading": "Page in porgress",
+        "text_text": "Diese Seite wird bald verfügbar sein."
+      }
     }
   },
   "layout": "page.unternehmen",
@@ -177,6 +184,7 @@
     "content_2",
     "team",
     "showcase",
-    "testimonial"
+    "testimonial",
+    "404_hpYkcE"
   ]
 }
