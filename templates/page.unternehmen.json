@@ -13,11 +13,13 @@
       "type": "hero",
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
-        "text_heading": "Optimale Leistung für deine Federgabela"
+        "image_bild": "shopify://shop_images/swift_suspension8.webp",
+        "text_heading": "Wir sind SWIFT Suspension"
       }
     },
     "about_2": {
       "type": "about_2",
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind SWIFT SUSPENSION",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -30,6 +32,7 @@
     },
     "content_2": {
       "type": "content_2",
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "url_button_link_2": "",
@@ -37,7 +40,7 @@
         "url_button_link": "",
         "text_button_text": "Service anfragen",
         "text_heading": "Unsere hochwertigen Produkte",
-        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- &amp; Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service &amp; Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
+        "textarea_text": "<p>Wir sind deine Experten für Federelemente. Professioneller Service für alle Federgabel- & Dämpfermarken. Kompetente Beratung, einfache Abwicklung, schnelle Bearbeitung. In unserer Service & Tuning Anfrage kannst du Leistungen individuell kombinieren. Ohne Termin, sofort los!</p>",
         "text_grid_text_1": "Kompetenz, auf die du dich verlassen kannst",
         "text_grid_text_2": "Von Bikern für Biker",
         "text_grid_text_3": "Kundenzentrierter Ansatz"
@@ -103,6 +106,7 @@
         "unternehmen_item_fUpeUw",
         "unternehmen_item_xUMQQU"
       ],
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind SWIFT Suspension",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -134,6 +138,7 @@
         "showcase_slide_9QPP8B",
         "showcase_slide_i43nna"
       ],
+      "disabled": true,
       "settings": {
         "text_subheading": "// wir sind Rebound racing",
         "text_heading": "Unsere hochwertigen Produkte",
@@ -160,6 +165,7 @@
       "block_order": [
         "testimonial_rNHyzb"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
