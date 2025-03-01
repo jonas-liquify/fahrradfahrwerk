@@ -5,7 +5,7 @@
 </div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" class="button_first">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="service_component">{% for block in section.blocks %}
@@ -13,17 +13,21 @@
                     <div li-block="Service Item" class="service_item">
                                     <img loading="lazy" alt="{{ block.settings.image_bild.alt }}" src="{{ block.settings.image_bild | img_url: 'master' }}" class="service_item-bg">
 
+                                    
+                                    <div class="service_item-overlay"></div>
+                                    
                                     <div class="heading-block"><div class="subheading text-color-red">
 {{ block.settings.text_subheading }}
 </div>
 <h2 li-object="block.settings.text_heading" class="heading-style-h2">{{ block.settings.text_heading }}</h2><div><p li-object="block.settings.textarea_text">{{ block.settings.textarea_text }}</p></div><div><div class="button-group">{% if block.settings.text_button_text_2 != blank %}    <div li-if="block.settings.text_button_text_2 != blank">
     <a href="{{ block.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ block.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank">
+{% endif %}{% if block.settings.text_button_text != blank %}    <div li-if="block.settings.text_button_text != blank" class="button_first">
     <a href="{{ block.settings.url_button_link }}" class="button w-button"> {{ block.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="li-custom w-embed"></div>
 </div>
+                                    
                             </div>
             {% endif %}
 {% endfor %}

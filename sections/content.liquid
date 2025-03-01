@@ -1,25 +1,25 @@
 <div class="padding-global padding-section-medium"><div class="container-large">{% if section.settings.content_allign == 'left' %}    <div li-if="section.settings.content_allign == 'left'" class="split_component">
-    <div id="w-node-_385662a4-3938-6bd7-e7ff-a4cfbb01f7c8-bb01f7c4" class="split_content"><div class="heading-block"><div class="subheading text-color-red">
+    <div class="split_content"><div class="heading-block"><div class="subheading text-color-red">
 {{ section.settings.text_subheading }}
 </div>
 <h2 li-object="section.settings.text_heading" class="heading-style-h2">{{ section.settings.text_heading }}</h2><div><p li-object="section.settings.textarea_text">{{ section.settings.textarea_text }}</p></div><div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" class="button_first">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="li-custom w-embed"></div>
-</div></div><div id="w-node-_385662a4-3938-6bd7-e7ff-a4cfbb01f7ca-bb01f7c4" class="split-1_image-wrapper"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="split-1_image">
+</div></div><div class="split-1_image-wrapper"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="split-1_image">
 </div>    </div>
-{% endif %}{% if section.settings.content_allign == 'right' %}    <div li-if="section.settings.content_allign == 'right'" id="w-node-_9c778baa-f646-aa05-9714-81e68b41c421-bb01f7c4" class="split_component">
+{% endif %}{% if section.settings.content_allign == 'right' %}    <div li-if="section.settings.content_allign == 'right'" class="split_component">
     <div id="w-node-_9c778baa-f646-aa05-9714-81e68b41c422-bb01f7c4" class="split-2_image-wrapper"><img src="{{ section.settings.image_bild | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_bild.alt }}" class="split-2_image">
-</div><div id="w-node-_9c778baa-f646-aa05-9714-81e68b41c424-bb01f7c4" class="split_content"><div class="heading-block"><div class="subheading text-color-red">
+</div><div class="split_content"><div class="heading-block"><div class="subheading text-color-red">
 {{ section.settings.text_subheading }}
 </div>
 <h2 li-object="section.settings.text_heading" class="heading-style-h2">{{ section.settings.text_heading }}</h2><div><p li-object="section.settings.textarea_text">{{ section.settings.textarea_text }}</p></div><div><div class="button-group">{% if section.settings.text_button_text_2 != blank %}    <div li-if="section.settings.text_button_text_2 != blank">
     <a href="{{ section.settings.url_button_link_2 }}" class="button is-secondary w-button"> {{ section.settings.text_button_text_2 }} </a>
     </div>
-{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank">
+{% endif %}{% if section.settings.text_button_text != blank %}    <div li-if="section.settings.text_button_text != blank" class="button_first">
     <a href="{{ section.settings.url_button_link }}" class="button w-button"> {{ section.settings.text_button_text }} </a>
     </div>
 {% endif %}</div></div><div class="li-custom w-embed"></div>
