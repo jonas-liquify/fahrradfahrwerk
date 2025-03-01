@@ -9,11 +9,13 @@
  */
 {
   "current": {
+    "motorrad_bearbeitungsdauer": "3-4 Arbeitstage",
+    "fahrrad_bearbeitungsdauer": "2-3 Arbeitstage",
     "sections": {
       "announcement_bar": {
         "type": "announcement_bar",
         "settings": {
-          "text_text": "Aktuelle Bearbeitungszeit: MTB 2-3 Arbeitstage - MOTO 4-5 Arbeitstage"
+          "text_text": "Aktuelle Bearbeitungszeit: MTB {{ settings.fahrrad_bearbeitungsdauer }} - MOTO {{ settings.motorrad_bearbeitungsdauer }}"
         }
       },
       "header": {
@@ -33,7 +35,13 @@
         "settings": {
           "collection_search_bestseller": "",
           "collection_search_bestseller_limit": 6,
-          "url_button_link": "",
+          "text_warenkorb": "Warenkorb",
+          "url_service_link": "shopify://pages/service-anfrage",
+          "text_service_text": "Weiteren Service hinzufügen",
+          "text_gesamtkosten": "Gesamtkosten",
+          "text_versnadkosten": "Versandkosten",
+          "text_versandkosten_preis": "Werden im nächsten Schritt berechnet",
+          "url_button_link": "shopify://pages/service-anfrage",
           "text_button_text": "SERVICE BUCHEN"
         }
       },
@@ -43,15 +51,18 @@
           "text_cta_text": "Bei SWIFT Suspension ist dein Fahrwerk in den besten Händen. Von Mountainbike bis Motorrad, wir bieten professionellen Service, individuelle Anpassungen und höchste Qualität für optimale Performance und maximalen Fahrspaß.",
           "url_button_link_2": "",
           "text_button_text_2": "",
-          "url_button_link": "",
+          "url_button_link": "shopify://pages/service-anfrage",
           "text_button_text": "SERVICE BUCHEN",
+          "image_bild": "shopify://shop_images/sprinrate_tester_oehlins_spring.webp",
           "text_heading": "Suspension Service <span class=\"gradient-bar-h3\">jetzt online buchen</span>",
+          "text_kontakt": "KONTAKT",
           "url_phone_link": "",
           "text_phone_text": "07073 - 917 43 43",
           "url_email_link": "",
           "text_email_text": "info@swift-suspension.de",
           "url_location_link": "",
           "text_location_text": "SWIFT Suspension, Lange Gasse 43, 72119 Ammerbuch",
+          "text_payment": "Payment Method",
           "text_newsletter_headline": "Newsletter",
           "text_newsletter_text": "Abonniere unseren Newsletter und bleib immer auf dem Laufenden – exklusive Tipps, Angebote und Neuigkeiten direkt in dein Postfach!",
           "text_checkbox": "Mit der Anmeldung zum Newsletter erklärst du dich mit der Verarbeitung deiner Daten gemäß unserer <a href=\"#\"><span class=\"text-color-white text-style-link\"> Datenschutzerklärung </span></a>einverstanden; deine Daten werden ausschließlich für den Versand des Newsletters verwendet."
