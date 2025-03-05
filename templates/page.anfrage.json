@@ -43,7 +43,7 @@
         "art_UAGBpV": {
           "type": "art",
           "settings": {
-            "url_button_link": "shopify://pages/service-anfrage-bauteil-motorrad",
+            "url_button_link": "shopify://pages/fahrwerk-service-motorrad",
             "text_choose_headline": "MOTORRAD",
             "text_choose_text": "Wähle im nächsten Schritt das Bauteil aus.",
             "image_choose_img": "shopify://shop_images/moto_black.webp",

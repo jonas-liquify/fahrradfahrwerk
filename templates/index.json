@@ -32,7 +32,7 @@
         "select_block_QAemQe": {
           "type": "select-block",
           "settings": {
-            "url_link": "shopify://pages/service-anfrage-bauteil-motorrad",
+            "url_link": "shopify://pages/fahrwerk-service-motorrad",
             "image_bild": "shopify://shop_images/moto_white.webp",
             "text_headline": "MOTORRAD",
             "text_text": "Fahrzeug auswählen"
