@@ -23,7 +23,7 @@
         "select_block_Je8qLz": {
           "type": "select-block",
           "settings": {
-            "url_link": "shopify://pages/service-anfrage-bauteil-fahrrad",
+            "url_link": "shopify://pages/fahrwerk-service-fahrrad",
             "image_bild": "shopify://shop_images/mtb_white.webp",
             "text_headline": "FAHRRAD",
             "text_text": "Fahrzeug auswählen"
