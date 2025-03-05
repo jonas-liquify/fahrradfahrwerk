@@ -98,7 +98,7 @@
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
+            "url_button_link": "shopify://pages/fahrwerk-service",
             "text_button_text": "SERVICE-ANFRAGE",
             "text_heading": "Service",
             "textarea_text": "<p><br/></p><ul><li>In den Bereichen Fahrrad und Motorrad</li><li>Für Federgabeln, Dämpfer und Vario-Stützen</li><li>Keine Terminvergabe und Wartezeiten</li><li>Online buchen - sofort losschicken</li><li>Kurze Bearbeitungszeit<br/><br/><br/></li></ul>"
@@ -111,7 +111,7 @@
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
+            "url_button_link": "shopify://pages/fahrwerk-service",
             "text_button_text": "REPARATUR-ANFRAGE",
             "text_heading": "Reparatur",
             "textarea_text": "<p><br/></p><ul><li>Gründliche Analyse der Bauteile</li><li>Toleranzen prüfen und anpassen</li><li>Instandsetzung oder Austausch von defekten Bauteilen</li><li>Wiederherstellen von Funktion und Sicherheit</li><li>Mit langjähriger Erfahrung & Präzision<br/><br/><br/></li></ul>"
@@ -124,7 +124,7 @@
             "text_subheading": "",
             "url_button_link_2": "",
             "text_button_text_2": "",
-            "url_button_link": "shopify://pages/service-anfrage",
+            "url_button_link": "shopify://pages/fahrwerk-service",
             "text_button_text": "TUNING-ANFRAGE",
             "text_heading": "Tuning",
             "textarea_text": "<p><br/></p><ul><li>Individuelle Abstimmung der Dämpfungskennlinie</li><li>Montage von Tuningbauteilen</li><li>Datenerfassung per Prüfstand & Telemetry-System</li><li>Dokumentation und Analyse von Messdaten</li><li>Lackieren & Beschichten von Bauteilen<br/><br/><br/></li></ul>"
@@ -351,7 +351,7 @@
         "textarea_text": "<p>Wir bieten hochwertigen Suspension Service für alle führenden Marken. Ob Fahrrad oder Motorrad, wir kennen deine Federelemente bis ins Detail.</p>",
         "url_button_link_2": "",
         "text_button_text_2": "",
-        "url_button_link": "shopify://pages/service-anfrage",
+        "url_button_link": "shopify://pages/fahrwerk-service",
         "text_button_text": "SERVICE BUCHEN",
         "image_bild": "shopify://shop_images/2023_01_03_PBK_14655_LR.jpg"
       }
