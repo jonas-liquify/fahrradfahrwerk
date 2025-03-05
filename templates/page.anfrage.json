@@ -33,7 +33,7 @@
         "art_EzczLf": {
           "type": "art",
           "settings": {
-            "url_button_link": "shopify://pages/service-anfrage-bauteil-fahrrad",
+            "url_button_link": "shopify://pages/fahrwerk-service-fahrrad",
             "text_choose_headline": "FAHRRAD",
             "text_choose_text": "Wähle im nächsten Schritt das Bauteil aus.",
             "image_choose_img": "shopify://shop_images/mtb_black.webp",
