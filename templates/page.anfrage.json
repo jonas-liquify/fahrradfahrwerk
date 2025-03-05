@@ -33,20 +33,20 @@
         "art_EzczLf": {
           "type": "art",
           "settings": {
+            "url_button_link": "shopify://pages/service-anfrage-bauteil-fahrrad",
             "text_choose_headline": "FAHRRAD",
             "text_choose_text": "Wähle im nächsten Schritt das Bauteil aus.",
             "image_choose_img": "shopify://shop_images/mtb_black.webp",
-            "url_button_link": "shopify://pages/service-anfrage-bauteil",
             "text_button_text": "Bauteil auswählen"
           }
         },
         "art_UAGBpV": {
           "type": "art",
           "settings": {
+            "url_button_link": "shopify://pages/service-anfrage-bauteil-motorrad",
             "text_choose_headline": "MOTORRAD",
             "text_choose_text": "Wähle im nächsten Schritt das Bauteil aus.",
             "image_choose_img": "shopify://shop_images/moto_black.webp",
-            "url_button_link": "shopify://pages/service-anfrage-bauteil-motorrad",
             "text_button_text": "Bauteile auswählen"
           }
         }
@@ -64,11 +64,11 @@
       "settings": {
         "image_bild": "shopify://shop_images/Fahrrad_Fahrwerk_Logo_Original.png",
         "text_headline": "FAHRRAD FAHRWERK HEISST JETZT SWIFT SUSPENSION",
+        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität",
         "text_button_text": "",
         "url_button_link": "",
         "text_button_text_2": "",
-        "url_button_link_2": "",
-        "text_disclaimer": "Neuer Name - neue Website - gewohnte Qualität"
+        "url_button_link_2": ""
       }
     }
   },
