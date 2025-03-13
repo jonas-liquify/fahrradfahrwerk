@@ -43,10 +43,7 @@
           "text_gesamtkosten": "Gesamtkosten",
           "text_versnadkosten": "Versandkosten",
           "text_versandkosten_preis": "Werden im nächsten Schritt berechnet",
-          "product_serive": [
-            "bos-dampfer-service",
-            "awk-2019-upgrad-piston"
-          ],
+          "product_serive": [],
           "url_button_link": "shopify://pages/service-anfrage",
           "text_button_text": "SERVICE BUCHEN"
         }
