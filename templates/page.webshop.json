@@ -68,9 +68,7 @@
         "category_VGaWmQ",
         "category_FCgWeE"
       ],
-      "settings": {
-        "text_heading": "KATEGORIEN"
-      }
+      "settings": {}
     },
     "porduct_list_Gyj9Lt": {
       "type": "porduct_list",
@@ -78,7 +76,7 @@
         "text_heading": "TOPSELLER",
         "product_list": [
           "fox-36-2018-awk",
-          "kopie-von-awk-rock-shox-zeb",
+          "awk-fox-38",
           "awk-lyrik",
           "awk-rock-shox-zeb",
           "rock-shox-federgabel-service",
