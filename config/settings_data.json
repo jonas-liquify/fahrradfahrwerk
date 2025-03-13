@@ -44,8 +44,7 @@
           "text_versnadkosten": "Versandkosten",
           "text_versandkosten_preis": "Werden im nächsten Schritt berechnet",
           "product_serive": [
-            "service-express-bearbeitung",
-            "abstreifer-1"
+            "service-express-bearbeitung"
           ],
           "url_button_link": "shopify://pages/service-anfrage",
           "text_button_text": "SERVICE BUCHEN"
