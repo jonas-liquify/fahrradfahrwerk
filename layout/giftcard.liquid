@@ -73,7 +73,29 @@
     }
 </style><meta name="theme-color" content="#000" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#fff" media="(prefers-color-scheme: dark)">
-<script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
+<script type="application/ld+json">{
+  "@context" : "https://schema.org",
+  "@type" : "LocalBusiness",
+  "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https://www.swift-suspension.de/"
+         },
+  "name" : "SWIFT Suspension",
+  "image" : "https://cdn.prod.website-files.com/6732e3a25d39d28b20480353/67a07cbff2f742c8424d8226_Frame%201686553384.png",
+  "telephone" : "+49 7073 9174343",
+  "email" : "info@swift-suspension.de",
+  "priceRange" : "10&euro;-1.000&euro;",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "Lange Gasse 43",
+    "addressLocality" : "Ammerbuch",
+    "addressRegion" : "Baden-W&uuml;rttemberg",
+    "addressCountry" : "Deutschland",
+    "postalCode" : "72119"
+  },
+  "url" : "https://www.swift-suspension.de/"
+}
+</script><script src="{{ '_helper.js' | asset_url }}" type="text/javascript"></script>{{ content_for_header }}</head>
 <body li-page="giftcard">
 
 <div class="page-wrapper">{% render 'global_styles' %}
