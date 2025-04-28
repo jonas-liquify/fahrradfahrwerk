@@ -1,3 +1,75 @@
+@font-face {
+  font-family: Inter;
+  src: url({{ 'Inter-Bold.ttf' | asset_url }}) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url({{ 'Inter-Regular.ttf' | asset_url }}) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url({{ 'Inter-Medium.ttf' | asset_url }}) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url({{ 'Inter-SemiBold.ttf' | asset_url }}) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Euclidtriangle;
+  src: url({{ 'EuclidTriangle-Regular.otf' | asset_url }}) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Euclidtriangle;
+  src: url({{ 'EuclidTriangle-Semibold.otf' | asset_url }}) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Euclidtriangle;
+  src: url({{ 'EuclidTriangle-Medium.otf' | asset_url }}) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Euclidtriangle;
+  src: url({{ 'EuclidTriangle-Bold.otf' | asset_url }}) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Euclidtriangle;
+  src: url({{ 'EuclidTriangle-Light.otf' | asset_url }}) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --base-color-neutral--black: #1d1a1a;
   --base-color-brand--red: #c80000;
@@ -4670,9 +4742,9 @@ figcaption {
 }
 
 .faq_item {
+  border-bottom: 2px solid var(--base-color-brand--red);
+  background-color: var(--base-color-neutral--neutral-lightest);
   cursor: pointer;
-  background-color: #fff;
-  border-bottom: 2px solid #fff;
   border-radius: 0;
   margin-bottom: 1rem;
   padding: 2rem;
@@ -6666,7 +6738,7 @@ figcaption {
   flex: 1;
 }
 
-.choose_popup-image {
+.location_link {
   width: 100%;
 }
 
@@ -8354,8 +8426,9 @@ figcaption {
   }
 
   .home_select_img {
-    width: 33%;
-    height: 50%;
+    object-fit: contain;
+    width: 35%;
+    height: 60%;
     margin-top: 9%;
     margin-bottom: auto;
     top: auto;
